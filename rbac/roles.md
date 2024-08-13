@@ -2,7 +2,7 @@
 
 Different roles can be granted to teams for the project.
 
-Granting access to a team, give them also access to the environments and architectures hosted inside the project.
+Granting access to a team, gives them also access to the environments and architectures hosted inside the project.
 
 There are 4 roles:
 

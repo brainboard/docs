@@ -8,6 +8,10 @@ You can request access to all information related to our security certifications
 
 Your contact at Brainboard will approve your request if you are in a procurement process, otherwise one of our team will reach out to you before the approval.
 
-:::caution We only accept requests from professional email addresses. :::
+{% hint style="warning" %}
+We only accept requests from professional email addresses
+{% endhint %}
 
-:::note Contact us Should you have any questions related to security, please reach out to `security@brainboard.co`. :::
+{% hint style="info" %}
+Should you have any questions related to security, please reach out to `security (@) brainboard.co`
+{% endhint %}

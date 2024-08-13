@@ -1,6 +1,6 @@
 # Teams management 👥
 
-### Create new team
+### Create a new team
 
 To create a new team in Brainboard:
 
@@ -15,20 +15,22 @@ To create a new team in Brainboard:
 
 ### View team's information
 
-To view the information of the team, hover the line of the team and click on `View team information`.
+To view the information on a team, click on the 3 horizontal dots and then on `View team information`.
 
 ![View team](../.gitbook/assets/view-team-info.png)
 
 ### Edit team
 
-To edit the information of the team, hover the line of the team and click on `Edit team information`.
+To edit the information on the team, click on the 3 horizontal dots and click on `Edit team information`.
 
 ![Edit team](../.gitbook/assets/edit-team-info.png)
 
 ### Delete team
 
-To delete a team, hover the line of the team and click on `Delete the team` and confirm.
+To delete a team, click on the 3 horizontal dots and click on `Delete the team` and confirm.
 
 ![Edit team](../.gitbook/assets/delete-team.png)
 
-:::warning Deleting a team cannot be undone. :::
+{% hint style="danger" %}
+Deleting a team cannot be undone
+{% endhint %}

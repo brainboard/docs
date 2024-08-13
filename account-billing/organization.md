@@ -17,10 +17,10 @@ Follow the [account creation](https://gitlab.com/brainboard/brainboard/-/blob/ma
 To join an existing organization, you need to request access from the organization `owner` or `admin`.
 
 * Please refer to the [invite members](https://gitlab.com/brainboard/brainboard/-/blob/main/account-billing/invite-members/README.md) to invite new members.
-* Once invited your click on the link received by mail.
+* Once invited, click on the link received by mail.
 * Fill your information in the invitation page:
-  * Firstname
-  * Lastname
+  * First name
+  * Last name
   * Password
 * Click join to accept the invitation and join the organization.
 
@@ -29,15 +29,21 @@ To join an existing organization, you need to request access from the organizati
 To rename the organization:
 
 1. Access its [setting page](https://app.brainboard.co/settings/general)
-2. Click on the 3 dots on the right: ![Organization setting page](../.gitbook/assets/organization-setting-page.png)
-3. Click on `Edit Organization` to change its name: ![Organization setting page modal](../.gitbook/assets/organization-setting-page-modal.png)
+2.  Click on the 3 dots on the right:&#x20;
 
-### Delete an organization
+    <figure><img src="../.gitbook/assets/organization-setting-page.png" alt=""><figcaption></figcaption></figure>
+3.  Click on `Edit Organization` to change its name:&#x20;
+
+    <figure><img src="../.gitbook/assets/organization-setting-page-modal.png" alt=""><figcaption></figcaption></figure>
+
+### Delete an organization (close your account)
 
 To delete an organization:
 
 1. Go to the [organization settings page](https://app.brainboard.co/settings/general)
-2. Click on the 3 dots on the right and select `Delete Organization` ![Delete Organization](../.gitbook/assets/delete-orga.png)
+2.  Click on the 3 dots on the right and select `Delete Organization`&#x20;
+
+    <figure><img src="../.gitbook/assets/delete-orga.png" alt=""><figcaption></figcaption></figure>
 3. Type `DELETE` in capital letters in the confirmation page and click on the `Apply` button
 
 ### Roles within an organization
@@ -47,8 +53,6 @@ There are `4 roles` within the organization.
 #### 1. Owner
 
 The owner of the organization can perform any action. It is usually the first account created.
-
-:::info The owner can change the role of any member into another role except it self. The owner cannot downgrade its own role. :::
 
 #### 2. Admin
 
@@ -72,4 +76,4 @@ By default, a guest has access to nothing.
 
 ### IAM reference
 
-To see the complete list of permissions in Brainboard refer to the [IAM page](https://gitlab.com/brainboard/brainboard/-/blob/main/security/iam/README.md).
+To see the complete list of permissions in Brainboard refer to the [IAM page](../security/iam.md).

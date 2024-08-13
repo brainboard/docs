@@ -6,14 +6,14 @@ Register [here](https://app.brainboard.co/register) to create your account. You 
 
 ## 2. Create a new architecture
 
-* Click on the plus button in the top left part.
-* Select `Blank` option.
+* Click on the `New architecture` button in the top left part.
+* Select `From scratch` option.
 
 ![Create a new architecture](../.gitbook/assets/architecture-create-button.png)
 
 ## 3. Add cloud resources
 
-Drag and drop cloud resources from the leftbar to the design area to build your architecture. Customize the cloud configuration of the resources
+Drag and drop cloud resources from the _Leftbar_ to the design area to build your architecture. Customize the cloud configuration of the resources
 
 ### Azure
 
@@ -37,7 +37,7 @@ See the auto-generated Terraform code on the right pane.
 
 We support providers such as AWS, Azure, GCP and more.
 
-## 5. Add you cloud credentials
+## 5. Add your cloud credentials
 
 Add your preferred cloud provider credentials into Brainboard [here](https://app.brainboard.co/settings/cloud-providers).
 
@@ -55,8 +55,12 @@ After adding your cloud credentials, you can trigger the Terraform plan directly
 
 ### In place output
 
-You see the output of the plan in the design area, in the tab next to the Terraform code: ![Plan output](../.gitbook/assets/plan-output-in-design.png)
+You see the output of the plan in the design area, in the tab next to the Terraform code:
+
+<figure><img src="../.gitbook/assets/plan-output-in-design.png" alt=""><figcaption></figcaption></figure>
 
 ### Deploy view output
 
-You can also go the deploy view to have a bigger output in the deploy view: ![Plan output](../.gitbook/assets/plan-output.png)
+You can also go to the CI/CD view to have a bigger output:&#x20;
+
+<figure><img src="../.gitbook/assets/plan-output.png" alt=""><figcaption></figcaption></figure>
