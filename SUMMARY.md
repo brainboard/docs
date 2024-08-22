@@ -1,10 +1,10 @@
 # Table of contents
 
 * [Introduction 👋](README.md)
-* [Getting started 🎉](index/README.md)
-  * [Fast track ⏱️](index/fast-track.md)
-  * [Account Setup 🤝](index/setup.md)
-  * [Start with a template ⚜️](index/start-with-template.md)
+* [Getting started 🎉](getting-started/README.md)
+  * [Fast track ⏱️](getting-started/fast-track.md)
+  * [Account Setup 🤝](getting-started/setup.md)
+  * [Start with a template ⚜️](getting-started/start-with-template.md)
 * [Account & billing](account-billing/README.md)
   * [Account management 👤](account-billing/account.md)
   * [Invite members 👥](account-billing/invite-members.md)
