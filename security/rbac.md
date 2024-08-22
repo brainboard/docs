@@ -20,5 +20,5 @@ As the owner or admin of the organization, you have 2 levels of access:
     Please refer to the [RBAC for projects](projects.md#project-iam-reference) for more details about the roles you can use to configure access to your projects.
 
 {% hint style="info" %}
-Check the section [Roles & permissions](broken-reference) to learn how to configure the roles and permissions.
+Check the section [Roles & permissions](../rbac/) to learn how to configure the roles and permissions.
 {% endhint %}
