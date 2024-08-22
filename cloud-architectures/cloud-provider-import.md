@@ -4,9 +4,11 @@
 
 When creating a new architecture from existing data, you can select the cloud provider option.
 
-This feature will allow you to import existing resources already deployed in your cloud provider account, in order to generate the corresponding architecture diagram and Terraform code.
+This feature will allow you to import existing resources already deployed in your cloud provider account, to generate the corresponding architecture diagram and Terraform code.
 
-:::info Brainboard only supports import from Azure and AWS cloud providers for now. :::
+{% hint style="info" %}
+Brainboard only supports import from Azure and AWS cloud providers for now.
+{% endhint %}
 
 ### Import from AWS provider prerequisites
 
@@ -15,13 +17,13 @@ When importing resources from AWS provider, Brainboard will scan your cloud acco
 * [AWS Resource Groups Tagging](https://docs.aws.amazon.com/resourcegroupstagging/latest/APIReference/overview.html): this service will list any resource which has been tagged at least once
 * [AWS resource explorer](https://docs.aws.amazon.com/resource-explorer/latest/userguide/welcome.html): this service will list all resources matching Resource Explorer view index.
 
-Brainboard will scan your cloud account using a best effort method: it will try to find as many resources as possible, using AWS resource explorer in priority if possible.
+Brainboard will scan your cloud account using the best effort method: it will try to find as many resources as possible, using AWS resource explorer in priority if possible.
 
 #### Create indexes
 
 In order for AWS Resource Explorer to list your existing resources, AWS needs to frequently update its search index.
 
-The index is based per region, so we recommend creating indexes for all your regions and then select your main region as an **aggregator index**. An aggregator index will aggregate results from all other regions indexes.
+The index is based per region, so we recommend creating indexes for all your regions and then selecting your main region as an **aggregator index**. An aggregator index will aggregate results from all other regions indexes.
 
 If you haven't already created indexes, here are the steps to take:
 
@@ -91,7 +93,9 @@ Once your account is correctly configured to list cloud resources, you can impor
 
 ![CP import started](../.gitbook/assets/cp-import-started.png)
 
-:::info Importing resources from your cloud account can take a long time, depending on the amount of resources Brainboard will find in your account. You can either check the import progress window regularly or wait for an email notification once the import is complete. The email notification will contain the same link, allowing you to select resources. :::
+{% hint style="info" %}
+Importing resources from your cloud account can take a long time, depending on the number of resources Brainboard will find in your account. You can either check the import progress window regularly or wait for an email notification once the import is complete. The email notification will contain the same link, allowing you to select resources
+{% endhint %}
 
 7. Once the cloud import is complete, the import window will allow you to select which resources you wish to import into your architecture:
 

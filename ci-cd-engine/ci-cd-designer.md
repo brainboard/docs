@@ -22,11 +22,11 @@ To rename a workflow, click on the wheel button on the right of the workflow nam
 
 ### Task
 
-Task, is an individual action that you want to run to do a specific job. For e.g. Terraform apply, send Slack notification or update your ticketing system like ServiceNow.
+Task, is an individual action that you want to run to do a specific job. E.g. Terraform apply, send Slack notification or update your ticketing system like ServiceNow.
 
 Tasks can be created from the list of available plugins. Refer to the sections below to learn how to create tasks.
 
-Refer to the [supported plugins](https://gitlab.com/brainboard/brainboard/-/blob/main/ci-cd-engine/supported-plugins/README.md) page to see the options for each kind of task and how to configure it.
+Refer to the [supported plugins](supported-plugins.md) page to see the options for each kind of task and how to configure it.
 
 #### Task approval
 
@@ -42,7 +42,9 @@ A `stage` is a logical grouping of parallel tasks that will be executed at the s
 
 `Stages`, in the other hand, are horizontal and looks like columns. So there is an implicit dependency between them, which means that any given stage will not be executed until all tasks in the stage before complete successfully.
 
-:::info You can `ignore errors` in tasks of a stage to not block the execution of following stages if it makes sense in your workflow. :::
+{% hint style="info" %}
+You can `ignore errors` in tasks of a stage to not block the execution of following stages if it makes sense in your workflow.
+{% endhint %}
 
 #### Add a stage
 
@@ -72,7 +74,7 @@ When the pipeline is triggered, it switches to the `Pipelines` page where you ca
 
 ![Pipeline output](../.gitbook/assets/pipeline-output.png)
 
-Refer to the [pipelines page](https://gitlab.com/brainboard/brainboard/-/blob/main/ci-cd-engine/pipelines/README.md) for detailed information about pipeline.
+Refer to the [pipelines page](pipelines.md) for detailed information about pipelines.
 
 ### Best practice
 

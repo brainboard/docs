@@ -14,21 +14,23 @@ Cloud architecture templates include AWS Well-Architected Framework, Google Clou
 
 In Brainboard you can find two types of templates:
 
-* **Organization** These are templates that are visible and can be used only within the organization in different projects. The organization templates can be used when teams want to share their templates and reuse them in other projects or architectures of the organization.
-* **Public** This are usually templates published by Brainboard team and are verified templates that are build by cloud architects that maintain and update them regularly.
+* **Organization:** These are templates that are visible and can be used only within the organization in different projects. The organization templates can be used when teams want to share their templates and reuse them in other projects or architectures of the organization.
+* **Public:** These are usually templates published by Brainboard team and are verified templates that are built by cloud architects that maintain and update them regularly.
 
 ### Create a template
 
 To publish your architecture as a template, you can navigate to the architectures directory and follow the steps below:
 
-1.  Select the architecture that you want to publish as template and click on `create template from architecture` button.
+1.  Select the architecture that you want to publish as a template and click on the `create template from architecture` button.
 
     ![create\_template](../.gitbook/assets/create-template-architecture.png)
 2.  Add the following information regarding the new template:
 
     ![add-template-1.png](../.gitbook/assets/add-template-1.png)
 
-:::caution Make sure to remove all the sensitive information such as passwords from the architecture :::
+{% hint style="danger" %}
+Make sure to remove all the sensitive information such as passwords from the architecture&#x20;
+{% endhint %}
 
 * Chose the visibility of the templates, it can be either `organization` or `public`.
 * Choose a new name for the template.
@@ -54,22 +56,22 @@ Here are the steps to use a cloud architecture template:
 
 ### Modify a template
 
-After you publish a template, you can find it in the templates folder.
+After you publish a template, you can find it in the templates' project.
 
 ![templates-catalog.png](../.gitbook/assets/template-catalog.png)
 
-1.  If you need to make changes to the template, you can open and modify the template by selecting the template that you need and doing the changes.
-
-    :::info All the changes done the architectures of this directory will be reflected automatically in the templates catalog. :::
+1. If you need to modify the template, you can open and modify the template by selecting the template that you need and making the changes.
 2. By clicking on the second and third buttons next to the template name, you can create a new template from the current template or clone the template.
 3.  If you need to modify the template's details, you can click on the `pen` next to the architecture name and add the information :
 
     ![template-detail.png](../.gitbook/assets/template-detail.png)
 
-    * **Name** This is the name that will be displayed in the template catalog.
-    * **Status** You can choose the status of the template from the values below. If you are working in a team and the template needs approval before being published then you can choose the status `reviewing` or `approved`. ![template-status.png](../.gitbook/assets/template-status.png)
-    * **Description** Add a short description of the template.
-    * **Template visibility** You can choose the visibility of the template.
-    * **Tag** Add the tags so that it is easier to search for it when needed by the team.
-    * **Snapshot URL** Add the image that you want to be displayed in the templates catalog.
+    * **Name:** This is the name that will be displayed in the template catalog.
+    *   **Status:** You can choose the status of the template from the values below. If you are working in a team and the template needs approval before being published, then you can choose the status `reviewing` or `approved`.&#x20;
+
+        <figure><img src="../.gitbook/assets/template-status.png" alt=""><figcaption></figcaption></figure>
+    * **Description:** Add a brief description of the template.
+    * **Template visibility:** You can choose the visibility of the template.
+    * **Tag:** Add the tags so that it is easier to search for it when needed by the team.
+    * **Snapshot URL:** Add the image that you want to be displayed in the templates catalog.
 4. If you need to delete the template, select the template and click on the `bin` icon next to the templates project.

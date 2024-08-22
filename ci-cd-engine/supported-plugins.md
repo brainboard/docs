@@ -2,7 +2,7 @@
 
 ### Description
 
-Plugins are open source tools or software that are integrated in Brainboard and made available to use as part of your CI/CD pipelines.
+Plugins are open-source tools or software that are integrated in Brainboard and made available to use as part of your CI/CD pipelines.
 
 These plugins are maintained and updated by Brainboard team, giving you always the latest releases available.
 
@@ -40,7 +40,7 @@ This plugin allows you to scan the Terraform code with `tfsec` and provide outpu
 `tfsec` is a static analysis security scanner for your Terraform code.
 
 * [Home page](https://aquasecurity.github.io/tfsec).
-* [Source code on Github](https://github.com/aquasecurity/tfsec).
+* [Source code on GitHub](https://github.com/aquasecurity/tfsec).
 
 ![TFSEC plugin](../.gitbook/assets/tfsec-plugin.png)
 

@@ -4,25 +4,27 @@
 
 The `readme` file refers to a text file that provides information about the architecture, its features, requirements, installation instructions, and usage instructions.
 
-:::tip It's an important component as it serves as the first point of reference for users. :::
+{% hint style="info" %}
+It's an important component as it serves as the first point of reference for users.
+{% endhint %}
 
-To add a Readme file to your architecture, click on the file icon placed at the end of the design area options bar:
+To add a README file to your architecture, click on the file icon placed at the end of the design area options bar:
 
 ![Read me](../.gitbook/assets/readme.png)
 
-### Edit readme file
+### Edit README file
 
-To add information and edit the readme file, just open the editor and add the details.
+To add information and edit the README file, just open the editor and add the details.
 
-Brainboard gives you the possibility to write markdown document and generates the HTML representation for it, which makes it super easier to read for you and your team.
+Brainboard gives you the possibility to write Markdown document and generates the HTML representation for it, which makes it super easier to read for you and your team.
 
 ![Read me configuration](../.gitbook/assets/readme\_config.png)
 
-### Visibility of the readme file
+### Visibility of the README file
 
-* The readme file will be displayed on the templates description when you publish your architecture.
-* The readme file will be pushed in git when you are using git as your repository.
-* The readme file will be cloned along with the design of your architecture.
+* The README file will be displayed on the templates catalog
+* The README file will be pushed to git when doing a pull request.
+* The README file will be cloned along with the design of your architecture.
 
 ### Best practice
 

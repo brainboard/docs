@@ -6,7 +6,7 @@ Here are the definitions for Brainboard terms.
 
 An `account` in Brainboard refers to a user's profile that stores their personal information, role, and access to various features or services supported by Brainboard.
 
-Refer to the [Account Management](https://gitlab.com/brainboard/brainboard/-/blob/main/account-billing/account/README.md) to know more about it.
+Refer to the [Account Management](account-billing/account.md) to know more about it.
 
 ### Apply
 
@@ -18,7 +18,7 @@ The `architecture` refers to the design and visual representation of infrastruct
 
 ### CI/CD designer
 
-The CI/CD designer in Brainboard is a visual tool responsible for designing processes that automate the integration and deployment of cloud architectures. With the CI/CD designer the pipelines are created in a visual way without any YAML knowledge.
+The CI/CD designer in Brainboard is a visual tool responsible for designing processes that automate the integration and deployment of cloud architectures. With the CI/CD designer, the pipelines are created in a visual way without any YAML knowledge.
 
 ### CI/CD engine
 
@@ -66,7 +66,7 @@ The concept of member users helps to provide structure and organization within a
 
 ### One action
 
-In Brainboard , `one action` is refered to a single terraform action. One action is a way to execute quickly one Terraform action at a time without triggering the pipeline.
+In Brainboard, `one action` is referred to a single terraform action. One action is a way to execute quickly one Terraform action at a time without triggering the pipeline.
 
 Terraform actions are the operations that Terraform performs to manage infrastructure. These actions are triggered by Terraform commands such as `validate`, `plan`, `apply`, or `destroy` and determine the desired state of the infrastructure based on the Terraform configuration files.
 
@@ -112,13 +112,13 @@ A `resource` is a unit of infrastructure such as a virtual machine, network, sto
 
 ### Synced architectures
 
-`Synced architectures` refers to multiple architectural components or systems that are kept in a consistent or synchronized state. This can involve ensuring that data, configurations, and other elements are updated and aligned across different components or systems, so that they remain consistent and up-to-date.
+`Synced architectures` refers to multiple architectural components or systems that are kept in a consistent or synchronized state. This can involve ensuring that data, configurations, and other elements are updated and aligned across different components or systems so that they remain consistent and up-to-date.
 
 ### Team
 
 A team refers to a group of individuals who work together to develop, design, test, and maintain infrastructures.
 
-The role of a team is to collaborate and communicate effectively in order to produce high-quality architectures that meet the needs of customers. Teams may use various methodologies, such as Agile, Scrum, or Waterfall, to manage their projects, and they may use a range of tools and technologies to support their work, including version control systems, integrated development environments, project management tools, and more.
+The role of a team is to collaborate and communicate effectively to produce high-quality architectures that meet the needs of customers. Teams may use various methodologies, such as Agile, Scrum, or Waterfall, to manage their projects, and they may use a range of tools and technologies to support their work, including version control systems, integrated development environments, project management tools, and more.
 
 ### Terraform module
 

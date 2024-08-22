@@ -2,12 +2,14 @@
 
 ### Pre-requisites
 
-First of all, you need to have Docker installed on your server. If not already installed, please follow instructions from [this page](https://docs.docker.com/engine/install/).
+First, you need to have Docker installed on your server. If not already installed, please follow instructions from [this page](https://docs.docker.com/engine/install/).
 
 After installing Docker, you need to download the following files in a directory:
 
 * [docker-compose.yml](https://gitlab.com/brainboard/brainboard/-/blob/main/runner-assets/docker-compose.yaml)
 * [runner-config.yml](https://gitlab.com/brainboard/brainboard/-/blob/main/runner-assets/runner-config.yaml)
+
+
 
 ### Configuration
 

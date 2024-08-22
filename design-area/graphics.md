@@ -5,11 +5,10 @@
 Brainboard uses graphic elements to help you ease your workflow when you are designing & building your infrastructure. Some important graphic elements are:
 
 * **Options bar**: The options bar is a bar situated on top of the architecture that allows you to configure visual elements. It is always visible and can be moved around the page easily.
-* **Templates button**: The templates button is a button that allows you to open the templates modal. It is situated on the top right corner of the architecture.
-* **Visibility action buttons**: The visibility actions are a set of floating action buttons that allow you to show or hide elements (main grid, titles, connectors, depends\_on connectors and icons) in the architecture. They are situated on the top right corner of the architecture.
-* **Number of nodes**: The number of nodes is a number that is situated on the bottom left corner of the architecture. It shows the number of nodes in the architecture.
-* **Search resources**: The search resources is a search bar that allows you to search for resources in the architecture. It is situated in the bottom center of the architecture and it allows you to search for resources by name or by type. If a resource matches your search item, it will be highlighted in the architecture, while the rest of the resources that do not match will be greyed out.
-* **Groups**: Groups are a way to group resources together. The groups floating action button allows you to see, edit and delete the groups in the architecture. It is situated on the bottom right corner of the architecture.
+* **Templates catalog button**: The templates catalog button is a button that allows you to open the templates modal. It is situated in the top-right corner of the architecture.
+* **Visibility action buttons**: The visibility actions are a set of floating action buttons that allow you to show or hide elements (main grid, titles, connectors, depends\_on connectors and icons) in the architecture. They are situated in the top-right corner of the architecture.
+* **Number of nodes**: The number of nodes is a number that is situated in the bottom-left corner of the architecture. It shows the number of nodes in the architecture.
+* **Groups**: Groups are a way to group resources together. The groups floating action button allows you to see, edit and delete the groups in the architecture. It is situated in the bottom-right corner of the architecture.
 
 ### Options bar
 
@@ -31,7 +30,7 @@ The options bar contains the following elements:
 
 ![Zoom in](../.gitbook/assets/zoom-in.png)
 
-* **Fit content**: This button allows you to automatically fit the content of the architecture in the screen. It is useful when you have zoomed in or out the architecture and you want to go back to the original size.
+* **Fit content**: This button allows you to automatically fit the content of the architecture on the screen. It is useful when you have zoomed in or out the architecture and you want to go back to the original size.
 
 ![Fit content](../.gitbook/assets/fit-content.png)
 
@@ -55,7 +54,7 @@ The options bar contains the following elements:
 
 ![Download the diagram](../.gitbook/assets/download.png)
 
-* **Create new version**: Brainboard allows you to create multiple versions of the same architecture. This button allows you to create a new version of the architecture. It is useful when you want to create a new version of the architecture before making changes to it.
+* **Create a new version**: Brainboard allows you to create multiple versions of the same architecture. This button allows you to create a new version of the architecture. It is useful when you want to create a new version of the architecture before making changes to it.
 
 ![Create new version](../.gitbook/assets/create-new-version.png)
 
@@ -63,7 +62,7 @@ The options bar contains the following elements:
 
 ![Show versions](../.gitbook/assets/show-versions.png)
 
-* **Readme**: This button allows you to see the readme of the architecture. It is useful when want to create a proper description of the architecture so that other team members can better understand the use case of the architecture.
+* **Readme**: This button allows you to see the README of the architecture. It is useful when want to create a proper description of the architecture so that other team members can better understand the use case of the architecture.
 
 ![Readme](<../.gitbook/assets/readme (1).png>)
 
@@ -77,34 +76,24 @@ The options bar contains the following elements:
 
 ### Templates button
 
-The templates button is a button that allows you to open the templates modal. It is situated on the top right corner of the architecture.
+The templates catalog button is a button that allows you to open the templates modal. It is situated in the top-right corner of the architecture.
 
 ![Templates button](../.gitbook/assets/templates-button.png)
 
 ### Visibility action buttons
 
-The visibility actions are a set of floating action buttons that allow you to show or hide elements (main grid, titles, connectors, depends\_on connectors and icons) in the architecture. They are situated on the top right corner of the architecture.
+The visibility actions are a set of floating action buttons that allow you to show or hide elements (main grid, titles, connectors, depends\_on connectors and icons) in the architecture. They are situated in the top-right corner of the architecture.
 
 ![Visibility action buttons](../.gitbook/assets/visibility-action-buttons.png)
 
 ### Number of nodes
 
-The number of nodes is a number that is situated on the bottom left corner of the architecture. It shows the number of nodes in the architecture.
+The number of nodes is a number that is situated in the bottom-left corner of the architecture. It shows the number of nodes in the architecture.
 
 ![Number of nodes](../.gitbook/assets/number-of-nodes.png)
 
-### Search resources
-
-The search resources is a search bar that allows you to search for resources in the architecture. It is situated in the bottom center of the architecture and it allows you to search for resources by name or by type. If a resource matches your search, it will be highlighted in the architecture, while the rest of the resources that do not match will be greyed out.
-
-![Search resources](../.gitbook/assets/search-resources.png)
-
-You can see in the following example that the Application service that matches the text from the search input is highlighted while the rest of the resources are greyed out:
-
-![Search resources example](../.gitbook/assets/search-example.png)
-
 ### Groups
 
-Groups are a way to group resources together. The groups floating action button allows you to see, edit and delete the groups in the architecture. It is situated on the bottom right corner of the architecture.
+Groups are a way to group resources together. The groups floating action button allows you to see, edit and delete the groups in the architecture. It is situated in the bottom-right corner of the architecture.
 
 ![Groups](../.gitbook/assets/groups.png)

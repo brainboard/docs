@@ -2,7 +2,7 @@
 
 ### Description
 
-An architecture is built with nodes. A node is a terraform resource that can be used to visually indicate a resource from your infrastructure. A node can be a resource from any provider (Azure, AWS, OCI, GCP, Scaleway), an icon, a custom terraform resource or a file. In order to add a node to your architecture you find the desired resource in the leftbar and drag and drop it to the architecture. You can also search for a resource in the leftbar search input. After a resource has been added to your architecture, the terraform code will be automatically generated and will be visible in the right sidebar.
+An architecture is built with nodes. A node is a terraform resource that can be used to visually indicate a resource from your infrastructure. A node can be a resource from any provider (Azure, AWS, OCI, GCP, Scaleway), an icon, a custom terraform resource or a file. To add a node to your architecture, you find the desired resource on the Leftbar and drag and drop it to the architecture. You can also search for a resource in the Leftbar search input. After a resource has been added to your architecture, the terraform code will be automatically generated and will be visible in the right sidebar.
 
 ### Node options bar
 
@@ -70,5 +70,5 @@ Besides the node options bar, when a resource is selected, the node action butto
 * **(2) Cloud configuration**: This button allows you to configure the cloud configuration of the resource. When clicked, it opens the Identity card of the resource with the proper configuration fields, which can be updated. After updating the fields and closing the Identity card, the terraform code will be automatically updated.
 * **(3) Add connector**: This button allows you to add a connector to the resource. A connector is a line that connects two resources.
 * **(4) Turn into icon only**: This button allows you to turn the resource into an icon. After a resource is turned into an icon only, it will no longer generate terraform code.
-* **(5) Group resources in the same terraform file**: This button allows you to group resources a custom terraform group. After being grouped in a custom file, the corresponding terraform code will be generated in a file with the name of the group and it will be removed from the main terraform file.
+* **(5) Group resources in the same terraform file**: This button allows you to group resources in a custom Terraform group. After being grouped in a custom file, the corresponding Terraform code will be generated in a file with the name of the group and it will be removed from the main terraform file.
 * **(6) Delete resource**: This button allows you to delete the resource from the architecture.

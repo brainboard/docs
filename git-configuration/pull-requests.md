@@ -2,7 +2,7 @@
 
 ### Description
 
-A pull request is a way that allows you push the generated Terraform code from Brainboard into your git repository.
+A pull request is a way that allows you to push the generated Terraform code from Brainboard into your git repository.
 
 It is similar to doing `git add .`, `git commit -m 'commit message'` and `git push` on your laptop.
 
@@ -17,18 +17,22 @@ Here are important information on how it works:
   * [Gitlab](https://gitlab.com/brainboard/brainboard/-/blob/main/git-configuration/personal-git-tokens/README.md#gitlab).
   * [Azure DevOps](https://gitlab.com/brainboard/brainboard/-/blob/main/git-configuration/personal-git-tokens/README.md#azure-devops).
   * [Bitbucket](https://gitlab.com/brainboard/brainboard/-/blob/main/git-configuration/personal-git-tokens/README.md#bitbucket).
-* When Brainboard creates a pull request, it uses a branch called `brainboard` as source branch and gives you the possibility to chose the base branch.
-  * Every time you push your changes, they are pushed to same branch `brainboard`. This may change in the future by giving you the possibility to specify even the source branch.
-* By default Brainboard uses as base branch either `main` or `master` from your project if it exists.
-* Brainboard pushes only the difference between the branches as it does git pull first before pushing.
+* When Brainboard creates a pull request, it uses a branch called `brainboard` as the source branch and gives you the possibility to choose the base branch.
+  * Every time you push your changes, they are pushed to the same branch `brainboard`. This may change in the future by giving you the possibility to specify even the source branch.
+* By default, Brainboard uses as base branch either `main` or `master` from your project if it exists.
+* Brainboard pushes only the difference between the branches, as it does git pull first before pushing.
 
 ### Create a pull request
 
 To create a pull request from Brainboard:
 
 1. Open the architecture that you want to do the PR for.
-2. In the right pane, on top of the code, click on `Create pull request` button: ![Create pull request button](../.gitbook/assets/create-pull-request-button.png)
-3. It opens the modal of the pull request: ![Create pull request button](../.gitbook/assets/pull-request-modal.png)
+2.  In the right pane, on top of the code, click on `Create pull request` button:&#x20;
+
+    <figure><img src="../.gitbook/assets/create-pull-request-button.png" alt=""><figcaption></figcaption></figure>
+3.  It opens the modal of the pull request:&#x20;
+
+    <figure><img src="../.gitbook/assets/pull-request-modal.png" alt=""><figcaption></figcaption></figure>
 4. You can now configure the following information for the PR:
    * Select the git provider you want to use in the `Service` field.
    * Brainboard will list all the project you have access to in this git provider using the git credentials you used.
@@ -48,5 +52,5 @@ To create a pull request from Brainboard:
     * Respect your budget. Use Brainboard CI/CD engine to integrate costs into your pipeline of tests and make sure it's under budget.
     * Secure. Add security checks like TFSEC, Checkov and even policy as code like OPA into your pipelines.
 
-    Refer to the [CI/CD engine](https://gitlab.com/brainboard/brainboard/-/blob/main/ci-cd-engine/README.md) to know how to build your pipelines.
-2. Rotate your personal git tokens regularly. Refer to [this section](https://gitlab.com/brainboard/brainboard/-/blob/main/git-configuration/personal-git-tokens/README.md#edit-token) that explains how to do it.
+    Refer to the CI/CD engine to know how to build your pipelines.
+2. Rotate your personal git tokens regularly.

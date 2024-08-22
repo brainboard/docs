@@ -2,23 +2,21 @@
 
 ### Description
 
-The `ID cards` in Brainboard are configuration menu that manage all the information and details about objects in the diagram.
+The `ID card` in Brainboard is a configuration panel that manages all the information and details about Terraform resource.
 
 You can open the ID card of any resource by either selecting the resource or clicking on its name in the code.
 
-:::info
-
+{% hint style="info" %}
 The ID card contains `all` information about resources/data, such as their name, properties, attributes that are supported by both Terraform and the cloud provider.
+{% endhint %}
 
-:::
+### Main components of the ID card
 
-### Main components of card id
-
-When you click on a node and open its id card, you have the components as below:
+When you click on a node and open its ID card, you have the components as below:
 
 ![card\_id.png](../.gitbook/assets/card\_id.png)
 
-#### 1. Required params
+#### 1. Required parameters
 
 A required attribute is a property or configuration setting that must be specified in order for a resource to be created or updated. These attributes are defined by the provider and are used to configure the underlying infrastructure.
 
@@ -32,34 +30,35 @@ This part contains all the advanced features of Terraform such as `count`, `for_
 
 #### 4. Exported attributes
 
-These attributes are information of the resource that you can use in another resource to refer to a specific value of a parameter.
+These attributes are information on the resource that you can use in another resource to refer to a specific value of a parameter.
 
 These attributes are also used in output blocks to define attributes that you want to make available for other Terraform modules to use.
 
-:::info An exported attribute is simply a value that is created by one Terraform module and made available for another module to use. :::
+{% hint style="info" %}
+An exported attribute is simply a value that is created by one Terraform module and made available for another module to use
+{% endhint %}
 
 #### 5. Top bar parameters
 
 In the upper part you can find 4 buttons:
 
-1.  Close button: by pressing the `x` button you can close the id card and save all the changes.
+1.  Close button: by pressing the `x` button, you can close the ID card and save all the changes.
 
-    :::note The Terraform code will be generated or updated after you close the id card according to the changes you make. :::
-2. Reset changes: by pressing the first button on the upper right, you can discard all the current changes you've made in the id card.
-3.  Hide resource from code: the `eye` button allows you to hide the Terraform code of the resource while keeping its configuration for future use or as a reference.
-
-    :::note This is useful when you want to just depict the resource visually but not include it in the generated Terraform code. :::
+    Note: The Terraform code will be generated or updated after you close the ID card according to the changes you make.
+2. Reset changes: by pressing the first button on the upper right, you can discard all the current changes you've made to the ID card.
+3. Hide resource from code: the `eye` button allows you to hide the Terraform code of the resource, while keeping its configuration for future use or as a reference.\
+   Note: This is useful when you want to just depict the resource visually but not include it in the generated Terraform code.
 4. Documentation: the `info` button opens the right Terraform documentation page associated with the resource selected.
 
 ### Types of fields
 
-Brainboard generates the right fields for every parameters as expected by Terraform and the cloud provider. We make it easier for you to fill without worrying about the underlying format.
+Brainboard generates the appropriate fields for every parameter as expected by Terraform and the cloud provider. We make it easier for you to fill without worrying about the underlying format.
 
 #### Text attributes
 
 This type of field is used when the expected value for the parameter is a `string` such as the `name` of the resource, the IP address or its location.
 
-In Brainboard you can add all Terraform supported types of text values including string, template strings, and heredocs.
+In Brainboard you can add all Terraform supported types of text values including string, template strings, and heredoc.
 
 `string`: A plain string attribute is used to specify a text value.
 
@@ -69,35 +68,33 @@ In Brainboard you can add all Terraform supported types of text values including
 
 #### Number attributes
 
-In the id card, to specify numerical values you can use number field, such as integers and floating-point numbers.
+In the ID card, to specify numerical values you can use a number field, such as integers and floating-point numbers.
 
-:::info
-
+{% hint style="info" %}
 Some common uses of the number attribute type include:
 
 * Resource counts: Specifying the number of resources to create, such as the number of virtual machines in an Azure virtual machine scale set.
 * Networking parameters: Specifying network configurations, such as the number of load balancer frontend IP configurations.
 * Timeouts: Specifying timeouts for various operations, such as the timeout for a resource creation operation.
-
-:::
+{% endhint %}
 
 The number attribute type can be either an integer or a floating-point number, and it can be specified in decimal or scientific notation.
 
-:::tip
-
+{% hint style="info" %}
 Terraform also provides a set of built-in functions for manipulating and converting numbers. The exact usage of the number attribute type varies by resource and is specified in the Terraform documentation for that resource.
-
-:::
+{% endhint %}
 
 #### List attributes
 
-The `list` attribute type is used to specify a collection of values. The values in the list can be of any data type, including strings, numbers, booleans, and even nested lists and maps.
+The `list` attribute type is used to specify a collection of values. The values in the list can be of any data type, including strings, numbers, boolean, and even nested lists and maps.
 
-:::info Some common uses of the list attribute type include:
+{% hint style="info" %}
+Some common uses of the list attribute type include:
 
 * Lists of resources: Specifying a list of related resources, such as a list of virtual network subnets.
 * Lists of strings: Specifying lists of strings, such as a list of IP addresses.
-* Lists of maps: Specifying lists of maps, where each map represents a set of key-value pairs. :::
+* Lists of maps: Specifying lists of maps, where each map represents a set of key-value pairs
+{% endhint %}
 
 ![List type](../.gitbook/assets/list\_type.png)
 
@@ -117,9 +114,9 @@ There are three options for a boolean type attribute:
 
 The blocks can have all the types mentioned above.
 
-In cases where the configuration requires more than one block of the same type then you can click on the `+` button and add a new block of the same configuration.
+In cases where the configuration requires more than one block of the same type, then you can click on the `+` button and add a new block of the same configuration.
 
-To delete a block you can use the `bin` button and remove the block.
+To delete a block, you can use the `bin` button and remove the block.
 
 ![Blocks](../.gitbook/assets/add\_block.png)
 
@@ -150,7 +147,7 @@ This part contains all the meta argument supported by Terraform that allows you 
 
 ### ID card of custom resources
 
-The id card for a custom resource is similar to the card id for supported resources.
+The ID card for a custom resource is similar to the card ID for supported resources.
 
 ![Custom resource](../.gitbook/assets/custom\_resource.png)
 

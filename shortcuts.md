@@ -2,14 +2,13 @@
 
 Here is the complete list of the available shortcuts and their explanation:
 
-:::tip Press ⌘ / CTRL + K to open command center. Type the name of any feature, and Brainboard takes you there. :::
+{% hint style="info" %}
+Press ⌘ / CTRL + K to open command center. Type the name of any feature, and Brainboard takes you there
+{% endhint %}
 
-:::info
-
-* To open the shortcut modal, press `?`.
-* The CTRL key should be replaced with Meta key on Mac keyboards.
-
-:::
+{% hint style="info" %}
+* To open the shortcut modal, press `?`
+{% endhint %}
 
 | Key / Shortcut               | Action                                                              |
 | ---------------------------- | ------------------------------------------------------------------- |

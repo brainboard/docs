@@ -2,18 +2,20 @@
 
 ### Definition
 
-When managing cloud infrastructures at scale, you may want to keep your environments (for e.g. QA, staging, prod...) close to each other.
+When managing cloud infrastructures at scale, you may want to keep your environments (e.g. QA, staging, prod...) close to each other.
 
-You can achieve this by synchronizing a architecture across multiple environments, which means that any modification you do on one environment will be automatically replicated/synchronized with all synced envs except the values of the variables that are supposed to be specific to each env.
+You can achieve this by synchronizing an architecture across multiple environments, which means that any modification you do on one environment will be automatically replicated/synchronized with all synced environments except the values of the variables that are supposed to be specific to each env.
 
 This allows you to maintain a consistent infrastructure across all your development, testing, and production environments.
 
-### Create a synced environments
+### Create a synced environment
 
 Here are the steps you can follow to implement environment sync in Brainboard:
 
-1. Create the design and Terraform configuration for a specific architecture within a specific environment, for example dev.
-2. Go to the project selector and select hover the architecture that you want to sync and click on the clone button: ![clone](<../.gitbook/assets/clone (1).png>)
+1. Create the design and Terraform configuration for a specific architecture within a specific environment, for example: dev.
+2.  Go to the project selector and select hover the architecture that you want to sync and click on the clone button:&#x20;
+
+    <figure><img src="../.gitbook/assets/clone (1).png" alt=""><figcaption></figcaption></figure>
 3.  Follow the steps as below
 
     * Add the target environment where you want to clone your architecture. For example QA.
@@ -32,7 +34,9 @@ Here are the steps you can follow to implement environment sync in Brainboard:
 
     ![last](../.gitbook/assets/last\_step.png)
 
-:::info The variables values are not synced so you can use different values for different environments. Refer to the [Variables](https://gitlab.com/brainboard/brainboard/-/blob/main/input-output/overview.md) to know more about the variables. :::
+{% hint style="info" %}
+The variables values are not synced so you can use different values for different environments. Refer to the [Variables](../input-output/variables.md) to know more about the variables
+{% endhint %}
 
 ### View synced environments
 
@@ -50,8 +54,10 @@ To un-sync a specific architecture or environment, click on the sync button avai
 
 ### Best practices
 
-* Use this process to apply changes to all environments in a consistent way. For example, you might use Brainboard CI/CD engine to apply different pipelines to different environments while keeping the design of the cloud architecture consistent through all envs.
-  * Refer to the [CI/CD Engine](https://gitlab.com/brainboard/brainboard/-/blob/main/ci-cd-engine/ci-cd-designer.md) to know more about it.
+* Use this process to apply changes to all environments consistently. For example, you might use Brainboard CI/CD engine to apply different pipelines to different environments while keeping the design of the cloud architecture consistent through all environments.
+  * Refer to the [CI/CD Engine](../ci-cd-engine/) to know more about it.
 * Use variables and other configuration options to customize each environment as needed. For example, you might use different values for variables like the number of instances or the size of a database depending on the environment.
 
-:::note By using Brainboard to implement environment sync, organizations can ensure that their infrastructure is consistent across different environments, reducing the risk of a drift, configuration errors and improving overall reliability. :::
+{% hint style="info" %}
+By using Brainboard to implement environment sync, organizations can ensure that their infrastructure is consistent across different environments, reducing the risk of a drift, configuration errors and improving overall reliability.
+{% endhint %}

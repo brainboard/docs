@@ -10,7 +10,7 @@ This is a great way to standardize your deployment process without reinventing t
 
 ### Create template
 
-To create a new template, refer to the page: [create workflow template](https://gitlab.com/brainboard/brainboard/-/blob/main/ci-cd-engine/ci-cd-designer/README.md#create-workflow-template). It contains all the details.
+To create a new template, refer to the page: [create workflow template](ci-cd-designer.md#create-workflow-template). It contains all the details.
 
 ### Clone template
 
@@ -24,8 +24,6 @@ To clone a template and add it to your architecture:
 
 ![Clone workflow template](../.gitbook/assets/clone-workflow-template.png)
 
-:::warning When cloning a template, it will replace your existing workflow. This action cannot be undone. :::
-
 ### Delete template
 
 To delete a template:
@@ -38,7 +36,9 @@ To delete a template:
 
 ![Delete workflow template](../.gitbook/assets/delete-workflow-template.png)
 
-:::warning Deleting a workflow template cannot be undone. :::
+{% hint style="danger" %}
+Deleting a workflow template cannot be undone.
+{% endhint %}
 
 ### Best practices
 

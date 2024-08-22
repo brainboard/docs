@@ -1,3 +1,7 @@
+---
+icon: square-root-variable
+---
+
 # Variables ⒳
 
 ### Definition
@@ -12,7 +16,9 @@ There are `three types` of variables in terraform that we can consider as input 
 
 Local variables are a group of key-value pairs that can be used in the configuration. The values can be hard-coded or be a reference to another variable or resource. Local variables are accessible within the module/configuration where they are declared.
 
-:::tip Use local variables in combination with input variables: Use local variables in conjunction with input variables. This allows you to use local values as input for other resources or modules, making your Terraform code more dynamic and reusable. :::
+{% hint style="info" %}
+Use local variables in combination with input variables: Use local variables with input variables. This allows you to use local values as input for other resources or modules, making your Terraform code more dynamic and reusable.
+{% endhint %}
 
 #### Input Variables
 
@@ -51,7 +57,7 @@ To create a new variable:
 1.  Go to the input menu in the left bar
 
     ![add\_input\_variable](../.gitbook/assets/add\_input\_variable.png)
-2.  Click on the + button next to the scope that you need to add the variable. It can be Organization, Project, Envirnonment, Architecture and Locals
+2.  Click on the + button next to the scope that you need to add the variable. It can be Organization, Project, Environment, Architecture and Locals
 
     ![add\_variable](../.gitbook/assets/add\_variable.png)
 3.  Add the needed information in the variable form
@@ -61,13 +67,13 @@ To create a new variable:
 
 ### Edit variables
 
-To edit a variable follow the steps below:
+To edit a variable, follow the steps below:
 
 ![modify\_variables](../.gitbook/assets/modify\_variables.png)
 
 ### Delete variables
 
-To delete a variable just select the variable and click on the bin icon as below:
+To delete a variable, just select the variable and click on the bin icon as below:
 
 ![delete\_variable](../.gitbook/assets/delete\_variable.png)
 

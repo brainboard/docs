@@ -16,7 +16,7 @@ One of our cloud architects will help you.
 
 To request access to our security reports like SOC 2 Type II, use this [portal](https://security.brainboard.co).
 
-Your account manager or sales representative will approve your request, otherwise, the team will reach out to you before approval.
+Your account manager or sales representative will approve your request. Otherwise, the team will reach out to you before approval.
 
 ### Report security issues
 

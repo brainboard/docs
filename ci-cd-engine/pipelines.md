@@ -14,13 +14,13 @@ These pipelines contain both your triggered workflows and any action performed i
 
 #### Status
 
-There are 7 status of any given pipeline:
+There are 7 statuses of any given pipeline:
 
 1. **Scheduled**: the pipeline is accepted by Brainboard for execution and put in the pool to be picked by a runner.
-   * By default: all jobs are accepted.
+   * By default, all jobs are accepted.
 2. **Pending**: the pipeline is pending to be picked by a runner to execute it.
 3. **Running**: the pipeline has been picked by a runner that is currently executing its tasks.
-4. **Succeeded**: the execution of the pipeline ended and all tasks were successful.
+4. **Succeeded**: the execution of the pipeline ended, and all tasks were successful.
 5. **Failed**: the execution of the pipeline ended and some of the tasks failed.
    * The pipeline is considered failed, when at least one task fails.
    * When you ignore errors in tasks to not stop the pipeline, if they fail, the pipeline is considered failed even if the execution of the last task is successful.
@@ -35,7 +35,9 @@ Every pipeline has a unique identifier. It is used to store and retrieve its out
 
 The `id` displayed in this column is the last 12 characters of the UUID of the pipeline.
 
-:::tip UUID The complete UUID is visible in the URL of the browser. You use usually need it when you open a support ticket. :::
+{% hint style="info" %}
+The complete UUID is visible in the URL of the browser. You use usually need it when you open a support ticket.
+{% endhint %}
 
 #### Visual stages and tasks
 
@@ -45,7 +47,7 @@ It contains all tasks, and you can see the name and status of every task when yo
 
 #### Initiator
 
-The avatar of the person that triggered the pipeline.
+The avatar of the person who triggered the pipeline.
 
 Hover this avatar to see the complete name of the person.
 
@@ -55,13 +57,13 @@ Time of when the pipeline has been triggered.
 
 #### Stop button
 
-This button allows you terminate/stop a running pipeline. It is only active when the pipeline is running.
+This button allows you to terminate/stop a running pipeline. It is only active when the pipeline is running.
 
 ### Run pipeline
 
 To run the pipeline, go to the CI/CD designer and click on the button `Run pipeline`.
 
-Refer to the [CI/CD page](https://gitlab.com/brainboard/brainboard/-/blob/main/ci-cd-engine/ci-cd-designer/README.md#run-pipeline) for more details.
+Refer to the [CI/CD page](./) for more details.
 
 ### Stop pipeline
 
@@ -75,4 +77,4 @@ To open the output of any pipeline, click on it in the table of pipelines.
 
 #### Tasks status
 
-Tasks has the same [status](pipelines.md#status) as the pipeline.
+Tasks have the same [status](pipelines.md#status) as the pipeline.

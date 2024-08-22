@@ -30,7 +30,7 @@ Below we will see how to import modules in Brainboard.
 
     ![Private Registry module](../.gitbook/assets/import\_module\_private\_registry.png)
 
-    Refer to [Terraform Registry Credentials](https://gitlab.com/brainboard/brainboard/-/blob/main/terraform-modules/terraform-registry-credentials/README.md) to learn how to manage your Terraform registry credentials.
+    Refer to [Terraform Registry Credentials](terraform-registry-credentials.md) to learn how to manage your Terraform registry credentials.
 
     * **From git:** Many Terraform modules are hosted on GitHub, either as standalone repositories or as part of a larger project.
 
@@ -38,9 +38,9 @@ Below we will see how to import modules in Brainboard.
 
     If you have private modules, you can store them in a private repository, such as a private GitHub repository or an internal repository. When the repo that you want to import is private, then you need to specify also the credentials by opening the `open git settings`.
 
-    You can specify as service _Github_, _Azure DevOps_, _Bitbucket_ or _Gitlab_.
+    You can specify as service _GitHub_, _Azure DevOps_, _Bitbucket_ or _GitLab_.
 
-    Refer to [Git Configurations](https://gitlab.com/brainboard/brainboard/-/blob/main/git-configuration/personal-git-tokens/README.md) to know more about git configuration.
+    Refer to [Git Configurations](../git-configuration/personal-git-tokens.md) to know more about git configuration.
 
     * **From files:** You can also create your own modules using Terraform code and store them as local files and then import them in Brainboard.
 
@@ -53,6 +53,6 @@ There are some cases when importing a module as an architecture is useful.
 1. When a user wants to have visibility on the code and on the resources used by the module.
 2. When a user wants to modify an existing module and use it later.
 
-To import a module as architecture you can go to the top bar menu and click the `+` button to import an architecture.
+To import a module as an architecture, you can go to the top bar menu and click the `+` button to import an architecture.
 
 ![Import](../.gitbook/assets/import.png)

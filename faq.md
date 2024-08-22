@@ -18,16 +18,18 @@ Brainboard, on the other hand, is an end-to-end cloud management solution built 
 
 The following git providers are supported:
 
-* Github
+* GitHub
 * GitLab
 * Azure DevOps
-* BitBucket
+* Bitbucket
 
-:::note Request your git provider If your git repository is not listed here, you can request it in our [public roadmap](https://roadmap.brainboard.co). :::
+{% hint style="info" %}
+Request your git provider If your git repository is not listed here, you can request it in our [public roadmap](https://roadmap.brainboard.co).
+{% endhint %}
 
 ### How does Brainboard integrate with my current workflows?
 
-In brainboard, you are able to include all your current workflows:
+In Brainboard, you can include all your current workflows:
 
 * Manage all your Terraform States.
 * Setup the Git integration in Brainboard to be able to do pull requests and import existing code.
@@ -42,7 +44,7 @@ We support importing any file that contains a valid Terraform code.
 
 There are 2 ways to do it:
 
-1. Provide the URL of the Git repo (Github, Gitlab, Bitbucket...)
+1. Provide the URL of the Git repo (GitHub, GitLab, Bitbucket...)
 2. Upload one or multiple files
 
 ### Is there a hosted version of Brainboard?
@@ -69,7 +71,7 @@ The update process is automatic.
 
 As soon as a new version is released, we automatically trigger the update process that will do extensive tests.
 
-Tests usually take up to 48h to complete, and if they are successful we release the new version automatically.
+Tests usually take up to 48h to complete, and if they are successful, we release the new version automatically.
 
 ### Can I deploy my architecture with Brainboard?
 
@@ -79,26 +81,26 @@ Brainboard has an innovative CI/CD engine dedicated for the infrastructure, wher
 
 There are 2 aspects in terms of collaboration:
 
-1. Build: Brainboard supports real time editing of the same architecture by multiple users. All you need to do is to invite your colleagues and give them the right access.
+1. Build: Brainboard supports real-time editing of the same architecture by multiple users. All you need to do is to invite your colleagues and give them the right access.
 2. Deploy: when you build your CI/CD pipeline within Brainboard, you have the possibility to request approvals from any team/person, which allows you to orchestrate the execution by involving all stakeholders.
 
 ### How does Brainboard integrate tools like Infracost, Checkov, Tfsec, ServiceNow, etc…?
 
-Brainboard allows you to build your pipelines with its innovative and powerful CI/CD engine, where you can just pick the tools you are used to use and configure them easily.
+Brainboard allows you to build your pipelines with its innovative and powerful CI/CD engine, where you can just pick the tools you are used to using and configure them easily.
 
 Brainboard maintains these tools for you, so you don't worry about upgrading them automatically or troubleshooting when things go wrong.
 
-Refer to the [supported plugins](https://gitlab.com/brainboard/brainboard/-/blob/main/ci-cd-engine/supported-plugins/README.md) page for more details.
+Refer to the [supported plugins](ci-cd-engine/supported-plugins.md) page for more details.
 
 ### Can I create templates for my cloud infrastructures?
 
-Brainboard allows you to create a template from any architecture you have. By doing so, you build your internal catalog of templates that any one within your organization can use off the shelf without reinventing the wheel.
+Brainboard allows you to create a template from any architecture you have. By doing so, you build your internal catalog of templates that anyone within your organization can use off the shelf without reinventing the wheel.
 
 ### Is Brainboard free?
 
 Yes, there is a free version of Brainboard.
 
-When you sign up, you have 21 days free trial that gives you access to all feature of Brainboard, after that, if you don't upgrade you'll be automatically put in the free tier.
+When you sign up, you have a 21-day free trial that provides you with access to all features of Brainboard, after that, if you don't upgrade, you'll be automatically put into the free plan.
 
 ### How do I generate the Terraform code for my cloud architecture?
 
@@ -106,7 +108,7 @@ The Terraform code is automatically generated for you cloud architecture as you 
 
 ### Is SSO supported?
 
-Yes, in the enterprise version. We support both SAML and OAUTH.
+Yes, in the enterprise version. We support both SAML and OIDC.
 
 ### How can I request a demo for Brainboard?
 

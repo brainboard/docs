@@ -10,11 +10,14 @@ Registry credentials used by Terraform require two information:
 To add a new registry credentials, follow these steps:
 
 1. Go to the [Registry credentials page](https://app.brainboard.co/settings/terraform-registry).
-2. Click on New credentials and set the credentials information in the displayed window: ![Registry credentials](../.gitbook/assets/registry-credentials.png)
-   * Name: Name of the credential
-   * Host: Terraform registry hostname
-   * Token: Terraform registry token
-   * Scope:
-     * Organization: credentials will be available to all users in the organization
-   * User (myself): credentials will be available only to you :::warning Credentials scope can only be set at creation. You will not be able to change credentials scope after creation. :::
+2.  Click on New credentials and set the credentials information in the displayed window:&#x20;
+
+    * Name: Name of the credential
+    * Host: Terraform registry hostname
+    * Token: Terraform registry token
+    * Scope:
+      * Organization: credentials will be available to all users in the organization
+    * User (myself): credentials will be available only to you :::warning Credentials scope can only be set at creation. You will not be able to change credentials scope after creation. :::
+
+    <figure><img src="../.gitbook/assets/registry-credentials.png" alt=""><figcaption></figcaption></figure>
 3. Click on create to store your credential
