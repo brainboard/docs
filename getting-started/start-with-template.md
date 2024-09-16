@@ -1,4 +1,8 @@
-# Start with a template ⚜️
+---
+icon: paste
+---
+
+# Start with a template
 
 One of the fastest ways to start with Brainboard, is to start with a template.
 

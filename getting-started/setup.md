@@ -1,4 +1,8 @@
-# Account Setup 🤝
+---
+icon: sliders-up
+---
+
+# Account Setup
 
 Here below are setup actions that you need to do for your account to be able to:
 
