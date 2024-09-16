@@ -1,12 +1,13 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Welcome](README.md)
 
 ## Getting started
 
 * [Fast track](getting-started/fast-track.md)
-* [Account Setup](getting-started/setup.md)
 * [Start with a template](getting-started/start-with-template.md)
+* [Start with AI](getting-started/start-with-ai.md)
+* [Account Setup](getting-started/setup.md)
 
 ***
 

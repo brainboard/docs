@@ -27,7 +27,7 @@ Drag and drop cloud resources from the _Leftbar_ to the design area to build you
 
 ![Configure the resources](../.gitbook/assets/architecture-id-card-aws.png)
 
-## 4. Auto-generate the Terraform code
+## 4. Inspect the auto-generate Terraform code
 
 See the auto-generated Terraform code on the right pane.
 
@@ -39,32 +39,26 @@ See the auto-generated Terraform code on the right pane.
 
 ![Terraform code AWS](../.gitbook/assets/architecture-code-generated-aws.png)
 
-We support providers such as AWS, Azure, GCP and more.
+Please refer to the support providers page to have the complete list of all supported cloud providers.
 
 ## 5. Add your cloud credentials
 
-Add your preferred cloud provider credentials into Brainboard [here](https://app.brainboard.co/settings/cloud-providers).
+If you want to deploy your architecture, add your preferred cloud provider credentials [here](https://app.brainboard.co/settings/cloud-providers).
 
 ![CP creds](../.gitbook/assets/cp-creds.png)
 
-Here are examples for **AWS** and **Azure**.
+Examples for **AWS** and **Azure**.
 
 ![AWS creds](../.gitbook/assets/aws-creds.png) ![Azure creds](../.gitbook/assets/azure-creds.png)
 
 ## 6. Trigger a plan
 
-After adding your cloud credentials, you can trigger the Terraform plan directly from the design area and get the output in real time.
+After adding your cloud credentials, you can trigger the Terraform / OpenTofu plan directly from the design area and get the output in real time.
 
-![Trigger plan](../.gitbook/assets/trigger-plan.png)
+<figure><img src="../.gitbook/assets/fast-track-plan-bg.png" alt=""><figcaption><p>Terraform plan action</p></figcaption></figure>
 
-### In place output
+### Execution output
 
 You see the output of the plan in the design area, in the tab next to the Terraform code:
 
-<figure><img src="../.gitbook/assets/plan-output-in-design.png" alt=""><figcaption></figcaption></figure>
-
-### Deploy view output
-
-You can also go to the CI/CD view to have a bigger output:&#x20;
-
-<figure><img src="../.gitbook/assets/plan-output.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/fast-track-plan-output-bg.png" alt=""><figcaption><p>Terraform / OpenTofu plan output</p></figcaption></figure>
