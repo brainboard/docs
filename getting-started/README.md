@@ -1,4 +1,8 @@
-# Getting started 🎉
+---
+icon: play
+---
+
+# Getting started
 
 This section helps you start quickly building your first architecture or setup your account to smoothly build your cloud infrastructures.
 

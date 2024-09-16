@@ -1,4 +1,8 @@
-# Fast track ⏱️
+---
+icon: stopwatch
+---
+
+# Fast track
 
 ## 1. Create an account
 

@@ -1,10 +1,11 @@
 ---
 description: >-
-  Brainboard is an end-to-end solution to visually build and manage your cloud
+  Brainboard is an end-to-end solution to visually build & manage cloud
   infrastructures, collaboratively.
+icon: hand-wave
 ---
 
-# Introduction 👋
+# Introduction
 
 ### What is Brainboard
 
