@@ -1,5 +1,6 @@
 ---
 icon: sliders-up
+hidden: true
 ---
 
 # Account Setup

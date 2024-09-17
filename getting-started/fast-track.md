@@ -35,11 +35,11 @@ See the auto-generated Terraform code on the right pane.
 
 <div>
 
-<figure><img src="../.gitbook/assets/fast-track-aws-resource-code.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/fast-track-aws-resource-code.png" alt=""><figcaption><p>AWS resource with Terraform</p></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/fast-track-azure-resource-code.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/fast-track-azure-resource-code.png" alt=""><figcaption><p>Azure resource with Terraform</p></figcaption></figure>
 
 </div>
 
@@ -49,17 +49,17 @@ Please refer to the support providers page to have the complete list of all supp
 
 If you want to deploy your architecture, add your preferred cloud provider credentials [here](https://app.brainboard.co/settings/cloud-providers).
 
-<figure><img src="../.gitbook/assets/fast-track-cloud-providers.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/fast-track-cloud-providers.png" alt=""><figcaption><p>Cloud credentials</p></figcaption></figure>
 
 Examples for **AWS** and **Azure** credentials.
 
 <div>
 
-<figure><img src="../.gitbook/assets/fast-track-cloud-providers-aws.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/fast-track-cloud-providers-aws.png" alt=""><figcaption><p>AWS list of credentials</p></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/fast-track-cloud-providers-azure.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/fast-track-cloud-providers-azure.png" alt=""><figcaption><p>Azure list of credentials</p></figcaption></figure>
 
 </div>
 
