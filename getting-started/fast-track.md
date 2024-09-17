@@ -13,7 +13,7 @@ Register [here](https://app.brainboard.co/register) to create your account. You 
 * Click on the `New architecture` button in the top left part.
 * Select `From scratch` option.
 
-![Create a new architecture](../.gitbook/assets/architecture-create-button.png)
+<figure><img src="../.gitbook/assets/fast-track-new-architecture (1).png" alt=""><figcaption><p>New architecture</p></figcaption></figure>
 
 ## 3. Add cloud resources
 
@@ -21,23 +21,27 @@ Drag and drop cloud resources from the _Leftbar_ to the design area to build you
 
 ### Azure
 
-![Configure the resources](../.gitbook/assets/architecture-id-card-azure.png)
+<figure><img src="../.gitbook/assets/fast-track-azure-resource.png" alt=""><figcaption><p>Azure resource configuration menu</p></figcaption></figure>
 
 ### AWS
 
-![Configure the resources](../.gitbook/assets/architecture-id-card-aws.png)
+<figure><img src="../.gitbook/assets/fast-track-aws-resource.png" alt=""><figcaption><p>AWS resource configuration menu</p></figcaption></figure>
 
 ## 4. Inspect the auto-generate Terraform code
 
 See the auto-generated Terraform code on the right pane.
 
-### Code for Azure resource
+### Code for Azure & AWS resources
 
-![Terraform code Azure](../.gitbook/assets/architecture-code-generated-azure.png)
+<div>
 
-### Code for AWS resource
+<figure><img src="../.gitbook/assets/fast-track-aws-resource-code.png" alt=""><figcaption></figcaption></figure>
 
-![Terraform code AWS](../.gitbook/assets/architecture-code-generated-aws.png)
+ 
+
+<figure><img src="../.gitbook/assets/fast-track-azure-resource-code.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 Please refer to the support providers page to have the complete list of all supported cloud providers.
 
@@ -45,11 +49,19 @@ Please refer to the support providers page to have the complete list of all supp
 
 If you want to deploy your architecture, add your preferred cloud provider credentials [here](https://app.brainboard.co/settings/cloud-providers).
 
-![CP creds](../.gitbook/assets/cp-creds.png)
+<figure><img src="../.gitbook/assets/fast-track-cloud-providers.png" alt=""><figcaption></figcaption></figure>
 
-Examples for **AWS** and **Azure**.
+Examples for **AWS** and **Azure** credentials.
 
-![AWS creds](../.gitbook/assets/aws-creds.png) ![Azure creds](../.gitbook/assets/azure-creds.png)
+<div>
+
+<figure><img src="../.gitbook/assets/fast-track-cloud-providers-aws.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/fast-track-cloud-providers-azure.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ## 6. Trigger a plan
 
