@@ -70,7 +70,21 @@ Refer to the Node documentation page to understand what visual indications mean 
 
 These are a special cloud resources as they are containers and abstract a group of cloud resources.
 
-Refer to the Modules documentation page for more details about how to use modules in Brainboard.
+Brainboard support any type of Terraform modules from any source.
+
+Here is the section in the left bar where you can import your modules and access the modules' catalog to manage them.
+
+<figure><img src="../../.gitbook/assets/leftbar-modules-section.png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+
+
+
+
+Refer to the Node documentation page to understand what visual indications mean and to understand how modules behave in the design area.
 
 ### Terraform code
 

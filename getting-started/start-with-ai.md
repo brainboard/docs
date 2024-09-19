@@ -4,9 +4,7 @@ icon: brain-circuit
 
 # Start with AI
 
-You can also use Brainboard AI to get started quickly with a prompt.
-
-## Create a new architecture
+You can also use Brainboard AI to get started quickly with a prompt:
 
 * Click on the `New architecture` button in the top left part.
 

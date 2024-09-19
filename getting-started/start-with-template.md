@@ -4,9 +4,7 @@ icon: paste
 
 # Start with a template
 
-One of the fastest ways to start with Brainboard, is to start with a template.
-
-## Create a new architecture
+One of the fastest ways to start with Brainboard, is to start with a template:
 
 * Click on the `New architecture` button in the top left part.
 
