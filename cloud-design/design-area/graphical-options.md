@@ -1,6 +1,0 @@
----
-icon: palette
----
-
-# Graphical options
-

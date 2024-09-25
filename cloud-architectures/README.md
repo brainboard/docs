@@ -1,2 +1,6 @@
-# cloud-architectures
+---
+hidden: true
+---
+
+# Cloud architectures
 

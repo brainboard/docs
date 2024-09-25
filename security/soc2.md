@@ -1,4 +1,8 @@
-# SOC 2 Type II 🛡️
+---
+icon: shield-check
+---
+
+# SOC 2 Type II
 
 Brainboard is SOC 2 Type II certified.
 

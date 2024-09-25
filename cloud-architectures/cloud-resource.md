@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Cloud resource ☁️
 
 ### Description
@@ -12,7 +16,7 @@ Cloud resource is any resource available at the cloud provider that has either a
   3. Module: Terraform module.
   4. Container: it can contain other resource and give them its properties. E.g. AWS VPC, or Azure virtual network.
   5. Icon only: this resource is just graphic and has no Terraform representation.
-* Refer to the [identity card](id-card.md) page for more information on how to configure resources.
+* Refer to the [identity card](../cloud-design/design-area/id-card.md) page for more information on how to configure resources.
 
 ### Types of resources
 
@@ -53,7 +57,7 @@ Nodes like Text, or generic icons have no cloud configuration and will not be de
 
 ### Supported cloud providers
 
-Refer to the page [supported cloud providers](../cloud-providers/supported-cloud-providers.md) for more details.
+Refer to the page [supported cloud providers](../data/cloud-providers/supported-cloud-providers.md) for more details.
 
 ### Interactions between nodes
 

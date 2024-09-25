@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Values (Inputs & Outputs)
 
 Variables are fundamental in every programming and scripting language because they are inherently useful in building dynamic programs. We use variables to store temporary values so that they can assist programming logic in simple as well as complex programs.

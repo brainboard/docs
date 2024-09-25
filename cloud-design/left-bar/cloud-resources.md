@@ -27,11 +27,21 @@ Characteristics of a cloud resource:
 * It can be drag & dropped from the left bar.
 * It has a lifecycle associated to it, so it can be created, updated and deleted.
 * It has a set of configuration parameters that you can customize through the ID card.
-  * Refer to the [identity card](../../cloud-architectures/id-card.md) page for more information on how to configure a cloud resource.
+  * Refer to the [identity card](../design-area/id-card.md) page for more information on how to configure a cloud resource.
 
 ### Types of cloud resources
 
-Brainboard supports all the Terraform/OpenTofu resource types and you have the possibility to switch between the data types and resources in 2 ways:
+Brainboard supports all the Terraform/OpenTofu resource types:
+
+#### Resources:
+
+They represent, for a specific cloud provider, all the resources available at any selected version of the Terraform provider.
+
+#### Data sources:
+
+Data sources allow you to reference existing resources and access their information in a read-only mode.
+
+You can switch between the data types and resources in 2 ways:
 
 1.  **From the left bar:** Select either a resource or data source option as follows:
 
@@ -43,14 +53,6 @@ Brainboard supports all the Terraform/OpenTofu resource types and you have the p
 {% hint style="info" %}
 When you switch a resource into data, Brainboard automatically changes all the references of this resource in the Terraform code into a data block and also updates the configuration of its ID card.
 {% endhint %}
-
-#### Resources:
-
-They represent, for a specific cloud provider, all the resources available at any selected version of the Terraform provider.
-
-#### Data sources:
-
-Data sources allow you to reference existing resources and access their information in a read-only mode.
 
 **Agnostic nodes**
 
