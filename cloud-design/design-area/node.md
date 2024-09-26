@@ -119,6 +119,7 @@ Brainboard design area is a smart canvas that has a cloud knowledge and is able 
 
 Here is the behavior of the node in the design area:
 
+* Node can be selected when you click on its Terraform code in the right pane.
 * Nodes can be linked to each other automatically when you reference a Terraform attribute from node to another.
   * The name of the field that references the other node is put in the text of the connector created between both resources.
 * Containers can pass their cloud properties into their children when it is supported by Terraform.

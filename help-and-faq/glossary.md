@@ -114,6 +114,10 @@ A `remote backend` is a backend for storing Terraform state that is located on a
 
 A `resource` is a unit of infrastructure such as a virtual machine, network, storage account, or database that Terraform provisions and manages. Resources are defined in Terraform configuration files using resource blocks, which specify the type of resource, its name, and its configuration parameters. Terraform uses the resource blocks to determine the desired state of the infrastructure and make any necessary changes to bring the resources into that state.
 
+### Shift left
+
+In Infrastructure-as-Code, shift left means detecting errors as early as possible in the development phase (before going to production) and fixing them.
+
 ### Synced architectures
 
 `Synced architectures` refers to multiple architectural components or systems that are kept in a consistent or synchronized state. This can involve ensuring that data, configurations, and other elements are updated and aligned across different components or systems so that they remain consistent and up-to-date.

@@ -8,7 +8,7 @@
 * [Start with a template](getting-started/start-with-template.md)
 * [Start with AI](getting-started/start-with-ai.md)
 * [Brainboard philosophy](getting-started/brainboard-philosophy/README.md)
-  * [Design first, then code](getting-started/brainboard-philosophy/design-first-then-code.md)
+  * [Design first](getting-started/brainboard-philosophy/design-first.md)
   * [One end-to-end platform](getting-started/brainboard-philosophy/one-end-to-end-platform.md)
 
 ## Cloud design
