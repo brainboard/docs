@@ -2,14 +2,13 @@
 
 ### Description
 
-Brainboard provides a native versioning mechanism that allows you to keep track of every modification you do and rollback or go to any specific point-in-time snapshot.
+Brainboard provides a native versioning mechanism that allows you to keep track of your changed and be able to rollback/restore any specific point-in-time version.
 
 ### Components of a version
 
 When you create a version, Brainboard saves the following information:
 
-* The architecture: everything in the design area.
-  * The Terraform code is automatically generated predictably for any version.
+* The architecture design.
 * The version of the cloud provider selected to create the architecture.
 * Variables.
 * Output.
@@ -19,35 +18,48 @@ When you create a version, Brainboard saves the following information:
 * The person who created the version.
 * The commit message.
 
+{% hint style="info" %}
+The Terraform code is automatically generated, and it is not saved as code.
+{% endhint %}
+
+
+
 ### Create a version
 
 To create a version of your architecture:
 
 1.  Click on the `Create new version` button in the options bar:&#x20;
 
-    <figure><img src="../../.gitbook/assets/create-new-architecture-version.png" alt=""><figcaption></figcaption></figure>
-2. Write a description of the version in the versioning window that will open.
-3. Click on `Commit` to create the new version.
+    <figure><img src="../../.gitbook/assets/options-bar-new-version.png" alt=""><figcaption></figcaption></figure>
+2.  Write a description of the version: This could the same commit message that you would write when you do a pull request.  You can write multiline text, if you want to provide more details.
 
-When you create a new version, if there are no changes between the current version and the new one, you'll receive this message:
+    <figure><img src="../../.gitbook/assets/new-version-modal.png" alt=""><figcaption></figcaption></figure>
+3. Click on `Create version` to create the new version.
+   1.  When you create a new version, if there are no changes between the current version and the new one, you'll receive this message:
 
-![No changes message](../../.gitbook/assets/no-changes-message-versioning.png)
+       <figure><img src="../../.gitbook/assets/new-version-modal-error-message.png" alt=""><figcaption></figcaption></figure>
 
-### Checkout a version
+### Restore a version
 
-To checkout any version you create:
+To checkout/restore any version:
 
 1.  Click on the `Show versions` button in the options bar:&#x20;
 
-    <figure><img src="../../.gitbook/assets/checkout-architecture-version.png" alt=""><figcaption></figcaption></figure>
-2. Click on the line of the version you want to open:
+    <figure><img src="../../.gitbook/assets/CleanShot 2024-10-10 at 11.44.08.png" alt=""><figcaption></figcaption></figure>
+2.  In the table listing all the versions of the architecture, click on the button `Restore` of the version you want to restore:
 
-{% hint style="warning" %}
+    <figure><img src="../../.gitbook/assets/versions-table-modal.png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="info" %}
+**Import notes:**
 
-* Brainboard versions are an immutable snapshot of your infrastructure. You cannot delete them.
+* Brainboard versions are immutable snapshots of your infrastructure. You cannot delete them.
 * You can checkout any version and work on it without altering the history of the versioning.
-* When you clone an architecture or create a template from it, its versions will be cloned with it.
+* When you clone an architecture or create a template from it, its versions will be removed.
 * When you checkout a version, both the diagram and the Terraform code will be updated.
 {% endhint %}
+
+### Push to git
+
+Please refer to the page: Pull requests, for detailed information about how to do pull requests and save the generated code into git.
 
