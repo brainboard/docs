@@ -1,99 +1,86 @@
-# Graphic options
+# Graphical options
 
 ### Description
 
-Brainboard uses graphic elements to help you ease your workflow when you are designing & building your infrastructure. Some important graphic elements are:
+Brainboard graphical elements within the design area help you control the visual of some aspects of the interface or display useful information.
 
-* **Options bar**: The options bar is a bar situated on top of the architecture that allows you to configure visual elements. It is always visible and can be moved around the page easily.
-* **Templates catalog button**: The templates catalog button is a button that allows you to open the templates modal. It is situated in the top-right corner of the architecture.
-* **Visibility action buttons**: The visibility actions are a set of floating action buttons that allow you to show or hide elements (main grid, titles, connectors, depends\_on connectors and icons) in the architecture. They are situated in the top-right corner of the architecture.
-* **Number of nodes**: The number of nodes is a number that is situated in the bottom-left corner of the architecture. It shows the number of nodes in the architecture.
-* **Groups**: Groups are a way to group resources together. The groups floating action button allows you to see, edit and delete the groups in the architecture. It is situated in the bottom-right corner of the architecture.
+There are 3 groups of graphical options:
+
+1. [The options' bar](graphics.md#options-bar): It contains options that allow you to control the graphical options that are not related to a node, like the grid, the zoom…etc.
+2. Templates button: It opens the templates catalog, where you can see the available cloud architecture templates and use them.
+3. Nodes number: Shows either the number of nodes that are selected or present in the design area when no node is selected.
+4. Groups: This button allows you to list & update all nodes' groups / Terraform files.
 
 ### Options bar
 
-The options bar is a bar situated on top of the architecture that allows you to configure visual elements. It is always visible and can be moved around the page easily.
+<figure><img src="../../.gitbook/assets/options-bar (1).png" alt=""><figcaption></figcaption></figure>
 
-![Options bar](../../.gitbook/assets/options-bar.png)
+It has the following options:
 
-The options bar contains the following elements:
+1. Grab area where you can move the bar to place wherever you want in the design area
+   1. Brainboard saves the position of the bar when you move it, so even when reload the page, it stays in the last position.
+   2.  When it is moved, you can always reset it to its initial position through this button:
 
-* **Change the grid to squares**: This button allows you to change the grid to squares. It is useful when you want to align resources in the architecture.
+       <figure><img src="../../.gitbook/assets/reset-options-bar-option.png" alt=""><figcaption></figcaption></figure>
+2. Switch between select and grab mode:
+   1. Select mode allows you to select resources and interact with them
+   2. Grab mode allows you to move the canvas
+3.  Synced architecture: This button opens the window that shows you architectures that are synced with this one:
 
-![Change the grid to squares](../../.gitbook/assets/squares.png)
+    <figure><img src="../../.gitbook/assets/synced-architectures-modal.png" alt=""><figcaption></figcaption></figure>
+4. Switch the style of the grid between dots and rectangles.
+5. Zoom in: It will zoom in the design area using its center as the zoom point.
+   1. Use can zoom using the mouse as well by placing the cursor on any resource, press META or CTRL and scroll.
+6. Fit content: It centralized the resources present in the design area in the middle, where all nodes are visible.
+7. Zoom out: It will zoom out the design area using its center as the zoom point.
+   1. Use can zoom using the mouse as well by placing the cursor on any resource, press META or CTRL and scroll.
+8. Undo the changes.
+9. Redo the changes.
 
-* **Change the grid to dots**: This button allows you to change the grid to dots.
+{% hint style="info" %}
+**Universal Undo/Redo**
 
-![Change the grid to dots](../../.gitbook/assets/dots.png)
+Brainboard uses the backend as a store for undo and redo actions, which means, even if you reload your page, close & reopen the browser or even connect from a different computer, you can undo & redo your actions.
+{% endhint %}
 
-* **Zoom in**: This button allows you to zoom in the architecture.
+10. Change the canvas color.
+11. Dots or grid color.
+12. Export the architecture in Brainboard format: This button allows you to export the architecture in JSON format.
+    1. You can share the JSON file with someone else or restore it in a different organization, it will create the architecture exactly as it is with its Terraform code, variables, output and ReadMe file.
+13. Download the diagram: This button allows you to download a picture of the architecture in multiple formats: PNG, SVG or PDF. You can also include the background grid in the download or set a transparent background.
 
-![Zoom in](../../.gitbook/assets/zoom-in.png)
+    <figure><img src="../../.gitbook/assets/download-diagram-modal.png" alt=""><figcaption></figcaption></figure>
+14. Create a new version of your architecture. Refer to the [versioning page](versioning.md#create-a-version) for more details about how to create a new version.
+15. Show architecture versions. Refer to the [versioning page](versioning.md#list-versions) for more details about how to list versions and how to restore a specific one.
+16. Readme: This button allows you to open the README of the architecture, where you can update its content.
 
-* **Fit content**: This button allows you to automatically fit the content of the architecture on the screen. It is useful when you have zoomed in or out the architecture and you want to go back to the original size.
+    1. This file will be included in the list of the files to push to git when do a pull request.
 
-![Fit content](../../.gitbook/assets/fit-content.png)
-
-* **Zoom out**: This button allows you to zoom out the architecture.
-
-![Zoom out](../../.gitbook/assets/zoom-out.png)
-
-* **Undo**: This button allows you to undo the last action you did in the architecture.
-
-![Undo](../../.gitbook/assets/undo.png)
-
-* **Redo**: This button allows you to redo the last action you did in the architecture.
-
-![Redo](../../.gitbook/assets/redo.png)
-
-* **Export the architecture in Brainboard format**: This button allows you to export the architecture in Brainboard format. It is useful when you want to save the architecture in your computer or share it with someone else.
-
-![Export the architecture in Brainboard format](../../.gitbook/assets/export-bb-format.png)
-
-* **Download the diagram**: This button allows you to download the architecture in multiple formats: PNG, SVG or PDF. You can also include the background grid in the download or set a transparent background.
-
-![Download the diagram](../../.gitbook/assets/download.png)
-
-* **Create a new version**: Brainboard allows you to create multiple versions of the same architecture. This button allows you to create a new version of the architecture. It is useful when you want to create a new version of the architecture before making changes to it.
-
-![Create new version](../../.gitbook/assets/create-new-version.png)
-
-* **Show versions**: This button allows you to see the versions of the architecture. It is useful when you want to see the versions of the architecture and switch between them.
-
-![Show versions](../../.gitbook/assets/show-versions.png)
-
-* **Readme**: This button allows you to see the README of the architecture. It is useful when want to create a proper description of the architecture so that other team members can better understand the use case of the architecture.
-
-![Readme](<../../.gitbook/assets/readme (1).png>)
-
-* **Shortcuts**: This button allows you to see the shortcuts you can use inside the Brainboard editor. Knowing the shortcuts can help you speed up your workflow.
-
-![Shortcuts](../../.gitbook/assets/shortcuts.png)
-
-* **Sync information**: When creating a new architecture based on an already existing architecture (cloning), you have the possibility to sync architectures together. That means that if you make a change in one architecture, the other architecture will be updated automatically. This button allows you to see the sync information of the architecture: what other architectures are synced with this architecture and you can unsync them if you want.
-
-![Shortcuts](../../.gitbook/assets/sync.png)
+    <figure><img src="../../.gitbook/assets/CleanShot 2024-10-10 at 15.49.43.png" alt=""><figcaption></figcaption></figure>
+17. Shortcuts: This button allows you to see the shortcuts you can use inside the Brainboard editor. Refer to the [shortcut page](../../help-and-faq/shortcuts.md) to learn about all the available options.
 
 ### Templates button
 
-The templates catalog button is a button that allows you to open the templates modal. It is situated in the top-right corner of the architecture.
+It allows you to open the templates catalog window where you can see the public and private template.&#x20;
 
 ![Templates button](../../.gitbook/assets/templates-button.png)
 
-### Visibility action buttons
-
-The visibility actions are a set of floating action buttons that allow you to show or hide elements (main grid, titles, connectors, depends\_on connectors and icons) in the architecture. They are situated in the top-right corner of the architecture.
-
-![Visibility action buttons](../../.gitbook/assets/visibility-action-buttons.png)
+Refer to the [template catalog](../../data/data-structure/template.md) page for detailed information about how to use it.
 
 ### Number of nodes
 
-The number of nodes is a number that is situated in the bottom-left corner of the architecture. It shows the number of nodes in the architecture.
+This button is located in the bottom-left corner of the architecture, and it shows the number of nodes in the architecture.
 
-![Number of nodes](../../.gitbook/assets/number-of-nodes.png)
+<figure><img src="../../.gitbook/assets/CleanShot 2024-10-10 at 15.59.40.png" alt=""><figcaption></figcaption></figure>
 
 ### Groups
 
-Groups are a way to group resources together. The groups floating action button allows you to see, edit and delete the groups in the architecture. It is situated in the bottom-right corner of the architecture.
+You can group nodes together in the same group and same Terraform file.
 
-![Groups](../../.gitbook/assets/groups.png)
+This button, located in the bottom-right corner of the design area, displays all the groups you have with the available options to update them.
+
+<figure><img src="../../.gitbook/assets/group-list.png" alt=""><figcaption></figcaption></figure>
+
+1. Select the group: This will select all the resources of this group in the design area, and also select the Terraform file of the group.
+2. Delete the group: This will delete the group and put all its resources in the main one (main.tf).
+   1. This action doesn't delete the resources.

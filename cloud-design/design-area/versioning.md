@@ -39,16 +39,22 @@ To create a version of your architecture:
 
        <figure><img src="../../.gitbook/assets/new-version-modal-error-message.png" alt=""><figcaption></figcaption></figure>
 
-### Restore a version
+### List versions
 
-To checkout/restore any version:
+To list all the versions of your infrastructure:
 
-1.  Click on the `Show versions` button in the options bar:&#x20;
+*   Click on the `Show versions` button in the options bar:&#x20;
 
     <figure><img src="../../.gitbook/assets/CleanShot 2024-10-10 at 11.44.08.png" alt=""><figcaption></figcaption></figure>
-2.  In the table listing all the versions of the architecture, click on the button `Restore` of the version you want to restore:
+*   This will open the versions table:
 
     <figure><img src="../../.gitbook/assets/versions-table-modal.png" alt=""><figcaption></figcaption></figure>
+
+### Restore a version
+
+To check out or restore any version, click on the button `Restore` of the version you want to restore:
+
+<figure><img src="../../.gitbook/assets/versions-table-modal.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Import notes:**

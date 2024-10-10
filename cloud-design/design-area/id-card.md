@@ -29,7 +29,7 @@ Here is the different sections of the ID card:
 
 #### Top bar
 
-Options of this bar from left to right, allow you to:
+Options of this bar, from left to right, allow you to:
 
 * Move the ID card wherever you want in the design area.
 * It indicates that the information is automatically saved as you type them.
@@ -42,7 +42,7 @@ Options of this bar from left to right, allow you to:
 
 The header shows information about the resource that include:
 
-* The title of the resource. You can change, reset or delete it if needed
+* The title of the resource. You can change, reset or delete it if needed.
 
 <figure><img src="../../.gitbook/assets/idcard_edit_title.png" alt=""><figcaption></figcaption></figure>
 
@@ -122,7 +122,7 @@ Here are the different types of fields of the ID card and how they map out Terra
 
 #### Text attributes
 
-This type of field is used when the expected value for the parameter is a `string` such as the `name` of the resource, its IP address, its location...
+This type of field is used when the expected value for the parameter is a `string` such as the `name` of the resource, its IP address, its location…
 
 * All Terraform supported types of text values including [string & template strings](https://developer.hashicorp.com/terraform/language/expressions/strings), and [heredoc](https://en.wikipedia.org/wiki/Here\_document) are supported.
 * When you click Enter in the text field, it switches into multiline where you can write properly the content.
