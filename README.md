@@ -9,58 +9,48 @@ description: >-
 
 ### What is Brainboard
 
-Brainboard is an end-to-end solution to visually build and manage your cloud infrastructures, collaboratively.
+Brainboard is an end-to-end solution to visually design and manage your cloud infrastructures, collaboratively.
 
-It helps you centralize and standardize your cloud infrastructure management and build a self-serve model within your organization.
+It helps you:
 
-It is a collaborative and innovative solution that natively integrates IaC best practices and enforces security with an embedded CI/CD engine out of the box.
+* Centralize your cloud infrastructure and have a unique source of truth.
+* Standardize your process to build cloud infrastructures.
+* Lower the learning curve for Terraform and the cloud.
+* Onboard new engineers easily.
+* Create a self-serve model within your organization, where your reference architectures are easily consumed by your teams.
 
-![brainboard-view](.gitbook/assets/brainboard-view.png)
+It is a collaborative and innovative solution that natively integrates IaC best practices, enforces security and has an embedded CI/CD engine out of the box.
 
-📌 Brainboard is a visual and intuitive solution, where you only have to do the work once.
+![Brainboard overview](.gitbook/assets/brainboard-view.png)
 
-* You design, then the code is automatically generated.
+### Why?
 
-📌 It accelerates automation and can easily be integrated with existing processes and support your modules.
+Brainboard has been built by experienced engineers for engineers, by using automation and AI to make building and managing cloud infrastructure easier, while empowering engineers to not repeat themselves.
 
-* You are one git push away from your source code repository.
+Here are the reasons why we are building Brainboard, to help organizations and engineers to:
 
-📌 It centralizes the management of all your cloud infrastructures.
-
-* Everything related to the cloud infrastructure is centralized in one solution, no need to have 10 different tools with different learning curves and individual maintenance efforts.
-
-📌 It makes building and maintaining your cloud architectures fast and efficient.
-
-* Go DRY (Don’t Repeat Yourself) by using our architecture templates & our integrated CI/CD engine.
-
-📌 It helps to build and maintain in-house standards, integrate best practices and streamline your processes.
-
-* The Best way to enforce your standards is to use a system that natively integrates best practices.
+* Centralize all the management of the cloud infrastructure, literally from end to end, into one unique platform.
+* Move fast securely: It is designed to be intuitive and easy to learn, while providing full power of an embedded CI/CD to shift left fast.
+* No one is left off: Anyone can understand a design, and for those who want to go deeper, the Terraform code is next to the design.
+* Lower the learning curve of the cloud and Terraform/IaC.
+* Help organizations capture the maturity of their cloud journey in a system, that scales as the processes and use cases grow.
+* Document faithfully the state of the cloud resources already provisioned. This documentation is in a constant sync with the reality.
+* Structure the review and approval process of the cloud infrastructure.
+* Encourage adoption of best practices as they are implemented natively.
+* Having a system that easily integrates with enterprise workload.
+* Be able to predict cloud infrastructure deployment in terms of costs and configuration.
 
 ### Brainboard & Terraform
 
-Among the plethora of tools in the infrastructure as code (laC) ecosystem, Terraform is the most used language in the infrastructure as code (IaC) space. You can describe (in a specific language called HCL) how you want your infrastructure to be, then Terraform will provision/update your infrastructure to match what you want.
+Among the plethora of tools in the infrastructure as code (laC) ecosystem, Terraform is the most used language in the space, where you only describe how you want your infrastructure to be. Then Terraform will provision/update your infrastructure to match the desired state.
 
-Engineers use vanilla Terraform to build their infrastructures, This requires them manually writing the code, testing it, linting it, documenting it, and once approved, they deploy it. When they need to replicate the same stack, they either copy/paste and manually change variables or use some open-source scripts to help them do that.
+Engineers use vanilla Terraform to build their infrastructures, this is a manual process to write every line of code, test it, lint it, document it, and once approved, deploy it.
 
-Brainboard, on the other hand, removes the hassle of doing everything manually, saves time and reduces error.
+When they need to replicate the same stack, they either copy/paste and manually change variables or use scripts to help them do that.
 
-It is a complete ecosystem to manage cloud infrastructures from end-to-end. It uses Terraform as an execution layer, and offers engineers a solution to build and manage production-grade cloud infrastructures without manually writing the code and gluing different tools together to deploy it.
+Brainboard, on the other hand, removes the hassle of doing everything manually, saves time and reduces error by leveraging automation and AI.
 
-### Why Brainboard?
-
-* **Migrate into IaC & Terraform** with the least learning curve, best practices and Brainboard team helping you build confidence.
-* **Standardize** the way you build and maintain your cloud infrastructures.
-* **Document** in real time and track all changes with the native versioning of Brainboard.
-* **Multi-cloud** by design.
-* **Build trust in your process** by bringing clarity, documentation and visibility on how the infrastructure is built and managed.
-* **Best practices**: Brainboard integrates Terraform & IaC best practices by design so you don’t have to.
-* **Integrated CI/CD engine** where you can build pipelines and trigger them to analyze the infrastructure before introducing any change.
-* **Stay DRY**: don't repeat yourself, build templates for your infrastructure that you and your colleagues can use off the shelf. This saves vast amounts of engineering time.
-* **Terraformize**: accelerate the move to IaC & Terraform. Brainboard can help import your existing infrastructure for you. Meaning, you don't have to write Terraform code. Brainboard will generate it for you.
-* **Git flow** by configuring your preferred repo in Brainboard, you "git push" your changes with one click.
-* **Control costs & security** by integrating your security checks and cost estimation into your workflow. This means you and your team control the impact of the changes.
-* **Time saving**: whether it’s when building cloud infrastructures, onboarding new hires or communicating with different teams, Brainboard saves you time and helps you stay organized.
+It uses Terraform as an execution layer, and offers engineers a solution to build and manage production-grade cloud infrastructures without manually writing every line of the code and gluing different tools together to deploy it.
 
 ### How Brainboard works
 
@@ -68,26 +58,22 @@ Brainboard is composed of different services that work together, in harmony, as 
 
 There are 2 main categories of services:
 
-1.  Synchronous services: that process the information of users, and return the value in real time.
+1.  **Synchronous services**: that process the information of users, and return the value in real time.
 
-    For example, generate the Terraform code when the user designs the infrastructure.
-2.  Asynchronous actions: users request actions to be done, and once completed, Brainboard informs the users.
+    For example, generating the Terraform code as the user designs the infrastructure.
+2.  **Asynchronous actions**: users request actions to be done, and once completed, Brainboard informs them.
 
-    For example, triggering an import from a cloud provider is an async action, where Brainboard connects to the target cloud provider, lists the resource then builds both the design and the Terraform code. Then Brainboard simply informs the user via an email.
-
-Furthermore, the frontend part of Brainboard uses CDNs to reduce latency for users, while the backend is located in key regions of the USA and Europe.
-
-* In the single-tenant offering, customers can choose where the installation of Brainboard will be.
+    For example, triggering an import from a cloud provider. Brainboard connects to the target cloud provider, lists the resources, then builds the design, the Terraform code and the Terraform state file. Once the import is done, the user is informed via email.
 
 ### Get in touch
 
-We want to hear your feedback, tell us the features you want or ask us any question:
+We want to hear your feedback, listen to your feature requests, and answer your questions. Here is how you can reach out to us:
 
-* Contact us at: contact@brainboard.co
+* By email: contact@brainboard.co
 * Join our Slack [here](https://brainboard-community.slack.com/join/shared\_invite/zt-eo44d2fr-a5h0oNodNhHvK3hOuCQKSQ#/)
 * Follow our YouTube channel [here](https://www.youtube.com/channel/UCB0DLhFEgta83U62mQzxGPg)
 * Product roadmap [here](https://roadmap.brainboard.co/roadmap)
 
 ### What's next
 
-Want to try Brainboard for yourself? Sign up [here](http://app.brainboard.co/register) to explore, or reach out to our team of cloud architects, who will be happy to help you get started or even build your architecture with you.
+Sign up [here](http://app.brainboard.co/register) to explore the platform, or reach out to our cloud architects team, who will be happy to help you get started and help you build your first use cases.
