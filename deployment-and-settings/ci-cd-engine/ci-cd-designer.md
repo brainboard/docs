@@ -26,7 +26,7 @@ Task, is an individual action that you want to run to do a specific job. E.g. Te
 
 Tasks can be created from the list of available plugins. Refer to the sections below to learn how to create tasks.
 
-Refer to the [supported plugins](supported-plugins.md) page to see the options for each kind of task and how to configure it.
+Refer to the [supported plugins](supported-plugins/) page to see the options for each kind of task and how to configure it.
 
 #### Task approval
 

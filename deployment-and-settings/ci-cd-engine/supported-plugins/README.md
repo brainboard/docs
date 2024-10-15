@@ -10,7 +10,7 @@ These plugins are maintained and updated by Brainboard team, giving you always t
 
 This plugin allows you to execute `Terraform` actions on your code.
 
-![Terraform plugin](../../.gitbook/assets/terraform-plugin.png)
+![Terraform plugin](../../../.gitbook/assets/terraform-plugin.png)
 
 **Configuration options**
 
@@ -29,7 +29,7 @@ This plugin allows you to execute `Terraform` actions on your code.
 
 **Sample output**
 
-![Terraform output](../../.gitbook/assets/terraform-output.png)
+![Terraform output](../../../.gitbook/assets/terraform-output.png)
 
 ### Security
 
@@ -42,7 +42,7 @@ This plugin allows you to scan the Terraform code with `tfsec` and provide outpu
 * [Home page](https://aquasecurity.github.io/tfsec).
 * [Source code on GitHub](https://github.com/aquasecurity/tfsec).
 
-![TFSEC plugin](../../.gitbook/assets/tfsec-plugin.png)
+![TFSEC plugin](../../../.gitbook/assets/tfsec-plugin.png)
 
 **Configuration options**
 
@@ -58,7 +58,7 @@ This plugin allows you to scan the Terraform code with `tfsec` and provide outpu
 
 **Sample output**
 
-![TFSEC output](../../.gitbook/assets/tfsec-output.png)
+![TFSEC output](../../../.gitbook/assets/tfsec-output.png)
 
 #### 2. Terrascan
 
@@ -71,7 +71,7 @@ It provides 500+ out-of-the-box policies so that you can scan IaC against common
 * [Home page](https://runterrascan.io/).
 * [Source code on Github](https://github.com/tenable/terrascan).
 
-![Terrascan plugin](../../.gitbook/assets/terrascan-plugin.png)
+![Terrascan plugin](../../../.gitbook/assets/terrascan-plugin.png)
 
 **Configuration options**
 
@@ -85,7 +85,7 @@ It provides 500+ out-of-the-box policies so that you can scan IaC against common
 
 **Sample output**
 
-![Terrascan output](../../.gitbook/assets/terrascan-output.png)
+![Terrascan output](../../../.gitbook/assets/terrascan-output.png)
 
 ### Cost estimation
 
@@ -96,7 +96,7 @@ This plugin allows you to have a cost estimation for your infrastructure from yo
 * [Home page](https://www.infracost.io/).
 * [Source code on Github](https://github.com/infracost/infracost).
 
-![Infracost plugin](../../.gitbook/assets/infracost-plugin.png)
+![Infracost plugin](../../../.gitbook/assets/infracost-plugin.png)
 
 **Configuration options**
 
@@ -114,7 +114,7 @@ This plugin allows you to have a cost estimation for your infrastructure from yo
 
 **Sample output**
 
-![Infracost output](../../.gitbook/assets/infracost-output.png)
+![Infracost output](../../../.gitbook/assets/infracost-output.png)
 
 ### Policy as code
 
@@ -127,7 +127,7 @@ This plugin allows you to check your Terraform code against security policies th
 * [Home page](https://www.openpolicyagent.org/).
 * [Source code on Github](https://github.com/open-policy-agent/opa).
 
-![OPA plugin](../../.gitbook/assets/opa-plugin.png)
+![OPA plugin](../../../.gitbook/assets/opa-plugin.png)
 
 **Configuration options**
 
@@ -147,7 +147,7 @@ This plugin allows you to scan you Terraform code to find misconfigurations befo
 * [Home page](https://www.checkov.io/).
 * [Source code on Github](https://github.com/bridgecrewio/checkov).
 
-![Checkov plugin](../../.gitbook/assets/checkov-plugin.png)
+![Checkov plugin](../../../.gitbook/assets/checkov-plugin.png)
 
 **Configuration options**
 
@@ -170,7 +170,7 @@ This plugin allows you to send an email to multiple emails.
 
 This is Brainboard plugin.
 
-![Email plugin](../../.gitbook/assets/email-plugin.png)
+![Email plugin](../../../.gitbook/assets/email-plugin.png)
 
 **Configuration options**
 
@@ -183,7 +183,7 @@ This is Brainboard plugin.
 
 This plugin allows you to send a notification to your Slack channel.
 
-![Slack plugin](../../.gitbook/assets/slack-plugin.png)
+![Slack plugin](../../../.gitbook/assets/slack-plugin.png)
 
 **Configuration options**
 
@@ -196,7 +196,7 @@ This plugin allows you to send a notification to your Slack channel.
 
 This plugin allows you to send a notification to your MS Teams channel.
 
-![Slack plugin](../../.gitbook/assets/teams-plugin.png)
+![Slack plugin](../../../.gitbook/assets/teams-plugin.png)
 
 **Configuration options**
 
@@ -218,7 +218,7 @@ This plugin allows you to communicate with an external system that is accessible
 
 This is Brainboard plugin.
 
-![Webhook plugin](../../.gitbook/assets/webhook-plugin.png)
+![Webhook plugin](../../../.gitbook/assets/webhook-plugin.png)
 
 **Configuration options**
 

@@ -4,12 +4,40 @@
 
 First, you need to have Docker installed on your server. If not already installed, please follow instructions from [this page](https://docs.docker.com/engine/install/).
 
-After installing Docker, you need to download the following files in a directory:
+After installing Docker, you need the following files in a directory:
 
-* [docker-compose.yml](https://gitlab.com/brainboard/brainboard/-/blob/main/runner-assets/docker-compose.yaml)
-* [runner-config.yml](https://gitlab.com/brainboard/brainboard/-/blob/main/runner-assets/runner-config.yaml)
+{% code title="docker-compose.yml" fullWidth="false" %}
+```yaml
+version: '3'
 
+services:
+  runner:
+    image: ghcr.io/brainboard/runner:latest
+    restart: unless-stopped
+    command: /brainboard-runner run
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - "./runner-config.yaml:/etc/brainboard-runner/config.yaml:ro"
+```
+{% endcode %}
 
+{% code title="runner-config.yaml" fullWidth="false" %}
+```
+level: warn
+
+runner:
+  concurrency: 4
+  name: "self-hosted runner"
+  token: "your-runner-token"
+
+api:
+  endpoint: "https://api.us1.brainboard.co"
+
+docker:
+  registry: "ghcr.io/brainboard/plugins"
+  ecr_auth: false
+```
+{% endcode %}
 
 ### Configuration
 
@@ -36,7 +64,7 @@ docker compose up -d
 
 #### Register runner with your organization
 
-Once the runner is started, you will need to register it with your organization. To do so, open a terminal inside the runner container (see below) and run the following command:
+Once the runner is started, you will need to register it with your organization. To do so, open a terminal inside the runner container ([see below](runner-docker-compose.md#usage)) and run the following command:
 
 ```bash
 /brainboard-runner register

@@ -1,4 +1,8 @@
-# Deploy runner with kubernetes
+# Deploy runner with Kubernetes
+
+{% hint style="warning" %}
+Feature Availability Self-Hosted Runner is available for Enterprise Plan only.
+{% endhint %}
 
 ### Pre-requisites
 
@@ -8,12 +12,20 @@
 
 Brainboard provides a Helm chart to deploy the runner in your existing Kubernetes cluster.
 
-The Helm chart is available in [our public chart repository](https://brainboard.github.io/helm-charts/).
+{% hint style="info" %}
+Please contact the support to get your customer token (`CUSTOMER_TOKEN`) to access to the charts
+{% endhint %}
 
-You will need to add the Brainboard chart repository in order to install the chart:
+```shell
+helm repo add brainboard https://raw.githubusercontent.com/brainboard/helm-charts/gh-pages --username brainboard --password $CUSTOMER_TOKEN
+helm repo update
+```
+
+To see the charts values and documentation you can use the following commands:
 
 ```bash
-helm repo add brainboard https://brainboard.github.io/helm-charts/
+helm show values brainboard/brainboard-runner
+helm show readme brainboard/brainboard-runner
 ```
 
 ### Installation
@@ -26,17 +38,17 @@ You can install the runner with the following command:
 helm install runner brainboard/brainboard-runner --set config.credentials.token="your-runner-token"
 ```
 
-You can view all available configuration options in the chart [github repository](https://github.com/brainboard/helm-charts/tree/main/charts/brainboard-runner)
+You can view all available configuration options using the commands above.
 
 #### Register runner with your organization
 
-Once your runner is started, you will need to register it with your organization. To do so, open a terminal inside the runner container (see below) and run the following command:
+Once your runner is started, you will need to register it with your organization. To do so, open a terminal inside the runner container ([see below](runner-kubernetes.md#usage)) and run the following command:
 
 ```bash
 /brainboard-runner register
 ```
 
-This operation only needs to be done once, when the runner is started for the first time.
+This operation only has to be done once, when the runner is started for the first time.
 
 ### Usage
 
