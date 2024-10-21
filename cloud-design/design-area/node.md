@@ -22,19 +22,31 @@ When you drag and drop a node from the left bar and add it to the design area, y
 
     <figure><img src="../../.gitbook/assets/CleanShot 2024-09-24 at 15.21.33.png" alt=""><figcaption><p>Data icon only</p></figcaption></figure>
 4. **Container:** This node is supposed to contain other resources and pass some of its cloud or graphical configurations to its children.
-   1.  Azure example: When you add an AKS cluster into the resource group, it automatically inherits the `resource_group_name` from the RG
+   1.  **Azure example:** When you add an AKS cluster into the resource group, it automatically inherits the `resource_group_name` from the RG
 
 
 
        <figure><img src="../../.gitbook/assets/azure_inheritance.png" alt=""><figcaption></figcaption></figure>
-   2.  AWS example: When you add an internet gateway to the VPC, it inherits the `vpc_id` automatically from the VPC.
+   2.  **AWS example:** When you add an internet gateway to the VPC, it inherits the `vpc_id` automatically from the VPC.
 
 
 
        <figure><img src="../../.gitbook/assets/aws_inheritance.png" alt=""><figcaption></figcaption></figure>
-   3.  GCP example: When you add compute firewall into a compute network, it inherits its `network` automatically
+   3.  **GCP example:** When you add compute firewall into a compute network, it inherits its `network` automatically
 
        <figure><img src="../../.gitbook/assets/gcp_inheritance.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+**Brainboard group:**
+
+* This is a special container of resources that has a title and icon that you can customize.
+* It supports nested containers.
+
+<img src="../../.gitbook/assets/brainboard_group.png" alt="" data-size="original">
+{% endhint %}
+
+
+
 5. **Module:** This node represents a Terraform module for which Brainboard generates a `module` block.
    1.  By default, when you can a module, it is represented by a simple node containing the icon of the provider of the resources
 
