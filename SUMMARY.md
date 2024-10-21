@@ -81,7 +81,7 @@
     * [Invite members](deployment-and-settings/settings/account-billing/invite-members.md)
     * [Login into Brainboard](deployment-and-settings/settings/account-billing/login.md)
     * [Organization](deployment-and-settings/settings/account-billing/organization.md)
-    * [Single Sign On](deployment-and-settings/settings/account-billing/sso.md)
+    * [Single sign-on (SSO)](deployment-and-settings/settings/account-billing/sso.md)
     * [Teams management](deployment-and-settings/settings/account-billing/teams.md)
   * [RBAC Roles & Permissions](deployment-and-settings/settings/rbac/README.md)
     * [Level of access](deployment-and-settings/settings/rbac/levels.md)
