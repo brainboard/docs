@@ -49,7 +49,7 @@ Brainboard uses the backend as a store for undo and redo actions, which means, e
     1. You can share the JSON file with someone else or restore it in a different organization, it will create the architecture exactly as it is with its Terraform code, variables, output and ReadMe file.
 13. Download the diagram: This button allows you to download a picture of the architecture in multiple formats: PNG, SVG or PDF. You can also include the background grid in the download or set a transparent background.
 
-    <figure><img src="../../.gitbook/assets/download-diagram-modal.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/brainboard_download_diagram.png" alt=""><figcaption></figcaption></figure>
 14. Create a new version of your architecture. Refer to the [versioning page](versioning.md#create-a-version) for more details about how to create a new version.
 15. Show architecture versions. Refer to the [versioning page](versioning.md#list-versions) for more details about how to list versions and how to restore a specific one.
 16. Readme: This button allows you to open the README of the architecture, where you can update its content.
