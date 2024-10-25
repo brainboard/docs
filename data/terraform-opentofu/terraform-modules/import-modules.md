@@ -40,7 +40,7 @@ Below we will see how to import modules in Brainboard.
 
     You can specify as service _GitHub_, _Azure DevOps_, _Bitbucket_ or _GitLab_.
 
-    Refer to [Git Configurations](../../../deployment-and-settings/settings/git-configuration/personal-git-tokens.md) to know more about git configuration.
+    Refer to [Git Configurations](../../../settings/git-configuration/personal-git-tokens.md) to know more about git configuration.
 
     * **From files:** You can also create your own modules using Terraform code and store them as local files and then import them in Brainboard.
 

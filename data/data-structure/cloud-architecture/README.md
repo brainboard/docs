@@ -213,8 +213,8 @@ Deleting an architecture, environment or project cannot be undone
 
 To deploy your architecture, you have 2 options:
 
-1. Either, use `one-action` to trigger Terraform `apply`. Refer to the[ one-action](../../../deployment-and-settings/ci-cd-engine/one-action.md) documentation for more details.
-2. Or, build pipelines with Brainboard CI/CD engine and trigger it. Refer to the[ CI/CD engine](../../../deployment-and-settings/ci-cd-engine/) documentation for detailed steps.
+1. Either, use `one-action` to trigger Terraform `apply`. Refer to the[ one-action](broken-reference) documentation for more details.
+2. Or, build pipelines with Brainboard CI/CD engine and trigger it. Refer to the[ CI/CD engine](broken-reference) documentation for detailed steps.
 
 ### Best practices
 

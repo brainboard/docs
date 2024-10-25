@@ -2,12 +2,12 @@
 
 ### Definition
 
-A project is a container of environments and architectures on which teams have specific permissions.
+A project is a container of environments and architectures to which teams have access with specific permissions.
 
 Think of a project as the upper level folder.
 
 {% hint style="info" %}
-&#x20;By default, members don't have direct permissions on projects
+&#x20;By default, members don't have direct permissions on projects until the admin grants them access to.
 {% endhint %}
 
 ### Create a new project
@@ -75,11 +75,9 @@ To delete a project:
 
 ### Project roles
 
-Different roles can be granted to teams for the project.
+Granting access to a team or members, gives them access to the environments and architectures hosted inside the project.
 
-Granting access to a team, give them also access to the environments and architectures hosted inside the project.
-
-There are 4 default roles:
+Different roles can be granted to teams for the project, and you can create custom roles with custom permissions, but Brainboard comes with 4 default roles out of the box:
 
 #### 1. Admin
 
@@ -97,26 +95,16 @@ The members of a team having the operator role can manage the deployments only, 
 
 The members of a guest team can only view the project, its architectures, and deployments. They cannot change anything.
 
-### Project IAM reference
+### Check permissions
 
-| Object                  | Action              | Project admin | Project designer | Project operator | Project guest |
-| ----------------------- | ------------------- | ------------- | ---------------- | ---------------- | ------------- |
-| Project                 | get                 | yes           | yes              | yes              | yes           |
-| Project                 | update              | yes           | no               | no               | no            |
-| Project                 | delete              | yes           | no               | no               | no            |
-| Environment             | create              | yes           | yes              | no               | no            |
-| Environment             | update              | yes           | yes              | no               | no            |
-| Environment             | delete              | yes           | yes              | no               | no            |
-| Architecture            | create              | yes           | yes              | no               | no            |
-| Architecture            | list                | yes           | yes              | yes              | yes           |
-| Architecture            | get                 | yes           | yes              | yes              | yes           |
-| Architecture            | update              | yes           | yes              | no               | no            |
-| Architecture            | clone               | yes           | yes              | no               | no            |
-| Architecture            | delete              | yes           | yes              | no               | no            |
-| Architecture:version    | create              | yes           | yes              | no               | no            |
-| Architecture:version    | checkout            | yes           | yes              | no               | no            |
-| Architecture:deployment | create              | yes           | yes              | yes              | no            |
-| Architecture:deployment | get                 | yes           | yes              | yes              | yes           |
-| Architecture:deployment | update              | yes           | yes              | yes              | no            |
-| Architecture:deployment | delete              | yes           | yes              | yes              | no            |
-| Architecture:deployment | View Terraform code | yes           | yes              | yes              | no            |
+To check the permissions a specific team has on a project:
+
+1. Go to [Roles page](https://app.brainboard.co/settings/roles)
+2. Click on project view
+3. Click on the role name.
+
+<figure><img src="../../.gitbook/assets/CleanShot 2024-10-25 at 16.41.23.png" alt=""><figcaption></figcaption></figure>
+
+This will display the permissions' table:
+
+<figure><img src="../../.gitbook/assets/CleanShot 2024-10-25 at 16.42.05.png" alt=""><figcaption></figcaption></figure>

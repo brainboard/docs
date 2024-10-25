@@ -10,7 +10,7 @@ Here are the definitions for Brainboard terms.
 
 An `account` in Brainboard refers to a user's profile that stores their personal information, role, and access to various features or services supported by Brainboard.
 
-Refer to the [Account Management](../deployment-and-settings/settings/account-billing/account.md) to know more about it.
+Refer to the [Account Management](../settings/account.md) to know more about it.
 
 ### Apply
 

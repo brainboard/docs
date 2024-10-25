@@ -94,7 +94,7 @@ Brainboard allows you to build your pipelines with its innovative and powerful C
 
 Brainboard maintains these tools for you, so you don't worry about upgrading them automatically or troubleshooting when things go wrong.
 
-Refer to the [supported plugins](../deployment-and-settings/ci-cd-engine/supported-plugins/) page for more details.
+Refer to the [supported plugins](broken-reference) page for more details.
 
 ### Can I create templates for my cloud infrastructures?
 
