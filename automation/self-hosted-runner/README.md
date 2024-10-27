@@ -46,4 +46,5 @@ On this page, you can create a new runner token or revoke an existing one.
 
 You can deploy the self-hosted runner in your environment using two methods:
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Deploy runner with Kubernetes [recommended]</td><td></td><td></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td>Deploy runner with docker-compose [deprecated]</td><td></td><td></td><td><a href="broken-reference">Broken link</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Deploy runner with Kubernetes [recommended]</td><td></td><td></td><td><a href="runner-kubernetes.md">runner-kubernetes.md</a></td><td><a href="../../.gitbook/assets/Kubernetes-Logo-2048x1152.png">Kubernetes-Logo-2048x1152.png</a></td></tr><tr><td>Deploy runner with docker-compose [deprecated]</td><td></td><td></td><td><a href="runner-docker-compose.md">runner-docker-compose.md</a></td><td><a href="../../.gitbook/assets/docker-compose.jpg">docker-compose.jpg</a></td></tr></tbody></table>
+
