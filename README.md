@@ -3,6 +3,22 @@ icon: hand-wave
 description: >-
   Brainboard is an end-to-end solution to visually build & manage cloud
   infrastructures, collaboratively.
+cover: .gitbook/assets/Brainboard Onboarding Training.webp
+coverY: 16.86990291262136
+layout:
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Welcome
@@ -70,7 +86,7 @@ There are 2 main categories of services:
 We want to hear your feedback, listen to your feature requests, and answer your questions. Here is how you can reach out to us:
 
 * By email: contact@brainboard.co
-* Join our Slack [here](https://brainboard-community.slack.com/join/shared\_invite/zt-eo44d2fr-a5h0oNodNhHvK3hOuCQKSQ#/)
+* Join our Slack [here](https://brainboard-community.slack.com/join/shared_invite/zt-eo44d2fr-a5h0oNodNhHvK3hOuCQKSQ#/)
 * Follow our YouTube channel [here](https://www.youtube.com/channel/UCB0DLhFEgta83U62mQzxGPg)
 * Product roadmap [here](https://roadmap.brainboard.co/roadmap)
 
