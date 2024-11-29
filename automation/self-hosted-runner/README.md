@@ -4,8 +4,8 @@ icon: house-lock
 
 # Self-Hosted Runner
 
-{% hint style="warning" %}
-Feature Availability Self-Hosted Runner is available for Enterprise Plan only.
+{% hint style="info" %}
+This feature is available in the Enterprise Plan only.
 {% endhint %}
 
 ### Overview

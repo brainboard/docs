@@ -23,16 +23,16 @@ layout:
 
 # Welcome
 
-### What is Brainboard
+### What is about?
 
-Brainboard is an end-to-end solution to visually design and manage your cloud infrastructures, collaboratively.
+Brainboard is a solution that helps you:
 
-It helps you:
-
+* Build your cloud infrastructure design with Terraform/OpenTofu resources.
+  * Automatically generate the Terraform code.
 * Centralize your cloud infrastructure and have a unique source of truth.
-* Standardize your process to build cloud infrastructures.
+* Standardize your IaC process.
 * Lower the learning curve for Terraform and the cloud.
-* Onboard new engineers easily.
+* Easily onboard new engineers and safely offboard those leaving.
 * Create a self-serve model within your organization, where your reference architectures are easily consumed by your teams.
 
 It is a collaborative and innovative solution that natively integrates IaC best practices, enforces security and has an embedded CI/CD engine out of the box.
@@ -85,8 +85,8 @@ There are 2 main categories of services:
 
 We want to hear your feedback, listen to your feature requests, and answer your questions. Here is how you can reach out to us:
 
+* In app: Click on the `Help` button in the top-right and select `Ask us anything`.
 * By email: contact@brainboard.co
-* Join our Slack [here](https://brainboard-community.slack.com/join/shared_invite/zt-eo44d2fr-a5h0oNodNhHvK3hOuCQKSQ#/)
 * Follow our YouTube channel [here](https://www.youtube.com/channel/UCB0DLhFEgta83U62mQzxGPg)
 * Product roadmap [here](https://roadmap.brainboard.co/roadmap)
 
