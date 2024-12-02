@@ -61,6 +61,7 @@
     * [Manage module](data/terraform-opentofu/terraform-modules/manage-modules.md)
     * [Terraform registry credentials](data/terraform-opentofu/terraform-modules/terraform-registry-credentials.md)
     * [Use modules](data/terraform-opentofu/terraform-modules/use-modules.md)
+* [Disaster recovery](data/disaster-recovery.md)
 
 ***
 
