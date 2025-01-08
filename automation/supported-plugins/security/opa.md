@@ -66,3 +66,17 @@ deny contains msg if {
 
 Decision: `brainboard/deny`
 
+#### Unrestricted ingress for AWS Security Group
+
+```rego
+package brainboard 
+
+deny contains msg if {
+  r := input.resource_changes[_]
+  r.change.after.ingress[_].cidr_blocks[_] == "0.0.0.0/0"
+  msg := sprintf("%v has 0.0.0.0/0 as allowed ingress", [r.address])
+}
+```
+
+Decision: `brainboard/deny`
+
