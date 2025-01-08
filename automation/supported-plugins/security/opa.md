@@ -49,16 +49,18 @@ deny contains msg if {
 
 Decision: `brainboard/deny`
 
-#### Mandatory tag
+#### Mandatory tags
 
 ```rego
 package brainboard
 
+required_tags := ["Environment", "Owner"]
+
 deny contains msg if {
 	r := input.resource_changes[_]
-	not r.change.after.tags.Environment
+	missing_tags := {tag | tag := required_tags[_]; not r.change.after.tags[tag]}
 
-	msg = sprintf("Resource is missing required tag Environment: %v", [r.address])
+	msg = sprintf("Resource is missing required tags: %v (%v)", [r.address, missing_tags[_]])
 }
 ```
 
