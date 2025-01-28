@@ -134,3 +134,7 @@
   * [Import from cloud provider](help-and-faq/migration/cloud-provider-import.md)
 * [Support](help-and-faq/support.md)
 * [Glossary](help-and-faq/glossary.md)
+
+***
+
+* [Changelog](changelog.md)
