@@ -1,5 +1,5 @@
 ---
-icon: display-chart-up
+icon: clock-rotate-left
 layout:
   title:
     visible: true
