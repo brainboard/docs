@@ -6,14 +6,40 @@ layout:
   description:
     visible: false
   tableOfContents:
-    visible: false
+    visible: true
   outline:
-    visible: false
+    visible: true
   pagination:
     visible: false
 ---
 
 # Changelog
+
+### 2025.01.6 - Jan 29, 2025
+
+#### Features and Improvements
+
+* Design area
+  *   Enhanced node inheritance, parenting, resize, and movement logic for more intuitive design interactions.\
+      Inheritance and parent <> child relation will be triggered when you resize a container over nodes/containers.\
+
+
+      <figure><img src=".gitbook/assets/Export-1738169874801.gif" alt=""><figcaption></figcaption></figure>
+* CI/CD Plugin
+  * Introduced a new architecture version plugin to streamline version management.
+* Identity Card & Terraform
+  * Added support for boolean and ternary expressions, improving logic handling in configurations.
+* API
+  * Added API base URL display and documentation link to personal access token settings for easier API integration.
+
+#### Bug Fixes
+
+* Git Configuration
+  * Re-fetch Git configuration when switching to another architecture within CI/CD workflow.
+* Project Selector / Architecture Selector
+  * Resolved crashes in the project selector, ensuring stability for users without assigned projects or architectures.
+
+***
 
 ### 2025.01.5 - Jan 23, 2025
 
