@@ -24,7 +24,7 @@ layout:
       Inheritance and parent <> child relation will be triggered when you resize a container over nodes/containers.\
 
 
-      <figure><img src=".gitbook/assets/Export-1738169874801.gif" alt=""><figcaption></figcaption></figure>
+      <figure><img src=".gitbook/assets/Resize.gif" alt=""><figcaption></figcaption></figure>
 * CI/CD Plugin
   * Introduced a new architecture version plugin to streamline version management.
 * Identity Card & Terraform
