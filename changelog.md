@@ -17,7 +17,7 @@ layout:
 
 ### 2025.01.6 - Jan 29, 2025
 
-#### Features and Improvements
+#### 🎉 Features and Improvements
 
 * Design area
   *   Enhanced node inheritance, parenting, resize, and movement logic for more intuitive design interactions.\
@@ -32,7 +32,7 @@ layout:
 * API
   * Added API base URL display and documentation link to personal access token settings for easier API integration.
 
-#### Bug Fixes
+#### ✅ Bug Fixes
 
 * Git Configuration
   * Re-fetch Git configuration when switching to another architecture within CI/CD workflow.
@@ -43,7 +43,7 @@ layout:
 
 ### 2025.01.5 - Jan 23, 2025
 
-#### Features and Improvements
+#### 🎉 Features and Improvements
 
 * Connectors
   * Introduced animation options for connector lines and circles, allowing for a more dynamic and visually appealing design experience.
@@ -52,7 +52,7 @@ layout:
 * Import from Files
   * Implemented error handling for duplicate Terraform blocks during import, providing clear feedback to users.
 
-#### Bug Fixes
+#### ✅ Bug Fixes
 
 * Readme
   * Enhanced the markdown editor with a switch between edit and preview modes, improving user experience when editing documents.
@@ -64,14 +64,14 @@ layout:
 
 ### 2025.01.4 - Jan 22, 2025
 
-#### Features and Improvements
+#### 🎉 Features and Improvements
 
 * Synced architectures
   * Created architecture revisions for all synced architectures, ensuring up-to-date versions.
 * CI/CD
   * Added a scrollbar to the CI/CD workflow view in pipeline details for improved navigation.
 
-#### Bug Fixes
+#### ✅ Bug Fixes
 
 * Architecture selector
   * Fixed an issue where the architecture list remained empty when the last search did not match any record, ensuring accurate search results.
@@ -83,12 +83,12 @@ layout:
 
 ### 2025.01.3 - Jan 16, 2025
 
-#### Features and Improvements
+#### 🎉 Features and Improvements
 
 * Plugins
   * Introduced environment variable support for the Wiz plugin, enhancing configuration flexibility.
 
-#### Bug Fixes
+#### ✅ Bug Fixes
 
 * Import from Cloud Provider
   * Corrected the error message when attempting to create an import with an existing name, ensuring clarity for users.
@@ -99,7 +99,7 @@ layout:
 
 ### 2025.01.2 - Jan 16, 2025
 
-#### Features and Improvements
+#### 🎉 Features and Improvements
 
 * Design Area / Diagram
   * Revamped the Design Area Options Bar for a more intuitive user experience.
@@ -108,7 +108,7 @@ layout:
 * Import from Cloud
   * Added support for fetching Azure nested cloud resources by CloudID and Terraform Type like NSG subnet association (`azurerm_subnet_network_security_group_association` )
 
-#### Bug Fixes
+#### ✅ Bug Fixes
 
 * Leftbar
   * Fixed broken shapes, logos, and icons when searching, improving the user interface for all users.
@@ -121,7 +121,7 @@ layout:
 
 ### 2025.01.1 - Jan 07, 2025
 
-#### Features and Improvements
+#### 🎉 Features and Improvements
 
 * Code Edition (Bidirectional) & Connector
   * Enabled bidirectional parsing and management of connectors for better integration and functionality.
