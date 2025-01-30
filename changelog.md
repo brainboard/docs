@@ -15,6 +15,23 @@ layout:
 
 # Changelog
 
+### 2025.01.7 - Jan 30, 2025
+
+#### Features and Improvements
+
+* Import files/git/modules
+  * Added custom error messages for module variable parsing failures, enhancing error clarity and debugging.
+* CICD: Architecture Version Plugin
+  * Added success and error messages, improving user feedback and error handling.
+
+#### Bug Fixes
+
+* Git Configuration
+  * Fixed handling of excluded files in Git pull requests within CI/CD jobs, ensuring correct file management.
+  * Simplified Git settings submission logic, removing redundant functions for a cleaner user experience.
+
+***
+
 ### 2025.01.6 - Jan 29, 2025
 
 #### 🎉 Features and Improvements
