@@ -60,7 +60,8 @@ The following instructions are for Azure Entra ID, but please reach out to our s
 * Edit the `Attributes & Claims`
 * Add a `Group claims` with the following configuration:
   * Groups assigned to the application
-  * Source attribute: cloud-only group display names
+  * Source attribute: cloud-only group display names\
+    (or any option to share a friendly name to Brainboard — this attribute will be used for Teams' names)
 
 <figure><img src="../../.gitbook/assets/OVHtI7BllCiMMMgv.png" alt="" width="285"><figcaption><p>Azure Entra ID - Group claims</p></figcaption></figure>
 
