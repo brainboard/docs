@@ -15,6 +15,20 @@ layout:
 
 # Changelog
 
+### 2025.01.8 - Jan 31, 2025
+
+#### Features and Improvements
+
+* Leftbar
+  * Introduced the ability to expand and collapse the Leftbar and Terraform code panels via shortcuts `[` or `]`, enhancing user navigation and interface customization.
+
+#### Bug Fixes
+
+* Git Configuration
+  * Implemented pagination for listing Git repositories, ensuring efficient loading and management of large repository lists.
+
+***
+
 ### 2025.01.7 - Jan 30, 2025
 
 #### Features and Improvements
