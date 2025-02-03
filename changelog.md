@@ -15,14 +15,40 @@ layout:
 
 # Changelog
 
+
+
+### 2025.02.1 - Feb 03, 2025
+
+#### 🎉 Features and Improvements
+
+*   Leftbar - Custom icons\
+
+
+    * Introduced custom icon management, allowing users to add, edit, and delete icons for a personalized experience.
+
+    <figure><img src=".gitbook/assets/yvtxOOo0rXaAtvV4.png" alt=""><figcaption></figcaption></figure>
+*   Home Page \[Private access]
+
+    <figure><img src=".gitbook/assets/thWeVj7zP5skt5zm.png" alt=""><figcaption><p>New home page</p></figcaption></figure>
+
+    * Launched a new homepage with recent architectures, deployments, and activities
+    * Reach out to the support team to get access to it
+
+#### ✅ Bug Fixes
+
+* Git Configuration
+  * Resolved an issue where the incorrect version of a Terraform module was used during refresh, ensuring accurate module management.
+
+***
+
 ### 2025.01.8 - Jan 31, 2025
 
-#### Features and Improvements
+#### 🎉 Features and Improvements
 
 * Leftbar
   * Introduced the ability to expand and collapse the Leftbar and Terraform code panels via shortcuts `[` or `]`, enhancing user navigation and interface customization.
 
-#### Bug Fixes
+#### ✅ Bug Fixes
 
 * Git Configuration
   * Implemented pagination for listing Git repositories, ensuring efficient loading and management of large repository lists.
@@ -31,14 +57,14 @@ layout:
 
 ### 2025.01.7 - Jan 30, 2025
 
-#### Features and Improvements
+#### 🎉 Features and Improvements
 
 * Import files/git/modules
   * Added custom error messages for module variable parsing failures, enhancing error clarity and debugging.
 * CICD: Architecture Version Plugin
   * Added success and error messages, improving user feedback and error handling.
 
-#### Bug Fixes
+#### ✅ Bug Fixes
 
 * Git Configuration
   * Fixed handling of excluded files in Git pull requests within CI/CD jobs, ensuring correct file management.
