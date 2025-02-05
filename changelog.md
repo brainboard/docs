@@ -17,6 +17,21 @@ layout:
 
 
 
+### 2025.02.2 - Feb 05, 2025
+
+#### ✅ Bug Fixes
+
+* Import from Git&#x20;
+  * Enhanced import functionality by using registry credentials for module imports
+  * Improved error message to provide all details
+* Git Configuration / Pull request
+  * Updated GitLab integration to ensure repositories appear in PR searches, enhancing Git settings management.
+  * Improved UI and modal handling in Git settings and pull request components, fixing layout issues.
+* Design Area
+  * Resolved issue where node selection was cleared when a text node was open, ensuring consistent selection behavior.
+
+***
+
 ### 2025.02.1 - Feb 03, 2025
 
 #### 🎉 Features and Improvements
