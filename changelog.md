@@ -17,6 +17,22 @@ layout:
 
 
 
+### 2025.02.3 - Feb 07, 2025
+
+#### ✅ Bug Fixes
+
+* Import from cloud providers
+  * Fixed the final import modal UI, improving error display and overall layout for a smoother user interaction.
+* Git Configuration
+  * Use user's input for the 'Source branch prefix' configuration
+* Variables
+  * Put back the 'Return to design area' for the few users that have access to the private alpha of Home page
+
+\
+
+
+***
+
 ### 2025.02.2 - Feb 05, 2025
 
 #### ✅ Bug Fixes
