@@ -19,6 +19,8 @@ layout:
 
 #### ✅ Bug Fixes
 
+* Architecture creation
+  * Improved the summary view UX preventing the user to be softlocked selecting the project/environment where the architecture will be created.
 * Screenshot / Export architecture as diagram
   * Screenshot in PRs, manual export are both resolved and working again.
 * Node / Containers
