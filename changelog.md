@@ -15,7 +15,16 @@ layout:
 
 # Changelog
 
+### 2025.02.4 - Feb 11, 2025
 
+#### ✅ Bug Fixes
+
+* Screenshot / Export architecture as diagram
+  * Screenshot in PRs, manual export are both resolved and working again.
+* Node / Containers
+  * Improved node action handling by reverting nodes to previous positions on failure and displaying error notifications.
+
+***
 
 ### 2025.02.3 - Feb 07, 2025
 
