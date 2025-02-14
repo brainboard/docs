@@ -15,6 +15,24 @@ layout:
 
 # Changelog
 
+### 2025.02.9 - Feb 14, 2025
+
+#### 🎉 Features and Improvements
+
+* Pull Request
+  * Refactored the pull request user experience for a more intuitive workflow.
+
+#### ✅ Bug Fixes
+
+* Licensing
+  * Resolved licensing issues by removing outdated billing plan references, ensuring compliance and smoother user management.
+* Import from Files
+  * Corrected file upload validation to accurately handle invalid extensions, improving file import reliability.
+* Code edition
+  * Added support for GCP region parsing, enhancing the accuracy of resource metadata.
+
+***
+
 ### 2025.02.4 - Feb 11, 2025
 
 #### ✅ Bug Fixes
