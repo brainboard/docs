@@ -15,6 +15,55 @@ layout:
 
 # Changelog
 
+
+
+### 2025.02.11 - Feb 27, 2025
+
+#### 🎉 Features and Improvements
+
+* CI/CD - Plugin
+  * MS Teams URL validation to include new webhook URL format, ensuring more robust integrations.
+* Public API
+  * Added VersionArchitecture endpoint to the public API documentation for better version management.
+* New version notification
+  * Enhanced the "New version available" component for better update notifications.
+
+#### ✅ Bug Fixes
+
+* Architecture
+  * Prevented architecture creation if required fields are not filled, ensuring data integrity.
+* Design Area
+  * Fixed icons rendering issue on Firefox, ensuring a better diagram visualization on all supported browsers.
+* Home Page
+  * Added trial check in billing handler to correctly process trial subscriptions.
+* Node configuration / Identity Card
+  * Updated Identity Card component to show the cursor only on the drag handle, enhancing usability.
+
+***
+
+### 2025.02.10 - Feb 19, 2025
+
+#### 🎉 Features and Improvements
+
+* Design Area - Node
+  * Enhanced context menu (right-click) for better user interaction.
+  * Added state actions (import or delete from state) to the new contextual menu, enhancing Terraform state management and UI interactions.
+* Text Node
+  * Introduced Markdown support for text nodes, allowing for richer text formatting.
+
+#### ✅ Bug Fixes
+
+* Identity Card
+  * Maintains focus on the Identity card during search for a smoother user experience.
+* Design Area / Diagram
+  * Fixed the Terraform filename selector by adding search functionality and improving dropdown styles.
+* CICD Plugins
+  * Removed Microsoft Teams URL regex validation to support new webhook URL format.
+* Infrastructure Management
+  * Skipped decreasing license user count when removing a member with a pending invitation, ensuring accurate license management.
+
+***
+
 ### 2025.02.9 - Feb 14, 2025
 
 #### 🎉 Features and Improvements
