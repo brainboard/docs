@@ -17,6 +17,28 @@ layout:
 
 
 
+### 2025.03.1 - Mar 03, 2025
+
+#### 🎉 Features and Improvements
+
+* Global
+  * Introduced a new `Time` component for consistent date formatting across the platform.
+
+#### ✅ Bug Fixes
+
+* New architecture - Import from Cloud provider
+  * Updated import cloud provider flow to prevent INVALID\_BODY error message, improving the architecture creation process.
+* Home page - Recent deployments
+  * Added a 'warning' status to deployment status mappings for better status visibility.
+* Leftbar
+  * Fixed the visibility issue when adding or pinning a module, ensuring all modules are displayed correctly.
+* Settings - Projects
+  * Resolved the "View details" option in the project list to ensure dropdowns close correctly after selection.
+* Architecture Templates
+  * Fixed the sync architecture modal to ensure it updates correctly with project data changes.
+
+***
+
 ### 2025.02.11 - Feb 27, 2025
 
 #### 🎉 Features and Improvements
