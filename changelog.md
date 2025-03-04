@@ -15,7 +15,14 @@ layout:
 
 # Changelog
 
+### 2025.03.2 - Mar 04, 2025
 
+#### ✅ Bug Fixes
+
+* New Architecture
+  * Fixed issues with architecture creation by adding template selection and improving project/environment data handling.
+
+***
 
 ### 2025.03.1 - Mar 03, 2025
 
