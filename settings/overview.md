@@ -43,8 +43,8 @@ You can access Project settings pages from the home page through the left naviga
 
 You can access the Environment settings pages from the Project settings pages:
 
-1. Access the Project settings following the instruction above
-2. Click on the environment name from the horizontal listing
+1. Access the Project settings following the instructions above
+2. Click on an environment chip button from the environments list to access its specific settings
 
 <figure><img src="../.gitbook/assets/9vW5CC03EnDbKyFD.png" alt=""><figcaption><p>Access Environment settings page</p></figcaption></figure>
 
@@ -57,21 +57,41 @@ You can access the Environment settings pages from the Project settings pages:
 
 ### Hierarchical Settings Management
 
-#### Inheritance Chain
+#### Inheritance chain
 
 Settings follow a clear inheritance structure:
 
-1. **Organization Level**: The highest level, affects all projects, environments, and architectures.
+1. **Organization Level**: The highest level, affects all projects, environments, and architectures.\
+
+
+<figure><img src="../.gitbook/assets/Frame 15842.png" alt=""><figcaption></figcaption></figure>
+
 2. **Project Level**: Overrides organization settings for all environments and architectures within the project
+
+<figure><img src="../.gitbook/assets/Frame 15852.png" alt=""><figcaption></figcaption></figure>
+
 3. **Environment Level**: Overrides organization and project settings for all architectures within the environment
+
+<figure><img src="../.gitbook/assets/Frame 1586.png" alt=""><figcaption></figcaption></figure>
+
 4. **Architecture Level**: The most specific level, overrides all higher-level settings for a particular architecture
+
+<figure><img src="../.gitbook/assets/Frame 1587.png" alt=""><figcaption></figcaption></figure>
+
+
 
 #### Visual Indicators
 
 When viewing settings at any level, you'll see visual indicators showing:
 
 * When a setting is locked at higher level (with the source of the lock)<img src="../.gitbook/assets/MNBibjceepNHm2Wy.png" alt="" data-size="original">
+
+
+
 * When a setting is overridden at your level (the reset button shows that the value is set at this level)\
   <img src="../.gitbook/assets/5K12h7jcqJBJapJq.png" alt="" data-size="original">
+
+
+
 * When a setting is locked at your level preventing any lower levels update\
   <img src="../.gitbook/assets/El4jJlfq2AfQbZQG.png" alt="" data-size="original">
