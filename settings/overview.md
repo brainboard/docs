@@ -64,19 +64,19 @@ Settings follow a clear inheritance structure:
 1. **Organization Level**: The highest level, affects all projects, environments, and architectures.\
 
 
-<figure><img src="../.gitbook/assets/Frame 15842.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Frame 15842.png" alt=""><figcaption><p>Settings defined at organization level and not overridden at any lower level</p></figcaption></figure>
 
 2. **Project Level**: Overrides organization settings for all environments and architectures within the project
 
-<figure><img src="../.gitbook/assets/Frame 15852.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Frame 15852.png" alt=""><figcaption><p>Setting defined at organization level being overridden at a project level</p></figcaption></figure>
 
 3. **Environment Level**: Overrides organization and project settings for all architectures within the environment
 
-<figure><img src="../.gitbook/assets/Frame 1586.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Frame 1586.png" alt=""><figcaption><p>Setting defined at organization level being overridden at a project level and again at an environment level</p></figcaption></figure>
 
 4. **Architecture Level**: The most specific level, overrides all higher-level settings for a particular architecture
 
-<figure><img src="../.gitbook/assets/Frame 1587.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Frame 1587.png" alt=""><figcaption><p>Setting defined at organization level being overridden at a project level , then overridden again at an environment level <br>and finally at the architecture level</p></figcaption></figure>
 
 
 
