@@ -76,7 +76,7 @@ Settings follow a clear inheritance structure:
 
 4. **Architecture Level**: The most specific level, overrides all higher-level settings for a particular architecture
 
-<figure><img src="../.gitbook/assets/Frame 1587.png" alt=""><figcaption><p>Setting defined at organization level being overridden at a project level , then overridden again at an environment level <br>and finally at the architecture level</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Frame 1587.png" alt=""><figcaption><p>Setting defined at organization level being overridden at a project level , then overridden again at an environment level and finally at the architecture level</p></figcaption></figure>
 
 
 
