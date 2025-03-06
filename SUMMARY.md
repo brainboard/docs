@@ -102,6 +102,7 @@
 
 ## Settings
 
+* [Overview](settings/overview.md)
 * [Authentication](settings/account-billing/README.md)
   * [Login into Brainboard](settings/account-billing/login.md)
   * [Single sign-on (SSO)](settings/account-billing/sso.md)

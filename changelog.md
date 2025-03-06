@@ -15,6 +15,28 @@ layout:
 
 # Changelog
 
+### 2025.03.3 - Mar 06, 2025
+
+#### 🎉 Features and Improvements
+
+* Settings
+  *   New Settings engine with a hierarchical structure that follows this inheritance pattern:
+
+      **Organization → Project → Environment → Architecture**
+  * Documentation available here: [overview.md](settings/overview.md "mention")
+  * We will continue to migrate our settings (Remote backend, Git configuration, ...) to this new engine in the coming weeks.
+
+<figure><img src=".gitbook/assets/bT0Jy0CqYXSeCzgY.png" alt=""><figcaption><p>Organization Setting page</p></figcaption></figure>
+
+#### ✅ Bug Fixes
+
+* Architecture
+  * Fixed clone architecture functionality to support variable values of any type (including list/array).
+* One-action
+  * Introduced GraphQL subscription for real-time pipeline status updates, enhancing performance.
+
+***
+
 ### 2025.03.2 - Mar 04, 2025
 
 #### ✅ Bug Fixes
