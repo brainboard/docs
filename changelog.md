@@ -15,6 +15,29 @@ layout:
 
 # Changelog
 
+### 2025.03.4 - Mar 07, 2025
+
+#### 🎉 Features and Improvements
+
+* New version popup
+  * Enhanced the design of the new version banner for a more modern look.
+* Diagram Generation (Import)
+  * Fixed diagram node clustering to improve the accuracy of node placement and connections.
+* Settings
+  * Updated settings breadcrumbs to align with new identifiers for improved navigation.
+
+#### ✅ Bug Fixes
+
+* Project / Environment / Architecture
+  * Architectures are now automatically deleted when environments are removed, streamlining project management.
+* Git Configuration
+  * Resolved an issue where Git credentials were not loading preventing user to import from Git when they start from the home page, ensuring smoother access.
+* Settings
+  * Corrected the redirect link in settings documentation to point to the correct page.
+  * Fixed the minimum width of text fields in settings for better UI consistency.
+
+***
+
 ### 2025.03.3 - Mar 06, 2025
 
 #### 🎉 Features and Improvements
