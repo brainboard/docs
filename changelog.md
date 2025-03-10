@@ -15,6 +15,32 @@ layout:
 
 # Changelog
 
+### 2025.03.5 - Mar 10, 2025
+
+#### 🎉 Features and Improvements
+
+* Design Area / Diagram - Connectors
+  * Added offsets to container connector anchor points, improving the accuracy and visual alignment of connections.
+* New architecture - all imports
+  * Fixed the default style of diagrams created via import to maintain visual consistency.
+* Settings
+  * Unified the UI across all settings pages for a more consistent user experience.
+* Readme
+  * Automatically opens the README file in preview mode if it contains content, streamlining the review process.
+
+#### ✅ Bug Fixes
+
+* Git Configuration - Github
+  * Fixed the oauth2 route forgotten during settings refactoring, improving flexibility in Git configurations.
+* Authentication
+  * Corrected the logout functionality, ensuring users can log out without issues.
+* Home Page
+  * Added missing status badges for recent deployments, providing clearer status updates.
+* Design area
+  * Prevented code omissions in the node contextual menu for non-TF resources (icons or logos).
+
+***
+
 ### 2025.03.4 - Mar 07, 2025
 
 #### 🎉 Features and Improvements
