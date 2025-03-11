@@ -15,6 +15,27 @@ layout:
 
 # Changelog
 
+### 2025.03.6 - Mar 11, 2025
+
+#### 🎉 Features and Improvements
+
+* Design Area / Diagram
+  * Introduced dynamic visual indicators for node parentship changes during movement, enhancing the design experience.
+  * Adding text overflow for container titles, ensuring better readability
+* Global
+  * Improved text overflow handling, ensuring better display of long text.
+
+#### ✅ Bug Fixes
+
+* Connector
+  * Fixed the positioning of the Connector Options Bar to ensure it displays correctly relative to the selected connector part.
+* Node / Containers
+  * Prevented the display of container connector anchors when multiple nodes are selected, ensuring clarity in node selection.
+* Cloud connections
+  * Corrected the file type restrictions for Google and OCI credentials, ensuring users upload the correct file formats.
+
+***
+
 ### 2025.03.5 - Mar 10, 2025
 
 #### 🎉 Features and Improvements
