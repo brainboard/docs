@@ -15,6 +15,17 @@ layout:
 
 # Changelog
 
+### 2025.03.7 - Mar 12, 2025
+
+#### ✅ Bug Fixes
+
+* RBAC
+  * Fixed the issue where role status remained in a loading state when enabling or disabling multiple roles.
+* Containers
+  * Corrected the bug where resizing a container smaller did not remove its children, preventing duplicate children.
+
+***
+
 ### 2025.03.6 - Mar 11, 2025
 
 #### 🎉 Features and Improvements
