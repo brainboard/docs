@@ -15,6 +15,35 @@ layout:
 
 # Changelog
 
+### 2025.03.9 - Mar 20, 2025
+
+#### 🎉 Features and Improvements
+
+* Design Area / Diagram
+  * Enhanced visual feedback during node resizing for a smoother design experience.
+* Home Page - Architecture Templates
+  * Added homepage templates with new components and design adjustments for a more intuitive user experience.
+* Settings
+  * Refactored Terraform backend settings to use credentials, improving backend management.
+
+***
+
+### 2025.03.8 - Mar 13, 2025
+
+#### 🎉  Features and Improvements
+
+* Architecture Templates
+  * Introduced a new feature for creating architectures using templates, enhancing the setup process with updated components and configurations.
+
+#### ✅ Bug Fixes
+
+* Code edition
+  * Improved variable scope management during bidirectional imports, ensuring accurate scope handling and reducing unnecessary filtering.
+* Templates
+  * Fixed an issue where the modal would close unexpectedly when sorting, improving user interaction by preventing accidental closures.
+
+***
+
 ### 2025.03.7 - Mar 12, 2025
 
 #### ✅ Bug Fixes
