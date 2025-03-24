@@ -15,6 +15,23 @@ layout:
 
 # Changelog
 
+### 2025.03.10 - Mar 24, 2025
+
+#### 🎉 Features and Improvements
+
+* Workflow
+  * Introduced a cancel job functionality, allowing users to stop ongoing tasks with ease.
+
+#### ✅ Bug Fixes
+
+* Import from Cloud Provider
+  * Enhanced import parser to clean redundant connectors (connectors from a resource to a parent container), ensuring better diagram generation.
+  * Fixed issues with Azure certificate credential handling during cloud provider import, ensuring smoother integration for Azure users.
+* Infrastructure as Code
+  * Improved parsing by quoting block attribute keys that start with "--" ensuring better compatibility and error handling.
+
+***
+
 ### 2025.03.9 - Mar 20, 2025
 
 #### 🎉 Features and Improvements
