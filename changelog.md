@@ -15,6 +15,26 @@ layout:
 
 # Changelog
 
+### 2025.03.11 - Mar 31, 2025
+
+#### 🎉 Features and Improvements
+
+* SSO
+  * Enhanced user role assignment using claims for organization roles.
+
+#### ✅ Bug Fixes
+
+* Identity Card
+  * Enhanced input focus handling to prevent unexpected closures.
+  * Fixed input focus handling to prevent unexpected closures.
+* Variables/Locals/Output
+  * Improved handling of multi-line descriptions for local variables, ensuring correct formatting.
+  * Addressed variable suggestion issues, ensuring variables appear promptly in the list.
+* Diagram
+  * Only normalized resource names to lowercase for modules, improving consistency.
+
+***
+
 ### 2025.03.10 - Mar 24, 2025
 
 #### 🎉 Features and Improvements
