@@ -41,12 +41,7 @@ Do not forget to replace `{TENANT}` with your tenant shared by the team.
 
 Brainboard will configure automatically the following mappers (Azure Entra ID standard):
 
-| User attribute | Attribute Name                                                       |
-| -------------- | -------------------------------------------------------------------- |
-| email          | `http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress` |
-| firstname      | `http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname`    |
-| lastname       | `http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname`      |
-| groups         | (see below)                                                          |
+<table><thead><tr><th width="153.77734375">User attribute</th><th width="106.0234375">Required</th><th>Attribute Name</th></tr></thead><tbody><tr><td>email</td><td>Required</td><td><code>http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress</code></td></tr><tr><td>firstname</td><td>Required</td><td><code>http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname</code></td></tr><tr><td>lastname</td><td>Required</td><td><code>http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname</code></td></tr><tr><td>groups</td><td>Optional</td><td>(see below)</td></tr><tr><td>organization_role</td><td>Optional</td><td><code>organization_role</code></td></tr></tbody></table>
 
 #### 3. Automatic team provisioning and association from IDP Groups \[Optional]
 
