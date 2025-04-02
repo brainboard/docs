@@ -80,6 +80,7 @@
 * [Supported plugins](automation/supported-plugins/README.md)
   * [Terraform](automation/supported-plugins/terraform.md)
   * [Security](automation/supported-plugins/security/README.md)
+    * [Trivy](automation/supported-plugins/security/trivy.md)
     * [Tfsec](automation/supported-plugins/security/tfsec.md)
     * [Terrascan](automation/supported-plugins/security/terrascan.md)
     * [OPA](automation/supported-plugins/security/opa.md)
