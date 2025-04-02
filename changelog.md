@@ -15,6 +15,17 @@ layout:
 
 # Changelog
 
+### 2025.04.1 - Apr 02, 2025
+
+#### ✅ Bug Fixes
+
+* Pipelines - One Actions
+  * Send pipeline status update events when creating a pending pipeline, improving real-time notifications and switch to One-Action job's output.
+* Pull Request in CI/CD
+  * Added support for custom commit messages in pull requests, allowing for more personalized and descriptive commit histories.
+
+***
+
 ### 2025.03.11 - Mar 31, 2025
 
 #### 🎉 Features and Improvements
