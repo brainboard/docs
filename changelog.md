@@ -15,6 +15,22 @@ layout:
 
 # Changelog
 
+### 2025.04.2 - Apr 03, 2025
+
+#### 🎉 Features and Improvements
+
+* Homepage
+  * Added a 'Projects' tab to the homepage, allowing users to view and manage projects & architecture directly from the main interface.
+
+<figure><img src=".gitbook/assets/tyyZstmDpGFDAtcX.png" alt=""><figcaption><p>Homepage - Projects &#x26; Architectures</p></figcaption></figure>
+
+#### ✅ Bug Fixes
+
+* Connector
+  * Resolved issues with connector paths breaking when moving handlers, ensuring smoother and more reliable diagram adjustments.
+
+***
+
 ### 2025.04.1 - Apr 02, 2025
 
 #### ✅ Bug Fixes
