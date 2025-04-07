@@ -15,6 +15,19 @@ layout:
 
 # Changelog
 
+### 2025.04.4 - Apr 07, 2025
+
+#### ✅ Bug Fixes
+
+* Git Configuration
+  * Resolved issues in the migration command to ensure it correctly filters modules with valid credentials.
+* Identity Card
+  * Improved error notification behavior for ID card fetch failures, ensuring notifications are only shown when opening the ID card, reducing unnecessary alerts.
+* RBAC
+  * Fixed the default `Admin` role adding `get` and `list` permissions to `User credentials`, enhancing security and reliability.
+
+***
+
 ### 2025.04.3 - Apr 07, 2025
 
 #### 🎉 Features and Improvements
