@@ -15,6 +15,23 @@ layout:
 
 # Changelog
 
+### 2025.04.3 - Apr 07, 2025
+
+#### 🎉 Features and Improvements
+
+* Git Connections & Pull request configuration
+
+<figure><img src=".gitbook/assets/1r3i2FEbBRc584U0.png" alt=""><figcaption><p>Integrations > Git connections</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/FMdlaAIQbRHVdsDK.png" alt=""><figcaption><p>Architecture Settings > Pull request configuration</p></figcaption></figure>
+
+#### ✅ Bug Fixes
+
+* Identity Card
+  * Prevented the Identity Card from closing when the autocomplete is open, ensuring smoother user interactions.
+
+***
+
 ### 2025.04.2 - Apr 03, 2025
 
 #### 🎉 Features and Improvements
