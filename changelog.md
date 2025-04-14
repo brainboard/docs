@@ -15,7 +15,7 @@ layout:
 
 # Changelog
 
-### 2025.04.5 - Apr 14, 2025
+### 2025.04.6 - Apr 14, 2025
 
 #### ✅ Bug Fixes
 
