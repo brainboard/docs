@@ -4,6 +4,8 @@ icon: user-group
 
 # Members
 
+### Add members
+
 You can invite your colleagues, customers, auditors or external contributors to your Brainboard organization.
 
 To invite a new member:
@@ -11,7 +13,7 @@ To invite a new member:
 1. Go to [members page](https://app.brainboard.co/settings/members)
 2.  Click on the icon on the right&#x20;
 
-    <figure><img src="../.gitbook/assets/invite-member.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/CleanShot 2025-04-11 at 15.05.38@2x.png" alt=""><figcaption></figcaption></figure>
 3. Add the following information and click `invite`:
    * Email address.
    * The `organization` role that you want this user to have. There are `4 roles` available:
@@ -26,3 +28,33 @@ To invite a new member:
 {% hint style="danger" %}
 A member can belong to **one and only one** organization, so if the user you are trying to invite already has an account in Brainboard. This user should delete his/her organization following [this documentation](organization.md#delete-an-organization-close-your-account).
 {% endhint %}
+
+### Edit member's information
+
+To edit a user's information:
+
+1. Go to [members page](https://app.brainboard.co/settings/members).
+2. Click on the `Edit` option that appears when you click on the three dots button at the end of the row for a member.
+3. You can change the first name, last name, organization role or two-factor authentication status of the user.
+
+### Disable members
+
+You have the possibility to temporarily suspend a user, which means that the account still exists within your organization, but the user cannot access Brainboard until you enable it again.
+
+{% hint style="info" %}
+When you disable a user, you will not be billed for this user until you enable it again.
+{% endhint %}
+
+To suspend a member:
+
+1. Go to [members page](https://app.brainboard.co/settings/members).
+2. Click on the `Disable member` option that appears when you click on the three dots button at the end of the row for a member.
+3. Click on `Disable member` in the confirmation window that will show.
+
+### Remove members
+
+To remove any member from your organization:
+
+1. Go to [members page](https://app.brainboard.co/settings/members)
+2. Click on the `Delete` option that appears when you click on the three dots button at the end of the row for a member.
+3. Click on `Yes, delete user` in the confirmation window that will show.

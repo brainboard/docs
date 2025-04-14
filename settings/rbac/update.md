@@ -1,27 +1,77 @@
-# Updating roles & permissions
+# Project RBAC
 
-To edit the permissions of a role, you need to go to the specific settings page, called `Roles`. You can find it in the user menu.
+In this section you can craete and customize roles that have permission on your projects, environments and architectures. Like who is allowed to run the pipeline, update the architectures or modify variables and their scope.
 
-![Roles](../../../.gitbook/assets/account-menu.png)
+<figure><img src="../../.gitbook/assets/CleanShot 2025-04-11 at 15.38.41@2x.png" alt=""><figcaption></figcaption></figure>
 
-In the `Roles` page, you can see a list of all the roles in your application, grouped by levels: `Organization` or `Project`.
+### Architecture Section
 
-![Roles](../../../.gitbook/assets/roles.png)
+* **Job actions**
+  * **Get**: View job details and status
+    * **Approve**: Authorize a job to proceed to the next stage
+      * **Stop**: Terminate a running job
+* **Pipeline actions**
+  * **Create**: Build a new pipeline
+  * **List**: View all available pipelines
+  * **Get**: View details of a specific pipeline
+  * **Stop**: Halt a running pipeline
+* **Workflow actions**
+  * **Create**: Define a new workflow
+  * **List**: View all workflows
+  * **Get**: Access details of a specific workflow
+  * **Update**: Modify an existing workflow
+  * **Delete**: Remove a workflow
+* **Output actions**
+  * **Create**: Generate new output data
+  * **Get**: View output results
+  * **Update**: Modify output configurations
+  * **Delete**: Remove output data
+* **One Action operations**
+  * **Apply**: Execute a planned change
+  * **Destroy**: Remove deployed resources
+  * **Validate**: Check configuration validity
+  * **Plan**: Preview changes before applying
+* **Architecture actions**
+  * **Create**: Design a new architecture
+  * **Get**: View architecture details
+  * **Update**: Modify an existing architecture
+  * **Delete**: Remove an architecture
+  * **Clone**: Create a duplicate of an architecture
+  * **Publish**: Make an architecture available to others
+  * **Export**: Generate a downloadable copy of an architecture
+* **Variables actions**
+  * **Create**: Define new architecture variables
+  * **Get**: View architecture variables
+  * **Update**: Modify existing architecture variables
+  * **Delete**: Remove architecture variables
+* **Version actions**
+  * **Create**: Create a new version
+  * **Get**: View version details
+  * **Checkout**: Switch to a specific version
 
-To see more information about the permissions of a role, you can click on each role. This will open a modal with the permissions of the role. Here you can view the permissions of the role, grouped by categories (e.g. `Architecture`). Each permission is described with a title (e.g. `Workflow template`) and a set of possible actions (e.g. `Create`, `List`, `Get`).
+### Project section
 
-![Roles](../../../.gitbook/assets/role-modal.png)
+* **Project actions**
+  * **Create**: Start a new project
+  * **List**: View all projects
+  * **Get**: Access specific project details
+  * **Update**: Modify project settings
+  * **Delete**: Remove a project
+* **Variables actions**
+  * **Create**: Define new project variables
+  * **Get**: View project variables
+  * **Update**: Modify existing project variables
+  * **Delete**: Remove project variables
 
-To edit the permissions of a role, you can click on the pencil icon from the top-left of the modal or from the end of the table row. This will open a new view, where you can visualize and edit the permissions of the role.
+### Environment section
 
-![Roles](../../../.gitbook/assets/role-edit.png)
-
-To enable or remove a permission, simply click on the button with the corresponding action name.
-
-If the button is purple, it means that the action is enabled.
-
-![Roles](../../../.gitbook/assets/disable-action.png)
-
-If the button is white, it means that the action is disabled.
-
-![Roles](../../../.gitbook/assets/enable-action.png)
+* **Environment actions**
+  * **Get**: View environment details
+  * **Create**: Set up a new environment
+  * **Update**: Modify environment settings
+  * **Delete**: Remove an environment
+* **Variables actions**
+  * **Create**: Define new environment variables
+  * **Get**: View environment variables
+  * **Update**: Modify existing environment variables
+  * **Delete**: Remove environment variables

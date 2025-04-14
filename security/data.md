@@ -31,7 +31,7 @@ Here are the types of data used by Brainboard:
 4. Secrets: you can choose to store the secrets in your preferred vault solution like AWS KMS, Azure key-vault or HashiCorp Vault and only refer to it through data sources or variables.
    * If you deploy through Brainboard, these secrets will be shared with the runner that will provision the infrastructure.
 5. [Terraform state file](https://developer.hashicorp.com/terraform/language/state).
-6. [Git information](../settings/git-configuration/): contains either your GitHub connection or personal git tokens. It may also include the names of your repository and files.
+6. [Git information](../settings/integrations/git-configuration/): contains either your GitHub connection or personal git tokens. It may also include the names of your repository and files.
 7. [Cloud providers credentials](../data/cloud-providers/): these credentials allow you to provision or destroy the infrastructure.
 8. Users personal information: We only store the following information about our users:
    * First name

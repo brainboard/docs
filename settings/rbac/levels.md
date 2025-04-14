@@ -1,14 +1,10 @@
 # Level of access
 
-As the owner or admin of the organization, you have 2 levels of access:
+As the owner or admin of the organization, you have the possibility to configure 2 different levels of access:
 
-1.  Organization
+<figure><img src="../../.gitbook/assets/CleanShot 2025-04-11 at 15.27.22@2x (1).png" alt=""><figcaption></figcaption></figure>
 
-    RBAC defined in this level concerns only access to your organization.
-
-    Please refer to the [organization RBAC](broken-reference) for more details about the roles of users and how you can adjust it.
-2.  Project
-
-    RBAC of this level concerns access to projects (including their environments and architectures)
-
-    Please refer to the [RBAC for projects](../../../data/data-structure/projects.md#project-iam-reference) for more details about the roles you can use to configure access to your projects.
+1. Organization: Permissions that control which organization objects can be managed by who.\
+   Please refere to [roles.md](roles.md "mention") for more details.
+2. Project: Permissions that control the actions users can and cannot do on within the project, environment or architecture.\
+   Please refer to [update.md](update.md "mention") for more details.

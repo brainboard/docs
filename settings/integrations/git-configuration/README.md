@@ -1,0 +1,34 @@
+---
+icon: code-pull-request
+---
+
+# Git configuration
+
+### Description
+
+This settings page allows you to configure access to your Git repositories to be able to either push the code to them or pull the code if you are migrating to Brainboard.
+
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 16.11.13@2x.png" alt=""><figcaption></figcaption></figure>
+
+### Types of connections
+
+There are 3 types of Git connections:
+
+1.  Git app integrations: is a mechanism that allows you to control access to repositories and users from your git provider and not inside Brainboard.
+
+    Which means that with this integration, users don't use their personal git tokens.
+
+    When doing Pull Requests, Brainboard sends the information on behalf of the user creating the PR to be able to track who does what. Refer to [Pull Requests](https://gitlab.com/brainboard/brainboard/-/blob/main/git-configuration/pull-requests/README.md) page for more information about how it works.\
+    For now only GitHub has an app integration.
+2. Organization connections: You can configure access to your Git repository in a way that any user inside your organization can use it. It may be helpful if you don't want your users to manage Git connections, so they can see all projects and do pull requests to any one of them.
+3. Personal connections: Git personal tokens are used by every user individually. So the users will be able to see only project and repositories they have access to and they do pull requests, you can identify exactly who did it.
+
+### Supported Git providers
+
+Brainboard supports the following Git providers:
+
+1. [git-apps.md](git-apps.md "mention")
+2. [personal-git-tokens-2.md](personal-git-tokens-2.md "mention")
+3. [personal-git-tokens-1.md](personal-git-tokens-1.md "mention")
+4. [personal-git-tokens.md](personal-git-tokens.md "mention")
+

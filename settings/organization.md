@@ -71,6 +71,6 @@ Guest is a read-only user that only has access to projects that admins or owners
 
 By default, a guest has access to nothing.
 
-### IAM reference
-
-To see the complete list of permissions in Brainboard refer to the [IAM page](broken-reference).
+{% hint style="info" %}
+To create new roles or customize existing one, please refer to the [roles page](rbac/).
+{% endhint %}

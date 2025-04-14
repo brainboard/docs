@@ -15,6 +15,19 @@ layout:
 
 # Changelog
 
+### 2025.04.5 - Apr 14, 2025
+
+#### ✅ Bug Fixes
+
+* **Architecture**
+  * Enhanced the architecture creation process to prevent mismatches between environments and projects, ensuring data integrity.
+* **Git Configuration**
+  * Updated error handling in the Git plugin for better response management.
+* **Global**
+  * Prevented unnecessary page refresh during token refreshes, enhancing performance.
+
+***
+
 ### 2025.04.4 - Apr 07, 2025
 
 #### ✅ Bug Fixes
