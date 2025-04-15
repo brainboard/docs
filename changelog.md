@@ -15,6 +15,21 @@ layout:
 
 # Changelog
 
+### 2025.04.8 - Apr 15, 2025
+
+#### ✅ Bug Fixes
+
+* **Code edition**
+  * Improved marker hooks and subscription handling for better performance and reliability in bidirectional editing.
+  * Enhanced Terraform code import by using architecture provider versions, ensuring compatibility and reducing errors.
+* **New architecture**
+  * Resolved crashes at the last step when creating new architectures from the topbar or project selector, enhancing stability for users transitioning between architectures.
+
+\
+
+
+***
+
 ### 2025.04.7 - Apr 15, 2025
 
 #### ✅ Bug Fixes
