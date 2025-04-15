@@ -15,6 +15,16 @@ layout:
 
 # Changelog
 
+### 2025.04.7 - Apr 15, 2025
+
+#### ✅ Bug Fixes
+
+* Import from Git
+  * Fixed search functionality when listing Bitbucket repositories by updating the library and modifying API calls.
+  * Updated the interface for a cleaner layout and better visual hierarchy.
+
+***
+
 ### 2025.04.6 - Apr 14, 2025
 
 #### ✅ Bug Fixes
