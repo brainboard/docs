@@ -15,14 +15,62 @@ layout:
 
 # Changelog
 
+### 2025.04.10 - Apr 17, 2025
+
+#### 🎉 Features and Improvements
+
+* Integrations - Cloud provider connection
+  * Enhanced AWS assume role creation instructions.
+* Import from Cloud provider
+  * Added support of some AWS Cognito TF resources: `aws_cognito_user_pool` & `aws_cognito_identity_pool`
+* Code Edition/Bidirectional
+  * Enabled updates to `terraform.tfvars` file
+  * Updated graphics via bidirectional synchronization when the architecture diagram is empty.
+
+#### ✅ Bug Fixes
+
+* Identity Card
+  * Automatically load the selected cloud provider version when opening the identity card to ensure attributes are properly re-fetched.
+* Node / Containers
+  * Corrected node metadata region updates from bidirectional synchronization to ensure accurate data representation.
+* New architecture - Git import
+  * Fixed import of Terraform modules by checking if the module exists in currently imported modules.
+  * Automatically select Git credentials if only one option is available, simplifying the setup process.
+* CI/CD Designer
+  * Resolved double scrolling issue in the CI/CD workflow preview for a more seamless navigation.
+
+***
+
+### 2025.04.9 - Apr 16, 2025
+
+#### 🎉 Features and Improvements
+
+* Git Configuration
+  * Automatically set the pull request settings when creating a new architecture via git import, streamlining the setup process.
+* Code edition - User Interface
+  * Refactored the handling of editor modes in the design area to prevent losing unsaved changes, providing a smoother user experience when the page is refocused.
+
+#### ✅ Bug Fixes
+
+* Terraform Pane
+  * Enhanced the Terraform code editor by adjusting the height of the pane for better visual alignment with the future topbar redesign.
+* Code edition - locals & variable
+  * Enhanced the code parsing process to skip variable or local deletion if they are edited from a different file, ensuring data integrity.
+* Terraform Git Module
+  * Corrected the handling of Terraform git module versions during import to ensure the correct version is always used.
+* Identity Card
+  * Fixed a spacing issue in the search functionality, affecting users who frequently use the search feature within the Identity Card.
+
+***
+
 ### 2025.04.8 - Apr 15, 2025
 
 #### ✅ Bug Fixes
 
-* **Code edition**
+* Code edition
   * Improved marker hooks and subscription handling for better performance and reliability in bidirectional editing.
   * Enhanced Terraform code import by using architecture provider versions, ensuring compatibility and reducing errors.
-* **New architecture**
+* New architecture
   * Resolved crashes at the last step when creating new architectures from the topbar or project selector, enhancing stability for users transitioning between architectures.
 
 \
@@ -44,11 +92,11 @@ layout:
 
 #### ✅ Bug Fixes
 
-* **Architecture**
+* Architecture
   * Enhanced the architecture creation process to prevent mismatches between environments and projects, ensuring data integrity.
-* **Git Configuration**
+* Git Configuration
   * Updated error handling in the Git plugin for better response management.
-* **Global**
+* Global
   * Prevented unnecessary page refresh during token refreshes, enhancing performance.
 
 ***
