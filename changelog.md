@@ -15,6 +15,28 @@ layout:
 
 # Changelog
 
+### 2025.04.11 - Apr 23, 2025
+
+#### 🎉 Features and Improvements
+
+* Code Edition/Bidirectional
+  * Introduce a modal to manage unsaved Terraform code changes, prompting users to save or discard unsaved changes.
+  * Add Variables, Locals and Outputs cache invalidation after code edition of respectively `variables.tf`, `terraform.tfvars`, `locals.tf` or `outputs.tf` to ensure data freshness.
+  * Add a button in the Monaco editor to open the ID card directly from the code, improving the UX and allowing the user to always copy-paste the code.
+* Design Area / Diagram
+  * Keep selected files persistent when switching between Value and Design areas.
+* Topbar
+  * Integrate architecture selector into the new topbar for easier project navigation.
+* API Documentation
+  * Add missing path parameters and operation IDs to enhance API documentation clarity: [https://api-docs.brainboard.co](https://api-docs.brainboard.co)
+
+#### ✅ Bug Fixes
+
+* **Import from Cloud**
+  * Fix attribute retrieval in Terraform state when dealing with resources with repeated blocks, ensuring accurate code generation.
+
+***
+
 ### 2025.04.10 - Apr 17, 2025
 
 #### 🎉 Features and Improvements
