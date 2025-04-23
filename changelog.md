@@ -15,6 +15,23 @@ layout:
 
 # Changelog
 
+### 2025.04.12 - Apr 23, 2025
+
+#### ✅ Bug Fixes
+
+* Design Area / Diagram
+  * Enhanced the design area to ensure connectors are always rendered on top even when a container is selected, improving visibility and interaction.
+* Code Edition/Bidirectional
+  * Removed unnecessary open idcard button for variables, locals or outputs, streamlining the code editing experience.
+* Architecture Templates
+  * Resolved an issue where scrolling on a template page inadvertently scrolled the readme, improving user navigation and reading experience.
+* Global
+  * Improved the ComboBox component used in many places like Git repository selection to ensure dropdown options are always visible within the screen, enhancing usability and accessibility.
+* Variables/Locals/Output
+  * Fixed the premature closing of the variable deletion modal, ensuring it remains open until all processes are complete, thus preventing accidental closures.
+
+***
+
 ### 2025.04.11 - Apr 23, 2025
 
 #### 🎉 Features and Improvements
