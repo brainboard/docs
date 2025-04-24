@@ -4,44 +4,6 @@ hidden: true
 
 # Configure access
 
-### Azure RM
-
-To configure the Azure provider (AzureRM) for Terraform, you have to specify the appropriate credentials and the subscription in which you want to create resources.
-
-Here are the steps to configure the Azure provider:
-
-1. Create a service principal in Azure Active Directory (AAD) with the "Contributor" role. This service principal will be used to authenticate the Terraform Azure Provider to Azure. You can create the service principal using the Azure CLI, Azure PowerShell, or the Azure Portal.
-2. Once you have the service principal created, you will need to get the following information from it:
-   * **subscription\_id**
-   * **client\_id**
-   * **tenant\_id**
-   * **client\_secret**
-3. Next, you need to add the information in the AzureRM configuration below:
-
-![azure\_config](../../.gitbook/assets/azurerm_config.png)
-
-<details>
-
-<summary>Generate Azure credentials for Terraform</summary>
-
-To generate Azure credentials for use with Terraform, you can use the Azure Portal.
-
-1. Go to the Azure portal and navigate to the Azure Active Directory section
-2. Select App registrations and then click on New registration
-3. Give a name to your app and select the appropriate account type (single or multi-tenant)
-4. After creating the app, go to Certificates & secrets and create a new client secret
-5. Go to the Subscription's Access control (IAM) to add a new role assignment
-6. Assign the appropriate role (e.g. Contributor) to the app created above
-
-Tips:
-
-* `ARM SUBSCRIPTION ID`: you will find it in the Subscription's Overview
-* `ARM CLIENT ID`: you will find it in the App registrations' Overview with the name `Application (client) ID`
-* `ARM TENANT ID`: you will find it in the App registrations' Overview with the name `Directory (tenant) ID`
-* `ARM CLIENT SECRET`: you will find it in the App registrations' Certificates & secrets, you must copy the client `secret Value` (not the Secret ID).
-
-</details>
-
 ### GCP
 
 To configure the GCP (Google Cloud Platform) provider for Terraform, you will have to specify the appropriate credentials and the project in which you want to create resources.

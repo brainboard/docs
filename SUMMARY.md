@@ -124,6 +124,7 @@
   * [Cloud providers](settings/integrations/cloud-providers/README.md)
     * [AWS](settings/integrations/cloud-providers/aws.md)
     * [Azure](settings/integrations/cloud-providers/azure.md)
+    * [GCP](settings/integrations/cloud-providers/gcp.md)
 
 ## Security
 
