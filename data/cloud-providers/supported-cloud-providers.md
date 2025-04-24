@@ -50,7 +50,7 @@ Refer to the [credential page](./) to understand how to connect Brainboard with 
 * It provides Terraform with the necessary API calls to create, update, and delete GCP resources such as Compute Engine instances, Cloud Storage buckets, and Cloud SQL databases.
 
 {% hint style="info" %}
-Refer to the [credential page](./) to understand how to connect Brainboard with your GCP environments.
+Refer to the [credential page](../../settings/integrations/cloud-providers/gcp.md) to understand how to connect Brainboard with your GCP environments.
 {% endhint %}
 
 ### Scaleway

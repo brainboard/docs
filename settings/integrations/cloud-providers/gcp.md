@@ -46,4 +46,4 @@ This allows you to specify whether you want:
 3. Use in a specific environment
 4. Use in a specific architecture
 
-<figure><img src="../../../.gitbook/assets/CleanShot 2025-04-24 at 17.03.39@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-04-24 at 17.03.39@2x (1).png" alt=""><figcaption></figcaption></figure>

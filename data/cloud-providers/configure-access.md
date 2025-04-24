@@ -4,37 +4,6 @@ hidden: true
 
 # Configure access
 
-### GCP
-
-To configure the GCP (Google Cloud Platform) provider for Terraform, you will have to specify the appropriate credentials and the project in which you want to create resources.
-
-<details>
-
-<summary>Generate GCP credentials for Terraform</summary>
-
-To generate GCP credentials for Terraform, you will need to create a service account in the Google Cloud Console. Here are the steps to generate GCP credentials:
-
-1. Go to the Google Cloud Console (https://console.cloud.google.com) and select your project.
-2. In the navigation menu, click on the hamburger icon (≡) and then select "IAM & admin" and then "Service accounts"
-3. Click on the "Create Service Account" button.
-4. In the "Create service account" form, give a name to the service account and provide a brief description.
-5. Under "Role", select the role that you want to assign to the service account. This role will determine the actions that Terraform can perform with the service account.
-6. Click on "Create" to create the service account.
-7. Once the service account is created, you will see the option to create a key. Select "JSON" as the key type and click on "Create"
-8. The JSON key file will be downloaded to your local machine. This file contains the credentials for the service account and it should be kept secure.
-9. Once you have the JSON key file, you can use it to authenticate the Terraform GCP Provider to GCP.
-
-</details>
-
-Once you have the service account created, you will have to get the following information from it:
-
-* project\_id
-* credentials file
-
-![gcp\_config](../../.gitbook/assets/gcp_config.png)
-
-### OCI
-
 To configure the Oracle Cloud Infrastructure (OCI) provider in Terraform, you will need to specify the information in the OCI configuration as below and set the appropriate variables.
 
 ![oci\_config](../../.gitbook/assets/oci_config.png)

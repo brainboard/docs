@@ -125,6 +125,7 @@
     * [AWS](settings/integrations/cloud-providers/aws.md)
     * [Azure](settings/integrations/cloud-providers/azure.md)
     * [GCP](settings/integrations/cloud-providers/gcp.md)
+    * [OCI](settings/integrations/cloud-providers/oci.md)
 
 ## Security
 
