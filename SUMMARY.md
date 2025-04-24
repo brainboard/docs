@@ -51,7 +51,6 @@
   * [Template](data/data-structure/template.md)
 * [Cloud providers](data/cloud-providers/README.md)
   * [Supported cloud providers](data/cloud-providers/supported-cloud-providers.md)
-  * [Configure access](data/cloud-providers/configure-access.md)
   * [Customize provider configuration](data/cloud-providers/customize-provider-configuration.md)
   * [Unsupported cloud providers](data/cloud-providers/unsupported-cloud-providers.md)
 * [Terraform / OpenTofu](data/terraform-opentofu/README.md)

@@ -40,7 +40,7 @@ Refer to the [credential page](../../settings/integrations/cloud-providers/aws.m
 * It provides Terraform with the necessary API calls to create, update, and delete OCI resources such as Compute instances, Virtual Cloud Networks, and Block Volumes. It also allows managing other resources that are not directly related to OCI, such as DNS records, and others.
 
 {% hint style="info" %}
-Refer to the [credential page](./) to understand how to connect Brainboard with your OCI environments.
+Refer to the [credential page](../../settings/integrations/cloud-providers/oci.md) to understand how to connect Brainboard with your OCI environments.
 {% endhint %}
 
 ### GCP (Google Cloud Platform)
@@ -58,12 +58,6 @@ Refer to the [credential page](../../settings/integrations/cloud-providers/gcp.m
 `Scaleway` provider for Terraform is a plugin that allows Terraform to interact with the Scaleway API to create, manage, and delete resources within a Scaleway account.
 
 * It provides Terraform with the necessary API calls to create, update, and delete Scaleway resources such as Compute instances, Volumes, and Networks.
-
-{% hint style="info" %}
-To use the Scaleway provider in Terraform, you will need to configure it with the appropriate credentials, such as an API key, and specify which Scaleway organization you want to use.
-
-Refer to the [credential page](./) to understand how to do it
-{% endhint %}
 
 ### Providers versions
 
