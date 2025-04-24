@@ -15,6 +15,23 @@ layout:
 
 # Changelog
 
+### 2025.04.13 - Apr 24, 2025
+
+#### 🎉 Features and Improvements
+
+* Code Edition/Bidirectional
+  * Added a new feedback component in the code editor to provide real-time feedback on save operations, including success and error states, improving user interaction with the editor.
+
+#### ✅ Bug Fixes
+
+* Code Edition/Bidirectional
+  * Fixed issues with Terraform code unsaved state detection, ensuring users are correctly prompted to save changes.
+  * Enhanced Terraform block parsing to support heredoc syntax, expanding the editor's capability to handle complex configurations.
+  * Resolved issues where variable warnings appeared incorrectly, ensuring warnings are only shown when necessary.
+  * Improved error handling in the Terraform code editor to prevent illegal line number errors, enhancing stability and user experience.
+
+***
+
 ### 2025.04.12 - Apr 23, 2025
 
 #### ✅ Bug Fixes
