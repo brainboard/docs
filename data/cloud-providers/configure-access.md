@@ -1,10 +1,14 @@
+---
+hidden: true
+---
+
 # Configure access
 
 ### Credentials' settings
 
 To add credentials for the supported providers you need to go to the cloud providers configuration menu where you can see the list of the supported providers.
 
-![providers\_config](../../.gitbook/assets/providers\_config.png)
+![providers\_config](../../.gitbook/assets/providers_config.png)
 
 There are two main configurations that are common for all terraform providers:
 
@@ -13,7 +17,7 @@ There are two main configurations that are common for all terraform providers:
 
 After selecting one of the providers, you can click on the `+` button on the right and open the configuration for the provider.
 
-![add\_config](../../.gitbook/assets/add\_config.png)
+![add\_config](../../.gitbook/assets/add_config.png)
 
 ### Azure RM
 
@@ -29,7 +33,7 @@ Here are the steps to configure the Azure provider:
    * **client\_secret**
 3. Next, you need to add the information in the AzureRM configuration below:
 
-![azure\_config](../../.gitbook/assets/azurerm\_config.png)
+![azure\_config](../../.gitbook/assets/azurerm_config.png)
 
 <details>
 
@@ -50,30 +54,6 @@ Tips:
 * `ARM CLIENT ID`: you will find it in the App registrations' Overview with the name `Application (client) ID`
 * `ARM TENANT ID`: you will find it in the App registrations' Overview with the name `Directory (tenant) ID`
 * `ARM CLIENT SECRET`: you will find it in the App registrations' Certificates & secrets, you must copy the client `secret Value` (not the Secret ID).
-
-</details>
-
-### AWS
-
-To configure the AWS provider for Terraform, you will have to specify the name and the appropriate credentials as below :
-
-![aws\_config](../../.gitbook/assets/aws\_config.png)
-
-<details>
-
-<summary>Generate AWS credentials for Terraform</summary>
-
-To generate AWS credentials for use with Terraform, you can use the AWS Management Console.
-
-1. Log in to the AWS Management Console
-2. Go to the IAM (Identity and Access Management) service
-3. Select Users from the navigation menu
-4. Click on the "Add user" button
-5. Enter a username, select "Programmatic access" for the access type, and then click on "Next: Permissions"
-6. Select "Attach existing policies directly" and then choose the appropriate permissions for the user (e.g. "AdministratorAccess" or "IAMFullAccess")
-7. Click on "Next: Tags" (if desired) and then "Next: Review"
-8. Click on "Create user" to create the user
-9. On the "Success" page, click on the "Download .csv" button to download the credentials
 
 </details>
 
@@ -104,13 +84,13 @@ Once you have the service account created, you will have to get the following in
 * project\_id
 * credentials file
 
-![gcp\_config](../../.gitbook/assets/gcp\_config.png)
+![gcp\_config](../../.gitbook/assets/gcp_config.png)
 
 ### OCI
 
 To configure the Oracle Cloud Infrastructure (OCI) provider in Terraform, you will need to specify the information in the OCI configuration as below and set the appropriate variables.
 
-![oci\_config](../../.gitbook/assets/oci\_config.png)
+![oci\_config](../../.gitbook/assets/oci_config.png)
 
 * The tenancy\_ocid variable specifies the OCID of the tenancy that you want to use. You can find your tenancy OCID in the Oracle Cloud Infrastructure Console under the "Tenancy Information" section.
 * The user\_ocid variable specifies the OCID of the user to use. You can find your user OCID in the Oracle Cloud Infrastructure Console under the "User Settings" section.
@@ -144,7 +124,7 @@ To configure the Scaleway provider in Terraform, you will need to specify the pr
 * Scaleway Access Key
 * Scaleway Secret Key
 
-![scaleway\_config](../../.gitbook/assets/scaleway\_config.png)
+![scaleway\_config](../../.gitbook/assets/scaleway_config.png)
 
 To generate access and secret keys in Scaleway, you will need to create an API token in the Scaleway console.
 

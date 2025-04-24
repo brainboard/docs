@@ -36,7 +36,7 @@ The `AWS` provider for Terraform is a plugin that allows Terraform to interact w
 {% hint style="info" %}
 The provider needs to be configured with AWS credentials (access key and secret key) and a region.
 
-Refer to the [credential page](./) to understand how to do it
+Refer to the [credential page](../../settings/integrations/cloud-providers/aws.md) to understand how to do it
 {% endhint %}
 
 #### Oracle or OCI (Oracle Cloud Infrastructure)
