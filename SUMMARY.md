@@ -123,6 +123,7 @@
     * [How to use](settings/integrations/git-configuration/pull-requests.md)
   * [Cloud providers](settings/integrations/cloud-providers/README.md)
     * [AWS](settings/integrations/cloud-providers/aws.md)
+    * [Azure](settings/integrations/cloud-providers/azure.md)
 
 ## Security
 

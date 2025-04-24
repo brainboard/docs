@@ -4,8 +4,8 @@ Brainboard allows you to connect to your AWS environments, whether you want to p
 
 It supports 2 authentication methods described below:
 
-1. Assume role
-2. Access key and secret
+1. [Assume role](aws.md#assume-role) (recommended)
+2. [Access key and secret](aws.md#access-key-and-secret)
 
 ### Configure access
 
@@ -24,7 +24,7 @@ To connect Brainboard to your AWS account:
 ### Assume role
 
 {% hint style="success" %}
-N.B: This is the preferred way to connect to your AWS accounts as it doesn't require any secret sharing.
+N.B: This is the recommended way to connect to your AWS accounts as it doesn't require any secret sharing.
 {% endhint %}
 
 When you click on the option `Assume role` Brainboard guides you in the connection process:

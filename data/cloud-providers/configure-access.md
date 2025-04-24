@@ -4,21 +4,6 @@ hidden: true
 
 # Configure access
 
-### Credentials' settings
-
-To add credentials for the supported providers you need to go to the cloud providers configuration menu where you can see the list of the supported providers.
-
-![providers\_config](../../.gitbook/assets/providers_config.png)
-
-There are two main configurations that are common for all terraform providers:
-
-* `Credentials` specific credentials needed to access the cloud provider
-* `Scope` the scope in Brainboard where you are going to use the provider. It might be at the organizational/project/environment/architecture level.
-
-After selecting one of the providers, you can click on the `+` button on the right and open the configuration for the provider.
-
-![add\_config](../../.gitbook/assets/add_config.png)
-
 ### Azure RM
 
 To configure the Azure provider (AzureRM) for Terraform, you have to specify the appropriate credentials and the subscription in which you want to create resources.

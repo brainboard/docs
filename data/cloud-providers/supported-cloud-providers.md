@@ -10,11 +10,9 @@ You can use the provider block to specify which cloud provider you are using and
 This block is typically placed at the top of a Terraform configuration file, and you can specify multiple providers to manage resources across multiple cloud providers
 {% endhint %}
 
-### Supported cloud providers
-
 Brainboard supports the following cloud providers:
 
-#### Azure (Azure Resource Manager)
+### Azure (Azure Resource Manager)
 
 `AzureRM` is the Terraform provider for Azure Resource Manager (ARM), which is the service that allows you to manage Azure resources.
 
@@ -22,50 +20,40 @@ Brainboard supports the following cloud providers:
 * When you use the AzureRM provider in Terraform, you can define resources such as virtual machines, storage accounts, and virtual networks, and use Terraform to create, update, and delete those resources in Azure.
 
 {% hint style="info" %}
-To use the Azure provider in Terraform, you need to configure it with the appropriate credentials and specify which Azure subscription and resource group you want to use.
-
-Refer to the [credential page](./) to understand how to do it
+Refer to the [credential page](../../settings/integrations/cloud-providers/azure.md) to understand how to connect Brainboard with your Azure environments.
 {% endhint %}
 
-#### AWS (Amazon Web Services)
+### AWS (Amazon Web Services)
 
 The `AWS` provider for Terraform is a plugin that allows Terraform to interact with the AWS API to create, manage, and delete resources within an AWS account.
 
 * It provides Terraform with the necessary API calls to create, update, and delete AWS resources such as EC2 instances, S3 buckets, and RDS databases.
 
 {% hint style="info" %}
-The provider needs to be configured with AWS credentials (access key and secret key) and a region.
-
-Refer to the [credential page](../../settings/integrations/cloud-providers/aws.md) to understand how to do it
+Refer to the [credential page](../../settings/integrations/cloud-providers/aws.md) to understand how to connect Brainboard with your AWS environments.
 {% endhint %}
 
-#### Oracle or OCI (Oracle Cloud Infrastructure)
+### OCI (Oracle Cloud Infrastructure)
 
 `Oracle Cloud Infrastructure` provider is a plugin that allows Terraform to interact with the Oracle Cloud Infrastructure (OCI) API to create, manage, and delete resources within an OCI account.
 
 * It provides Terraform with the necessary API calls to create, update, and delete OCI resources such as Compute instances, Virtual Cloud Networks, and Block Volumes. It also allows managing other resources that are not directly related to OCI, such as DNS records, and others.
 
 {% hint style="info" %}
-To use the OCI provider in Terraform, you will need to configure it with the appropriate credentials and specify which OCI Tenancy and compartment you want to use.
-
-The provider needs to be configured with the OCI configuration file and the appropriate user's API key and Tenancy OCID.
-
-Refer to the [credential page](./) to understand how to do it
+Refer to the [credential page](./) to understand how to connect Brainboard with your OCI environments.
 {% endhint %}
 
-#### GCP (Google Cloud Platform)
+### GCP (Google Cloud Platform)
 
 `Google Cloud Platform` provider for Terraform is a plugin that allows Terraform to interact with the Google Cloud API to create, manage, and delete resources within a GCP project.
 
 * It provides Terraform with the necessary API calls to create, update, and delete GCP resources such as Compute Engine instances, Cloud Storage buckets, and Cloud SQL databases.
 
 {% hint style="info" %}
-To use the GCP provider in Terraform, you will need to configure it with the appropriate credentials, such as a service account key, and specify which GCP project to use.
-
-Refer to the [credential page](./) to understand how to do it
+Refer to the [credential page](./) to understand how to connect Brainboard with your GCP environments.
 {% endhint %}
 
-#### Scaleway
+### Scaleway
 
 `Scaleway` provider for Terraform is a plugin that allows Terraform to interact with the Scaleway API to create, manage, and delete resources within a Scaleway account.
 
