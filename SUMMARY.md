@@ -72,7 +72,6 @@
 * [Values (Inputs & Outputs)](input-output/README.md)
   * [Variables ⒳](input-output/variables.md)
   * [Output 📺](input-output/output.md)
-* [Account Setup](setup.md)
 
 ## Automation
 
@@ -122,6 +121,8 @@
     * [Bitbucket](settings/integrations/git-configuration/personal-git-tokens-1.md)
     * [GitLab](settings/integrations/git-configuration/personal-git-tokens-2.md)
     * [How to use](settings/integrations/git-configuration/pull-requests.md)
+  * [Cloud providers](settings/integrations/cloud-providers/README.md)
+    * [AWS](settings/integrations/cloud-providers/aws.md)
 
 ## Security
 

@@ -1,8 +1,8 @@
 ---
-icon: hand-wave
 description: >-
   Brainboard is an end-to-end solution to visually build & manage cloud
   infrastructures, collaboratively.
+icon: hand-wave
 cover: .gitbook/assets/Brainboard Onboarding Training.webp
 coverY: 16.86990291262136
 layout:
@@ -25,6 +25,8 @@ layout:
 
 ### What is about?
 
+{% embed url="https://www.youtube.com/watch?v=A37Z1YgXYUI" %}
+
 Brainboard is a solution that helps you:
 
 * Build your cloud infrastructure design with Terraform/OpenTofu resources.
@@ -37,20 +39,18 @@ Brainboard is a solution that helps you:
 
 It is a collaborative and innovative solution that natively integrates IaC best practices, enforces security and has an embedded CI/CD engine out of the box.
 
-![Brainboard overview](.gitbook/assets/brainboard-view.png)
-
 ### Why?
 
-Brainboard has been built by experienced engineers for engineers, by using automation and AI to make building and managing cloud infrastructure easier, while empowering engineers to not repeat themselves.
+Brainboard has been built by experienced engineers with more than 20 years of experience, for engineers, by using automation and AI to make building and managing cloud infrastructure easier, without reinventing the wheel.
 
-Here are the reasons why we are building Brainboard, to help organizations and engineers to:
+Here are the reasons why Brainboard is the good fit for you:
 
-* Centralize all the management of the cloud infrastructure, literally from end to end, into one unique platform.
+* It helps you centralize all the management of the cloud infrastructure, literally from end to end, into one single & unique platform.
 * Move fast securely: It is designed to be intuitive and easy to learn, while providing full power of an embedded CI/CD to shift left fast.
-* No one is left off: Anyone can understand a design, and for those who want to go deeper, the Terraform code is next to the design.
+* No one is left behind: Anyone can understand a design, and for those who want to go deeper, the Terraform code is next to the design.
 * Lower the learning curve of the cloud and Terraform/IaC.
 * Help organizations capture the maturity of their cloud journey in a system, that scales as the processes and use cases grow.
-* Document faithfully the state of the cloud resources already provisioned. This documentation is in a constant sync with the reality.
+* Document faithfully the state of your cloud infrastructure that is already provisioned. This documentation is in a constant sync with the reality.
 * Structure the review and approval process of the cloud infrastructure.
 * Encourage adoption of best practices as they are implemented natively.
 * Having a system that easily integrates with enterprise workload.
