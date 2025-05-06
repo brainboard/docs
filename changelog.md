@@ -15,6 +15,31 @@ layout:
 
 # Changelog
 
+### 2025.05.1 - May 06, 2025
+
+#### 🎉 Features and Improvements
+
+* Design Area / Diagram
+  * Added architecture warnings detection and an autofix mechanism to help users quickly identify and resolve common design issues in cloud diagrams.
+  * Improved error handling when updating diagrams, ensuring issues are logged and surfaced appropriately.
+  * Enhanced node copy-to-clipboard functionality to support nested children and prevent errors.
+* Code Edition / Bidirectional Editor
+  * Introduced a new bidirectional code editor design with enhanced feedback, file editing restrictions, and unsaved changes prompts to streamline code and diagram synchronization.
+  * Added banners and tooltips to guide users on code edition limitations and best practices.
+  * Improved detection and messaging for renaming restrictions and variable warnings in Terraform files.
+  * Added support for clickable URLs in job output and editor hints for easier navigation.
+  * Improved code editor font consistency and fixed text cursor issues for better editing experience.
+* CI/CD / Workflow Designer
+  * Improved configuration forms and validation for task and workflow settings.
+
+#### ✅ Bug Fixes
+
+* Design Area / Diagram
+  * Fixed an issue where node counts were incorrect when both resources and data were present in an architecture revision.
+  * Resolved an error when copying nodes with nested children.
+
+***
+
 ### 2025.04.13 - Apr 24, 2025
 
 #### 🎉 Features and Improvements
