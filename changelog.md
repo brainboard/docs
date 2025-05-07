@@ -15,6 +15,30 @@ layout:
 
 # Changelog
 
+### 2025.05.3 - May 07, 2025
+
+#### 🎉 Features and Improvements
+
+* Variables/Locals/Output
+  * Improved Terraform variable import: Now creates new variables when changing scope and updates only when values actually change, making variable management more intuitive and accurate.
+
+#### ✅ Bug Fixes
+
+* Screenshot
+  * Fixed issues where screenshots and thumbnails could fail due to ignored warnings, ensuring all users receive up-to-date visual previews.
+* CI/CD & One Action
+  * Pipeline status updates now immediately display the last job status message, giving users real-time feedback on pipeline progress. This fix also ensure one action outputs is updated once the job starts.
+  * Resolved terminal height issues in CI/CD pipelines, ensuring a consistent and user-friendly terminal view during deployments.
+* Design Area / Diagram
+  * Improved handling of missing child nodes when updating positions or finding descendants, preventing errors in complex diagrams.
+  * Improved error handling to prevent crashes when updating or searching for non-existent nodes, ensuring smoother diagram editing for all users.
+  * Fixed undo/redo metadata for synced architectures, so changes can be reliably reverted or reapplied in collaborative environments.
+* Code Edition / Bidirectional
+  * Fixed error messages not disappearing when reverting code changes, making the bidirectional editor clearer and less confusing.
+  * Prevented errors by clamping line numbers and adding necessary null checks, improving overall code editor stability.
+
+***
+
 ### 2025.05.2 - May 07, 2025
 
 #### ✅ Bug Fixes
