@@ -15,6 +15,19 @@ layout:
 
 # Changelog
 
+### 2025.05.2 - May 07, 2025
+
+#### ✅ Bug Fixes
+
+* Identity Card
+  * Fixed an issue where certain fields could cause editors to fail to initialize (e.g. `for_each`), ensuring a smoother experience when editing custom code attributes.
+* Infrastructure as Code / Terraform
+  * Updated variable validation `error_message` to align with industry standards, providing clearer feedback when variable values do not meet requirements.
+
+
+
+***
+
 ### 2025.05.1 - May 06, 2025
 
 #### 🎉 Features and Improvements
