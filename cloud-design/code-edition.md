@@ -71,7 +71,7 @@ Brainboard aims for a synchronized experience between the visual design and the 
 ### Key Features and Behaviors
 
 * **Syntax Highlighting:** Makes reading and editing Terraform HCL easier.
-*   **Code Validation:** On save, Brainboard validates the HCL syntax and basic Terraform structure. Errors will be reported to help you correct them.
+*   **Code Validation:** On save, Brainboard validates the HCL syntax and basic Terraform structure. Errors will be reported to help you fix them.
 
     <figure><img src="../.gitbook/assets/gbuTl0jxWXfsGplx.png" alt=""><figcaption><p>Syntax error: invalid attribute </p></figcaption></figure>
 * **File Management:**
@@ -80,7 +80,7 @@ Brainboard aims for a synchronized experience between the visual design and the 
 *   **Warnings for Misplaced Blocks:**
 
     * Brainboard expects certain definitions to reside in specific files. For example, `variable` blocks should be in `variables.tf` and `locals` blocks in `locals.tf`.
-    * If you start defining a `variable` block in `main.tf`, for instance, Brainboard will show a warning. Upon saving, the correctly formatted block will be automatically moved to the appropriate file (e.g., `variables.tf`).
+    * If you start defining a `variable` block in `main.tf`, for instance, Brainboard will show a warning. Upon saving, the block will be automatically moved to the appropriate file (e.g., `variables.tf`).
 
     <figure><img src="../.gitbook/assets/CnGrJF2iWDOkPuO4.png" alt=""><figcaption></figcaption></figure>
 
@@ -93,9 +93,9 @@ As Code Edition is an Alpha feature and Brainboard primarily manages infrastruct
     * **How to Rename:** To rename a resource, please use its ID Card. Brainboard will then automatically propagate this name change throughout your configuration, updating all references to ensure consistency.
 
     <figure><img src="../.gitbook/assets/DUwYXkansX633iks.png" alt=""><figcaption></figcaption></figure>
-* **Supported Functionality Only:** Only Terraform configurations and structures that are supported by Brainboard's GUI (the visual designer and ID Cards) are guaranteed to be preserved.
-* **No Comment Preservation:** Comments in the code are not currently saved or preserved. When Brainboard parses and re-generates the code, comments will be stripped out.
-* **No Attribute or Block Order Preservation:** The order of attributes within a resource block or the order of blocks within a file may not be preserved. Brainboard will re-generate the code based on its own formatting rules.
+* **Supported Feature Only:** Only Terraform configurations and structures that are supported by Brainboard's GUI (the visual designer and ID Cards) are guaranteed to be preserved.
+* **No Comment Preservation:** Comments in the code are currently not saved or preserved. When Brainboard parses and re-generates the code, comments will be stripped out.
+* **No Attribute or Block Order Preservation:** The order of attributes within a resource block or the order of blocks within a file may not be preserved. Brainboard will re-generate the code based on its own ordering rules.
 * **Restricted File Edits:** Certain files crucial for Brainboard's operation, such as `providers.tf` or `backend.tf`, are generally not editable or changes might be overwritten.
 * **Pasting New Resources:** When pasting a new resource block from external documentation:
   * The resource will be created.
@@ -110,7 +110,7 @@ You can customize some aspects of the Monaco editor's appearance and behavior:
 3.  In the command palette that appears, search for and select "update editor settings."
 
     _**\[Screenshot Placeholder: The command palette modal/dropdown that appears after pressing CMD/CTRL+K, with "update editor settings" typed in the search bar and the option highlighted.]**_
-4.  An "Editor configuration" dialog will appear, allowing you to modify settings like `fontSize`, `fontWeight`, `lineNumbers`, `tabSize`, etc., in a JSON format. \
+4.  An "Editor configuration" dialog will appear, allowing you to change settings like `fontSize`, `fontWeight`, `lineNumbers`, `tabSize`, etc., in a JSON format. \
 
 
     <figure><img src="../.gitbook/assets/wqkLMxC5iBKnkNRx.png" alt=""><figcaption></figcaption></figure>
