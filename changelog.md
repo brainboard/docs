@@ -15,6 +15,22 @@ layout:
 
 # Changelog
 
+### 2025.05.4 - May 08, 2025
+
+#### 🎉 Features and Improvements
+
+* Code Edition / Bidirectional
+  * Enforced margin for line decorations in the bidirectional code editor, ensuring a consistent and user-friendly experience for all Terraform file edits, regardless of user settings.
+* Settings
+  * Added easy-access documentation links for Git and Terraform backend provider forms, helping users quickly find relevant setup guides directly from the settings pages.
+
+#### ✅ Bug Fixes
+
+* Design Area / Diagram
+  * Fixed an issue where clicking on the resizer panel could cause errors, ensuring stable resizing for all users and preventing unexpected interruptions.
+
+***
+
 ### 2025.05.3 - May 07, 2025
 
 #### 🎉 Features and Improvements
