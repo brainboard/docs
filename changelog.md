@@ -15,6 +15,34 @@ layout:
 
 # Changelog
 
+### 2025.05.5 - May 15, 2025
+
+#### 🎉 Features and Improvements
+
+* Design Area - Architecture Warnings
+  * Locating resources with warnings now animate and auto-focus when selected from the warnings tab, making it easier to locate and address issues.
+  * Added a new warning type to detect connectors linked to non-existent nodes, automatically  resolving diagram inconsistencies.
+  * Improved feedback and visibility for architecture warnings, including clearer grouping, new button placement, and enhanced notification styles.
+* Design Area - Nodes & Contextual Menus
+  * The contextual menu now allows you to duplicate or lock nodes directly, streamlining common actions for faster diagram editing.
+  * Group actions (like duplicate and lock) are now available when selecting multiple nodes for more efficient bulk operations.
+* Code Editor
+  * When variables, locals, or outputs are moved between files, the code editor now provides clear feedback so you always know what changed and where.
+* Home Tab - Recent Architectures
+  * Added a contextual menu to architecture cards in the home tab grid view, allowing quick actions and detailed views right from your dashboard.
+  * Double-clicking an architecture card now takes you directly to the design page, speeding up navigation.
+
+#### ✅ Bug Fixes
+
+* Design Area - Layout & Usability
+  * The "Templates Catalog" and "Architecture Warnings" buttons have been repositioned for better accessibility and no longer overlap other controls.
+* Project Settings / Environment Creation
+  * Fixed an issue that prevented creating new environments from the project settings modal, ensuring all users can add environments as needed.
+* Code Editor
+  * Reverted a change that enforced a specific font in the code editor, restoring your preferred font experience.
+
+***
+
 ### 2025.05.4 - May 08, 2025
 
 #### 🎉 Features and Improvements
