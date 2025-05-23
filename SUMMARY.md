@@ -137,7 +137,9 @@
 * [Shortcuts](help-and-faq/shortcuts.md)
 * [FAQ](help-and-faq/faq.md)
 * [Migration](help-and-faq/migration/README.md)
-  * [Import from cloud provider](help-and-faq/migration/cloud-provider-import.md)
+  * [Import from Azure](help-and-faq/migration/import-from-azure.md)
+  * [Import from AWS](help-and-faq/migration/cloud-provider-import.md)
+  * [Limitations](help-and-faq/migration/limitations.md)
 * [Support](help-and-faq/support.md)
 * [Glossary](help-and-faq/glossary.md)
 

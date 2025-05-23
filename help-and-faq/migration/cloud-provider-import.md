@@ -1,13 +1,11 @@
-# Import from cloud provider
+# Import from AWS
 
 ### Description
 
-When creating a new architecture from existing data, you can select the cloud provider option.
-
-This feature will allow you to import existing resources already deployed in your cloud provider account, to generate the corresponding architecture diagram and Terraform code.
+Brainboard allows you to import your cloud infrastructure from AWS, and will generate the architecture diagram, the Terraform code and the tfstate for you.
 
 {% hint style="info" %}
-Brainboard only supports import from Azure and AWS cloud providers for now.
+This is considered a migration to Brainboard and not intended to be used a remediation to the drift.
 {% endhint %}
 
 ### Import from AWS provider prerequisites
@@ -75,34 +73,47 @@ Here are the steps to create a default view in AWS Resource Explorer:
 
 Once your account is correctly configured to list cloud resources, you can import them into a new Brainboard architecture.
 
-1. Click on new architecture button in the top bar
-2. Select the `import data` option:
+1. Click on new architecture button in the top left corner
+2. Select the `import from your infrastructure` option:
 
-![Create architecture import data](../../.gitbook/assets/create-architecture-import-data.png)
+![Create architecture import data](<../../.gitbook/assets/CleanShot 2025-05-23 at 19.04.37@2x (1).png>)
 
-3. Select the `Cloud providers` option:
+3. Select the `From you Cloud providers` option:
 
-![Create architecture cloud provider option](../../.gitbook/assets/cloud-provider-option.png)
+![Create architecture cloud provider option](<../../.gitbook/assets/CleanShot 2025-05-23 at 19.07.14@2x.png>)
 
-4. Expand the desired cloud provider in the cloud providers list, and select the [cloud provider credentials](https://gitlab.com/brainboard/brainboard/-/blob/main/cloud-providers/configure-access/README.md) corresponding to your cloud account.
-5. Select the resource groups (Azure) or regions (AWS) containing the resources you want to import and click on `Next`:
+4. Select AWS
 
-![Create architecture cloud provider select regions](../../.gitbook/assets/cp-import-select-regions.png) Remember to select the region containing the default view you created in the previous step.
+<figure><img src="../../.gitbook/assets/CleanShot 2025-05-23 at 19.08.25@2x.png" alt=""><figcaption></figcaption></figure>
 
-6. Your cloud import task has now started. The next window will display a link to track your import progress:
+5. Select the credentials / the account that you want to import from
 
-![CP import started](../../.gitbook/assets/cp-import-started.png)
+<figure><img src="../../.gitbook/assets/CleanShot 2025-05-23 at 19.10.51@2x.png" alt=""><figcaption></figcaption></figure>
+
+6. The next pages explain the mechanism to use to import your infrastructure. Please read them to know which way is best for you and click Next
+
+<figure><img src="../../.gitbook/assets/CleanShot 2025-05-23 at 19.12.23@2x.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/CleanShot 2025-05-23 at 19.12.34@2x (1).png" alt=""><figcaption></figcaption></figure>
+
+7. Select the region(s) of your infrastructure
+
+<figure><img src="../../.gitbook/assets/CleanShot 2025-05-23 at 19.12.52@2x.png" alt=""><figcaption></figcaption></figure>
+
+8. Brainboard scans your region(s) and list all the resources for you that you can filter exactly those you want to import
+
+<figure><img src="../../.gitbook/assets/CleanShot 2025-05-23 at 19.17.09@2x.png" alt=""><figcaption></figcaption></figure>
+
+9. Give a name to your architecture and click on `Start import`&#x20;
+
+<figure><img src="../../.gitbook/assets/CleanShot 2025-05-23 at 19.17.48@2x.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Importing resources from your cloud account can take a long time, depending on the number of resources Brainboard will find in your account. You can either check the import progress window regularly or wait for an email notification once the import is complete. The email notification will contain the same link, allowing you to select resources
+Importing resources from your cloud account can take a long time, depending on the number of resources Brainboard will find in your account. You can either keep the import window open or wait for an email notification once the import is complete.&#x20;
+
+You will also be notified in the app when the import is done.
 {% endhint %}
-
-7. Once the cloud import is complete, the import window will allow you to select which resources you wish to import into your architecture:
-
-![Select resources to import](../../.gitbook/assets/cp-import-select-resources.png)
 
 This window will also display the remaining import credits in your Brainboard account.
 
 Every time you select a resource to import, the number of credits that will be deducted from your account displayed at the bottom of the window is refreshed.
-
-Once you have selected the desired resources, click next to create the Brainboard architecture.
