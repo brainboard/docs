@@ -15,6 +15,30 @@ layout:
 
 # Changelog
 
+### 2025.05.6 - May 27, 2025
+
+#### 🎉 Features and Improvements
+
+* **Infrastructure Management**
+  * Introduced a new Terraform provider schemas service, enabling more accurate validation and support for the latest provider features.
+* **Code Edition / Bidirectional**
+  * Added autocomplete suggestions for Terraform/OpenTofu attributes and variables in the Monaco editor, streamlining code editing and reducing errors.
+
+#### ✅ Bug Fixes
+
+* **Design Area / Diagram**
+  * Fixed an issue where nodes could become detached from their parent when another child was deleted, improving diagram stability for all users.
+* **Identity Card**
+  * Resolved problems with the retrieval of the resource identity card in multi-cloud architectures, ensuring accurate attribute display and editing.
+* **CI/CD**
+  * Fixed saving and display of custom CI/CD task names, so custom names now persist as expected.
+* **Architecture Warnings**
+  * The warnings indicator now hides when there are no active (non-ignored) warnings, reducing unnecessary distractions for users.
+* **Modules**
+  * Enhanced the module card source field with better text overflow handling for improved readability.
+
+***
+
 ### 2025.05.5 - May 15, 2025
 
 #### 🎉 Features and Improvements
