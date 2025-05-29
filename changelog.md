@@ -15,6 +15,31 @@ layout:
 
 # Changelog
 
+### 2025.05.7 & 2025.05.8 - May 29, 2025
+
+#### 🎉 Features and Improvements
+
+* Leftbar
+  * The Leftbar and related components have been fully redesigned and migrated from Material-UI to SCSS, delivering a faster, more modern, and visually consistent interface.
+  * Improved usability and clarity when selecting cloud providers and versions, with a streamlined dropdown experience and better feedback.
+
+#### ✅ Bug Fixes
+
+* General
+  * Fixed an issue where list selection was not working as expected, ensuring accurate selection and improved usability for all users.
+* Architecture Warnings
+  * Architecture warnings now ignore "brainboard\_group" resources in hierarchy checks, reducing unnecessary alerts and making warnings more relevant.
+* Settings - Architecture
+  * Git-related errors are now clearly displayed in the settings page, making it easier to diagnose and resolve configuration issues.
+* Import from files
+  * When importing architectures, resources from reserved files (like `providers.tf`, `variables.tf`, `outputs.tf`, `locals.tf`, and `backend.tf`) are now automatically moved to the `main.tf`, ensuring a smoother and more consistent import experience.
+* Git Configuration
+  * Fixed error handling across Git settings, selectors, and API calls, so users now receive clearer feedback when issues arise.
+* Project selector / Architecture selector
+  * Resolved a bug that caused the same project to appear multiple times in the selector, providing a cleaner and more accurate project selection experience for all users.
+
+***
+
 ### 2025.05.6 - May 27, 2025
 
 #### 🎉 Features and Improvements
