@@ -15,6 +15,18 @@ layout:
 
 # Changelog
 
+### 2025.05.9 - May 30, 2025
+
+#### ✅ Bug Fixes
+
+* Project Creation
+  * Fixed an issue that prevented users from creating new projects, ensuring all users can now reliably add projects.
+* Project & Environment Selection
+  * Resolved a bug that caused broken project and environment selection in the architecture wizard, ensuring users can now select the correct context for their work.
+  * Addressed scenarios where the wrong project or environment could be selected, improving consistency for all users working with templates and new architectures.
+
+***
+
 ### 2025.05.7 & 2025.05.8 - May 29, 2025
 
 #### 🎉 Features and Improvements
