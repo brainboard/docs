@@ -15,6 +15,17 @@ layout:
 
 # Changelog
 
+### 2025.06.1 - Jun 03, 2025
+
+#### ✅ Bug Fixes
+
+* Cloud Provider Credentials
+  * Introduced a custom tree view to manage credential scopes, offering a more intuitive interface and removing reliance on external UI libraries.
+* Workflow
+  * Enhanced logging and error handling for job processing, making troubleshooting and monitoring more reliable for all users running pipelines and automations.
+
+***
+
 ### 2025.05.9 - May 30, 2025
 
 #### ✅ Bug Fixes
