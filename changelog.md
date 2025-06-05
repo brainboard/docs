@@ -15,6 +15,18 @@ layout:
 
 # Changelog
 
+### 2025.06.2 - Jun 05, 2025
+
+#### ✅ Bug Fixes
+
+* CI/CD / Pipelines
+  * Improved error handling and logging to prevent deadlocks during pipeline updates, resulting in more robust and reliable pipeline execution for all users.
+  * Enhanced URL validation to support complex URLs with ports and query parameters, ensuring smoother integrations (e.g., MS Teams).
+* Code edition
+  * Removed unnecessary initialization of module graphics, ensuring that module containers correctly retain their existing children—improving diagram accuracy and consistency.
+
+***
+
 ### 2025.06.1 - Jun 03, 2025
 
 #### ✅ Bug Fixes
