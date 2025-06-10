@@ -44,6 +44,6 @@ Deleting an environment will delete all architectures inside it. This action can
 
 ### Synchronize architectures across environments
 
-Refer to the [Architecture Synchronization](cloud-architecture/environment-sync.md) to know more about it.
+Refer to the [Architecture Synchronization](cloud-architecture/synced-architectures.md) to know more about it.
 
 By following these steps, you can effectively manage multiple environments in Brainboard and ensure that your infrastructure is consistent and reliable across all stages. This is the best way to eliminate the drift between different environments.

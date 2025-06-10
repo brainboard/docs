@@ -13,10 +13,10 @@ When you do a pull request, Brainboard packages all the generated files for your
 Here are important information on how it works:
 
 1. You first have to setup the integration between Brainboard and your git repository. Refer to these pages to do the integration with:
-   * [git-apps.md](git-apps.md "mention")
-   * [personal-git-tokens.md](personal-git-tokens.md "mention")
-   * [personal-git-tokens-2.md](personal-git-tokens-2.md "mention")
-   * [personal-git-tokens-1.md](personal-git-tokens-1.md "mention")
+   * [github.md](github.md "mention")
+   * [ado.md](ado.md "mention")
+   * [gitlab.md](gitlab.md "mention")
+   * [bitbucket.md](bitbucket.md "mention")
 2.  Select the Git credentials you want to associate to your architecture in the settings page of the architecture
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 17.54.35@2x.png" alt=""><figcaption></figcaption></figure>

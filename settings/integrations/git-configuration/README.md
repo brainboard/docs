@@ -27,8 +27,8 @@ There are 3 types of Git connections:
 
 Brainboard supports the following Git providers:
 
-1. [git-apps.md](git-apps.md "mention")
-2. [personal-git-tokens-2.md](personal-git-tokens-2.md "mention")
-3. [personal-git-tokens-1.md](personal-git-tokens-1.md "mention")
-4. [personal-git-tokens.md](personal-git-tokens.md "mention")
+1. [github.md](github.md "mention")
+2. [gitlab.md](gitlab.md "mention")
+3. [bitbucket.md](bitbucket.md "mention")
+4. [ado.md](ado.md "mention")
 

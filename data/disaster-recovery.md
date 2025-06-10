@@ -108,7 +108,7 @@ Here are some of the most common and important information that you may need to 
 
 This replication doesn't trigger deployment to give you the flexibility to chose which environment you want to deploy, how and when.
 
-Please refer to page [environment-sync.md](data-structure/cloud-architecture/environment-sync.md "mention") for more details about this feature.
+Please refer to page [synced-architectures.md](data-structure/cloud-architecture/synced-architectures.md "mention") for more details about this feature.
 {% endhint %}
 
 4. **Continuous monitoring & notification:** Now that you configured your DR environment through the synced architecture of your production, you can schedule a CI/CD workflow in Brainboard. This will test if the infrastructure of the DR environment is always in a deployable state and notify you if there are any errors.
