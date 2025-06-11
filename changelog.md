@@ -15,6 +15,19 @@ layout:
 
 # Changelog
 
+### 2025.06.3 - Jun 11, 2025
+
+#### ✅ Bug Fixes
+
+* Design Area - Right-panel (TF Code/One-action)
+  * Improved the right pane experience by ensuring tab selections are now session-based and not browser based, providing a more predictable and consistent workflow for users.
+* Text Node
+  * Fixed list style rendering issues, ensuring that bullet points and lists appear as intended for all users.
+* brainboard\_file Identity Card
+  * Resolved file type restrictions, allowing users to upload any file type without encountering errors.
+
+***
+
 ### 2025.06.2 - Jun 05, 2025
 
 #### ✅ Bug Fixes
