@@ -6,6 +6,8 @@ Brainboard allows you to import your cloud infrastructure from AWS, and will gen
 
 {% hint style="info" %}
 This is considered a migration to Brainboard and not intended to be used a remediation to the drift.
+
+Please check [drift](../../automation/drift/ "mention")section to understand how it works and how you can setup a remediation.
 {% endhint %}
 
 ### Import from AWS provider prerequisites
