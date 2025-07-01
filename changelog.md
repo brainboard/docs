@@ -15,6 +15,29 @@ layout:
 
 # Changelog
 
+### 2025.07.1 - Jul 01, 2025
+
+#### 🎉 Features and Improvements
+
+* Design Area / Diagram
+  * Improved label visibility by increasing the maximum text width, making complex diagrams easier to read.
+  * Enhanced container title text color for better readability.
+* Remote Backend / Cloud Providers (Azure)
+  * Added support for Azure remote backend authentication via Active Directory, allowing secure access without an account key
+
+#### ✅ Bug Fixes
+
+* Code edition
+  * Fixed _locals.tf_ file edition, ensuring more accurate and reliable code changes.
+* Templates
+  * Improved loading skeleton padding for a smoother visual experience when browsing architecture templates.
+* Global - Dropdown menus
+  * Fixed an issue where dropdown menus did not close when clicking the trigger button, improving user interactions throughout the app.
+* Git Configuration / CI/CD / Pull Request Plugin
+  * Resolved an issue that prevented configuring Git integration in the CI/CD Pull Request plugin, streamlining setup for teams using Git workflows.
+
+***
+
 ### 2025.06.3 - Jun 11, 2025
 
 #### ✅ Bug Fixes
