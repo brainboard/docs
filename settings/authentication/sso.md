@@ -1,5 +1,7 @@
 # Single sign-on (SSO)
 
+### Introduction
+
 {% hint style="info" %}
 This feature is available only in the `Enterprise` plan and must be configured with the support team.
 {% endhint %}
@@ -8,7 +10,7 @@ Brainboard offers SAML integrations to Enterprise accounts so that admins can ea
 
 We support both `SAML 2` (recommended) & `OIDC`.
 
-Brainboard's SAML integration allows you to connect Brainboard to your IDP so all users in your Brainboard organization can quickly and securely authenticate thought your IDP using SSO. New users will automatically be created in Brainboard when they sign in for the first time after been allowed in your IDP.
+Brainboard's SAML integration allows you to connect Brainboard to your IDP so all users in your Brainboard organization can quickly and securely authenticate thought your IDP using SSO. New users will automatically be created in Brainboard when they sign in for the first time after being allowed in your IDP.
 
 
 
@@ -22,22 +24,36 @@ To get your tenant, you must reach out to the support team.
 
 It might be shared by Brainboard team via email before the first onboarding session.
 
-#### 2. Set up SAML in your IDP
+#### 2. Set up SAML or OIDC in your IDP
 
+{% tabs %}
+{% tab title="SAML" %}
 We support SAML 2.0 standard.
 
-Information needed to configure the SAML connectiong in your IDP:
+Information needed to configure the SAML connection in your IDP:
 
 | Identifier (Entity ID) | https://auth.brainboard.co/realms/{TENANT}                      |
 | ---------------------- | --------------------------------------------------------------- |
 | Reply/Assertion URL    | https://auth.brainboard.co/realms/{TENANT}/broker/saml/endpoint |
 | Sign on URL            | https://{TENANT}.app.brainboard.co                              |
+{% endtab %}
+
+{% tab title="OIDC" %}
+
+
+1. During the app creation, you need to allow the following redirect\_uri: https://auth.brainboard.co/realms/{TENANT}/broker/microsoft/endpoint
+2. Then please share the following information:
+   * Tenant ID
+   * Application ID
+   * Secret value (You can use [https://privatebin.brainboard.co](https://privatebin.brainboard.co/) and send our team the link after)
+
+If you need any help, reach out to our team.
+{% endtab %}
+{% endtabs %}
 
 {% hint style="info" %}
 Do not forget to replace `{TENANT}` with your tenant shared by the team.
 {% endhint %}
-
-
 
 Brainboard will configure automatically the following mappers (Azure Entra ID standard):
 
