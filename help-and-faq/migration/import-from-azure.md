@@ -97,6 +97,14 @@ The import process has 3 phases:
 
 
 
+### Azure permissions
+
+In Azure, to be able to import all your resources, sometimes granting `Read` permission on the top level resource is not enough. You need to grant access to the underlying sub-resources. For e.g. to access key vault keys, you need to explicitly grant read permission on the keys even if you already have a read permission on the key vault itself.
+
+Here is a list of the permissions you need to import your resources, that you can use to create a custom role. If you still face a permission issue on resources or permissions not listed here, you need to add them into the role.
+
+{% file src="../../.gitbook/assets/Brainboard Azure Import.json" %}
+
 ### Limitations
 
 When you import your cloud infrastructure, here is what you need to know about what is imported and how:

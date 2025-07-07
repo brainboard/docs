@@ -5,20 +5,6 @@ description: >-
 icon: hand-wave
 cover: .gitbook/assets/Brainboard Onboarding Training.webp
 coverY: 16.86990291262136
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Welcome

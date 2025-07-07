@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Cloud resources
 
 ### Description
@@ -122,8 +108,8 @@ Brainboard support any type of Terraform modules from any source. To import your
 
 
 {% hint style="info" %}
-1. You can customize the icon of your modules when you import them whatever the source is.
-2. When you initiate the import, Brainboard first checks if the Terraform code of the module is correct or not and displays an error if the module contains any Terraform errors or invalid syntax.
+1) You can customize the icon of your modules when you import them whatever the source is.
+2) When you initiate the import, Brainboard first checks if the Terraform code of the module is correct or not and displays an error if the module contains any Terraform errors or invalid syntax.
 {% endhint %}
 
 #### Modules catalog
