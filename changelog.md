@@ -4,6 +4,15 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2025.07.2 - Jul 16, 2025
+
+#### ✅ Bug Fixes
+
+* Plugins Drift
+  * Added support for including Terraform provider schemas in release workflows, making it easier to stay up to date with the latest provider features.
+
+***
+
 ### 2025.07.1 - Jul 01, 2025
 
 #### 🎉 Features and Improvements
