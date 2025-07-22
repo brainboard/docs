@@ -43,7 +43,7 @@ To delete an organization:
 
     <figure><img src="../.gitbook/assets/NnIz9AE6gvxO97iQ.png" alt=""><figcaption></figcaption></figure>
 
-### Roles within an organization
+### Default organization roles
 
 There are 4 default roles within the organization.
 
