@@ -4,6 +4,18 @@ icon: clock-rotate-left
 
 # Changelog
 
+
+
+### 2025.07.3 - Jul 28, 2025
+
+#### ✅ Bug Fixes
+
+* Cloud Provider Credentials
+  * Automatically removes related cloud provider credential links when deleting an architecture, environment, or project, ensuring your credential data stays clean and secure.
+  * Fixed an issue where some projects were not correctly listed based on cloud credential scope, providing more accurate and reliable project views for all users.
+
+***
+
 ### 2025.07.2 - Jul 16, 2025
 
 #### ✅ Bug Fixes
