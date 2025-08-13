@@ -6,6 +6,17 @@ icon: clock-rotate-left
 
 
 
+### 2025.08.1 - Aug 13, 2025
+
+#### ✅ Bug Fixes
+
+* Cloud Provider Import
+  * Improved the parallel import feature to automatically optimize performance, helping users import resources more efficiently from cloud providers.
+* Team Management
+  * Fixed an issue allowing teams to be created programmatically even if they are empty, ensuring smoother automation and onboarding processes for organizations.
+
+***
+
 ### 2025.07.4 - Jul 28, 2025
 
 #### ✅ Bug Fixes
