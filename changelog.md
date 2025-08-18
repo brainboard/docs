@@ -4,7 +4,14 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2025.08.2 - Aug 18, 2025
 
+#### 🎉 Features and Improvements
+
+* CICD - Plugins - Webhook
+  * Added support for custom HTTP methods and headers in webhook scripts, enabling more flexible integrations with external systems.
+
+***
 
 ### 2025.08.1 - Aug 13, 2025
 
