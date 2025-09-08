@@ -4,6 +4,15 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2025.09.1 - Sep 08, 2025
+
+#### 🎉 Features and Improvements
+
+* RBAC
+  * Introduced new permissions regarding organization/project/environment/architecture settings, giving organizations more control over settings management.
+
+***
+
 ### 2025.08.2 - Aug 18, 2025
 
 #### 🎉 Features and Improvements
