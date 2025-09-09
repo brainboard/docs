@@ -120,7 +120,7 @@ In this scenario:
 
 ### Data flow diagram
 
-<figure><img src="../.gitbook/assets/Brainboard Data flow.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Brainboard HLD.png" alt=""><figcaption></figcaption></figure>
 
 ### Contact us
 
