@@ -4,17 +4,15 @@ icon: comments-question-check
 
 # Support
 
-### While using Brainboard
+### In-app chat (preferred)
 
 When you are using Brainboard, you can reach out to us in real time by clicking on the button `Help` in the top right corner, then click on `Ask us anything`. One of our team members will reply to answer your questions or help you on any technical topic.
 
 ![Ask us anything](../.gitbook/assets/ask-us-anything.png)
 
-### Technical questions
+### Email
 
-If you prefer emails (asynchronous communication) or if you want to schedule a call to help you on a specific technical topic, you can reach out to our technical team at `support@brainboard.co`.
-
-One of our cloud architects will help you.
+If you prefer emails (asynchronous communication), you can reach out to our technical team at `support@brainboard.co`. The team will do its best to get back to you as soon as possible.
 
 ### Access our security reports
 
@@ -32,4 +30,4 @@ To request a new feature or see what the community have requested, check our [pu
 
 ### Request a demo
 
-To request a demo of Brainboard, reach out to our sales team at `sales@brainboard.co`
+To request a demo of Brainboard, reach out to our sales team at `sales@brainboard.co` .

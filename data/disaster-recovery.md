@@ -54,7 +54,7 @@ Here are the complete steps to build a robust and reliable DR strategy in Brainb
 1. **Determine the source of the information:** In this step, you determine where is the environment for which you are creating a DR strategy. Brainboard helps either:
    1.  **Import from cloud providers:** For workloads that don't have any Terraform / IaC code, Brainboard allows you to import them, generate a design with Terraform code and ultimately build a DR environment for them.
 
-       Refer to the page [migration](../help-and-faq/migration/ "mention") to understand how to migrate your cloud environment to Brainboard and generate Terraform code for it.
+       Refer to the page [migration](../help-and-faq/enterprise-customers/migration/ "mention") to understand how to migrate your cloud environment to Brainboard and generate Terraform code for it.
    2. **Import from existing Terraform:** If you already have a Terraform code for your environment, you can easily import it in Brainboard to get started. You can import your Terraform code from either a Git repository or local files.
 2.  **Make the configuration dynamic:** Once you import your cloud infrastructure, the next step is to make the information that are specific to the DR environment dynamic in Brainboard. This allows you to create a replicas of your production without impacting it.
 

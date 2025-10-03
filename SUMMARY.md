@@ -137,10 +137,12 @@
 
 * [Shortcuts](help-and-faq/shortcuts.md)
 * [FAQ](help-and-faq/faq.md)
-* [Migration](help-and-faq/migration/README.md)
-  * [Import from Azure](help-and-faq/migration/import-from-azure.md)
-  * [Import from AWS](help-and-faq/migration/aws-import.md)
-  * [Limitations](help-and-faq/migration/limitations.md)
+* [Enterprise customers](help-and-faq/enterprise-customers/README.md)
+  * [Migration](help-and-faq/enterprise-customers/migration/README.md)
+    * [Import from Azure](help-and-faq/enterprise-customers/migration/import-from-azure.md)
+    * [Import from AWS](help-and-faq/enterprise-customers/migration/aws-import.md)
+    * [Limitations](help-and-faq/enterprise-customers/migration/limitations.md)
+  * [Support vs Professional Services](help-and-faq/enterprise-customers/support-vs-professional-services.md)
 * [Support](help-and-faq/support.md)
 * [Glossary](help-and-faq/glossary.md)
 
