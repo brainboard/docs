@@ -119,3 +119,64 @@ You will also be notified in the app when the import is done.
 This window will also display the remaining import credits in your Brainboard account.
 
 Every time you select a resource to import, the number of credits that will be deducted from your account displayed at the bottom of the window is refreshed.
+
+### Limitations
+
+When you import your cloud infrastructure, here is what you need to know about what is imported and how:
+
+* The import uses AWS resource explorer or the tagging, so all the resources available through through these mechanisms are supported
+* Information that are not disclosed by AWS are not available, for e.g:
+  * Virtual machine passwords
+  * Database passwords
+  * Sensitive information
+
+{% hint style="info" %}
+So we replace these sensitive information in the code with a placeholder string "_ignored-as-imported_"
+{% endhint %}
+
+* The goal is to run the plan without having any errors, but sometimes you may have some:
+  * When only one parameter is needed out of 2 possible. When we do the import, the default values are imported from AWS. So even if we are continuously improving the process to fix this mutually exclusive parameters, in some situations we keep it as it is for the user to decide what is correct.
+
+### Exclusions and optimization
+
+It is very important when you are importing resources to filter out those you will not maintain in Terraform (as it doesn't make sense) or ephemeral resources. You can use this list as a starting point:
+
+| AWS resource type                | Comment                                            |
+| -------------------------------- | -------------------------------------------------- |
+| acm:certificate                  | We don't recommend importing sensitive information |
+| appstream:image-builder          |                                                    |
+| athena:datacatalog               |                                                    |
+| athena:workgroup                 |                                                    |
+| backup:recovery-point            |                                                    |
+| cloudformation:stack             |                                                    |
+| cloudformation:stackset          |                                                    |
+| cloudtrail:trail                 |                                                    |
+| cloudwatch:alarm                 |                                                    |
+| codebuild:project                |                                                    |
+| config:config-rule               |                                                    |
+| ec2:default-security-group       |                                                    |
+| ec2:image                        |                                                    |
+| ec2:network-insights-path        |                                                    |
+| ecs:task                         |                                                    |
+| elasticloadbalancing:targetgroup |                                                    |
+| iam:mfa                          |                                                    |
+| iam:saml-provider                |                                                    |
+| kms:key                          |                                                    |
+| lambda:event-source-mapping      |                                                    |
+| logs:log-group                   |                                                    |
+| memorydb:acl                     |                                                    |
+| memorydb:parametergroup          |                                                    |
+| networkmanager:global-network    |                                                    |
+| redshift:parametergroup          |                                                    |
+| secretsmanager:secret            | We don't recommend importing sensitive information |
+| ssm:session                      |                                                    |
+
+### Best practices
+
+* Do smaller imports: The golden rule is to import only resources that are supposed to be managed in the same lifecycle:
+  * To reduce the blast radius
+  * Have a light tfstate for future operations
+  * Better diagram and code navigation
+* If you have different environments like dev, staging and prod, don't import them all in one import. Separate the environments and do different imports for different purposes.
+* Don't import sensitive information in clear text. Surprisingly, when you do the import, if the credentials are allowed to read the key vault secrets it will be able to list them for import. Better to not import them and just reference them using the `data objects` instead.
+* After the first import, create a version in Brainboard called for e.g, `Initial import` . This is an immutable snapshot that you can revert to if needed later.

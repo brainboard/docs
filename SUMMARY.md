@@ -141,7 +141,6 @@
   * [Migration](help-and-faq/enterprise-customers/migration/README.md)
     * [Import from Azure](help-and-faq/enterprise-customers/migration/import-from-azure.md)
     * [Import from AWS](help-and-faq/enterprise-customers/migration/aws-import.md)
-    * [Limitations](help-and-faq/enterprise-customers/migration/limitations.md)
   * [Support vs Professional Services](help-and-faq/enterprise-customers/support-vs-professional-services.md)
 * [Support](help-and-faq/support.md)
 * [Glossary](help-and-faq/glossary.md)
