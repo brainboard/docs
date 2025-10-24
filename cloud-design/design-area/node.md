@@ -99,7 +99,7 @@ The following graphical options are common to any node in the design area:
 8. Change the border radius of the node
 9. Make borders of the node dashed
 10. Change the border weight of the node
-11. Open cloud configuration: This will open the ID card of the resource that contains all Terraform fields that  you can fill. Brainboard generates the Terraform code based on this configuration.
+11. Open cloud configuration: This will open the Resource Configuration panel that contains all Terraform fields that you can fill. Brainboard generates the Terraform code based on this configuration.
 
 #### Context menu
 
@@ -107,7 +107,7 @@ The following graphical options are common to any node in the design area:
 
     ![](../../.gitbook/assets/node\_context\_menu.png)![](../../.gitbook/assets/node\_context\_menu\_switch\_to\_resource.png)
 
-    1. Open the ID card of the resource to update the cloud configuration
+    1. Open the Resource Configuration panel to update the cloud configuration
     2. Change the title of the node
     3. Add connectors
     4. Disable the Terraform code generation of the node without deleting it from the design
@@ -121,9 +121,9 @@ The following graphical options are common to any node in the design area:
 
 ### Cloud configuration
 
-Every node that is a cloud resource will have its Terraform code automatically generated and updated when you fill the information in the ID card or when you move the node into a parent, where it inherits some cloud properties.
+Every node that is a cloud resource will have its Terraform code automatically generated and updated when you fill the information in the Resource Configuration panel or when you move the node into a parent, where it inherits some cloud properties.
 
-Refer to ID card page for more details about how to update the cloud configuration of nodes and all the options available.
+Refer to [Resource Configuration](../resource-configuration.md) page for more details about how to update the cloud configuration of nodes and all the options available.
 
 ### Behavior
 
@@ -144,6 +144,6 @@ Here is the behavior of the node in the design area:
   * For example, you cannot add a subnet inside a subnet, VPC inside VPC, VNET inside VNET...
 * When you try to add a container into another one, Brainboard automatically fixes the right order of containers based on what is accepted by the provider.
   * For example, if you try to add a VPC inside a subnet, Brainboard will put the subnet inside the VPC and fills the information correctly for you.
-* You can still reference resources from different providers in the ID card.
+* You can still reference resources from different providers in the Resource Configuration panel.
   * For example, reference AD user inside a VM.
 * When selecting multiple resources and cloning them, Brainboard automatically generates new resource names to avoid collisions and tracks dependencies correctly. Which means, the Terraform plan should pass after the clone.

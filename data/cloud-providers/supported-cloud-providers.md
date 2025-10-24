@@ -67,7 +67,7 @@ You can select any version from the list of versions:
 
 ![CP versions](../../.gitbook/assets/cp-versions-list.png)
 
-When you select a specific version, Brainboard loads all the resources of this version and the id-card of every resource will contain the parameters available in the selected version.
+When you select a specific version, Brainboard loads all the resources of this version and the Resource Configuration panel of every resource will contain the parameters available in the selected version.
 
 {% hint style="warning" %}
 When selecting a different version, always do a `plan` to make sure that the code is valid, as most often parameters are updated between versions and some resources may be added or deleted
