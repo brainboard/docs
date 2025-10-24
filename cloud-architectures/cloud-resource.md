@@ -9,14 +9,14 @@ hidden: true
 Cloud resource is any resource available at the cloud provider that has either a Terraform resource or data source associated with it.
 
 * This resource can be drag & dropped from the left bar.
-* Every cloud resource has a set of configuration parameters that you can customize on the ID card of that resource.
+* Every cloud resource has a set of configuration parameters that you can customize in the Resource Configuration panel of that resource.
 * There are **5** types of nodes:
   1. Cloud resource: this resource will be created when you provision the infrastructure.
   2. Data source: it refers to an existing cloud resource.
   3. Module: Terraform module.
   4. Container: it can contain other resource and give them its properties. E.g. AWS VPC, or Azure virtual network.
   5. Icon only: this resource is just graphic and has no Terraform representation.
-* Refer to the [identity card](../cloud-design/design-area/id-card.md) page for more information on how to configure resources.
+* Refer to the [Resource Configuration](../cloud-design/resource-configuration.md) page for more information on how to configure resources.
 
 ### Types of resources
 
@@ -49,7 +49,7 @@ Nodes like Text, or generic icons have no cloud configuration and will not be de
 
 * You can convert any cloud resource into an icon, so its code will be removed from the generated one.
   * You can put it back into cloud resource, its configuration will be preserved.
-*   You also have the possibility to hide the code of any cloud resource from the generated code by clicking on the hide icon of the id-card&#x20;
+*   You also have the possibility to hide the code of any cloud resource from the generated code by clicking on the hide icon in the Resource Configuration panel&#x20;
 
     <figure><img src="../.gitbook/assets/hide-resource-code.png" alt=""><figcaption></figcaption></figure>
 * You can change/customize the icon of any resource to reflect your preferences.
@@ -61,7 +61,7 @@ Refer to the page [supported cloud providers](../data/cloud-providers/supported-
 
 ### Interactions between nodes
 
-When you drag-&-drop any resource, for any cloud provider, the id-card of this resource will be open to allow you to configure its cloud parameters. Brainboard generates the Terraform code instantly when you close the id-card.
+When you drag-&-drop any resource, for any cloud provider, the Resource Configuration panel will open to allow you to configure its cloud parameters. Brainboard generates the Terraform code instantly when you close the panel.
 
 There is a special type of resource called `containers`, which means you can drop resources inside them, Brainboard detects the relationship between them and automatically the added resource and populate the information in the right direction.
 
