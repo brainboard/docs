@@ -12,8 +12,8 @@ Characteristics of a cloud resource:
 
 * It can be drag & dropped from the left bar.
 * It has a lifecycle associated to it, so it can be created, updated and deleted.
-* It has a set of configuration parameters that you can customize through the ID card.
-  * Refer to the [identity card](../design-area/id-card.md) page for more information on how to configure a cloud resource.
+* It has a set of configuration parameters that you can customize through the Resource Configuration panel.
+  * Refer to the [Resource Configuration](../resource-configuration.md) page for more information on how to configure a cloud resource.
 
 ### Types of cloud resources
 
@@ -37,7 +37,7 @@ You can switch between the data types and resources in 2 ways:
     ![](../../.gitbook/assets/node-context-menu-switch-to-resource.png)![](../../.gitbook/assets/node-context-menu-switch-to-data.png)
 
 {% hint style="info" %}
-When you switch a resource into data, Brainboard automatically changes all the references of this resource in the Terraform code into a data block and also updates the configuration of its ID card.
+When you switch a resource into data, Brainboard automatically changes all the references of this resource in the Terraform code into a data block and also updates the configuration in the Resource Configuration panel.
 {% endhint %}
 
 **Agnostic nodes**
@@ -72,9 +72,9 @@ Brainboard support any type of Terraform modules from any source. To import your
 
 1.  Import from registry: You can import your Terraform / OpenTofu modules from your Terraform registry, could it be **public** or **private**. You need to specify:
 
-    1. The name of the module: this will be used as a Terraform resource name when you use the module later. If needed, you can customize it for every module in the ID card when you use the module.
+    1. The name of the module: this will be used as a Terraform resource name when you use the module later. If needed, you can customize it for every module in the Resource Configuration panel when you use the module.
     2. The source path: the path of the module in the registry.
-    3. The version: You can specify the version you want to import or keep the latest and later change it for the module's ID card when you use it.
+    3. The version: You can specify the version you want to import or keep the latest and later change it in the Resource Configuration panel when you use it.
 
 
 

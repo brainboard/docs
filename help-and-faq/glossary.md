@@ -52,9 +52,9 @@ The `destroy` action in Terraform is a command used to destroy the resources tha
 
 The use of `environments` enables teams to manage multiple versions of the same infrastructure in parallel, making it easier to test and deploy changes. Environments are used to separate resources that belong to different stages of a development or deployment pipeline, such as dev, staging, and production. This allows teams to manage multiple versions of the same infrastructure in parallel, with different settings, configurations, and resources for each environment.
 
-### ID card
+### Resource Configuration
 
-ID cards in Brainboard contain all the information and details about objects in the diagram. They are displayed as a side panel when a resource is selected on the diagram or on the code. An ID card contains information about resources/data, such as their name, properties, attributes etc.
+The Resource Configuration panel in Brainboard contains all the information and details about objects in the diagram. It is displayed as a side panel when a resource is selected on the diagram or in the Resources List. The Resource Configuration panel contains information about resources/data, such as their name, properties, attributes, and provides form-based editing, code view, and state inspection.
 
 ### Inventory view
 

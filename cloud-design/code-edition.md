@@ -10,7 +10,7 @@ icon: code
 
 ## Code Edition: Directly Edit Your Terraform Code
 
-Brainboard's **Code Edition** feature allows you to directly view and modify the auto-generated Terraform HCL code for your cloud infrastructure designs. While Brainboard promotes a "**design-first**" approach where configurations are primarily managed through the visual interface and [resource ID cards](design-area/id-card.md), Code Edition provides flexibility for users who are comfortable with or prefer direct code manipulation for specific tasks.
+Brainboard's **Code Edition** feature allows you to directly view and modify the auto-generated Terraform HCL code for your cloud infrastructure designs. While Brainboard promotes a "**design-first**" approach where configurations are primarily managed through the visual interface and [Resource Configuration](resource-configuration.md) panel, Code Edition provides flexibility for users who are comfortable with or prefer direct code manipulation for specific tasks.
 
 <figure><img src="../.gitbook/assets/1AYGsYJAGwD1moQP.png" alt=""><figcaption><p>Brainboard design &#x26; Code panel</p></figcaption></figure>
 
@@ -63,7 +63,7 @@ The Code Edition panel is always visible on the right-hand side of the Brainboar
 
 Brainboard aims for a synchronized experience between the visual design and the code:
 
-* **Diagram/ID Card to Code:** Any modifications made to your infrastructure through the visual diagram (dragging, moving resources) or by configuring resources via their [ID Card](design-area/id-card.md) will automatically trigger a re-generation of the relevant Terraform code, which you will see updated in the Code Edition panel.
+* **Diagram/Resource Configuration to Code:** Any modifications made to your infrastructure through the visual diagram (dragging, moving resources) or by configuring resources via the [Resource Configuration](resource-configuration.md) panel will automatically trigger a re-generation of the relevant Terraform code, which you will see updated in the Code Edition panel.
 * **Code to Diagram:** Changes saved in the Code Editor that define new resources or modify existing ones in a way that impacts the diagram's structure (e.g., adding a `resource` block) will be reflected visually. New resources are typically appended to the diagram and may require manual placement.
 
 
@@ -90,10 +90,10 @@ As Code Edition is an Alpha feature and Brainboard primarily manages infrastruct
 
 *   **Resource Renaming:** You cannot rename a resource (e.g., changing `resource "azurerm_virtual_network" "vnet-aksc"` to `resource "azurerm_virtual_network" "my_new_vnet"`) directly in the Code Edition panel yet. The resource name is a critical part of its identifier within Brainboard.
 
-    * **How to Rename:** To rename a resource, please use its ID Card. Brainboard will then automatically propagate this name change throughout your configuration, updating all references to ensure consistency.
+    * **How to Rename:** To rename a resource, please use the Resource Configuration panel. Brainboard will then automatically propagate this name change throughout your configuration, updating all references to ensure consistency.
 
     <figure><img src="../.gitbook/assets/DUwYXkansX633iks.png" alt=""><figcaption></figcaption></figure>
-* **Supported Feature Only:** Only Terraform configurations and structures that are supported by Brainboard's GUI (the visual designer and ID Cards) are guaranteed to be preserved.
+* **Supported Feature Only:** Only Terraform configurations and structures that are supported by Brainboard's GUI (the visual designer and Resource Configuration panel) are guaranteed to be preserved.
 * **No Comment Preservation:** Comments in the code are currently not saved or preserved. When Brainboard parses and re-generates the code, comments will be stripped out.
 * **No Attribute or Block Order Preservation:** The order of attributes within a resource block or the order of blocks within a file may not be preserved. Brainboard will re-generate the code based on its own ordering rules.
 * **Restricted File Edits:** Certain files crucial for Brainboard's operation, such as `providers.tf` or `backend.tf`, are generally not editable or changes might be overwritten.
@@ -119,6 +119,6 @@ You can customize some aspects of the Monaco editor's appearance and behavior:
 ### Best Practices
 
 * **Save Frequently:** Use `CMD/CTRL+S` regularly to save your changes and ensure they are parsed and validated by Brainboard. Also, remember `CMD/CTRL+SHIFT+R` if you need to quickly discard unsaved changes in the editor.
-* **Prioritize Visual Design for Structure:** For major structural changes, adding new resources, or defining relationships, it's often best to use the visual designer and ID Cards. Use Code Edition for fine-tuning or specific code-level adjustments.
+* **Prioritize Visual Design for Structure:** For major structural changes, adding new resources, or defining relationships, it's often best to use the visual designer and Resource Configuration panel. Use Code Edition for fine-tuning or specific code-level adjustments.
 * **Understand the Re-generation Process:** Be aware that Brainboard parses your code changes and then re-generates the files. This is why comments and exact formatting may not be preserved.
 * **Check Diagram After Code Changes:** If you add or significantly modify resources via code, always review the visual diagram to ensure the changes are reflected as expected and adjust placement if necessary.
