@@ -4,6 +4,16 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2025.10.4 - Oct 27, 2025
+
+#### 🎉 Features and Improvements
+
+* New [Right panel](cloud-design/right-panel.md)
+
+<figure><img src=".gitbook/assets/Frame 1.png" alt=""><figcaption></figcaption></figure>
+
+***
+
 ### 2025.09.1 - Sep 08, 2025
 
 #### 🎉 Features and Improvements
