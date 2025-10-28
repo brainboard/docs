@@ -4,6 +4,29 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2025.10.6 - Oct 28, 2025
+
+#### 🎉 Features and Improvements
+
+* Design Area / Diagram
+  *   Introduced a new button to focus and highlight the active configuration node for quicker access.\
+
+
+      <figure><img src=".gitbook/assets/SaaAy9ck8bDNbo4i.png" alt="" width="298"><figcaption></figcaption></figure>
+* Map Input
+  * Added validation for map keys, ensuring only valid characters are used to prevent configuration issues.
+
+#### ✅ Bug Fixes
+
+* Resource Card
+  * Enhanced display of local and variable references, ensuring accurate and clear labeling for users.
+* Resource Configurator
+  * Improved restoration of field types when switching from advanced mode, ensuring data consistency and reducing user confusion.
+  * Added support for sections with multiple nested blocks, allowing more complex configurations and improved flexibility.
+  * Improved search to support case-insensitive matching, making it easier to find regions and locations.
+
+***
+
 ### 2025.10.4 - Oct 27, 2025
 
 #### 🎉 Features and Improvements
