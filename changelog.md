@@ -4,6 +4,26 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2025.10.7 - Oct 29, 2025
+
+#### 🎉 Features and Improvements
+
+* Design Area / Diagram
+  * Improved the auto-scroll behavior so that when switching between panel modes, the selected resource in the diagram is always visible.
+* Resource Configurator
+  * Added a confirmation modal before deleting blocks with existing configurations, helping prevent accidental data loss.
+
+#### ✅ Bug Fixes
+
+* Code generation
+  * Enhanced the map input to automatically quote keys with special characters and restrict invalid characters, preventing errors during code generation.
+* API
+  * Added back a dedicated API endpoint to list all architectures by environment, making it easier to discover and manage architectures in specific environments.
+* Auto-Scroll / Resource Selection
+  * Fixed the auto-scroll to selected resource when toggling between code and resources mode, so users always see the selected resource in view.
+
+***
+
 ### 2025.10.6 - Oct 28, 2025
 
 #### 🎉 Features and Improvements
