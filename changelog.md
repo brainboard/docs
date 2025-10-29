@@ -4,6 +4,15 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2025.10.8 - Oct 29, 2025
+
+#### ✅ Bug Fixes
+
+* Code generation
+  * Block order in code generation now produces consistent and predictable ordering, reducing confusion and making version control reviews easier for all users.
+
+***
+
 ### 2025.10.7 - Oct 29, 2025
 
 #### 🎉 Features and Improvements
