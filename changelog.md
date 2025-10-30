@@ -4,6 +4,26 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2025.10.10 - Oct 30, 2025
+
+#### 🎉 Features and Improvements
+
+* Design Area / Code Edition
+  * You can now use CMD+F or CTRL+F to quickly open the contextual search either in the code editor or right pane, making it easier to find what you need.
+* Architecture Configurator
+  * Searching for resources is now more accurate, as the resource name in addition to node title and resource type are always included in search results.
+
+#### ✅ Bug Fixes
+
+* Code generation (for custom node)
+  * Custom nodes now support for\_each/count/depends\_on and can generate Terraform code, unlocking more flexibility for advanced users.
+* General Stability
+  * Improved error handling in cloud configuration and architecture actions, so users receive clearer notifications and errors are better tracked.
+* Architecture Diagrams
+  * Circular dependencies between nodes are now detected and handled, preventing potential crashes or infinite processing loops.
+
+***
+
 ### 2025.10.8 - Oct 29, 2025
 
 #### ✅ Bug Fixes
