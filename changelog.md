@@ -4,6 +4,24 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2025.10.11 - Oct 30, 2025
+
+#### 🎉 Features and Improvements
+
+* Nodes / Containers
+  * You can now easily convert custom resources into standard nodes, making it simpler to transition to fully supported resource types and ensure long-term stability.
+* Identity Card
+  * When the resource name and title differ, the resource card tooltip now clearly displays the resource name, helping users quickly identify and differentiate resources.
+
+#### ✅ Bug Fixes
+
+* Architecture checkout
+  * Error notifications no longer appear when checking out a different architecture version, providing a smoother experience for users working with version history.
+* Code generation
+  * Custom node attributes created by previous code edition sessions are now handled correctly in code generation, ensuring the generated code is the same before the 2025.10.4 release.
+
+***
+
 ### 2025.10.10 - Oct 30, 2025
 
 #### 🎉 Features and Improvements
