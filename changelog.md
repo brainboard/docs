@@ -9,7 +9,7 @@ icon: clock-rotate-left
 #### ✅ Bug Fixes
 
 * Diagram
-  * Improved undo/redo performance in diagrams by fixing the first revision bug, resulting in a smoother editing experience for all users.
+  * Fixed diagram undo/redo boundaries ensuring users can undo their first action.
 * Deployment Preflight
   * Fixed an issue where some nodes appeared in the deployment preflight modal without warnings, ensuring errors are now displayed only when relevant for a clearer review process.
 * Resource configurator
