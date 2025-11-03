@@ -4,6 +4,19 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2025.11.1 - Nov 03, 2025
+
+#### ✅ Bug Fixes
+
+* Diagram
+  * Improved undo/redo performance in diagrams by fixing the first revision bug, resulting in a smoother editing experience for all users.
+* Deployment Preflight
+  * Fixed an issue where some nodes appeared in the deployment preflight modal without warnings, ensuring errors are now displayed only when relevant for a clearer review process.
+* Resource configurator
+  * Resolved a problem where clearing a select field with a reference did not actually remove the value, ensuring selections are accurately updated for all users.
+
+***
+
 ### 2025.10.11 - Oct 30, 2025
 
 #### 🎉 Features and Improvements
