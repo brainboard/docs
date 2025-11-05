@@ -4,6 +4,27 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2025.11.2 - Nov 05, 2025
+
+#### 🎉 Features and Improvements
+
+* Resource Configurator
+  * Added a button to manually refresh the Terraform Module form, making it easier to update module information on demand.
+  * Map fields now automatically generate unique keys, preventing accidental duplicates and reducing manual correction for users.
+* Design Area / Diagram
+  * Switching from the Code panel to the Resource panel now scrolls instantly to the selected resource, providing a smoother and faster navigation experience.
+
+#### ✅ Bug Fixes
+
+* New architecture
+  * New blank architectures now use your preferred cloud provider by default, streamlining setup for users with specific provider preferences.
+* Design Area / Diagram
+  * Fixed an issue where editing a tag could cause text to overflow when the builder was open, ensuring clear and readable labels for all users.
+* Resource TF filename Modal
+  * Addressed a bug that caused unnecessary horizontal scrolling in modals, resulting in a cleaner and more user-friendly interface.
+
+***
+
 ### 2025.11.1 - Nov 03, 2025
 
 #### ✅ Bug Fixes
