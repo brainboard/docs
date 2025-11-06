@@ -4,6 +4,17 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2025.11.3 - Nov 06, 2025
+
+#### ✅ Bug Fixes
+
+* Code edition / Bidirectional
+  * Enhanced the reliability of repeatable block ordering, ensuring that code imports and diagram updates remain consistent and predictable for all users.
+* Resource Configurator
+  * Fixed an issue where text fields would lose focus unexpectedly after clearing, streamlining the editing experience for all users.
+
+***
+
 ### 2025.11.2 - Nov 05, 2025
 
 #### 🎉 Features and Improvements
