@@ -4,6 +4,25 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2025.11.4 - Nov 10, 2025
+
+#### ✅ Bug Fixes
+
+* Right panel - resource menu action
+  * The "Switch to data source" option is now only shown for supported nodes, making the interface clearer and reducing confusion for users working with modules or icon-only nodes.
+* Diagram / Inheritance
+  * Improved inheritance logic to ensure configurations are inherited from the closest parent, enhancing accuracy for complex AzureRM architectures.
+* Import from Cloud Provider
+  * Importing large numbers of cloud resources now fails early and provides clear feedback when limits are exceeded, preventing partial or failed imports for customers with extensive cloud inventories.
+* Modules
+  * Fixed an issue that prevented users from changing the version of a module, restoring full control over module sources.
+* Code Generation
+  * Fixed provider code generation when a custom provider source is set, ensuring Terraform configurations are always valid for custom and official providers.
+* Pipelines
+  * Ensured pipeline data reflects real-time status by always fetching the latest information, preventing outdated or stale job output.
+
+***
+
 ### 2025.11.3 - Nov 06, 2025
 
 #### ✅ Bug Fixes
