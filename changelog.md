@@ -4,6 +4,26 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2025.11.5 - Nov 12, 2025
+
+#### 🎉 Features and Improvements
+
+* Resource Configurator for `brainboard_file`
+  * When uploading files, the filename field is now auto-filled, saving time and reducing errors for users configuring resources.
+
+#### ✅ Bug Fixes
+
+* Code generation
+  * The handling of custom Terraform resource has been simplified, making code generation more reliable and maintainable.
+* Module
+  * Fixed issues with updating module versions when using custom SSH sources, ensuring compatibility for teams with private module repositories.
+* CI/CD
+  * Fixed duplicate approval emails by ensuring the job state is always checked from the database before notifications are sent, benefiting all teams using approval workflows.
+* Resource Configurator
+  * Fixed a bug when clicking on "New Instance" were creating the block at the root level instead of the intended block, improving accuracy for users managing complex configurations.
+
+***
+
 ### 2025.11.4 - Nov 10, 2025
 
 #### ✅ Bug Fixes
