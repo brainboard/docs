@@ -4,6 +4,52 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2025.11.6 - Nov 21, 2025
+
+#### 🎉 Features and Improvements
+
+* Global
+  * Unified the global command palette into a new Brainboard Command Search with grouped commands for design, CI/CD, exports, and settings, making keyboard-driven navigation faster and more discoverable.
+* File upload
+  * Introduced a new File upload component with drag‑and‑drop, size/type/count validation, progress feedback, and rich documentation for consistent file uploads across the app.
+  * Ensured unsupported file types show a clear overlay message without leaving the editor in a broken or loading state.
+* Resource configurator
+  * Used new HCL formatting helpers for lists and maps in the configurator, so what you see in the editor more closely matches what Terraform expects.
+  * Removed legacy map-reset logic when toggling between automatic and advanced modes, so users no longer lose map values when switching editing modes.
+  * Improved object-array editing (key/value lists) to avoid unnecessary updates and better handle duplicate keys, making complex map editing more reliable.
+  * Added an exception for `brainboard_file.file` attributes so required file fields are considered satisfied when a file is actually uploaded  not just when a text value is present.
+* Infrastructure as Code – Terraform / OpenTofu
+  * Ensured `depends_on` values are never quoted in generated HCL, preventing Terraform from misinterpreting dependencies as strings.
+  * Improved import parsing to correctly escape embedded quotes in strings, avoiding syntax errors when importing complex expressions.
+  * Updated Terraform module generation to use a more accurate “root attribute” notion when deciding whether to quote values, leading to cleaner, more idiomatic HCL.
+* Screenshot
+  * Updated screenshot service dependencies and observability stack, ensuring screenshot capture continues to work reliably on newer runtimes.
+
+#### ✅ Bug Fixes
+
+* Architecture versions
+  * Fixed the "duplicate diagram key" error when checking out architecture versions by acquiring a diagram lock during the operation, preventing concurrent edits from corrupting the diagram.
+  * Also, improved architecture version history by showing a spinner while a version is being restored, preventing accidental double actions.
+* Design area / diagram
+  * Repaired Brainboard icon nodes after diagram migrations, ensuring custom icons render correctly in existing diagrams.
+  * Resolved a “dead zone” in the Terraform file selector where clicks between the filename and arrows were ignored, making file switching more predictable.
+  * Corrected search focus behavior in the TF file selection dropdown so typing always targets the search field as expected.
+* Resource configurator
+  * Fixed validation for `brainboard_file.file` attributes so architectures no longer appear invalid when a file has been uploaded but the text field is empty.
+* Leftbar / Icons & custom icons
+  * Prevented custom icons from “leaking” when switching from a node with a custom icon to one without, so icons no longer appear on the wrong resources.
+  * Made custom icon deletion fully consistent by locking diagrams and updating nodes in a transaction, avoiding partial updates or stale icons.
+* Git configuration
+  * Repaired broken GitHub logos in Git app and registry provider settings so users see the correct branding instead of missing images.
+* Terraform import / Parser
+  * Fixed import parsing of strings containing quotes so they are correctly escaped, eliminating syntax errors in imported Terraform code.
+  * Ensured heredoc and `jsonencode` transformations in the import parser still behave correctly after the quote-escaping change.
+* Terraform / HCL generation
+  * Corrected quoting rules so `depends_on` and `ignore_changes` lists are never emitted with quoted values, avoiding invalid dependency expressions.
+  * Fixed several edge cases where values that looked like references were incorrectly quoted (or vice versa), resulting in cleaner, valid HCL.
+
+***
+
 ### 2025.11.5 - Nov 12, 2025
 
 #### 🎉 Features and Improvements
@@ -160,8 +206,7 @@ icon: clock-rotate-left
 #### 🎉 Features and Improvements
 
 * Design Area / Diagram
-  *   Introduced a new button to focus and highlight the active configuration node for quicker access.\
-
+  *   Introduced a new button to focus and highlight the active configuration node for quicker access.<br>
 
       <figure><img src=".gitbook/assets/SaaAy9ck8bDNbo4i.png" alt="" width="298"><figcaption></figcaption></figure>
 * Map Input
@@ -576,8 +621,7 @@ icon: clock-rotate-left
 * New architecture
   * Resolved crashes at the last step when creating new architectures from the topbar or project selector, enhancing stability for users transitioning between architectures.
 
-\
-
+<br>
 
 ***
 
@@ -950,8 +994,7 @@ icon: clock-rotate-left
 * Variables
   * Put back the 'Return to design area' for the few users that have access to the private alpha of Home page
 
-\
-
+<br>
 
 ***
 
@@ -974,8 +1017,7 @@ icon: clock-rotate-left
 
 #### 🎉 Features and Improvements
 
-*   Leftbar - Custom icons\
-
+*   Leftbar - Custom icons<br>
 
     * Introduced custom icon management, allowing users to add, edit, and delete icons for a personalized experience.
 
@@ -1031,8 +1073,7 @@ icon: clock-rotate-left
 
 * Design area
   *   Enhanced node inheritance, parenting, resize, and movement logic for more intuitive design interactions.\
-      Inheritance and parent <> child relation will be triggered when you resize a container over nodes/containers.\
-
+      Inheritance and parent <> child relation will be triggered when you resize a container over nodes/containers.<br>
 
       <figure><img src=".gitbook/assets/Resize.gif" alt=""><figcaption></figcaption></figure>
 * CI/CD Plugin
