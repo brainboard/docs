@@ -4,6 +4,30 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2025.11.8 - Nov 26, 2025
+
+#### ✅ Bug Fixes
+
+* Design area / diagram
+  * The design area now automatically adapts to the available window size, improving readability on different screen resolutions.
+  * Click detection on resizers has been tightened so normal canvas interactions are not mistaken for resize actions, preventing unexpected layout changes.
+  * The options bar is now consistently positioned and no longer shifts when toggling the left panel, providing a more stable editing experience.
+* Cloud configuration (import & parsing)
+  * Fixed an issue where attributes that should be represented as blocks were mishandled during import, which previously could lead to incomplete or incorrect cloud configs for some resources.
+* Leftbar
+  * Dragging and placing resources from the left bar now correctly accounts for whether the left panel is visible, ensuring nodes land exactly where you expect on the canvas.
+* Right pane / Resource configurator
+  * Opening node configuration or cloud configuration actions now reliably opens the right panel, so you always see the relevant settings when you need them.
+  * Closing the right panel from headers, compact views, or configurator back buttons now uses a unified toggle, giving a more predictable and responsive side-panel behavior.
+  * The table of contents inside the configurator now positions itself based on the actual right panel width, improving usability on wide and narrow screens.
+* Node / Containers
+  * Clicking on nodes to edit or inspect them now consistently opens the configuration panel and focuses the selected resource, streamlining day‑to‑day editing flows.
+  * Guided configuration steps that highlight nodes and warnings now ensure the right panel is opened automatically, making onboarding and tutorials smoother.
+
+
+
+***
+
 ### 2025.11.6 - Nov 21, 2025
 
 #### 🎉 Features and Improvements
