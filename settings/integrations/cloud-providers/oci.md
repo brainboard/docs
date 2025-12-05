@@ -8,8 +8,7 @@ To connect Brainboard to your OCI account:
 
 1. Go to the [Cloud providers integration](https://app.brainboard.co/settings/integrations/cloud-providers) settings page.
 2. Click on `Oracle Cloud Infrastructure`
-3.  Click on `New connection`\
-
+3.  Click on `New connection`<br>
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-24 at 17.30.30@2x.png" alt=""><figcaption></figcaption></figure>
 4.  This will open the new connection page where you can add the following information

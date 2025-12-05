@@ -23,8 +23,7 @@ It provides 500+ out-of-the-box policies so that you can scan IaC against common
 6. Ignore failure: this will put the task in a non-blocking failure, which means, the execution of the following stage will be triggered even if the task fails.
 7. Require approval: means that this task will not be executed until approved by people added in the approvers' list.
    * The task remains blocked until all approvers added in the list approve it.
-   *   When enabled, it allows you to add approvers to the list\
-
+   *   When enabled, it allows you to add approvers to the list<br>
 
        <figure><img src="../../../.gitbook/assets/CleanShot 2025-07-10 at 13.25.53@2x (1).png" alt=""><figcaption></figcaption></figure>
    * The approver has to be Brainboard user

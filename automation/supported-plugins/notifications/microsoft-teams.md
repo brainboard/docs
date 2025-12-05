@@ -14,8 +14,7 @@ This plugin allows you to send a notification to your MS Teams channel.
 6. Ignore failure: if enabled, the execution of the following stage will be triggered even if the task fails.
 7. Require approval: means that this task will not be executed until approved by people added in the approvers' list.
    * The task remains blocked until all approvers added in the list approve it.
-   *   When enabled, it allows you to add approvers to the list\
-
+   *   When enabled, it allows you to add approvers to the list<br>
 
        <figure><img src="../../../.gitbook/assets/CleanShot 2025-07-10 at 13.25.53@2x (1).png" alt=""><figcaption></figcaption></figure>
    * The approver has to be Brainboard user
@@ -24,25 +23,21 @@ This plugin allows you to send a notification to your MS Teams channel.
 
 If you want to configure Microsoft Teams to receive notifications from Brainboard pipelines, an _incoming hook_ needs to be set up in the channel of your choice. To do so, follow the steps:
 
-1.  Go to your Teams channel where you want the notification to be posted and open its configuration menu in the top-right corner and click on "Workflows":\
-
+1.  Go to your Teams channel where you want the notification to be posted and open its configuration menu in the top-right corner and click on "Workflows":<br>
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-02-13 at 14.56.13@2x.png" alt=""><figcaption></figcaption></figure>
 2.  This will open the workflows configuration wizard. Search and select the line "Post to a channel when a webhook request is received":
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-02-13 at 14.56.30@2x.png" alt=""><figcaption></figcaption></figure>
-3.  Give it a name and click Next:\
-
+3.  Give it a name and click Next:<br>
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-02-13 at 14.56.50@2x.png" alt=""><figcaption></figcaption></figure>
 
 
-4.  Select the channel where you want the notification to be posted:\
-
+4.  Select the channel where you want the notification to be posted:<br>
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-02-13 at 14.57.07@2x.png" alt=""><figcaption></figcaption></figure>
-5.  Copy the generated webhook URL to use in Brainboard:\
-
+5.  Copy the generated webhook URL to use in Brainboard:<br>
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-02-13 at 14.57.18@2x.png" alt=""><figcaption></figcaption></figure>
 

@@ -39,7 +39,6 @@ This page gives information about your account but also an overview about:
 * Your recent architectures
 * Your recent activities
 * Teams you belong to (marked 1 in the picture)
-*   Projects you have access to (marked 2 in the picture) and the associated role (marked 3 in the picture).\
-
+*   Projects you have access to (marked 2 in the picture) and the associated role (marked 3 in the picture).<br>
 
     <figure><img src="../.gitbook/assets/CleanShot 2025-04-11 at 15.17.59@2x.png" alt=""><figcaption></figcaption></figure>

@@ -19,14 +19,14 @@ You have 2 methods to implement this type of remediation:
     <figure><img src="../../.gitbook/assets/auto-remediate.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Please refer to [this page](broken-reference) to know how to create a drift detection scheduled workflow.
+Please refer to [this page](/broken/pages/6By0ztuKdHctL6ZhEl7P) to know how to create a drift detection scheduled workflow.
 {% endhint %}
 
 {% hint style="danger" %}
 This automatic remediation should be used with caution. It usually requires a team effort and we advise you to always send a notification from any drift detection workflow you setup.
 {% endhint %}
 
-* **Manual:** In this case, you manually inspect the output of the drift detection and manually redeploy the infrastructure, either by triggering the deployment [pipeline](https://gitlab.com/brainboard/brainboard/-/blob/main/ci-cd-engine/ci-cd-designer/README.md#run-pipeline) or doing a Terraform apply from[ one ](broken-reference)[action](broken-reference).
+* **Manual:** In this case, you manually inspect the output of the drift detection and manually redeploy the infrastructure, either by triggering the deployment [pipeline](https://gitlab.com/brainboard/brainboard/-/blob/main/ci-cd-engine/ci-cd-designer/README.md#run-pipeline) or doing a Terraform apply from[ one ](/broken/pages/Spbk2r9qFSMDwZQX4vtB)[action](/broken/pages/Spbk2r9qFSMDwZQX4vtB).
 
 #### 2. Bring changes to the code
 

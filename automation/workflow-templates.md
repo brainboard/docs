@@ -14,7 +14,7 @@ This is a great way to standardize your deployment process without reinventing t
 
 ### Create template
 
-To create a new template, refer to the page: [create workflow template](broken-reference). It contains all the details.
+To create a new template, refer to the page: [create workflow template](/broken/pages/0ZhjR0yG4hRjveEPdLzA#create-workflow-template). It contains all the details.
 
 ### Clone template
 

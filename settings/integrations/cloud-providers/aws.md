@@ -16,8 +16,7 @@ To connect Brainboard to your AWS account:
 3.  Click on `New connection`
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-24 at 15.08.28@2x.png" alt=""><figcaption></figcaption></figure>
-4.  This will open the new connection page where you have 2 options:\
-
+4.  This will open the new connection page where you have 2 options:<br>
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-24 at 15.10.12@2x.png" alt=""><figcaption></figcaption></figure>
 
@@ -35,31 +34,26 @@ When you click on the option `Assume role` Brainboard guides you in the connecti
 2.  In your AWS portal, review the configuration and click next
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-24 at 15.30.54@2x.png" alt=""><figcaption></figcaption></figure>
-3.  Select the right permission to grant for this connection\
-
+3.  Select the right permission to grant for this connection<br>
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-24 at 15.33.31@2x.png" alt=""><figcaption></figcaption></figure>
 4.  Give the role a name, review and click on create role at the bottom
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-24 at 15.34.37@2x.png" alt=""><figcaption></figcaption></figure>
-5.  Copy the ARN of the role\
-
+5.  Copy the ARN of the role<br>
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-24 at 15.36.27@2x.png" alt=""><figcaption></figcaption></figure>
-6.  Add the ARN in Brainboard credentials creation page\
-
+6.  Add the ARN in Brainboard credentials creation page<br>
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-24 at 15.38.47@2x.png" alt=""><figcaption></figcaption></figure>
 7. Brainboard checks if the connection can be established:
    1.  If the connection is successful, you will have this message
 
        <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-24 at 15.40.03@2x.png" alt=""><figcaption></figcaption></figure>
-   2.  If it fails, you get an information about it\
-
+   2.  If it fails, you get an information about it<br>
 
        <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-24 at 15.25.27@2x.png" alt=""><figcaption></figcaption></figure>
-8.  Name the connection in Brainboard\
-
+8.  Name the connection in Brainboard<br>
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-24 at 15.44.47@2x.png" alt=""><figcaption></figcaption></figure>
 

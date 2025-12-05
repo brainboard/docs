@@ -113,8 +113,7 @@ If you select Git as a source then you'll have the list of the supported Git pro
 ![Import options](../../../.gitbook/assets/import-architecture-git-options.png)
 
 {% hint style="info" %}
-Default tags By default, when you create a new architecture, Brainboard adds a variable called `tags` that contains the UUID of the architecture and the environment name.\
-
+Default tags By default, when you create a new architecture, Brainboard adds a variable called `tags` that contains the UUID of the architecture and the environment name.<br>
 
 This variables will be added in all resources that support tagging using Terraform best practice using the function `merge`. It will look like this line of code:
 
@@ -213,8 +212,8 @@ Deleting an architecture, environment or project cannot be undone
 
 To deploy your architecture, you have 2 options:
 
-1. Either, use `one-action` to trigger Terraform `apply`. Refer to the[ one-action](broken-reference) documentation for more details.
-2. Or, build pipelines with Brainboard CI/CD engine and trigger it. Refer to the[ CI/CD engine](broken-reference) documentation for detailed steps.
+1. Either, use `one-action` to trigger Terraform `apply`. Refer to the[ one-action](/broken/pages/Spbk2r9qFSMDwZQX4vtB) documentation for more details.
+2. Or, build pipelines with Brainboard CI/CD engine and trigger it. Refer to the[ CI/CD engine](/broken/pages/LTZOydO0KvRiXUWcIDDz) documentation for detailed steps.
 
 ### Best practices
 

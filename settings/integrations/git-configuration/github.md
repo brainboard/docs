@@ -32,13 +32,11 @@ Once the connection is configured successfully, it will be you should it with a 
 
 ### Enable personal connection
 
-1.  Once the GitHub app integration is done you need to click on `Add connection` in `Personal connections` section. This will open the settings where you can allow Brainboard to do pull requests on your behalf by clicking on `Connect with Github`\
-
+1.  Once the GitHub app integration is done you need to click on `Add connection` in `Personal connections` section. This will open the settings where you can allow Brainboard to do pull requests on your behalf by clicking on `Connect with Github`<br>
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 16.47.00@2x.png" alt=""><figcaption></figcaption></figure>
 
-    If the Git app integration is not configured, Brainboard will display a warning as it has to be done first\
-
+    If the Git app integration is not configured, Brainboard will display a warning as it has to be done first<br>
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 16.11.41@2x.png" alt=""><figcaption></figcaption></figure>
 2.  The GitHub website will open in a new tab, asking you to authorize Brainboard app to access your GitHub account. Click on the `Authorize Brainboard` button:
@@ -67,8 +65,7 @@ To delete integration with GitHub:
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 17.40.54@2x.png" alt=""><figcaption></figcaption></figure>
 4. Go back to the page of Git connections and click on  `Access GitHub`
-5.  You'll be redirected to the GitHub website, where you can delete the integration with Brainboard.\
-
+5.  You'll be redirected to the GitHub website, where you can delete the integration with Brainboard.<br>
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 16.44.39@2x.png" alt=""><figcaption></figcaption></figure>
 

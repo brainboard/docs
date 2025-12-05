@@ -21,16 +21,13 @@ Here are important information on how it works:
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 17.54.35@2x.png" alt=""><figcaption></figcaption></figure>
 
-    You can also configure the Git repository, source and target branch, and the default files to be included in the PR:\
-
+    You can also configure the Git repository, source and target branch, and the default files to be included in the PR:<br>
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 18.00.27@2x.png" alt=""><figcaption></figcaption></figure>
-3.  In the design area, on the right, click on `Pull request` button\
-
+3.  In the design area, on the right, click on `Pull request` button<br>
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 17.56.45@2x.png" alt=""><figcaption></figcaption></figure>
-4.  This will open the modal of the PR where you can customize the commit message, the title, description and also select the files you want/don't want to push to Git:\
-
+4.  This will open the modal of the PR where you can customize the commit message, the title, description and also select the files you want/don't want to push to Git:<br>
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 17.58.30@2x.png" alt=""><figcaption></figcaption></figure>
 5. Brainboard pushes only the difference between the branches, as it does git pull first before pushing.
@@ -42,24 +39,19 @@ You can import your existing Terraform code from your repository directly in Bra
 To do so:
 
 1. Click on `New architecture`&#x20;
-2.  Select import from your infrastructure\
-
+2.  Select import from your infrastructure<br>
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 18.04.45@2x.png" alt=""><figcaption></figcaption></figure>
-3.  Select `From Git repository` \
-
+3.  Select `From Git repository` <br>
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 18.05.31@2x.png" alt=""><figcaption></figcaption></figure>
-4.  Select your Git provider\
-
+4.  Select your Git provider<br>
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 18.06.10@2x.png" alt=""><figcaption></figcaption></figure>
-5.  This will open the dedicate import page of your Git provider. In this example, Azure DevOps is open. You can select the Git credentials you want to use for this import\
-
+5.  This will open the dedicate import page of your Git provider. In this example, Azure DevOps is open. You can select the Git credentials you want to use for this import<br>
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 18.07.06@2x.png" alt=""><figcaption></figcaption></figure>
-6.  Once you select the Git credentials, Brainboard will scan your repository, and you can select the right project to import from, the branch and subfolders is needed\
-
+6.  Once you select the Git credentials, Brainboard will scan your repository, and you can select the right project to import from, the branch and subfolders is needed<br>
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 18.09.19@2x.png" alt=""><figcaption></figcaption></figure>
 7. You click on `Import` to initiate the import from Git.

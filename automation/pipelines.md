@@ -67,7 +67,7 @@ This button allows you to terminate/stop a running pipeline. It is only active w
 
 To run the pipeline, go to the CI/CD designer and click on the button `Run pipeline`.
 
-Refer to the [CI/CD page](broken-reference) for more details.
+Refer to the [CI/CD page](/broken/pages/LTZOydO0KvRiXUWcIDDz) for more details.
 
 ### Stop pipeline
 

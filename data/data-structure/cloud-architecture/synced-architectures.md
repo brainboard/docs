@@ -20,11 +20,11 @@ Here are the steps you can follow to implement environment sync in Brainboard:
 
     * Add the target environment where you want to clone your architecture. For example QA.
 
-    ![target](../../../.gitbook/assets/target\_environment.png)
+    ![target](../../../.gitbook/assets/target_environment.png)
 
     * Choose a new name for the architecture
 
-    ![name](../../../.gitbook/assets/add\_name.png)
+    ![name](../../../.gitbook/assets/add_name.png)
 
     * Click on the sync button to keep the source and destination architecture synced
 
@@ -32,7 +32,7 @@ Here are the steps you can follow to implement environment sync in Brainboard:
 
     * Apply the changes by clicking on next
 
-    ![last](../../../.gitbook/assets/last\_step.png)
+    ![last](../../../.gitbook/assets/last_step.png)
 
 {% hint style="info" %}
 The variables values are not synced so you can use different values for different environments. Refer to the [Variables](../../../input-output/variables.md) to know more about the variables
@@ -42,20 +42,20 @@ The variables values are not synced so you can use different values for differen
 
 Once the architecture is synced, you see a new button in the options bar to indicate that:
 
-![sync button](../../../.gitbook/assets/sync\_button.png)
+![sync button](../../../.gitbook/assets/sync_button.png)
 
 When you click on the sync button you can see all synchronized environments for this architecture.
 
-![synced envs](../../../.gitbook/assets/synced\_envs.png)
+![synced envs](../../../.gitbook/assets/synced_envs.png)
 
 ### Un-sync environment
 
-To un-sync a specific architecture or environment, click on the sync button available in the options bar, then click on the `Unsync this architecture` to unlink it from the synchronized environments. ![unsync button](../../../.gitbook/assets/unsync\_button.png)
+To un-sync a specific architecture or environment, click on the sync button available in the options bar, then click on the `Unsync this architecture` to unlink it from the synchronized environments. ![unsync button](../../../.gitbook/assets/unsync_button.png)
 
 ### Best practices
 
 * Use this process to apply changes to all environments consistently. For example, you might use Brainboard CI/CD engine to apply different pipelines to different environments while keeping the design of the cloud architecture consistent through all environments.
-  * Refer to the [CI/CD Engine](broken-reference) to know more about it.
+  * Refer to the [CI/CD Engine](/broken/pages/LTZOydO0KvRiXUWcIDDz) to know more about it.
 * Use variables and other configuration options to customize each environment as needed. For example, you might use different values for variables like the number of instances or the size of a database depending on the environment.
 
 {% hint style="info" %}

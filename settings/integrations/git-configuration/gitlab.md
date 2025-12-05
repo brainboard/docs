@@ -9,12 +9,10 @@ To add GitLab personal Git token in Brainboard, you first need to generate it in
 <summary>Steps to generate a personal Git token on your GitLab account.</summary>
 
 1. Go to your GitLab[ personal tokens page](https://gitlab.com/-/profile/personal_access_tokens).
-2.  Add a name and specify `API` rights, then click on `Create personal access token` button:\
-
+2.  Add a name and specify `API` rights, then click on `Create personal access token` button:<br>
 
     <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-3.  The token is generated, you can copy it to add to Brainboard:\
-
+3.  The token is generated, you can copy it to add to Brainboard:<br>
 
     <figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -25,8 +23,7 @@ To add the generated token in Brainboard:
 1. Go to the [Git integration](https://app.brainboard.co/settings/integrations/git) settings page.
 2. Click on `Integrations`
 3. In the section `Personal connections` Click on `Add connection`&#x20;
-4.  Select `GitLab` tab\
-
+4.  Select `GitLab` tab<br>
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 17.37.53@2x.png" alt=""><figcaption></figcaption></figure>
 5. Add your credentials in the displayed window:
@@ -34,12 +31,10 @@ To add the generated token in Brainboard:
    * The URL of your GitLab server: by default Brainboard uses `https://gitlab.com`, but if you have a private Gitlab instance accessible through the internet or if you use a single-tenant Brainboard offering, you can specify a different URL.
 6. Then click on `Save and close` button.
 7. Brainboard will verify if the credentials are valid:
-   1.  If they are valid, Brainboard displays a success message and you can see the integration now in the Git connection page\
-
+   1.  If they are valid, Brainboard displays a success message and you can see the integration now in the Git connection page<br>
 
        <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 17.07.55@2x.png" alt=""><figcaption></figcaption></figure>
-   2.  If they are not, you'll receive an error about what is wrong. For example:\
-
+   2.  If they are not, you'll receive an error about what is wrong. For example:<br>
 
        <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 17.00.18@2x.png" alt=""><figcaption></figcaption></figure>
 

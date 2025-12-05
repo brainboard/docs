@@ -28,7 +28,7 @@ Task, is an individual action that you want to run to do a specific job. E.g. Te
 
 Tasks can be created from the list of available plugins. Refer to the sections below to learn how to create tasks.
 
-Refer to the [supported plugins](broken-reference) page to see the options for each kind of task and how to configure it.
+Refer to the [supported plugins](/broken/pages/DaRMBqY3rRilakx1F8vX) page to see the options for each kind of task and how to configure it.
 
 #### Task approval
 
@@ -76,7 +76,7 @@ When the pipeline is triggered, it switches to the `Pipelines` page where you ca
 
 ![Pipeline output](../.gitbook/assets/pipeline-output.png)
 
-Refer to the [pipelines page](broken-reference) for detailed information about pipelines.
+Refer to the [pipelines page](/broken/pages/CxiD9t3SgLSPRnhRqYWP) for detailed information about pipelines.
 
 ### Best practice
 

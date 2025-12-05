@@ -27,28 +27,22 @@ Please refer to the [azure.md](../../../settings/integrations/cloud-providers/az
 The import process has 3 phases:
 
 1. **Resources listing:**
-   1.  Click on `New architecture` button in the top left and select `Import from your infrastructure` option:\
-
+   1.  Click on `New architecture` button in the top left and select `Import from your infrastructure` option:<br>
 
        <figure><img src="../../../.gitbook/assets/CleanShot 2025-06-10 at 15.35.53@2x.png" alt=""><figcaption></figcaption></figure>
-   2.  Select the option `From your Cloud provider` as the source of the import:\
-
+   2.  Select the option `From your Cloud provider` as the source of the import:<br>
 
        <figure><img src="../../../.gitbook/assets/CleanShot 2025-06-10 at 15.37.29@2x.png" alt=""><figcaption></figcaption></figure>
-   3.  Select `Azure` option\
-
+   3.  Select `Azure` option<br>
 
        <figure><img src="../../../.gitbook/assets/CleanShot 2025-06-10 at 15.39.07@2x.png" alt=""><figcaption></figcaption></figure>
-   4.  Select the right credentials / subscription where you want to import the resources from\
-
+   4.  Select the right credentials / subscription where you want to import the resources from<br>
 
        <figure><img src="../../../.gitbook/assets/CleanShot 2025-06-12 at 08.58.23@2x.png" alt=""><figcaption></figcaption></figure>
-   5.  Brainboard will scan the subscription to list `all` the resource groups visible. You select the one(s) you want to import\
-
+   5.  Brainboard will scan the subscription to list `all` the resource groups visible. You select the one(s) you want to import<br>
 
        <figure><img src="../../../.gitbook/assets/CleanShot 2025-06-12 at 08.59.46@2x.png" alt=""><figcaption></figcaption></figure>
-   6.  Brainboard will list `all` the resources inside the resource group(s) you've selected.\
-
+   6.  Brainboard will list `all` the resources inside the resource group(s) you've selected.<br>
 
        <figure><img src="../../../.gitbook/assets/CleanShot 2025-06-12 at 09.04.18@2x.png" alt=""><figcaption></figcaption></figure>
 
@@ -59,39 +53,33 @@ The import process has 3 phases:
 
            1 credit = 1 Terraform resource generated.
 2. **Filtering and selection**
-   1.  Filter and select the resources to import. This table is optimized to help you filter based on different criteria and select exactly what you need:\
-
+   1.  Filter and select the resources to import. This table is optimized to help you filter based on different criteria and select exactly what you need:<br>
 
        <figure><img src="../../../.gitbook/assets/CleanShot 2025-06-12 at 09.08.12@2x.png" alt=""><figcaption></figcaption></figure>
 
        Here are the different options you have:
 
-       1.  Powerful search bar that will search across all fields but you can also target a specific field by typing the name of the column followed by `>>`. For e.g, if you want to search for a specific tag:\
-
+       1.  Powerful search bar that will search across all fields but you can also target a specific field by typing the name of the column followed by `>>`. For e.g, if you want to search for a specific tag:<br>
 
            <figure><img src="../../../.gitbook/assets/CleanShot 2025-06-12 at 09.12.31@2x.png" alt=""><figcaption></figcaption></figure>
-       2.  The `Type` filter allows you to display only the Azure service you want to import. Here is how it looks like if you want to only select Key vault from the list:\
-
+       2.  The `Type` filter allows you to display only the Azure service you want to import. Here is how it looks like if you want to only select Key vault from the list:<br>
 
            <figure><img src="../../../.gitbook/assets/CleanShot 2025-06-12 at 09.14.59@2x.png" alt=""><figcaption></figcaption></figure>
        3. The `Resource group` filter allows you to only select the resources of the RGs you are interested in. This is applicable when you have more than 1 RG.
-       4.  With the `View` button, you can show/hide columns from the table\
-
+       4.  With the `View` button, you can show/hide columns from the table<br>
 
            <figure><img src="../../../.gitbook/assets/CleanShot 2025-06-12 at 09.18.18@2x.png" alt=""><figcaption></figcaption></figure>
        5. The `Refresh` button will trigger a complete scanning of your subscription to generate a new list. This is useful in case there are changes (new resources created, for e.g), between the scan and this listing.
        6. The table contains all the resources filtered and selected by on your criteria and ready to be imported
 3. **Import**
-   1.  Give a name to your architecture and click `Start import`, the process starts:\
-
+   1.  Give a name to your architecture and click `Start import`, the process starts:<br>
 
        <figure><img src="../../../.gitbook/assets/CleanShot 2025-06-12 at 09.34.38@2x.png" alt=""><figcaption></figcaption></figure>
 
        * This operation may take a few minutes or hours based on the number of the resource groups you select and the number of the resources inside them.
        * Once the process is finished you, you'll receive a notification in the app (in the top-right corner) and an email with the link to the import. Here are samples:\
          ![](<../../../.gitbook/assets/CleanShot 2025-06-12 at 09.34.49@2x.png>)![](<../../../.gitbook/assets/CleanShot 2025-06-12 at 09.39.13@2x.png>)
-   2.  If the import is successful, you will see the diagram of your infrastructure, the Terraform code and the tfstate\
-
+   2.  If the import is successful, you will see the diagram of your infrastructure, the Terraform code and the tfstate<br>
 
        <figure><img src="../../../.gitbook/assets/CleanShot 2025-06-12 at 10.19.05@2x.png" alt=""><figcaption></figcaption></figure>
 
@@ -138,8 +126,7 @@ It is very important when you are importing resources to filter out those you wi
   * Better diagram and code navigation
 * If you have different environments like dev, staging and prod, don't import them all in one import. Separate the environments and do different imports for different purposes.
 * Don't import sensitive information in clear text. Surprisingly, when you do the import, if the credentials are allowed to read the key vault secrets it will be able to list them for import. Better to not import them and just reference them using the `data objects` instead.
-*   After the first import, create a version in Brainboard called for e.g, `Initial import` . This is an immutable snapshot that you can revert to if needed later.\
-
+*   After the first import, create a version in Brainboard called for e.g, `Initial import` . This is an immutable snapshot that you can revert to if needed later.<br>
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-06-12 at 10.36.57@2x.png" alt=""><figcaption></figcaption></figure>
 

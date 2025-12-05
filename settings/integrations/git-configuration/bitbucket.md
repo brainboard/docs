@@ -31,26 +31,22 @@ To add the generated token in Brainboard:
 1. Go to the [Git integration](https://app.brainboard.co/settings/integrations/git) settings page.
 2. Click on `Integrations`
 3. In the section `Personal connections` Click on `Add connection`&#x20;
-4.  Select `Bitbucket` tab\
-
+4.  Select `Bitbucket` tab<br>
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 17.23.38@2x.png" alt=""><figcaption></figcaption></figure>
 5. Add your credentials in the displayed window:
    * Name of the token. This is only for Brainboard, it will not be used when you do a pull request.
    * The URL of your Bitbucket server: by default Brainboard uses `https://api.bitbucket.org/2.0` but you can set your own URL.
-   *   Username: this is `not` your email. You get it from your personal Bitbucket [account settings](https://bitbucket.org/account/settings/). \
-
+   *   Username: this is `not` your email. You get it from your personal Bitbucket [account settings](https://bitbucket.org/account/settings/). <br>
 
        <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 17.24.28@2x.png" alt=""><figcaption></figcaption></figure>
    * Password: the app password generated from your Bitbucket account.&#x20;
 6. Then click on `Save and close` button.
 7. Brainboard will verify if the credentials are valid:
-   1.  If they are valid, Brainboard displays a success message and you can see the integration now in the Git connection page\
-
+   1.  If they are valid, Brainboard displays a success message and you can see the integration now in the Git connection page<br>
 
        <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 17.07.55@2x.png" alt=""><figcaption></figcaption></figure>
-   2.  If they are not, you'll receive an error about what is wrong. For example:\
-
+   2.  If they are not, you'll receive an error about what is wrong. For example:<br>
 
        <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 17.00.18@2x.png" alt=""><figcaption></figcaption></figure>
 

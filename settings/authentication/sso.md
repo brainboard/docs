@@ -65,22 +65,28 @@ Brainboard supports automatic teams provisioning and association.
 
 Every time users log in, they will be assigned to their respective team using the IDP Groups. The team will be created if it doesn't exist yet.
 
-The following instructions are for Azure Entra ID, but please reach out to our support team to configure your specific provider:
+* **Azure Entra ID:**
+  * In Azure Entra ID, open the `Enterprise Application` - `Single sign-on`
+  * Edit the `Attributes & Claims`
+  * Add a `Group claims` with the following configuration:
+    * Groups assigned to the application
+      * Source attribute: cloud-only group display names\
+        (or any option to share a friendly name to Brainboard — this attribute will be used for Teams' names)
 
-* In Azure Entra ID, open the `Enterprise Application` - `Single sign-on`
-* Edit the `Attributes & Claims`
-* Add a `Group claims` with the following configuration:
-  * Groups assigned to the application
-  * Source attribute: cloud-only group display names\
-    (or any option to share a friendly name to Brainboard — this attribute will be used for Teams' names)
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/azure-id.png" alt=""><figcaption><p>Azure Entra ID - Group claims</p></figcaption></figure></div>
 
-<figure><img src="../../.gitbook/assets/OVHtI7BllCiMMMgv.png" alt="" width="285"><figcaption><p>Azure Entra ID - Group claims</p></figcaption></figure>
+*   **Okta IDP:**
+
+    For Okta, you need to setup the **Group Attribute Statements** like this:
+
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/okta-idp.png" alt="Okta IDP - Group Attribute Statements"><figcaption></figcaption></figure></div>
+
+{% hint style="info" %}
+If you have a specific provider, please reach out to our support team to help you configure it.
+{% endhint %}
 
 #### 4. Share your IDP metadata
 
 To finalize the configuration, you must share your IDP metadata (URL or XML file) to Brainboard support team.
 
 The team will get back to you to confirm your new tenant URL and run a few tests if needed.
-
-
-

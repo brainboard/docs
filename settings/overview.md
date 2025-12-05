@@ -61,8 +61,7 @@ You can access the Environment settings pages from the Project settings pages:
 
 Settings follow a clear inheritance structure:
 
-1. **Organization Level**: The highest level, affects all projects, environments, and architectures.\
-
+1. **Organization Level**: The highest level, affects all projects, environments, and architectures.<br>
 
 <figure><img src="../.gitbook/assets/Frame 15842.png" alt=""><figcaption><p>Settings defined at organization level and not overridden at any lower level</p></figcaption></figure>
 
