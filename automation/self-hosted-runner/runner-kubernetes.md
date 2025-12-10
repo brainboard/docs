@@ -17,15 +17,14 @@ Please contact the support to get your customer token (`CUSTOMER_TOKEN`) to acce
 {% endhint %}
 
 ```shell
-helm repo add brainboard https://raw.githubusercontent.com/brainboard/helm-charts/gh-pages --username brainboard --password $CUSTOMER_TOKEN
-helm repo update
+helm registry login ghcr.io --username brainboard --password $CUSTOMER_TOKEN
 ```
 
 To see the charts values and documentation you can use the following commands:
 
 ```bash
-helm show values brainboard/brainboard-runner
-helm show readme brainboard/brainboard-runner
+helm show values oci://ghcr.io/brainboard/helm/brainboard-runner
+helm show readme oci://ghcr.io/brainboard/helm/brainboard-runner
 ```
 
 ### Installation
@@ -35,7 +34,7 @@ In order for the runner to enroll with your organization, you will need to provi
 You can install the runner with the following command:
 
 ```bash
-helm install runner brainboard/brainboard-runner --set config.credentials.token="your-runner-token"
+helm install runner oci://ghcr.io/brainboard/helm/brainboard-runner --set config.credentials.token="your-runner-token"
 ```
 
 You can view all available configuration options using the commands above.
