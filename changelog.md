@@ -4,6 +4,120 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2025.12.11 - Dec 19, 2025
+
+#### 🎉 Features and Improvements
+
+* Design area / diagram
+  * Improved how code highlights follow resource selection so the editor automatically focuses on the right block with less overhead.
+  * Optimized Identity card fetching so each unique resource type is loaded only once, reducing unnecessary network calls on large diagrams.
+  * Simplified the right pane and resource configurator behavior by removing the forced file view mode, making the UI more responsive and predictable.
+* Variables / Locals / Output
+  * Added a “Select all” option for variables so you can bulk-select and manage them in a single action.
+
+#### ✅ Bug Fixes
+
+* Home / Projects
+  * Fixed an interpolation bug in the project deletion modal so the number of projects being deleted is displayed correctly.
+
+***
+
+### 2025.12.10 - Dec 16, 2025
+
+#### 🎉 Features and Improvements
+
+* Architecture
+  * Optimized the “Get architecture” API to exclude heavy diagram data, improving performance for tools and views that only need architecture metadata.
+* Infrastructure as Code / Connectors
+  * Improved handling of inherited cloud configuration and connector references to avoid creating duplicate or unnecessary links between resources.
+
+#### ✅ Bug Fixes
+
+* Infrastructure as Code / Bidirectional editor
+  * Fixed an issue where Terraform `count` indexes could disappear after saving in bidirectional mode, ensuring generated code stays consistent with the diagram.
+
+***
+
+### 2025.12.9 - Dec 12, 2025
+
+#### 🎉 Features and Improvements
+
+* Identity Card
+  * Improved how resource configuration is checked so file-type attributes on identity cards no longer trigger false “missing configuration” warnings.
+
+#### ✅ Bug Fixes
+
+* Project selector / Architecture selector
+  * Resolved a bug that could prevent opening projects and environments in the tree view, especially when searching across many items.
+
+***
+
+### 2025.12.7 - Dec 11, 2025
+
+#### 🎉 Features and Improvements
+
+* Variables/Locals/Output
+  * Variable usage detection now also scans custom provider configurations, giving you more accurate insights into where variables are used across your architectures.
+
+#### ✅ Bug Fixes
+
+* Design area / diagram
+  * Fixed an issue where selecting a node could unexpectedly move the diagram, which previously disrupted precise editing for all users.
+  * Resolved a bug where double‑clicking resources only sometimes opened them, particularly when zoomed, affecting users working on dense diagrams.
+* Code edition/Bidirectional
+  * Fixed a problem where pressing the space bar in bidirectional mode could cause the editor to lose focus, interrupting typing for users editing code or text.
+* Infrastructure as Code / Export
+  * Exporting an architecture no longer triggers two file downloads in a row; each export action now produces a single, correct file for all users.
+* Variables/Locals/Output
+  * Fixed variable search returning incomplete or incorrect results, which previously made it hard for users with many variables to locate specific entries.
+* Identity Card / File inputs
+  * Corrected validation so “missing file name” errors only appear when the name is truly absent, and file upload fields no longer block submission unnecessarily, improving file handling for all architectures using file attributes.
+
+***
+
+### 2025.12.4 - Dec 10, 2025
+
+#### 🎉 Features and Improvements
+
+* Identity Card / Terraform Modules
+  * Improved Terraform module identity cards for git-based modules so that when the target version is empty or set to `HEAD`, the correct git ref is resolved and used reliably.
+
+#### ✅ Bug Fixes
+
+* Code edition/Bidirectional
+  * Fixed an issue where global keyboard shortcuts could interfere with typing in the code editor or text fields, which previously caused unexpected actions while editing.
+* Project selector / Architecture selector
+  * Fixed a problem where the “Move architecture” button stayed disabled even when all fields were correctly filled, which affected users reorganizing architectures across projects or environments.
+* Settings / Team
+  * Fixed the “Invite new member” button staying disabled despite all required fields being completed, which affected organizations adding new collaborators.
+* Import from cloud provider (Azure)
+  * Fixed Azure imports failing entirely when a single resource group returned an error, which previously blocked customers with partially misconfigured subscriptions from importing any resources.
+
+***
+
+### 2025.12.3 - Dec 05, 2025
+
+#### ✅ Bug Fixes
+
+* Git credentials
+  * Fixed an issue where the “Save and Add” button for new Git credentials stayed disabled even when all required fields were correctly filled, ensuring users can now add Git connections without workarounds.
+* Terraform / Remote backend
+  * Fixed validation behavior in the “New Terraform Backend” form so that the action buttons correctly enable as users complete the form, preventing blocked backend configuration setups.
+
+***
+
+### 2025.12.2 - Dec 04, 2025
+
+#### 🎉 Features and Improvements
+
+* Import from cloud provider
+  * Import tasks now provide clearer warnings and richer internal logging when validation is skipped or errors occur, making it easier to understand and troubleshoot import outcomes.
+  * Improved cloud resource import so resources sharing the same Terraform reference (for example, across regions) are automatically deduplicated and renamed, preventing conflicts in the generated Terraform code
+* Terraform/Opentofu
+  * Introduced smart caching for Terraform and OpenTofu version lists to speed up version discovery and reduce waiting time when running plans or updates.
+
+***
+
 ### 2025.11.8 - Nov 26, 2025
 
 #### ✅ Bug Fixes
