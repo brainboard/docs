@@ -20,9 +20,8 @@ The organization is automatically created on sign up.
 
 ### Join an existing organization
 
-To join an existing organization, you need to request access from the organization `owner` or `admin`.
+To join an existing organization, you need to be invited by an organization `owner` or `admin`.
 
-* Please refer to the [invite members](https://gitlab.com/brainboard/brainboard/-/blob/main/account-billing/invite-members/README.md) to invite new members.
 * Once invited, click on the link received by mail.
 
 ### Rename an organization

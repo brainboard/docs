@@ -18,7 +18,8 @@ There are 3 types of Git connections:
 
     Which means that with this integration, users don't use their personal git tokens.
 
-    When doing Pull Requests, Brainboard sends the information on behalf of the user creating the PR to be able to track who does what. Refer to [Pull Requests](https://gitlab.com/brainboard/brainboard/-/blob/main/git-configuration/pull-requests/README.md) page for more information about how it works.\
+    When doing Pull Requests, Brainboard sends the information on behalf of the user creating the PR to be able to track who does what.
+
     For now only GitHub has an app integration.
 2. Organization connections: You can configure access to your Git repository in a way that any user inside your organization can use it. It may be helpful if you don't want your users to manage Git connections, so they can see all projects and do pull requests to any one of them.
 3. Personal connections: Git personal tokens are used by every user individually. So the users will be able to see only project and repositories they have access to and they do pull requests, you can identify exactly who did it.
@@ -28,7 +29,7 @@ There are 3 types of Git connections:
 Brainboard supports the following Git providers:
 
 1. [github.md](github.md "mention")
-2. [gitlab.md](gitlab.md "mention")
-3. [bitbucket.md](bitbucket.md "mention")
-4. [ado.md](ado.md "mention")
+2. [ado.md](ado.md "mention")
+3. [gitlab.md](gitlab.md "mention")
+4. [bitbucket.md](bitbucket.md "mention")
 

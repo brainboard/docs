@@ -26,7 +26,7 @@ Please refer to [this page](/broken/pages/6By0ztuKdHctL6ZhEl7P) to know how to c
 This automatic remediation should be used with caution. It usually requires a team effort and we advise you to always send a notification from any drift detection workflow you setup.
 {% endhint %}
 
-* **Manual:** In this case, you manually inspect the output of the drift detection and manually redeploy the infrastructure, either by triggering the deployment [pipeline](https://gitlab.com/brainboard/brainboard/-/blob/main/ci-cd-engine/ci-cd-designer/README.md#run-pipeline) or doing a Terraform apply from[ one ](/broken/pages/Spbk2r9qFSMDwZQX4vtB)[action](/broken/pages/Spbk2r9qFSMDwZQX4vtB).
+* **Manual:** In this case, you manually inspect the output of the drift detection and manually redeploy the infrastructure, either by triggering the deployment pipeline or doing a Terraform apply from one action.
 
 #### 2. Bring changes to the code
 
