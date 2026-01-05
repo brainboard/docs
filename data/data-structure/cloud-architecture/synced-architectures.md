@@ -55,7 +55,7 @@ To un-sync a specific architecture or environment, click on the sync button avai
 ### Best practices
 
 * Use this process to apply changes to all environments consistently. For example, you might use Brainboard CI/CD engine to apply different pipelines to different environments while keeping the design of the cloud architecture consistent through all environments.
-  * Refer to the [CI/CD Engine](/broken/pages/LTZOydO0KvRiXUWcIDDz) to know more about it.
+  * Refer to the [CI/CD Engine](../../../automation/ci-cd-designer.md) to know more about it.
 * Use variables and other configuration options to customize each environment as needed. For example, you might use different values for variables like the number of instances or the size of a database depending on the environment.
 
 {% hint style="info" %}

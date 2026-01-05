@@ -14,7 +14,7 @@ To detect a drift happening to the cloud infrastructure, you have 2 options. Bot
 
 Actually, Brainboard is the only tool in the market that allows you to create multiple CI/CD workflows for the same infrastructure. You can for e.g. create a workflow for security checks, another one for costs and a third one to detect a drift.
 
-Refer to [this page](/broken/pages/LTZOydO0KvRiXUWcIDDz) if you want additional information about workflows.
+Refer to [this page](../ci-cd-designer.md) if you want additional information about workflows.
 
 #### Manual workflow
 

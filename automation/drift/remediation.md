@@ -14,12 +14,12 @@ This consists of redeploying the code that describes the infrastructure because 
 
 You have 2 methods to implement this type of remediation:
 
-*   **Automatic:** In the drift detection workflow that you create, you can add as a task Terraform apply. Which means whenever the workflow executes, it will always redeploy the current code when any change is detected.&#x20;
+*   **Automatic:** In the drift detection workflow that you create, you can add as a task Terraform apply. Which means whenever the workflow executes, it will always redeploy the current code when any change is detected.
 
     <figure><img src="../../.gitbook/assets/auto-remediate.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Please refer to [this page](/broken/pages/6By0ztuKdHctL6ZhEl7P) to know how to create a drift detection scheduled workflow.
+To create a drift detection scheduled workflow, configure the cron via the settings (gear button next to the workflow name)
 {% endhint %}
 
 {% hint style="danger" %}
