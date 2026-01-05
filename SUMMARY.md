@@ -149,4 +149,5 @@
 
 ***
 
-* [Changelog](changelog.md)
+* [Changelog](changelog/README.md)
+  * [2025](changelog/2025.md)
