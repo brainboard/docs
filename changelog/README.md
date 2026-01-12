@@ -4,6 +4,29 @@ icon: clock-rotate-left
 
 # Changelog
 
+
+
+### 2026.01.2 - Jan 12, 2026
+
+#### 🎉 Features and Improvements
+
+* Architecture selector
+  * Projects and environments in the architecture selector now stay collapsed until you expand them, making navigation clearer and less cluttered.
+  * The currently selected architecture is now highlighted more consistently in the selector.
+* Design area / diagram
+  * Resource cards now use a virtualized list for smoother scrolling and better performance on large architectures.
+* Git credentials
+  * Bitbucket connections now use an API token instead of a password for a more secure and modern authentication flow.
+* Module
+  * The Modules Catalog and module import experience have been refreshed for a more consistent UI and smoother workflows (including custom icons and improved dialogs).
+
+#### ✅ Bug Fixes
+
+* Infrastructure Management
+  * Cloud configuration inheritance is now skipped safely when a referenced child node is missing, preventing errors in edge-case diagrams.
+* CI/CD Plugins
+  * The Checkov plugin now supports passing a repository identifier, improving scan context for teams running checks across multiple repos.
+
 ### 2026.01.01 - Jan 08, 2026
 
 #### 🎉 Features and Improvements
