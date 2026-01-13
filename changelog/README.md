@@ -6,6 +6,22 @@ icon: clock-rotate-left
 
 
 
+### 2026.01.3 - Jan 13, 2026
+
+#### 🎉 Features and Improvements
+
+* Import from files
+  * Added clearer guidance and validation so you’re prompted to upload `.tf` files before generating a diagram.
+
+#### ✅ Bug Fixes
+
+* Design area
+  * Fixed missing node borders while dragging and dropping nodes in the design area.
+  * Fixed the node context menu not opening reliably in the design area.
+  * Improved timeout and error messaging so large-diagram actions fail more clearly and provide more actionable feedback.
+
+***
+
 ### 2026.01.2 - Jan 12, 2026
 
 #### 🎉 Features and Improvements
@@ -26,6 +42,8 @@ icon: clock-rotate-left
   * Cloud configuration inheritance is now skipped safely when a referenced child node is missing, preventing errors in edge-case diagrams.
 * CI/CD Plugins
   * The Checkov plugin now supports passing a repository identifier, improving scan context for teams running checks across multiple repos.
+
+***
 
 ### 2026.01.01 - Jan 08, 2026
 
