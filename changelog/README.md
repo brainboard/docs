@@ -6,12 +6,14 @@ icon: clock-rotate-left
 
 
 
-### 2026.01.3 - Jan 13, 2026
+### 2026.01.4 - Jan 13, 2026
 
 #### 🎉 Features and Improvements
 
 * Import from files
   * Added clearer guidance and validation so you’re prompted to upload `.tf` files before generating a diagram.
+* New organization
+  * All new organizations have OpenTofu as default binary execution
 
 #### ✅ Bug Fixes
 
