@@ -18,6 +18,7 @@ services:
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock"
       - "./runner-config.yaml:/etc/brainboard-runner/config.yaml:ro"
+      - "/tmp:/tmp"
 ```
 {% endcode %}
 
