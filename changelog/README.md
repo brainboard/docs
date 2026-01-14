@@ -6,6 +6,25 @@ icon: clock-rotate-left
 
 
 
+### 2026.01.5 - Jan 14, 2026
+
+#### 🎉 Features and Improvements
+
+* Project selector / Architecture selector
+  * Added “Expand all / Collapse all” controls and shift-click shortcuts to quickly expand or collapse project and environment trees.
+* General
+  * Reduced the Brainboard web app download size to speed up loading, especially on slower networks.
+  * Improved how the app detects and applies new versions so updates are more reliable.
+
+#### ✅ Bug Fixes
+
+* Design area / diagram
+  * Fixed the multi-selection node menu so “Edit TF filename” is available when multiple nodes are selected.
+* State management
+  * Fixed Terraform/OpenTofu state imports in pipelines when variable values are provided via a `.tfvars` file.
+
+***
+
 ### 2026.01.4 - Jan 13, 2026
 
 #### 🎉 Features and Improvements
