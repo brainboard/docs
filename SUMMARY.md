@@ -138,7 +138,7 @@
 ## Help & FAQ
 
 * [Shortcuts](help-and-faq/shortcuts.md)
-* [FAQ](help-and-faq/faq.md)
+* [FAQs](help-and-faq/faq.md)
 * [Enterprise customers](help-and-faq/enterprise-customers/README.md)
   * [Migration](help-and-faq/enterprise-customers/migration/README.md)
     * [Import from Azure](help-and-faq/enterprise-customers/migration/import-from-azure.md)

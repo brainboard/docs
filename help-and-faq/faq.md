@@ -1,24 +1,40 @@
 ---
 icon: message-question
+cover: >-
+  https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw4fHxjbG91ZCUyMHRlY2hub2xvZ3l8ZW58MHx8fHwxNzY4OTMwNjU1fDA&ixlib=rb-4.1.0&q=85
+coverY: 0
+coverHeight: 218
 ---
 
-# FAQ
+# FAQs
 
-### Do I need to be Terraform expert to use Brainboard?
+### 1. Do I need to be a Terraform expert to use Brainboard?
 
-No. You don't need to be a Terraform or IaC expert to use Brainboard. But minimum knowledge of Terraform is required to fully take advantage of Brainboard.
+No. You don't need to be a Terraform or IaC expert to use Brainboard. However, a minimum knowledge of Terraform is required to fully leverage Brainboard.
 
-In fact, Brainboard simplifies the complexity of Terraform and helps you configure cloud resources with a configuration menu. It will then write clean Terraform code for you, according to best practices.
+{% hint style="info" %}
+Brainboard simplifies the complexity of Terraform and helps you configure cloud resources with a configuration menu. It will then write clean Terraform code for you, according to best practices.
+{% endhint %}
 
-🎒 We also help the community by providing free Terraform trainings, that you can find in our [Youtube channel](https://www.youtube.com/channel/UCB0DLhFEgta83U62mQzxGPg).
+▶️ We also help the community by providing free Terraform training, which you can find on our [Youtube channel](https://www.youtube.com/channel/UCB0DLhFEgta83U62mQzxGPg).
 
-### What is the difference between Brainboard and vanilla Terraform?
+***
 
-Terraform is a powerful IaC tool that deploys the code you write.
+### 2. What is the difference between Brainboard and vanilla Terraform?
 
-Brainboard, on the other hand, is an end-to-end cloud management solution built on top of Terraform with a visual architecture designer, where the Terraform code is automatically generated. It also has a secure CI/CD engine, native Git integrations and more features to help you standardize and centralize your cloud.
+{% columns %}
+{% column width="41.66666666666667%" %}
+**Terraform** is a powerful IaC tool that deploys the code you write.
+{% endcolumn %}
 
-### Which git providers does Brainboard support?
+{% column width="58.33333333333333%" %}
+**Brainboard,** on the other hand, is an end-to-end cloud management solution built on top of Terraform, featuring a visual architecture designer that automatically generates Terraform code. It also has a secure CI/CD engine, native Git integrations and more features to help you standardize and centralize your cloud.
+{% endcolumn %}
+{% endcolumns %}
+
+***
+
+### 3. Which Git providers does Brainboard support?
 
 The following git providers are supported:
 
@@ -28,34 +44,42 @@ The following git providers are supported:
 * Bitbucket
 
 {% hint style="info" %}
-Request your git provider If your git repository is not listed here, you can request it in our [public roadmap](https://roadmap.brainboard.co).
+Request your Git provider. If your Git repository is not listed here, you can request it in our [public roadmap](https://roadmap.brainboard.co).
 {% endhint %}
 
-### How does Brainboard integrate with my current workflows?
+***
+
+### 4. How does Brainboard integrate with my current workflows?
 
 In Brainboard, you can include all your current workflows:
 
 * Manage all your Terraform States.
-* Setup the Git integration in Brainboard to be able to do pull requests and import existing code.
+* Set up the Git integration in Brainboard to be able to do pull requests and import existing code.
 * Create replicable templates for you and your team to use.
 * Import your Terraform modules from a registry, locally or git.
 
-### Can I migrate my existing infrastructure into Brainboard?
+***
 
+### 5. Can I migrate my existing infrastructure to Brainboard?
+
+{% hint style="success" %}
 You have the possibility to import your existing infrastructure and auto-generate the diagram.
+{% endhint %}
 
 We support importing any file that contains a valid Terraform code.
 
-There are 2 ways to do it:
+There are **two** ways to do it:
 
-1. Provide the URL of the Git repo (GitHub, GitLab, Bitbucket...)
+1. Provide the URL of the Git repo (GitHub, GitLab, Bitbucket,...)
 2. Upload one or multiple files
 
-### Is there a hosted version of Brainboard?
+***
 
-Yes, we provide a self-hosted version based on eligibility criteria.
+### 6. Is there a hosted version of Brainboard?
 
-If you are interested in the hosted version [Contact us](https://www.brainboard.co/resources/contact-sales).
+✅ Yes, we provide a self-hosted version based on eligibility criteria.
+
+If you are interested in the hosted version, [contact us](https://www.brainboard.co/resources/contact-sales).
 
 ### What are the supported cloud providers?
 
