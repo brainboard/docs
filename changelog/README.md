@@ -6,6 +6,28 @@ icon: clock-rotate-left
 
 
 
+### 2026.01.6 - Jan 20, 2026
+
+#### 🎉 Features and Improvements
+
+* Cloud providers Credentials (Azure)
+  * Improved the Azure “Renew certificate” flow with clearer guidance, copy-to-clipboard for the App ID, and safer validation after download.
+* Topbar
+  * Updated the topbar experience and removed the “new topbar” feature flag so everyone gets the same improved navigation.
+
+#### ✅ Bug Fixes
+
+* Workflow
+  * Fixed an issue that could cause errors when opening a workflow that doesn’t exist or isn’t accessible.
+* CI/CD
+  * Enhanced drift checks to support Terraform variable files and better control of the IaC runtime used during scans.
+* Resource Configurator (Listing)
+  * Fixed resource cards showing incorrect “\[object Object]” values by improving how complex values are displayed.
+* Code edition
+  * Fixed invalid parsing/generated code for certain arrays so Terraform plans no longer fail due to missing separators.
+
+***
+
 ### 2026.01.5 - Jan 14, 2026
 
 #### 🎉 Features and Improvements
