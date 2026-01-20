@@ -81,7 +81,9 @@ There are **two** ways to do it:
 
 If you are interested in the hosted version, [contact us](https://www.brainboard.co/resources/contact-sales).
 
-### What are the supported cloud providers?
+***
+
+### 7. Which cloud providers are supported by Brainboard?
 
 The following providers are supported:
 
@@ -91,53 +93,72 @@ The following providers are supported:
 * GCP
 * Scaleway.
 
-You can request (or vote for) your cloud provider to be added it in our [public roadmap](https://roadmap.brainboard.co/boards/feature-requests).
+{% hint style="info" %}
+You can request (or vote for) your cloud provider to be added to our [public roadmap](https://roadmap.brainboard.co/boards/feature-requests).
+{% endhint %}
 
-### How often you update cloud providers?
+***
 
-The update process is automatic.
+### 8. How often do you update cloud providers?
 
-As soon as a new version is released, we automatically trigger the update process that will do extensive tests.
+* The update process is **automatic.** As soon as a new version is released, we automatically trigger the update process that will do extensive tests.
+* Tests usually take up to **48h** to complete, and if they are successful, we release the new version automatically.
 
-Tests usually take up to 48h to complete, and if they are successful, we release the new version automatically.
+***
 
-### Can I deploy my architecture with Brainboard?
+### 9. Can I deploy my architecture with Brainboard?
 
-Brainboard has an innovative CI/CD engine dedicated for the infrastructure, where you can execute all Terraform actions (Terraform plan, Terraform apply, Terraform destroy) within a secure sandbox and get the output in real time or build your deployment workflow and trigger it.
+Brainboard has an innovative CI/CD engine dedicated to the infrastructure, where you can **execute all Terraform actions** _<mark style="color:purple;">(Terraform plan, Terraform apply, Terraform destroy)</mark>_ within a secure sandbox and get the output in real time or build your deployment workflow and trigger it.
 
-### How can I collaborate with my colleagues?
+***
 
-There are 2 aspects in terms of collaboration:
+### 10. How can I collaborate with my colleagues?
 
-1. Build: Brainboard supports real-time editing of the same architecture by multiple users. All you need to do is to invite your colleagues and give them the right access.
-2. Deploy: when you build your CI/CD pipeline within Brainboard, you have the possibility to request approvals from any team/person, which allows you to orchestrate the execution by involving all stakeholders.
+There are **two** aspects in terms of collaboration:
 
-### How does Brainboard integrate tools like Infracost, Checkov, Tfsec, ServiceNow, etc…?
+1. **Build:** Brainboard supports real-time editing of the same architecture by multiple users. All you need to do is invite your colleagues and give them the right access.
+2. **Deploy:** When you build your CI/CD pipeline within Brainboard, you have the possibility to request approvals from any team/person, which allows you to orchestrate the execution by involving all stakeholders.
 
-Brainboard allows you to build your pipelines with its innovative and powerful CI/CD engine, where you can just pick the tools you are used to using and configure them easily.
+***
 
-Brainboard maintains these tools for you, so you don't worry about upgrading them automatically or troubleshooting when things go wrong.
+### 11. How does Brainboard integrate tools like Infracost, Checkov, Tfsec, ServiceNow, etc?
 
-Refer to the [supported plugins](../automation/supported-plugins/) page for more details.
+Brainboard allows you to **build your pipelines** with its innovative and powerful CI/CD engine, where you can just pick the tools you are used to using and configure them easily.
 
-### Can I create templates for my cloud infrastructures?
+Brainboard **maintains** these tools for you, so you don't worry about upgrading them automatically or troubleshooting when things go wrong.
 
-Brainboard allows you to create a template from any architecture you have. By doing so, you build your internal catalog of templates that anyone within your organization can use off the shelf without reinventing the wheel.
+🔗 Refer to the [supported plugins](../automation/supported-plugins/) page for more details.
 
-### Is Brainboard free?
+***
+
+### 12. Can I create templates for my cloud infrastructures?
+
+**Yes.** You can create a template from any architecture you have. By doing so, you build your internal catalog of templates that anyone within your organization can use off the shelf without reinventing the wheel.
+
+***
+
+### 13. Is Brainboard free?
 
 Yes, there is a free version of Brainboard.
 
-When you sign up, you have a 21-day free trial that provides you with access to all features of Brainboard, after that, if you don't upgrade, you'll be automatically put into the free plan.
+{% hint style="info" %}
+When you sign up, you have a 21-day free trial that provides you with access to all features of Brainboard. After that, if you don't upgrade, your account is automatically switched to the free plan.
+{% endhint %}
 
-### How do I generate the Terraform code for my cloud architecture?
+***
 
-The Terraform code is automatically generated for you cloud architecture as you design.
+### 14. How do I generate the Terraform code for my cloud architecture?
 
-### Is SSO supported?
+The Terraform code is **automatically** generated for your cloud architecture as you design.
 
-Yes, in the enterprise version. We support both SAML and OIDC.
+***
 
-### How can I request a demo for Brainboard?
+### 15. Is SSO supported?
 
-Reach out to one of our sales team at `sales@brainboard.co`.
+Yes, in the <mark style="color:purple;">**enterprise**</mark> version. We support both **SAML** and **OIDC.**
+
+***
+
+### 16. How can I request a demo for Brainboard?
+
+Please reach out to our sales team at `sales@brainboard.co`.
