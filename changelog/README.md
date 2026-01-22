@@ -4,7 +4,22 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2026.01.7 - Jan 22, 2026
 
+#### ✅ Bug Fixes
+
+* Settings
+  * Fixed Project Settings loading issues for organizations with many projects by fetching only the needed project instead of an incomplete list.
+* Node Right-Click Menu
+  * Updated node menu labels and icons to make common actions clearer (e.g., omitting/adding nodes to code).
+* Module Import - Git credentials
+  * Improved module import credential handling so Git service and credentials are selected and saved more reliably.
+* RBAC/Permissions
+  * Clarified project creation permissions so roles display and behave more accurately in settings.
+* Infrastructure as Code
+  * Improved the Terraform file selector in the right pane so long file names are easier to pick and review.
+
+***
 
 ### 2026.01.6 - Jan 20, 2026
 
