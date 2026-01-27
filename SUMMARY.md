@@ -14,7 +14,7 @@
 
 ## Cloud design
 
-* [Left bar](cloud-design/left-bar/README.md)
+* [Left Panel](cloud-design/left-bar/README.md)
   * [Cloud resources](cloud-design/left-bar/cloud-resources.md)
   * [Input & output](cloud-design/left-bar/input-and-output.md)
 * [Design area](cloud-design/design-area/README.md)
