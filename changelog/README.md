@@ -4,6 +4,21 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2026.01.8 - Jan 27, 2026
+
+#### ✅ Bug Fixes
+
+* Node / Containers
+  * Improved the Node Options border controls so padding and selection styling display consistently.
+* Architecture
+  * Unsyncing an architecture now keeps your work intact by duplicating the diagram instead of reusing the shared one.
+* Code edition
+  * Nested configuration blocks now preserves the correct IDs, avoiding mismatches when blocks share the same order under different parents.
+* Variables/Locals/Output
+  * Bulk delete for Outputs now reliably removes the selected items.
+
+***
+
 ### 2026.01.7 - Jan 22, 2026
 
 #### ✅ Bug Fixes
