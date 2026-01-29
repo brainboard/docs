@@ -4,6 +4,23 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2026.01.9 - Jan 29, 2026
+
+#### 🎉 Features and Improvements
+
+* Module
+  * Module fields (ie module's variable) without an explicit type now automatically the default value to infer the type (e.g., boolean, number, list, map). The type is used in our Resource configuration form and in the code generation as well.
+
+#### ✅ Bug Fixes
+
+* Module
+  * Custom-typed module's field are now generated correctly in Terraform without unwanted quotes, preventing invalid `true/false` values in output.
+* Resource Configuration - Suggestion assistant
+  * The `depends_on` field now stops at the resource level (no attribute selection), avoiding incorrect references and extra steps when defining dependencies.
+  * The suggestion assistant dropdown no longer close unexpectedly when selecting resource/variable filters.
+
+***
+
 ### 2026.01.8 - Jan 27, 2026
 
 #### ✅ Bug Fixes
