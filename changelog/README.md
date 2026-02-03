@@ -4,6 +4,21 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2026.02.1 - Feb 03, 2026
+
+#### ✅ Bug Fixes
+
+* Git credentials
+  * Fixed an issue where secret fields could not be fully cleared when editing Git connections, improving credential updates for existing setups.
+* Topbar
+  * Improved spacing and responsive behavior so key actions and tabs stay accessible on smaller screens.
+* Variables/Locals/Output
+  * Improved the Variables pages layout on small screens, including better menu highlighting and clearer empty-state positioning.
+* Self hosted runners
+  * Fixed missing “job starting” status messages in self-hosted runner logs so job progress is easier to track during execution.
+
+***
+
 ### 2026.01.9 - Jan 29, 2026
 
 #### 🎉 Features and Improvements
