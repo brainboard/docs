@@ -1,118 +1,101 @@
 # Connectors
 
-### Description
+### Overview
 
-A connector is a line that connects two resources in the architecture. It is used to show a relationship between two resources. There are two types of connectors:
+{% hint style="info" %}
+A connector is a line that connects two resources in the architecture. It is used to show a relationship between two resources.&#x20;
+{% endhint %}
 
-* **Visual connectors**: Are used to show a visual relationship between two resources. They are represented by a solid line.
+_This article covers information about different connector types and how to create, edit, and delete a connector._&#x20;
 
-![Visual connector](../../.gitbook/assets/visual-connectors.png)
+***
 
-* **Relationship connectors**: Are used to show a relationship between two resources and can be **depends\_on** or **normal** relationship connectors. They are represented by a solid line with the corresponding text in the middle of the connector: **depends\_on** if it's a **depends\_on** relationship connector or the name of the relationship if it's a **normal** relationship connector, eg **server\_name**.
+### Connector types
 
-![Depends\_on connector](../../.gitbook/assets/depends-on-connector.png)
+There are two types of connectors:
 
-![Relationship connector](../../.gitbook/assets/normal-relantionship-connector.png)
+1. Visual connector
+2. Relationship connectors
 
-### How to create a connector
+#### **1. Visual connectors**
+
+These are used to show a visual relationship between two resources. They are represented by a solid line.
+
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+
+#### **2. Relationship connectors**
+
+These are used to show a relationship between two resources. They are represented by a solid line with the corresponding text in the middle of the connector.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (8).png" alt="" width="558"><figcaption></figcaption></figure>
+
+***
+
+### How to create a connector?
+
+#### Creating a visual connector
 
 To create a **visual** connector, you need to follow these steps:
 
-1. Select a resource by clicking on it and then select the **Add connector** option from the node options.
+1. Click on the node/resource that you want to connect to another node/resource.&#x20;
+2. Once the borders of the selected node/resource are highlighted, you will see a **small circle** in the middle of all its four borders. Hover over that small circle, and you will see an **arrow-shaped icon**. Click on that arrow-shaped icon, drag it to another node/resource to which you want to connect the first node/resource, and drop it there. You can now see a visual connector connecting the two nodes/resources in your design space.&#x20;
 
-![Add connectors button](../../.gitbook/assets/add-connectors-button.png)
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-2. Click the generated connector and drag it over the resource you want to connect it to.
-3. Release the connector over the resource you want to connect it to.
 
-To create a **depends\_on** relationship connector, you need to follow these steps:
 
-1. Select a resource by clicking on it and open its cloud configuration by clicking on the **Cloud configuration** button from the node options bar.
+#### Creating a relationship connector between resources
 
-![Node cloud configuration button](../../.gitbook/assets/node-cloud-configuration.png)
+To create a relationship connector, you need to follow these steps:
 
-2. Either scroll to the **Extra attributes** section, expand it and click on the **Depends on** input or using the search bar, search for **Depends on**.
+1. Right-click on the resource and select `Edit config` from the context menu. &#x20;
 
-![Node cloud configuration](../../.gitbook/assets/depends-on-id-card.png)
+<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="422"><figcaption></figcaption></figure>
 
-3. Clicking on the **Depends on** input will recommend you resources that you can connect to. You can either click on the resource you want to connect to or type the name of the resource you want to connect to.
-4. After selecting an item from the list, a connector will be created between the two resources. It will also have a text in the middle of the connector that says **depends\_on** and the automatically generated Terraform code will have the **depends\_on** attribute added to the resource.
+2. The selected resource's **form will** open in the right pane. You can scroll down to its **Main parameters** and look for the relevant field where you can select the other resource for connection.&#x20;
 
-![Depends\_on connector](../../.gitbook/assets/depends-on-connector.png)
+For example, in the image shared below, the desired storage is selected under the field **`Storage Account Name`** for the _<mark style="color:$primary;">Linux function app</mark>_.&#x20;
 
-To create a **normal** relationship connector, you need to follow these steps (the initial steps are the same as for the **depends\_on** relationship connector):
+{% hint style="success" %}
+Once you select the desired resource in the relevant field, a relationship connector is drawn from the first resource pointing toward the second. The connector line will also be labelled accordingly.&#x20;
+{% endhint %}
 
-1. Select a resource by clicking on it and open its cloud configuration by clicking on the **Cloud configuration** button from the node options bar.
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
-![Node cloud configuration button](../../.gitbook/assets/node-cloud-configuration.png)
+{% hint style="info" %}
+To verify the connection/relationship, you can cross-check the **label text** with the corresponding value in the code.&#x20;
+{% endhint %}
 
-2. Select an input (eg **Key vault secret id**) or use the search bar to search for an input.
-3. Clicking on the input will recommend you resources that you can connect to. You can either click on the resource you want to connect to or type the name of the resource you want to connect to.
-4. After selecting an item from the list, a connector will be created between the two resources. It will also have a text in the middle of the connector that refers to the field that connects the two resources (eg **key\_vault\_secret\_id**).
+***
 
-![Relationship connector](../../.gitbook/assets/normal-relantionship-connector.png)
+### How to delete a connector?
 
-### How to delete a connector
+To delete a connector, simply click on the **connector line** and hit the **`Delete`** key on your keyboard. Or, you can click the **bin icon** available in the connector editor bar that appears upon clicking the connector line.&#x20;
 
-To delete a connector, you need to follow these steps:
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
-1. Select the connector by clicking on it and then press the **Delete** key on your keyboard.
-2. Select the connector start or end point and select the **Delete connector** option from the connector options or press the **Delete** key on your keyboard.
+You will be prompted with two options:&#x20;
 
-![Delete connector button](../../.gitbook/assets/delete-connector.png)
+* **Keep reference:** Clicking on this will only delete the _<mark style="color:$primary;">visual connector line</mark>_, while the configured relationship between the resources will stay **intact.**&#x20;
+* **Remove the reference:** Clicking on this will delete the _<mark style="color:$primary;">visual connector line</mark>_ as well as the configured _<mark style="color:$primary;">relationship</mark>_ between the resources.&#x20;
 
-### How to edit a connector
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
-To edit a connector, you need to follow these steps:
+### How to edit a connector?
 
-1. Select the connector by clicking on it and the connector options bar will appear just under the design area options bar.
+To edit a connector, simply click on the connect, and the options bar will appear above it. You can customzie the following properties of a connector-line:&#x20;
 
-![Connector options bar](../../.gitbook/assets/connector-options-bar.png)
+* **Connector type:** Available options are **`orthogonal`**, **`straight`**, and **`curvy`**.&#x20;
+* **Line style:** Available options are **`solid`**, **`small dash`**, **`medium dash`**, and **`large dash`**.&#x20;
+* **Colour:** You can use the available colour palette or enter a specific hex code.&#x20;
+* **Line weight:** You can define the connector line weight as **`small`**, **`medium`**, or **`large`**.&#x20;
+* **Start/end shape options:** These options enable you to define the start and the end shape of the connector line. Available options are `filled arrow`, `outlined arrow`, `no shape`.&#x20;
 
-2. Select the connector start or end point and the connector options will appear on the right side, just next to the selected point.
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
-![Connector icon options](../../.gitbook/assets/connector-icon-options.png)
+### How to edit the connector text?
 
-### Connector options bar
+To edit the connector label text, simply **`double-click`** on the connector line and it will become editable as the **`cursor`** will appear at the end of the text. You can then edit it as you wish.&#x20;
 
-The connector options bar allows you to visually configure the connector and it has the following options:
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
-* **Fill color**: Allows you to change the connector fill color.
-
-![Connector fill color](../../.gitbook/assets/fill-color.png)
-
-* **Border weight**: Allows you to change the connector border weight.
-
-![Connector border weigth](../../.gitbook/assets/border-weigth.png)
-
-* **Border dash**: Allows you to change the connector border dash.
-
-![Connector border dash](../../.gitbook/assets/border-dash.png)
-
-* **Connector type**: Allows you to change the connector type visually, from a straight line to a curved line.
-
-![Connector type](../../.gitbook/assets/connector-type.png)
-
-* **Connector start shape**: Allows you to change the connector start shape, from nothing, to a circle, square or arrow.
-
-![Connector start shape](../../.gitbook/assets/connector-start-shape.png)
-
-* **Connector end shape**: Allows you to change the connector end shape, from nothing, to a circle, square or arrow.
-
-![Connector end shape](../../.gitbook/assets/connector-end-shape.png)
-
-### Connector options
-
-The connector options allow you to configure the connector and it has the following options:
-
-* **Edit text**: Allows you to edit the connector text.
-
-![Connector edit text](../../.gitbook/assets/edit-text.png)
-
-* **Unlink connector**: Allows you to unlink the connector from the target resource so that it can be moved freely and connected to another resource.
-
-![Unlink connector](../../.gitbook/assets/unlink-connector.png)
-
-* **Delete connector**: Allows you to delete the connector.
-
-![Delete connector](../../.gitbook/assets/delete-connector.png)

@@ -14,9 +14,12 @@
 
 ## Cloud design
 
-* [Left Panel](cloud-design/left-bar/README.md)
+* [Left Pane](cloud-design/left-bar/README.md)
   * [Cloud resources](cloud-design/left-bar/cloud-resources.md)
-  * [Input & output](cloud-design/left-bar/input-and-output.md)
+  * [Input & output](cloud-design/left-bar/input-and-output/README.md)
+    * [Variables](cloud-design/left-bar/input-and-output/variables.md)
+    * [Locals](cloud-design/left-bar/input-and-output/locals.md)
+    * [Output](cloud-design/left-bar/input-and-output/output.md)
 * [Design area](cloud-design/design-area/README.md)
   * [Node](cloud-design/design-area/node.md)
   * [Connectors](cloud-design/design-area/connectors.md)

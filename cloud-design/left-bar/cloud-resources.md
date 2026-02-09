@@ -45,11 +45,11 @@ You can switch between the data types and resources in two ways:
 
 {% columns %}
 {% column width="50%" %}
-<figure><img src="../../.gitbook/assets/image (18).png" alt="" width="499"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18) (1).png" alt="" width="499"><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column width="50%" %}
-<figure><img src="../../.gitbook/assets/image (19).png" alt="" width="492"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (1).png" alt="" width="492"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -98,7 +98,7 @@ These are special cloud resources as they are <mark style="color:$primary;">cont
 
 In the **left panel,** there is a section where you can import your modules and access a modules' _<mark style="color:$primary;">Catalog</mark>_ to manage them.
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt="" width="331"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (1).png" alt="" width="331"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Please refer to the [Node documentation](../design-area/node.md) to understand **visual indications** and how cloud resources behave in the design area.
@@ -112,7 +112,7 @@ Brainboard supports all types of **Terraform modules** from any source.&#x20;
 
 To import your module, click on the `Import` button under **Modules** in the **left panel.** It will open the **"Import Terraform module"** window that allows you to specify information about the module.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Import module from registry
 
@@ -122,7 +122,7 @@ You can import your **Terraform / OpenTofu** modules from your <mark style="colo
 2. **The source path:** The path of the module in the registry.
 3. **The version:** You can specify the version you want to import or keep the latest and later change it in the <mark style="color:$primary;">Resource Configuration</mark> panel when you use it.
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 
 
@@ -134,7 +134,7 @@ To import from a private registry, click on the toggle button `Use terraform reg
 
 You can also import your Terraform / OpenTofu modules from any Git repository, **public** or **private.**
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **GitHub/GitLab browser URL**
@@ -180,7 +180,7 @@ You can customize the **icon** of your modules when you import them, regardless 
 When you initiate the import, Brainboard first checks if the Terraform code of the module is correct or not and displays an error if the module contains any Terraform errors or invalid syntax.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Modules catalog
 
@@ -188,7 +188,7 @@ When you import your modules into Brainboard, you build a catalog of modules tha
 
 To access this catalog, click on the `Catalog` button under **Modules** in the **left panel.** It will open the gallery.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Modules Catalog Popup Window**
 

@@ -1,149 +1,201 @@
 # Node
 
-### Description
+### Overview
 
 The node is the graphical object you use to build your cloud infrastructure and is the building block of the architecture.
 
-When you drag and drop a node from the left bar and add it to the design area, you can customize both its graphical aspects and its cloud configuration to generate its Terraform code.
+{% hint style="success" %}
+When you drag and drop a **node** from the left panel into the design area, you can customize both its graphical aspects and its cloud configuration to generate its Terraform code.
+{% endhint %}
+
+***
 
 ### Types of nodes
 
-1.  **Resource:** It represents a cloud resource for a given provider for which Brainboard generates the `resource` Terraform block.
+#### **1. Resource**
 
-    <figure><img src="../../.gitbook/assets/nodes.png" alt=""><figcaption></figcaption></figure>
-2. **Data source:** This is a read only object that you allows you to reference an existing cloud resource. Brainboard generates the `data` Terraform block for it.
-   * The data block is indicated with a cube on its left:
+&#x20;It represents a cloud resource for a given provider for which Brainboard generates the `resource` Terraform block.
 
-<figure><img src="../../.gitbook/assets/data_nodes.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (37).png" alt="" width="375"><figcaption></figcaption></figure>
 
-3.  **Icon only:** This object is used to depict a graphical component that doesn't have a Terraform code, but has a meaning in the architecture.
+#### **2. Data source**
 
-    <figure><img src="../../.gitbook/assets/icon_only_node.png" alt=""><figcaption><p>Resource icon only</p></figcaption></figure>
+This is a read-only object that allows you to reference an existing cloud resource. Brainboard generates the `data` Terraform block for it.
 
-    <figure><img src="../../.gitbook/assets/CleanShot 2024-09-24 at 15.21.33.png" alt=""><figcaption><p>Data icon only</p></figcaption></figure>
-4. **Container:** This node is supposed to contain other resources and pass some of its cloud or graphical configurations to its children.
-   1.  **Azure example:** When you add an AKS cluster into the resource group, it automatically inherits the `resource_group_name` from the RG
+The data block is indicated with a cube on its left.&#x20;
 
+<figure><img src="../../.gitbook/assets/image (38).png" alt="" width="375"><figcaption></figcaption></figure>
 
+#### **3. Icon only**
 
-       <figure><img src="../../.gitbook/assets/azure_inheritance.png" alt=""><figcaption></figcaption></figure>
-   2.  **AWS example:** When you add an internet gateway to the VPC, it inherits the `vpc_id` automatically from the VPC.
+This object is used to depict a graphical component that doesn't have a Terraform code, but has a meaning in the architecture.
 
+<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
+#### **4. Container**
 
-       <figure><img src="../../.gitbook/assets/aws_inheritance.png" alt=""><figcaption></figcaption></figure>
-   3.  **GCP example:** When you add compute firewall into a compute network, it inherits its `network` automatically
+This node is supposed to contain other resources and pass some of its cloud or graphical configurations to its children.
 
-       <figure><img src="../../.gitbook/assets/gcp_inheritance.png" alt=""><figcaption></figcaption></figure>
+1. **Azure example**
+
+When you add an **AKS cluster** to the resource group, it automatically inherits the `resource_group_name` from the RG.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+
+2. **AWS example**
+
+When you add an internet gateway to the VPC, it inherits the `vpc_id` automatically from the VPC.
+
+<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+
+3. **GCP example:** When you add compute firewall into a compute network, it inherits its `network` automatically
+
+<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-**Brainboard group:**
+**Brainboard group**
 
 * This is a special container of resources that has a title and icon that you can customize.
 * It supports nested containers.
 
-<img src="../../.gitbook/assets/brainboard_group.png" alt="" data-size="original">
+![](<../../.gitbook/assets/image (18).png>)
 {% endhint %}
 
+4. **Module**
 
+This node represents a Terraform module for which Brainboard generates a `module` block.
 
-5. **Module:** This node represents a Terraform module for which Brainboard generates a `module` block.
-   1.  By default, when you can a module, it is represented by a simple node containing the icon of the provider of the resources
+By default, when you can a module, it is represented by a simple node containing the icon of the provider of the resources
 
-       <figure><img src="../../.gitbook/assets/modules_nodes.png" alt=""><figcaption></figcaption></figure>
-   2.  You can change any module into a container, by right-clicking on it and select `Switch to container.` You can turn it back into a node by right click and select `Switch to node`.
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
-       <figure><img src="../../.gitbook/assets/switch_module_to_container.png" alt=""><figcaption></figcaption></figure>
-6.  **Shape:** This is a pure graphical object that helps you depict information that don't have a Terraform code.
+You can change any module into a container, by right-clicking on it and select `Switch to container.` You can turn it back into a node by right click and select `Switch to node`.
 
-    1. Some shapes can also be containers, like rectangles and circles, which helps you group your resources without triggering cloud configuration inheritance.
+<figure><img src="../../.gitbook/assets/image (20).png" alt="" width="488"><figcaption></figcaption></figure>
 
+5. **Shape**
 
+This is a pure graphical object that helps you depict information that don't have a Terraform code.
 
-    <figure><img src="../../.gitbook/assets/leftbar-shapes.png" alt=""><figcaption></figcaption></figure>
-7. **Text:** This node helps create a text object to add complementary information to your cloud architecture.
+Some shapes can also be containers, like rectangles and circles, which helps you group your resources without triggering cloud configuration inheritance.
+
+<figure><img src="../../.gitbook/assets/image (21).png" alt="" width="329"><figcaption></figcaption></figure>
+
+6. **Text**
+
+This node helps create a text object to add complementary information to your cloud architecture.
+
+***
 
 ### Graphical options
 
 #### Options bar
 
-The following graphical options are common to any node in the design area:
+The following graphical options are common to any node in the design area.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-09-24 at 16.12.26.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
-1. Lock the node: This allows you to lock/unlock the node graphically, which means it cannot be moved, resized, deleted or modified.
-2. Duplicate the node
-3.  Order: Change the z-index of the node
 
-    <figure><img src="../../.gitbook/assets/CleanShot 2024-09-24 at 16.22.37.png" alt=""><figcaption></figcaption></figure>
 
-    1. Send backwards
-    2. Send to back
-    3. Bring to front
-    4. Bring forward
-4.  Align: This option allows you to align multiple nodes
+1. **Order:** Change the z-index of the node.
 
-    <figure><img src="../../.gitbook/assets/CleanShot 2024-09-24 at 16.25.20.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25).png" alt="" width="447"><figcaption></figcaption></figure>
 
-    1. Align nodes left
-    2. Align vertically nodes' centers
-    3. Align nodes right
-    4. Align nodes to the top
-    5. Align horizontally nodes' centers
-    6. Align nodes on the bottom
-    7. Distribute space between nodes vertically
-    8. Distribute space between nodes horizontally
-5. Change the background color of the node
-6. Change the text color of the node
-7. Change the borders color of the node
-8. Change the border radius of the node
-9. Make borders of the node dashed
-10. Change the border weight of the node
-11. Open cloud configuration: This will open the Resource Configuration panel that contains all Terraform fields that you can fill. Brainboard generates the Terraform code based on this configuration.
+<table><thead><tr><th width="74.48138427734375">#</th><th width="203.13238525390625">Oorder</th></tr></thead><tbody><tr><td>a</td><td>Send backwards</td></tr><tr><td>b</td><td>Send to back</td></tr><tr><td>c</td><td>Bring to front</td></tr><tr><td>d</td><td>Bring forward</td></tr></tbody></table>
+
+<table><thead><tr><th width="74.48138427734375">#</th><th width="203.13238525390625">Oorder</th></tr></thead><tbody><tr><td>a</td><td>Send backwards</td></tr><tr><td>b</td><td>Send to back</td></tr><tr><td>c</td><td>Bring to front</td></tr><tr><td>d</td><td>Bring forward</td></tr></tbody></table>
+
+
+
+2. **Align:** This option allows you to align multiple nodes. You must select all the nodes that you need to align.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+
+<table><thead><tr><th width="74.48138427734375">#</th><th width="477.2064208984375">Alignment</th></tr></thead><tbody><tr><td>a</td><td>Align nodes left</td></tr><tr><td>b</td><td>Align vertically nodes' centers</td></tr><tr><td>c</td><td>Align nodes right</td></tr><tr><td>d</td><td>Align nodes to the top</td></tr><tr><td>e</td><td>Align horizontally nodes' centers</td></tr><tr><td>f</td><td>Align nodes on the bottom</td></tr><tr><td>g</td><td>Distribute space between nodes vertically</td></tr><tr><td>h</td><td>Distribute space between nodes horizontally</td></tr><tr><td>i</td><td>Tidy up nodes</td></tr></tbody></table>
+
+3. Change the **background colour** of the node.
+4. Change the **text colour** of the node.
+5. Change the **border colour** of the node.
+6. Change the **border radius of the node.**
+7. Make the **borders of the node dashed.**
+8. Change the **border weight** of the node.
+9. **Open cloud configuration:** This will open the **Resource Configuration** panel that contains all Terraform fields that you can fill. Brainboard generates the Terraform code based on this configuration.
+
+***
 
 #### Context menu
 
-1.  **Resource, data source and container:** These 3 types of nodes share the same options of their context menu:
+1. **Resource, data source and container**
 
-    ![](../../.gitbook/assets/node\_context\_menu.png)![](../../.gitbook/assets/node\_context\_menu\_switch\_to\_resource.png)
+These 3 types of nodes share the same options in their context menu.
 
-    1. Open the Resource Configuration panel to update the cloud configuration
-    2. Change the title of the node
-    3. Add connectors
-    4. Disable the Terraform code generation of the node without deleting it from the design
-       1. You can enable the code back by right-clicking on the resource and chose the option `Add to code`
-    5. Put the node into a different Terraform file
-    6. Switch the resource into data and vice versa
-    7. Delete the node from the design and the generated code
-2.  **Module:** All the options are similar to the resource, except that for modules, you have the possibility to swatch a module visually into a container and switch it back into a normal node if needed.
+<figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../../.gitbook/assets/module_context_menu_switch_to_container.png" alt=""><figcaption></figcaption></figure>
+<table><thead><tr><th width="58.92578125">#</th><th width="684.6141357421875">Menu item</th></tr></thead><tbody><tr><td>a</td><td>Open the Resource Configuration panel to update the cloud configuration.</td></tr><tr><td>b</td><td>Switch the resource into data and vice versa.</td></tr><tr><td>c</td><td>Change the title of the node.</td></tr><tr><td>d</td><td>This allows you to lock/unlock the node graphically, which means it cannot be moved, resized, deleted or modified.</td></tr><tr><td>e</td><td>❓❓</td></tr><tr><td>f</td><td>Duplicate the node.</td></tr><tr><td>g</td><td>❓❓</td></tr><tr><td>h</td><td><p>Disable the Terraform code generation of the node without deleting it from the design</p><p>You can enable the code by right-clicking on the resource and choosing the option <code>Add to code</code></p></td></tr><tr><td>i</td><td>Delete the node from the design and the generated code.</td></tr></tbody></table>
+
+
+
+2. **Module**
+
+All the options are similar to the resource, except that for modules, you have the possibility to **switch a module visually into a container and switch it back into a normal node if needed.**
+
+<figure><img src="../../.gitbook/assets/image (32).png" alt="" width="393"><figcaption></figcaption></figure>
+
+***
 
 ### Cloud configuration
 
-Every node that is a cloud resource will have its Terraform code automatically generated and updated when you fill the information in the Resource Configuration panel or when you move the node into a parent, where it inherits some cloud properties.
+Every node that is a cloud resource will have its Terraform code automatically generated and updated when you fill in the information in the **Resource Configuration panel** or when you move the node into a parent, where it inherits some cloud properties.
 
-Refer to [Resource Configuration](../resource-configuration.md) page for more details about how to update the cloud configuration of nodes and all the options available.
+{% hint style="info" %}
+Refer to the [Resource Configuration](../resource-configuration.md) page for more details about how to update the cloud configuration of nodes and all the options available.
+{% endhint %}
+
+***
 
 ### Behavior
 
-Brainboard design area is a smart canvas that has a cloud knowledge and is able to understand the relationship and links between resources.
+Brainboard design area is a smart canvas that has <mark style="color:$primary;">**cloud knowledge**</mark> and is able to understand the relationships and links between resources.
 
-Here is the behavior of the node in the design area:
+Explained below is the behaviour of the node in the design area.
 
-* A node can be selected when you click on its Terraform code in the right pane.
-* Nodes can be linked to each other automatically when you reference a Terraform attribute from a node to another.
-  * The name of the field that references the other node is put in the text of the connector created between both resources.
-* Containers can pass their cloud properties into their children when Terraform supports it.
-  * Brainboard can detect what should be passed and how, and then generates the right code.
-* When you update the `resource name` of any node at any level, Brainboard automatically updates all the nodes that depend on it with the new name.
-* Container cannot be resized smaller than its children. It has to visually indicate the children contained.
-* There is no inheritance between resources of different providers.
-  * For example, you cannot add an `aws_subnet` inside `azurerm_virtual_network`.
-* Within the same provider, you cannot do what is not allowed by the provider.
-  * For example, you cannot add a subnet inside a subnet, VPC inside VPC, VNET inside VNET...
-* When you try to add a container into another one, Brainboard automatically fixes the right order of containers based on what is accepted by the provider.
-  * For example, if you try to add a VPC inside a subnet, Brainboard will put the subnet inside the VPC and fills the information correctly for you.
-* You can still reference resources from different providers in the Resource Configuration panel.
-  * For example, reference AD user inside a VM.
-* When selecting multiple resources and cloning them, Brainboard automatically generates new resource names to avoid collisions and tracks dependencies correctly. Which means, the Terraform plan should pass after the clone.
+1. A <mark style="color:$primary;">node</mark> can be selected when you click on its **Terraform** code in the right pane.
+2. <mark style="color:$primary;">Nodes</mark> can be linked to each other automatically when you reference a **Terraform** attribute from one node to another.
+
+{% hint style="info" %}
+The name of the field that references the other node is put in the text of the connector created between both resources.
+{% endhint %}
+
+3. <mark style="color:$primary;">Containers</mark> can pass their cloud properties to their <mark style="color:$primary;">children</mark> when **Terraform** supports it.
+
+{% hint style="info" %}
+Brainboard can detect what should be passed and how, and then generate the right code.
+{% endhint %}
+
+4. When you update the `resource name` of any <mark style="color:$primary;">node</mark> at any level, Brainboard automatically updates all the nodes that depend on it with the **new name.**
+5. A <mark style="color:$primary;">container</mark> cannot be resized smaller than its children. It has to visually indicate the children contained.
+6. There is <mark style="color:$danger;">**no**</mark> inheritance between resources of different providers.
+
+{% hint style="info" %}
+For example, you cannot add an `aws_subnet` inside `azurerm_virtual_network`.
+{% endhint %}
+
+7. Within the same provider, you <mark style="color:$danger;">**cannot**</mark> do what is not allowed by the provider.
+
+{% hint style="info" %}
+For example, you cannot add a subnet inside a subnet, VPC inside VPC, VNET inside VNET...
+{% endhint %}
+
+8. When you try to add a <mark style="color:$primary;">container</mark> into another one, Brainboard automatically fixes the right order of containers based on what is accepted by the provider.
+
+{% hint style="info" %}
+For example, if you try to add a VPC inside a subnet, Brainboard will put the subnet inside the VPC and fill the information correctly for you.
+{% endhint %}
+
+9. You can still reference resources from different providers in the **Resource Configuration** panel.
+
+{% hint style="info" %}
+For example, reference an AD user inside a VM.
+{% endhint %}
+
+10. When selecting multiple resources and cloning them, Brainboard automatically generates new resource names to avoid collisions and tracks dependencies correctly. Which means the Terraform plan should pass after the **clone.**

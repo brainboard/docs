@@ -11,10 +11,10 @@ To add GitLab personal Git token in Brainboard, you first need to generate it in
 1. Go to your GitLab[ personal tokens page](https://gitlab.com/-/profile/personal_access_tokens).
 2.  Add a name and specify `API` rights, then click on `Create personal access token` button:<br>
 
-    <figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 3.  The token is generated, you can copy it to add to Brainboard:<br>
 
-    <figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
