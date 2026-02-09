@@ -4,6 +4,10 @@
 
 Brainboard provides a native versioning mechanism that allows you to **keep track** of your changes and **rollback/restore** any specific point-in-time version.
 
+_This article lists the information that is saved for each version in Brainboard, in addition to steps for creating a new version, viewing already saved versions and restoring an existing version._&#x20;
+
+***
+
 ### Components of a version
 
 When you create a version, Brainboard saves the following information:
@@ -32,7 +36,7 @@ The Terraform code is automatically generated, and it is not saved as code.
 
 ***
 
-### Create a version
+### How to create a version?
 
 To create a version of your architecture, you can follow these steps:&#x20;
 
@@ -71,7 +75,7 @@ The versions are listed in order of **latest/newest** to **oldest.**&#x20;
 
 ***
 
-### Restore a version
+### How to restore a version?
 
 To restore any version, click on the **version history icon** in the top navigation bar. On the **Version history** pane on the right side, click on the **version** you want to restore.  The clicked version will be restored, and the following success message will be displayed at the bottom of the **Version history** pane.
 
