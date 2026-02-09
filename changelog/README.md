@@ -4,6 +4,23 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2026.02.2 - Feb 09, 2026
+
+#### ✅ Bug Fixes
+
+* Code edition
+  * Editing the generated code with a Module with a custom Git SSH sources now preserve existing the settings so you can remove or update parameters without unexpected resets.
+* Design area / diagram
+  * Clicking a connector anchor point no longer creates “ghost” connectors, reducing accidental connections during editing.
+* Global
+  * Environments indicators now use a clearer icon so they’re easier to distinguish from public visibility.
+* Node / Containers
+  * Deleting a node from the context menu now only removes it from the diagram.
+* Resource configuration
+  * Duplicating repeatable configuration blocks now works correctly without false “duplicate” conflicts.
+
+***
+
 ### 2026.02.1 - Feb 03, 2026
 
 #### ✅ Bug Fixes
