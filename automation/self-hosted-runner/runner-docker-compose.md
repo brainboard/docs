@@ -8,11 +8,11 @@ After installing Docker, you need the following files in a directory:
 
 {% code title="docker-compose.yml" fullWidth="false" %}
 ```yaml
-version: '3'
-
 services:
   runner:
     image: ghcr.io/brainboard/runner:latest
+    # You can also pin the version using any Brainboard version from our changelog
+    # image: ghcr.io/brainboard/runner:2026.02.2
     restart: unless-stopped
     command: /brainboard-runner run
     volumes:
@@ -27,16 +27,17 @@ services:
 level: warn
 
 runner:
-  concurrency: 4
+  concurrency: 4 # Number of running jobs/containers in paralel
   name: "self-hosted runner"
+  poll_interval: 5  # polling interval for new jobs in seconds
   token: "your-runner-token"
 
 api:
   endpoint: "https://api.us1.brainboard.co"
 
 docker:
-  registry: "ghcr.io/brainboard/plugins"
-  ecr_auth: false
+  worker_image: "ghcr.io/brainboard/plugins/worker:latest" # Default value
+
 ```
 {% endcode %}
 

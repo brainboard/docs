@@ -101,8 +101,8 @@
   * [Types of drift](automation/drift/types-of-drift.md)
   * [Remediation](automation/drift/remediation.md)
 * [Self-Hosted Runner](automation/self-hosted-runner/README.md)
-  * [Deploy runner with Kubernetes](automation/self-hosted-runner/runner-kubernetes.md)
   * [Deploy runner with docker-compose](automation/self-hosted-runner/runner-docker-compose.md)
+  * [Deploy runner with Kubernetes](automation/self-hosted-runner/runner-kubernetes.md)
 * [API](automation/api.md)
 
 ## Settings
