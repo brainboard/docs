@@ -4,6 +4,23 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2026.02.3 - Feb 18, 2026
+
+#### 🎉 Features and Improvements
+
+* CI/CD - Plugins
+  * Runner jobs now automatically use the IaC tool and version configured on the architecture, reducing manual setup in pipelines.
+  * Runner plugin execution is now streamlined around a single worker image, making plugin environments more consistent and easier to maintain.
+
+#### ✅ Bug Fixes
+
+* Integrations - Cloud provider
+  * Cloud provider connection setup now starts on the correct wizard step, making it easier to create new credentials without confusion.
+* Settings - Teams & Members
+  * Team member details now load reliably and correctly display 2FA status for GraphQL-based setups.
+
+***
+
 ### 2026.02.2 - Feb 09, 2026
 
 #### ✅ Bug Fixes
