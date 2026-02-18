@@ -11,8 +11,8 @@ After installing Docker, you need the following files in a directory:
 services:
   runner:
     image: ghcr.io/brainboard/runner:latest
-    # You can also pin the version using any Brainboard version from our changelog
-    # image: ghcr.io/brainboard/runner:2026.02.2
+    # You can also pin the version using any Brainboard version from our changelog (https://docs.brainboard.co/changelog)
+    # image: ghcr.io/brainboard/runner:2026.02.3
     restart: unless-stopped
     command: /brainboard-runner run
     volumes:
