@@ -4,6 +4,26 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2026.02.4 - Feb 19, 2026
+
+#### 🎉 Features and Improvements
+
+* Connector
+  * Terraform reference deletion prompts now include a close option, making it easier to back out of accidental connector changes.
+
+#### ✅ Bug Fixes
+
+* CI/CD
+  * Workflow jobs now automatically use the latest plugin schema, so existing pipelines keep working when plugins schema evolve.
+  * Brainboard worker image used for Terraform/Opentofu plugins now include Git support so workflows can reliably fetch modules from Git-based sources.
+  * Clearing a Terraform/OpenTofu `-target` no longer breaks runs, as empty targets are now ignored instead of being sent to the CLI.
+* Settings
+  * Fixed a visual layout issue on the GitHub connection form so the page displays cleanly when adding a personal token.
+* Resource configurator - TF Reference enrichment
+  * Module references now correctly show their custom icons in reference displays and previews for easier identification.
+
+***
+
 ### 2026.02.3 - Feb 18, 2026
 
 #### 🎉 Features and Improvements
