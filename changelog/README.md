@@ -4,7 +4,7 @@ icon: clock-rotate-left
 
 # Changelog
 
-### 2026.03.2 - Mar 02, 2026
+### 2026.03.3 - Mar 02, 2026
 
 #### ✅ Bug Fixes
 
