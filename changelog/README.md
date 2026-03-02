@@ -4,6 +4,21 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2026.03.2 - Mar 02, 2026
+
+#### ✅ Bug Fixes
+
+* **Import from cloud provider**
+  * AWS import handling was improved to better manage EKS-related resources and large tagging scenarios, making cloud imports more robust for complex environments.
+* **Leftbar**
+  * Fixed drag-and-drop behavior in the left sidebar for a smoother and more consistent editing experience.
+* **Node / Containers**
+  * Fixed container color rendering so container nodes now consistently use their intended default colors.
+* **Connector**
+  * Fixed an issue where connectors could remain after related endpoint nodes were removed, keeping diagrams clean and accurate.
+
+***
+
 ### 2026.02.4 - Feb 19, 2026
 
 #### 🎉 Features and Improvements
