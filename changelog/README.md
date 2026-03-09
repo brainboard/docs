@@ -4,6 +4,27 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2026.03.4 - Mar 09, 2026
+
+#### ✅ Bug Fixes
+
+* **Project selector / Architecture selector**
+  * Fixed search state so the project selector no longer keeps stale search input after closing.
+* **New Architecture - all Imports**
+  * Simplified the import experience by removing unnecessary right-side header actions for a cleaner, more focused interface.
+  * Fixed issues when architecture information was set during cloud provider import.
+* **Variables/Locals/Output**
+  * Fixed variable value display so scrolling is visible and values are easier to review.
+  * Fixed the variables import tab by hiding an incorrect add button.
+  * Improved variable synchronization reliability by clearing stale variable cache during code edition updates.
+* **Infrastructure as Code /** **Identity Card**
+  * Fixed preflight validation behavior on meta attributes to reduce false validation issues.
+  * Improved exported infrastructure blocks by correctly including computed attributes, leading to more complete and reliable outputs.
+* **RBAC/Permissions**
+  * Fixed batch authorization handling for invalid resource IDs to improve access control reliability.
+
+***
+
 ### 2026.03.3 - Mar 02, 2026
 
 #### ✅ Bug Fixes
