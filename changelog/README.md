@@ -4,6 +4,38 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2026.03.8 - Mar 18, 2026
+
+#### 🎉 Features and Improvements
+
+* Design area / diagram
+  * Architecture revision history is now more resilient by keeping a larger recent revision window (10), making rollback and recovery safer when users need to restore a previous working state.
+
+#### ✅ Bug Fixes
+
+* RBAC/Permissions
+  * Permission policy initialization was stabilized to ensure access rules are created and updated more reliably, reducing risk of inconsistent authorization behavior across organizations and projects.
+
+***
+
+### 2026.03.7 - Mar 17, 2026
+
+#### 🎉 Features and Improvements
+
+* Import from git
+  * Importing modules from Git now forwards Git credentials more reliably, making private module imports smoother for teams using secured repositories.
+* Cloud providers (AWS, Azure, GCP)
+  * Azure load balancer backend pool address parsing was improved, with better deduplication of discovered cloud resources for cleaner imports.
+
+#### ✅ Bug Fixes
+
+* Connector
+  * Automatic connector diagram validation was disabled to prevent unnecessary validation interruptions during editing workflows.
+* API
+  * Endpoint validation and JSON patch path checks were strengthened for diagram, cloud configuration, and variable operations, improving request reliability and reducing invalid update errors.
+
+***
+
 ### 2026.03.4 - Mar 09, 2026
 
 #### ✅ Bug Fixes
