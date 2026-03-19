@@ -4,6 +4,21 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2026.03.9 - Mar 19, 2026
+
+#### ✅ Bug Fixes
+
+* Design area / diagram
+  * Deleting nodes now reliably cleans up related connectors, preventing diagram inconsistencies during node removal workflows.
+* Resource Configurator
+  * Switching between modules now correctly keeps each module’s own card data, avoiding unintended overwrites when editing.
+
+#### Notes
+
+* The “Create with AI” option has been removed from the new architecture flow. Its successor will soon be released under alpha feature flag. Contact support team if you want to be in the Alpha waiting list.&#x20;
+
+***
+
 ### 2026.03.8 - Mar 18, 2026
 
 #### 🎉 Features and Improvements
