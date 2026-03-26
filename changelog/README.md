@@ -4,6 +4,16 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2026.03.11 - Mar 26, 2026
+
+#### ✅ Bug Fixes
+
+* Node / Containers
+  * Line and arrow shapes now validate correctly, so these diagram elements work more reliably in real architectures.
+  * Text and other nodes now consistently respect minimum sizing rules, preventing save and rendering issues in edge-case layouts.
+
+***
+
 ### 2026.03.10 - Mar 26, 2026
 
 #### 🎉 Features and Improvements
