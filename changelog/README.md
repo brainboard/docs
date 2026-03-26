@@ -4,6 +4,20 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2026.03.10 - Mar 26, 2026
+
+#### 🎉 Features and Improvements
+
+* New architecture
+  * The new architecture screen now prioritizes **Create from scratch** as the first option, making the most common starting path quicker to access.
+
+#### ✅ Bug Fixes
+
+* Import from cloud provider
+  * Cloud import failures now display clear, dedicated error messages in the interface, helping teams diagnose issues and recover faster.
+
+***
+
 ### 2026.03.9 - Mar 19, 2026
 
 #### ✅ Bug Fixes
