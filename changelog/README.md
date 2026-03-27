@@ -4,6 +4,15 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2026.03.12 - Mar 27, 2026
+
+#### ✅ Bug Fixes
+
+* Leftbar
+  * Restored the default leftbar width for users without AI chat enabled (private alpha), providing a more comfortable design workspace and bringing back the expected layout behavior.
+
+***
+
 ### 2026.03.11 - Mar 26, 2026
 
 #### ✅ Bug Fixes
