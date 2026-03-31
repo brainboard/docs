@@ -4,6 +4,15 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2026.03.14 - Mar 31, 2026
+
+#### ✅ Bug Fixes
+
+* Design area / diagram
+  * We relaxed strict node validation checks so existing architectures with legacy diagram data continue to load and work reliably instead of being blocked.
+
+***
+
 ### 2026.03.13 - Mar 31, 2026
 
 #### ✅ Bug Fixes
