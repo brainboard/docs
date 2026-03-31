@@ -4,6 +4,19 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2026.03.13 - Mar 31, 2026
+
+#### ✅ Bug Fixes
+
+* Topbar
+  * Breadcrumb navigation is now a single, clearer action that opens the architecture selector, reducing confusion when switching context.
+* Screenshot
+  * Fixed an issue where text borders could appear in generated screenshots.
+* Code edition/Bidirectional
+  * Fixed a stability issue in cloud configuration path handling to prevent failures in specific diagram update scenarios.
+
+***
+
 ### 2026.03.12 - Mar 27, 2026
 
 #### ✅ Bug Fixes
