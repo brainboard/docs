@@ -31,6 +31,8 @@ Brainboard uses the backend as a store for undo and redo actions, which means, e
 
 It allows you to open the templates catalog window, where you can see the public and private templates.&#x20;
 
+<figure><img src="../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
+
 <figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
@@ -42,6 +44,8 @@ Refer to the [template catalog](../../data/data-structure/template.md) page for 
 ## 3. Number of nodes
 
 This button is located in the bottom-left corner of the architecture, and it shows the number of nodes in the architecture.
+
+<figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 
