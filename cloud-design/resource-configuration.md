@@ -10,7 +10,7 @@ The **Resource Configuration** panel is the primary interface for configuring in
 
 ## Overview
 
-The Resource Configuration panel opens when you double-click a resource card in the [Resources List](resources-list.md) or double-click a resource in the diagram. It provides three views for working with resources:
+The Resource Configuration panel opens when you double-click a resource card in the [Resources List](right-panel/resources-list/) or double-click a resource in the diagram. It provides three views for working with resources:
 
 1. **Form** - Structured configuration form with sections and fields (primary editing interface)
 2. **State** - Read-only view of Terraform state attributes
@@ -28,7 +28,7 @@ To open the Resource Configuration panel:
 2. **From Diagram**: **Double-click** any resource node in the design area
 3. **From Node Options**: Click a resource and select "Cloud configuration" from the node's options bar
 
-{% hint style="tip" %}
+{% hint style="info" %}
 You can also open the Resource Configuration panel by selecting a resource in the diagram and pressing `Enter` or selecting "Configure" from the context menu.
 {% endhint %}
 
@@ -60,28 +60,23 @@ The form is organized into sections:
 1. **Graphics** - Resource appearance settings:
    * Icon customization
    * Resource label (displayed name in the diagram)
-
 2. **Metadata** - Terraform-specific settings:
    * **Resource name** (Terraform identifier) - Used to uniquely identify the resource in the design and code
    * **File name** - Which `.tf` file contains this resource
    * **Provider alias** - If using multiple provider configurations
    * **Region/location settings** - For providers like AWS where location is not part of the Terraform resource
-
 3. **Required Parameters** - Core mandatory attributes:
    * These parameters come from what Terraform considers as required
    * Missing required fields are highlighted in red
-
 4. **Advanced Configuration** - Optional sections and nested configurations:
    * Contains all fields that are not mandatory
    * Can be added/removed using the Sections Builder
-
 5. **Extra Attributes** - Terraform meta-arguments:
    * `count` - Create multiple instances with a single configuration
    * `depends_on` - Specify dependencies between resources
    * `for_each` - Create multiple instances based on a map or set
    * `lifecycle` - Define actions during create, update, or delete
    * `terraform code` - Write any valid Terraform code (like provisioners)
-
 6. **Exported Attributes** - Read-only information:
    * Attributes available to be used by other resources
    * Used in output blocks
@@ -229,27 +224,27 @@ Allows you to create multiple instances of the same resource with a single confi
 * Use a number, variable, Terraform functions, or any valid Terraform syntax
 * When a resource has count, its icon changes visually in the diagram
 
-#### Depends_On
+#### Depends\_On
 
 Specify dependencies between resources:
 
 * Ensures one resource is created before another
 * Brainboard automatically creates a visual link between both resources
 
-#### For_Each
+#### For\_Each
 
 Create multiple instances based on a map or set of values:
 
 * Can write your map directly or use a variable (best practice)
-* When a resource has for_each, its icon changes visually in the diagram
+* When a resource has for\_each, its icon changes visually in the diagram
 
 #### Lifecycle
 
 Define actions during resource lifecycle:
 
-* **create_before_destroy** - Create new resource before destroying existing one
-* **prevent_destroy** - Prevent Terraform from destroying a resource (useful for databases)
-* **ignore_changes** - Specify attributes that shouldn't trigger an update
+* **create\_before\_destroy** - Create new resource before destroying existing one
+* **prevent\_destroy** - Prevent Terraform from destroying a resource (useful for databases)
+* **ignore\_changes** - Specify attributes that shouldn't trigger an update
 
 #### Terraform Code
 
@@ -271,7 +266,7 @@ The Resource Configuration panel includes a powerful search feature for finding 
    * **Configured attributes** - Already in your form (navigate to them)
    * **Available attributes** - Not yet added (click to add to form)
 
-{% hint style="tip" %}
+{% hint style="info" %}
 Use search when you know the name of a parameter but can't find it in the sections. The search will add it to your form automatically.
 {% endhint %}
 
@@ -435,12 +430,12 @@ The panel includes a resizer that allows you to:
 2. Select the resource(s) this resource depends on
 3. Brainboard automatically creates a visual link in the diagram
 
-### Using Count or For_Each
+### Using Count or For\_Each
 
 1. In the **Extra Attributes** section, find `count` or `for_each`
 2. Enter your expression:
    * **Count**: A number, variable, or expression
-   * **For_each**: A map or set (best practice: use a variable)
+   * **For\_each**: A map or set (best practice: use a variable)
 3. The resource icon changes visually to indicate multiple instances
 
 ### Viewing Computed Values
@@ -480,7 +475,7 @@ If code and form show different values:
 
 ## See Also
 
-* [Resources List](resources-list.md) - Resource list and overview
+* [Resources List](right-panel/resources-list/) - Resource list and overview
 * [Right Panel](right-panel.md) - Overview of right panel features
 * [Code Edition](code-edition.md) - Full file code editing
 * [Design Area](design-area/) - Visual diagram interface

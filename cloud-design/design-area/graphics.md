@@ -1,6 +1,6 @@
 # Graphical options
 
-### Overview
+## Overview
 
 Brainboard graphical elements within the design area help you control the visual of some aspects of the interface or display useful information.
 
@@ -13,7 +13,7 @@ There are four groups of graphical options:
 
 ***
 
-### 1. Options bar
+## 1. Options bar
 
 <figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 
@@ -27,7 +27,7 @@ Brainboard uses the backend as a store for undo and redo actions, which means, e
 
 ***
 
-### 2. Templates button
+## 2. Templates button
 
 It allows you to open the templates catalog window, where you can see the public and private templates.&#x20;
 
@@ -39,7 +39,7 @@ Refer to the [template catalog](../../data/data-structure/template.md) page for 
 
 ***
 
-### 3. Number of nodes
+## 3. Number of nodes
 
 This button is located in the bottom-left corner of the architecture, and it shows the number of nodes in the architecture.
 
@@ -57,7 +57,7 @@ For instance, two nodes are selected in the screenshot shared below.&#x20;
 
 ***
 
-### 4. Groups
+## 4. Groups
 
 You can group <mark style="color:$primary;">**nodes,**</mark> and they will also be moved to the same Terraform file.
 
@@ -79,7 +79,7 @@ The hamburger-icon button located in the bottom-right corner of the design area 
 By default, all the nodes are listed/grouped in the main Terraform file, and this file cannot be deleted.&#x20;
 {% endhint %}
 
-#### How to group nodes?
+### How to group nodes?
 
 To group any nodes, follow these simple steps:&#x20;
 
