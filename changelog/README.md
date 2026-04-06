@@ -4,6 +4,28 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2026.04.1 - Apr 06, 2026
+
+#### 🎉 Features and Improvements
+
+* Settings
+  * Form experiences were standardized across major workflows to provide more consistent input behavior and clearer validation feedback.
+* Integration
+  * Tooltip behavior was unified across the app for a more consistent and polished experience across settings, cards, and workflow screens.
+
+#### ✅ Bug Fixes
+
+* CI/CD
+  * Slack pipeline notifications now run with correctly built commands, restoring successful message delivery for teams using Slack integrations.
+* Design area / diagram
+  * Tooltips and dropdown-style content now render correctly inside dialogs instead of appearing in the wrong layer or position.
+* Import from cloud provider
+  * Azure resource imports now handle ambiguous or unsupported mappings more gracefully, reducing import interruptions for Azure users.
+* `brainboard_file`
+  * `brainboard_file` operations now provide clearer, user-friendly error messages (such as file size limits or unavailable content) to simplify troubleshooting.
+
+***
+
 ### 2026.03.14 - Mar 31, 2026
 
 #### ✅ Bug Fixes
