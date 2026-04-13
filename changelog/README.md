@@ -4,6 +4,48 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2026.04.3 - Apr 13, 2026
+
+#### 🎉 Features and Improvements
+
+* Design area / diagram
+  * Restoring an older architecture version now asks for confirmation and includes a one-click undo option for safer rollback workflows.
+  * Locked resources can no longer be moved accidentally, improving layout control for shared diagrams.
+  * Dragging resources from the left panel now highlights target containers correctly, making placement clearer.
+* CI/CD
+  * Workflow names are now checked for uniqueness so teams can avoid confusion and conflicts when creating or updating automations.
+* Code edition / Bidirectional
+  * Editing a single resource from code now keeps related connections in sync, making bidirectional updates more reliable.
+  * Provider settings now preserve raw values more accurately, improving compatibility when working with variables and dynamic expressions.
+* Command palette (CMD/CTRL+K)
+  * Global search now looks across all architectures, helping teams find workspaces faster beyond just recent items.
+
+#### ✅ Bug Fixes
+
+* Import from cloud provider
+  * Cloud import now handles unexpected provider responses more safely to prevent import interruptions.
+* Design area / diagram
+  * Switching between architectures now correctly resets the right panel to the resource list for a smoother editing flow.
+  * Guided tours no longer appear unexpectedly when the right panel is closed.
+  * Reverting to stricter node validation helps prevent invalid diagram states during save and sync operations.
+  * Color controls in the design area now behave more consistently when editing and resetting styles.
+  * Resource rotation works correctly again, including smoother angle handling.
+  * Duplicating a resource now correctly duplicates its attached Brainboard file data when applicable.
+* One Action & CI/CD
+  * Plan preflight now shows module names correctly for clearer validation feedback.
+* Project selector / Architecture selector
+  * The architecture selector opens faster, especially in larger workspaces.
+  * Opening an environment from the architecture now closes the panel first for cleaner navigation.
+
+#### 🤖 AI
+
+_This feature is currently accessible via a waiting list._
+
+* AI Chat
+  * Empty architecture overlay now behave correctly while AI generation is running, preventing conflicting visuals when reopening architectures.
+
+***
+
 ### 2026.04.1 - Apr 06, 2026
 
 #### 🎉 Features and Improvements
