@@ -6,7 +6,6 @@
 
 * [Fast track](getting-started/fast-track.md)
 * [Start with a template](getting-started/start-with-template.md)
-* [Start with AI](getting-started/start-with-ai.md)
 * [Use cases videos](getting-started/use-cases-videos.md)
 * [Brainboard philosophy](getting-started/brainboard-philosophy/README.md)
   * [Design first](getting-started/brainboard-philosophy/design-first.md)
