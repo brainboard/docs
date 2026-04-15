@@ -134,7 +134,7 @@ To import from a private registry, click on the toggle button `Use terraform reg
 
 You can also import your Terraform / OpenTofu modules from any Git repository, **public** or **private.**
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **GitHub/GitLab browser URL**
@@ -188,7 +188,7 @@ When you import your modules into Brainboard, you build a catalog of modules tha
 
 To access this catalog, click on the `Catalog` button under **Modules** in the **left panel.** It will open the gallery.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Modules Catalog Popup Window**
 

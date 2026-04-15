@@ -12,7 +12,7 @@ Brainboard allows you to use **variables, locals** and **output** exactly as you
 You can implement your naming conventions, set specific values for the configuration based on some criteria and define what information you want to display once the infrastructure is deployed.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (17) (1).png" alt="" width="434"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17) (1) (1).png" alt="" width="434"><figcaption></figcaption></figure>
 
 ***
 

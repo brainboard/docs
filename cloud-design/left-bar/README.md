@@ -22,15 +22,15 @@ For example, if you select **GCP** (Google Cloud Platform), then _**AlloyDB**_ a
 
 {% tabs %}
 {% tab title="Azure" %}
-<figure><img src="../../.gitbook/assets/image (11) (1).png" alt="" width="247"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1) (1).png" alt="" width="247"><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="AWS" %}
-<figure><img src="../../.gitbook/assets/image (12) (1).png" alt="" width="241"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1) (1).png" alt="" width="241"><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="GCP" %}
-<figure><img src="../../.gitbook/assets/image (13) (1).png" alt="" width="242"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1) (1).png" alt="" width="242"><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -38,7 +38,7 @@ For example, if you select **GCP** (Google Cloud Platform), then _**AlloyDB**_ a
 
 Please refer to the image shared below to have a look at the main components on the left pane. Explanation is provided below it.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (14) (1).png" alt="" width="260"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1) (1).png" alt="" width="260"><figcaption></figcaption></figure>
 
 1. **Cloud providers selector:** It allows you to select the cloud provider to use in the current architecture.
 
@@ -46,7 +46,7 @@ Please refer to the image shared below to have a look at the main components on 
 The **"Custom configuration"** button under it allows you to customize the **Terraform/OpenTofu** provider block, as demonstrated in the image shared below.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. **Cloud provider version:** This is the **Terraform/OpenTofu** version of the selected provider.
 

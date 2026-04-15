@@ -14,6 +14,7 @@
 
 ## Cloud design
 
+* [Brainy](cloud-design/brainy.md)
 * [Left Pane](cloud-design/left-bar/README.md)
   * [Cloud resources](cloud-design/left-bar/cloud-resources.md)
   * [Input & output](cloud-design/left-bar/input-and-output/README.md)
