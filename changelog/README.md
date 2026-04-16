@@ -4,6 +4,43 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2026.04.4 - Apr 16, 2026
+
+#### 🎉 Features and Improvements
+
+* Design area / diagram
+  * Selecting a resource now automatically highlights its related nodes and connections, making dependency paths much easier to understand at a glance.
+* Pipelines
+  * Job output can now be expanded to an almost full-screen view so teams can review long deployment logs more comfortably.
+
+#### ✅ Bug Fixes
+
+* Design area / diagram
+  * Fixed a collaboration issue where selection indicators could disappear when multiple users were editing the same architecture.
+  * Panel layout changes in one browser instance no longer unexpectedly affect another open instance.
+  * Connector rendering now stays stable during advanced selection/highlight flows, avoiding intermittent editing issues.
+* Project selector / Architecture selector
+  * Fixed hover behavior in architecture/project trees so contextual actions appear consistently, including quick navigation back to project home.
+* Workflow & Pipelines
+  * Creating a workflow from a template now automatically adds a unique name suffix so teams can clone templates faster without manual renaming.
+  * Fixed sticky table header styling in pipeline views so scrolling content no longer bleeds through.
+* Settings - Team
+  * Member detail panels no longer auto-close while interacting, allowing smoother review and copy actions.
+* Architecture Templates
+  * Template browsing now relies on improved server-side loading and filtering, giving users a more consistent and responsive catalog experience.
+* Resource Configurator - Warnings
+  * Fixed false validation warnings for indexed references (for example array-style attribute access), reducing noise during configuration work.
+
+#### 🤖 AI
+
+_This feature is currently accessible via a waiting list — link coming soon._
+
+* AI Chat
+  * Resolved an issue that could send duplicate chat messages when users navigated quickly between views.
+  * AI-generated README updates now appear in the README panel immediately without requiring a page refresh.
+
+***
+
 ### 2026.04.3 - Apr 13, 2026
 
 #### 🎉 Features and Improvements
