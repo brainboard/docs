@@ -4,6 +4,21 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2026.04.5 - Apr 17, 2026
+
+#### 🎉 Features and Improvements
+
+_No user-facing feature improvements were introduced in this patch release._
+
+#### ✅ Bug Fixes
+
+* Architecture Templates
+  * Fixed template browsing so templates no longer disappear when users apply filters or search, making template discovery more reliable.
+* RBAC/Permissions
+  * Fixed organization member permission checks used to show or hide the members menu in organization settings.
+
+***
+
 ### 2026.04.4 - Apr 16, 2026
 
 #### 🎉 Features and Improvements
