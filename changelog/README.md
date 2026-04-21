@@ -4,6 +4,30 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2026.04.8 - Apr 21, 2026
+
+#### 🎉 Features and Improvements
+
+_No user-facing feature improvements were introduced in this patch release._
+
+#### ✅ Bug Fixes
+
+* Infrastructure as Code
+  * Fixed expression handling so Terraform function-based values are preserved correctly instead of being saved as plain strings.
+* Audit log
+  * Added architecture version activity tracking so teams can better audit who created or switched versions.
+
+#### 🤖 AI
+
+_This feature is currently accessible via a_ [_waiting list_](https://brainboardco.notion.site/brainy-alpha-feedback-program)_._
+
+* AI Chat
+  * Improved the empty-architecture AI entry experience so the prompt overlay stays stable during first drag-and-drop actions.
+  * Refined conversation controls so chat actions appear only when a conversation is active.
+  * Fixed chat closing behavior so closing a conversation no longer closes the entire left panel.
+
+***
+
 ### 2026.04.5 - Apr 17, 2026
 
 #### 🎉 Features and Improvements
@@ -48,7 +72,7 @@ _No user-facing feature improvements were introduced in this patch release._
 
 #### 🤖 AI
 
-_This feature is currently accessible via a waiting list — link coming soon._
+_This feature is currently accessible via a_ [_waiting list_](https://brainboardco.notion.site/brainy-alpha-feedback-program)_._
 
 * AI Chat
   * Resolved an issue that could send duplicate chat messages when users navigated quickly between views.
@@ -91,7 +115,7 @@ _This feature is currently accessible via a waiting list — link coming soon._
 
 #### 🤖 AI
 
-_This feature is currently accessible via a waiting list._
+_This feature is currently accessible via a_ [_waiting list_](https://brainboardco.notion.site/brainy-alpha-feedback-program)_._
 
 * AI Chat
   * Empty architecture overlay now behave correctly while AI generation is running, preventing conflicting visuals when reopening architectures.
