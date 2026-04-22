@@ -4,6 +4,20 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2026.04.10 - Apr 22, 2026
+
+#### 🎉 Features and Improvements
+
+* Connector
+  * You can now move standalone connectors directly in the design area, making diagram cleanup and layout adjustments much faster.
+
+#### ✅ Bug Fixes
+
+* Design area / diagram
+  * We improved element layering and highlighting behavior so selected and highlighted items are displayed more clearly and predictably while editing.
+
+***
+
 ### 2026.04.8 - Apr 21, 2026
 
 #### 🎉 Features and Improvements
