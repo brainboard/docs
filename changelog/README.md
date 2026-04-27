@@ -4,6 +4,30 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2026.04.11 - Apr 27, 2026
+
+#### 🎉 Features and Improvements
+
+* API - Architecture Templates
+  *   You can now clone templates with multiple workflows using the new `workflow_templates`&#x20;
+
+      parameter (array of workflow template IDs), while `workflow_template` (single ID) is still supported but now deprecated.
+
+#### ✅ Bug Fixes
+
+* Design area / diagram
+  * The multi-selection action bar now stays visible when clicking inside a selection and only hides when a move actually starts.
+* Resource Configurator & Preflight check
+  * Resource summaries now display array-based cloud configuration values correctly, improving readability and reducing confusion during review.
+* Code generation
+  * Text values that begin with words like “data” are now handled correctly in generated code, preventing malformed output (quotes missing) in edge cases.
+* Modules catalog
+  * The modules catalog UI was refined to prevent header overlap and improve long-name readability and action button layout.
+* Settings - Cloud provider connection
+  * Uploading Google Cloud credential JSON files now works as expected.
+
+***
+
 ### 2026.04.10 - Apr 22, 2026
 
 #### 🎉 Features and Improvements
