@@ -4,6 +4,29 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2026.04.12 - Apr 28, 2026
+
+#### 🎉 Features and Improvements
+
+* Module
+  * You can now customize module icons by choosing from Brainboard’s built-in cloud icon library or uploading your own image, making architectures easier to scan and standardize.
+* Import from Git / Files with modules
+  * Terraform module parsing has been optimized to run faster on larger imports, reducing waiting time when bringing existing infrastructure into Brainboard.
+
+#### ✅ Bug Fixes
+
+* Module
+  * Fixed a modal rendering issue in the module catalog so content and scrolling behave correctly in Chrome during module selection.
+* Architecture clone
+  * Fixed an internal error when cloning architectures so invalid variable cases now return clear validation feedback instead of failing unexpectedly.
+* Code edition/Bidirectional
+  * Fixed HCL import ordering to better match generated code output, helping teams avoid unnecessary diffs on first bidirectional sync.
+* Design area / diagram
+  * Fixed cloud configuration inheritance so nodes only inherit attributes they actually support, preventing incorrect values when moving nodes across containers.
+  * Fixed TextField focus styling glitches to provide a cleaner, more stable editing experience in forms.
+
+***
+
 ### 2026.04.11 - Apr 27, 2026
 
 #### 🎉 Features and Improvements
