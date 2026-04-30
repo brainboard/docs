@@ -4,6 +4,21 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2026.04.14 - Apr 30, 2026
+
+#### 🎉 Features and Improvements
+
+_No user-facing feature improvements were introduced in this patch release._
+
+#### ✅ Bug Fixes
+
+* Global UX
+  * Toggle controls were upgraded to a more consistent switch experience across key forms and settings, making configuration actions clearer and easier to use.
+* Module catalog
+  * The module catalog now closes when clicking outside the dialog, matching expected modal behavior and improving navigation flow.
+
+***
+
 ### 2026.04.12 - Apr 28, 2026
 
 #### 🎉 Features and Improvements
