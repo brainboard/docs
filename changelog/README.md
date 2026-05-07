@@ -4,6 +4,39 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2026.05.1 - May 07, 2026
+
+#### 🎉 Features and Improvements
+
+* Design area / diagram
+  * Icon customization is now more unified and easier to use across module setup and resource configuration, with faster browsing in large icon catalogs.
+  *
+
+      <figure><img src="../.gitbook/assets/0GBw0hLjKZ1XZahP.png" alt=""><figcaption><p>Icon picker for Node/Container</p></figcaption></figure>
+* Identity Card
+  * Terraform module identity cards load faster from Git sources by reducing how much repository history is fetched (`depth=1`).
+
+#### ✅ Bug Fixes
+
+* Git credentials
+  * Git integration errors now return clearer, more actionable messages so teams can fix credential and provider issues faster.
+* Resource configurator - Module
+  * You can now reliably select and copy module source text from the resource configurator
+* Architecture Templates
+  * Copying templates into an architecture is now more robust and no longer triggers unexpected websocket failures.
+* Import from cloud provider
+  * Cloud imports are now scheduled more reliably in the background, improving stability and throughput for teams running multiple imports across organizations.
+* Design area / diagram
+  * Node title editing now exits and saves more consistently when clicking outside, preventing stuck edit states.
+* Import from files
+  * Upload dropzones now render correctly without layout glitches during file drop interactions.
+* Connector
+  * Terraform reference removal dialogs were streamlined so “Keep reference” works as expected without unnecessary confirmation friction.
+* Module
+  * Module retrieval now correctly honors cache bypass behavior, so refresh requests return up-to-date data when explicitly requested.
+
+***
+
 ### 2026.04.14 - Apr 30, 2026
 
 #### 🎉 Features and Improvements
