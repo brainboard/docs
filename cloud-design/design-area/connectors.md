@@ -40,7 +40,7 @@ To create a **visual** connector, you need to follow these steps:
 1. Click on the node/resource that you want to connect to another node/resource.&#x20;
 2. Once the borders of the selected node/resource are highlighted, you will see a **small circle** in the middle of all its four borders. Hover over that small circle, and you will see an **arrow-shaped icon**. Click on that arrow-shaped icon, drag it to another node/resource to which you want to connect the first node/resource, and drop it there. You can now see a visual connector connecting the two nodes/resources in your design space.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -50,7 +50,7 @@ To create a relationship connector, you need to follow these steps:
 
 1. Right-click on the resource and select `Edit config` from the context menu. &#x20;
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="422"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt="" width="422"><figcaption></figcaption></figure>
 
 2. The selected resource's **form will** open in the right pane. You can scroll down to its **Main parameters** and look for the relevant field where you can select the other resource for connection.&#x20;
 

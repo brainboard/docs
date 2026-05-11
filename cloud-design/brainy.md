@@ -75,7 +75,7 @@ Currently, <mark style="color:$primary;">**Brainy**</mark> can access only the m
   * Resources misconfiguration
   * Hierarchy problems
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 5. Pipeline Visibility
 
@@ -94,7 +94,7 @@ When requested, <mark style="color:$primary;">**Brainy**</mark> can:
 * Generate architecture README files.
 * Update documentation as your system evolves.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 7. Context Reference using <mark style="color:$primary;">@</mark>&#x20;
 
