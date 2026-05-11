@@ -42,12 +42,12 @@ This is what is called [shift left](../../help-and-faq/glossary.md#shift-left) i
 
 We, as engineers, wanted this to change! We wanted it so badly that we said to ourselves, let's write a wish list: what we want in an ideal world? We started writing down:
 
-* First, we wanted to rely on automation and didn't want to repeat ourselves, in a way that when we design, the code is automatically generated. Let's focus on Terraform, it's the most used one. OK!
-* But we wanted to still have control over the code and be able to do what we are used to doing in Terraform: variables, outputs, loops, data blocks, modules, etc, and be able to manage multiple environments easily. No more manual tasks, please.
-* And wanted to have the shortest feedback loop possible, so why not an embedded CI/CD with all the tools we use: tfsec, checkov, terrascan, OPA, infracost.
+* First, we wanted to rely on **automation** and didn't want to repeat ourselves, in a way that when we design, the code is automatically generated. Let's focus on Terraform, it's the most used one. OK!
+* But we wanted to still have **control over the code** and be able to do what we are used to doing in Terraform: variables, outputs, loops, data blocks, modules, etc, and be able to manage multiple environments easily. No more manual tasks, please.
+* And wanted to have the **shortest feedback loop** possible, so why not an embedded CI/CD with all the tools we use: tfsec, checkov, terrascan, OPA, infracost.
   * Oh, security should be a native part. No more running after engineers to comply and rely on discipline.
-* We also wanted to push the boundaries, because it's not about the tool itself but the workflow, and wondered why not having a reference architecture catalogue available to anyone within the team, and we finally stopped reinventing the wheel. Sounds amazing, right?
-* Finally, we dreamed about making it enterprise-ready with RBACs, private runners, live collaboration, SSO, private registries, and the list didn't stop.&#x20;
+* We also wanted to push the boundaries, because **it's not about the tool itself but the workflow,** and wondered why not having a reference architecture catalogue available to anyone within the team, and we finally stopped reinventing the wheel. Sounds amazing, right?
+* Finally, we dreamed about making it **enterprise-ready** with RBACs, private runners, live collaboration, SSO, private registries, and the list didn't stop.&#x20;
 
 <figure><img src="../../.gitbook/assets/ChatGPT Image May 11, 2026, 06_51_30 PM.png" alt=""><figcaption></figcaption></figure>
 
