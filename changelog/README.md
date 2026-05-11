@@ -4,6 +4,21 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2026.05.2 - May 11, 2026
+
+#### 🎉 Features and Improvements
+
+This patch release is focused on reliability and usability fixes.
+
+#### ✅ Bug Fixes
+
+* Import from git
+  * Importing Terraform modules from Git now correctly matches module versions, making repeated imports more reliable.
+* Architecture Templates
+  * Creating a new architecture from a template now works consistently across template formats, so teams can start new projects without setup blockers.
+
+***
+
 ### 2026.05.1 - May 07, 2026
 
 #### 🎉 Features and Improvements
