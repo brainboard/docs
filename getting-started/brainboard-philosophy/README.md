@@ -25,10 +25,10 @@ What was eye-opening to us at the beginning was to realize that most engineers g
 This is what is called [shift left](../../help-and-faq/glossary.md#shift-left) in the industry, where the feedback loop has to be short. You detect errors as early as possible, fix them and iterate until you are ready to deploy. Actually, not yet, as most of the time, you need to change the design a bit to make it match the Terraform implementation.
 {% endhint %}
 
-2. Once the design and code are validated, the deployment process starts either automatically or manually, with or without approval.\
+3. Once the design and code are validated, the deployment process starts either automatically or manually, with or without approval.\
    \
    ⇒ If it's automatic, it will be done through the CI/CD.
-3. Then, come all the heavy things like managing secrets, collaboration with different people in the same team, cross teams, deploying multiple environments and the most painful of all is the drift.
+4. Then, come all the heavy things like managing secrets, collaboration with different people in the same team, cross teams, deploying multiple environments and the most painful of all is the drift.
 
 ‼️ It needs discipline to respect the process for every single change you have to do, and since it relies on humans, some of them just fall into the old habit, going straight to the console of the cloud provider and changing things manually.
 
