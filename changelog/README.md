@@ -4,6 +4,27 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2026.05.3 - May 12, 2026
+
+#### 🎉 Features and Improvements
+
+* One action
+  * Terraform action confirmations now use a unified modal flow across the design experience, making critical actions clearer and safer to run.
+* Architecture Templates
+  * Organization owners can now restrict access to public templates for stronger governance over template usage.
+
+#### ✅ Bug Fixes
+
+* Resource configurator
+  * Dependency references can now target resources directly without requiring an extra attribute path (`depends_on` case).
+  * Resources using a `name_prefix` no longer inherit unintended `name` from parent modules.
+* Architecture
+  * Clone permission errors are now more explicit, helping teams quickly understand which access right is missing.
+* Design area / diagram
+  * Selection and highlighting behavior is now more consistent, with clearer visual emphasis on related resources.
+
+***
+
 ### 2026.05.2 - May 11, 2026
 
 #### 🎉 Features and Improvements
