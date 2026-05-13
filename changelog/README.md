@@ -4,6 +4,23 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2026.05.4 - May 13, 2026
+
+#### 🎉 Features and Improvements
+
+_This patch release is focused on reliability and usability fixes._
+
+#### ✅ Bug Fixes
+
+* Settings - Team
+  * Editing a team now correctly saves member updates even when the team name is unchanged, improving the admin experience for organization teams.
+* One action
+  * One-action runs now stream output more reliably, so teams can follow deployment progress in real time with better confidence.
+* Generated code
+  * Terraform/OpenTofu expressions that combine ternary logic and interpolation are now handled correctly, reducing the risk of invalid generated configuration in advanced setups.
+
+***
+
 ### 2026.05.3 - May 12, 2026
 
 #### 🎉 Features and Improvements
@@ -29,7 +46,7 @@ icon: clock-rotate-left
 
 #### 🎉 Features and Improvements
 
-This patch release is focused on reliability and usability fixes.
+_This patch release is focused on reliability and usability fixes._
 
 #### ✅ Bug Fixes
 
