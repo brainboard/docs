@@ -4,6 +4,23 @@ icon: clock-rotate-left
 
 # Changelog
 
+### 2026.05.5 - May 15, 2026
+
+#### 🎉 Features and Improvements
+
+_No user-facing feature improvements were introduced in this release._
+
+#### ✅ Bug Fixes
+
+* Node / Containers
+  * Fixed an issue where updating node cloud configuration could fail unexpectedly when some region-related values were empty.
+* Architecture Templates
+  * Fixed public template cloning across organizations so variables and outputs are now copied correctly when creating an architecture in your own project.
+* RBAC/Permissions
+  * Improved permission evaluation precedence so condition-based access rules are applied consistently and more predictably.
+
+***
+
 ### 2026.05.4 - May 13, 2026
 
 #### 🎉 Features and Improvements
