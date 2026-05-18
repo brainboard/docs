@@ -22,11 +22,11 @@ For example, if you select **GCP** (Google Cloud Platform), then _**AlloyDB**_ a
 
 {% tabs %}
 {% tab title="Azure" %}
-<figure><img src="../../.gitbook/assets/image (11) (1) (1).png" alt="" width="247"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1) (1) (1).png" alt="" width="247"><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="AWS" %}
-<figure><img src="../../.gitbook/assets/image (12) (1) (1).png" alt="" width="241"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1) (1) (1).png" alt="" width="241"><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="GCP" %}
@@ -46,7 +46,7 @@ Please refer to the image shared below to have a look at the main components on 
 The **"Custom configuration"** button under it allows you to customize the **Terraform/OpenTofu** provider block, as demonstrated in the image shared below.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. **Cloud provider version:** This is the **Terraform/OpenTofu** version of the selected provider.
 

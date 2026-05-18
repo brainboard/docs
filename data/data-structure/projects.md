@@ -2,109 +2,132 @@
 
 ### Definition
 
-A project is a container of environments and architectures to which teams have access with specific permissions.
+{% hint style="info" %}
+A **project** is a container of environments and architectures to which teams have access with specific permissions.
+{% endhint %}
 
-Think of a project as the upper level folder.
+💡Think of a project as an upper level folder.
 
 {% hint style="info" %}
-&#x20;By default, members don't have direct permissions on projects until the admin grants them access to.
+&#x20;By default, members don't have direct permissions on projects unless the admin grants them access to.
 {% endhint %}
+
+***
 
 ### Create a new project
 
 To create a new project:
 
-* Go to the [projects setting page](https://app.brainboard.co/settings/projects).
-*   Click on the `Create project` button
 
-    ![Create a project](../../.gitbook/assets/create-new-project.png)
-* You will then go through a project creation wizard.
-  * In the first step of the wizard you will setup the name, description and environments of the new project. Brainboard creates 5 environments by default: Production, Staging, Development, Test and QA, but you can add any custom environment as well. The project name and at least one environment are required.
-  * In the second step of the wizard, you will need to assign teams to roles. You can do that by doing a drag & drop action for each team into the corresponding role. You need to assign at least one team with the _admin_ role.
-  * The last step shows the summary of the new project: name, description, environment and the teams assigned to this project with their roles.
 
-### View project's information
+1. Go to the [projects setting page](https://app.brainboard.co/settings/projects).
+2. Click on the <mark style="color:$primary;">**`Create project`**</mark> button.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+3. You will then go through a **project creation wizard** comprising of three steps: &#x20;
+
+* **First step:** Here, you will set up the **name, description and environments** of the new project.&#x20;
+
+{% hint style="info" %}
+Brainboard creates 5 environments by default: **Production, Staging, Development, Test** and **QA.**&#x20;
+
+You can also add any custom environment as well
+{% endhint %}
+
+{% hint style="warning" %}
+The **project name** and at least one **environment** are required to create a new project.&#x20;
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+* **Second step:**  Here, you will need to assign **teams** to **roles**. You can do that by dragging and dropping each team into the corresponding role.&#x20;
+
+{% hint style="warning" %}
+You need to assign at least one team with the _admin_ role.
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+* **Third step:** Here, you can view the summary of the new project: _<mark style="color:$primary;">name, description, environment</mark>_ and the _<mark style="color:$primary;">teams</mark>_ assigned to this project with their _<mark style="color:$primary;">roles</mark>_.
+
+4. Click the <mark style="color:$primary;">**`Create project`**</mark> button to save your project details. &#x20;
+
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+Upon clicking the <mark style="color:$primary;">**`Create project`**</mark> button, the new project's details will be saved, and you will be navigated to the[ project settings page](https://app.brainboard.co/settings/projects), where you can view the project details as well as edit it.&#x20;
+
+### View the project's information
 
 To view the information on a specific project:
 
-* Go to the [projects setting page](https://app.brainboard.co/settings/projects).
-*   Click on the `View details` option that appears when you click on the three horizontal dots button at the end of the row for a project.
+1. Go to the [projects setting page](https://app.brainboard.co/settings/projects).
+2. Click on the <mark style="color:$primary;">**`+`**</mark> icon next to the project name, and the project's details will be expanded, such as:&#x20;
 
-    ![View project info](../../.gitbook/assets/view-project-info.png)
-* The information of the project is displayed:
-  * Name of the project
-  * Teams that have access to this project with their respective roles
-  *   The environments of the project&#x20;
+* Name of the project.
+* Teams that have access to this project with their respective roles.
+* The environments of the project.&#x20;
 
-      <figure><img src="../../.gitbook/assets/project-info.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/View-Project (1).png" alt=""><figcaption></figcaption></figure>
+
+Alternatively, you can click on the <mark style="color:$primary;">**`ellipsis icon`**</mark> next to the project name, and then select the <mark style="color:$primary;">**`View details`**</mark> option from the dropdown menu.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Click the **cross&#x20;**<mark style="color:$primary;">**`x`**</mark> icon to collapse the project details view.&#x20;
+{% endhint %}
 
 ### Edit project information
 
 To edit the information on a project:
 
-* Go to the [projects setting page](https://app.brainboard.co/settings/projects).
-*   Click on the `Edit project details` option that appears when you click on the three dots button at the end of the row for a project.
+1. Go to the [projects setting page](https://app.brainboard.co/settings/projects).
+2. Click on the <mark style="color:$primary;">**`ellipsis icon`**</mark> next to the project name, and then select the <mark style="color:$primary;">**`Edit project details`**</mark> option from the dropdown menu.&#x20;
 
-    ![View project info](../../.gitbook/assets/edit-project-info.png)
-* You can then change the information about the project:
-  * Name.
-  * Description.
-  * The environments that will be created.
-* Click on the disk icon from the top left of the drawer to save the new information about the project.
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+3. You can alter the project _<mark style="color:$primary;">name, description</mark>,_ and _<mark style="color:$primary;">environments.</mark>_&#x20;
+4. Click on the <mark style="color:$primary;">**`Save changes`**</mark> button in the top right corner of the <mark style="color:$primary;">**Edit project details**</mark> slide-out panel to save the new information.&#x20;
+
+<figure><img src="../../.gitbook/assets/edit-project.png" alt=""><figcaption></figcaption></figure>
 
 ### Edit project roles
 
-To edit the teams & roles of a project:
+{% hint style="info" %}
+By default, the following four types of roles are available for a <mark style="color:$primary;">**Brainboard**</mark> project:&#x20;
 
-* Go to the [projects setting page](https://app.brainboard.co/settings/projects).
-*   Click on the `Assign roles` option that appears when you click on the three dots button at the end of the row for a project.
+* Admin
+* Designer
+* Operator
+* Guest
+{% endhint %}
 
-    ![Assign roles](../../.gitbook/assets/assign-roles.png)
-* Here you can update the teams per role. You can do that by doing a drag & drop action for each team into the corresponding role. You need to assign at least one team to any role to advance.
-* Click on `Update` button to save the new information about the project.
+To assign a role to a team: &#x20;
+
+1. Go to the [projects setting page](https://app.brainboard.co/settings/projects).
+2. Click on the <mark style="color:$primary;">**`ellipsis icon`**</mark> next to the project name, and then select the <mark style="color:$primary;">**`Assign teams`**</mark> option from the dropdown menu.&#x20;
+
+<figure><img src="../../.gitbook/assets/assign-teams.png" alt=""><figcaption></figcaption></figure>
+
+3. You can assign a role to a team as you did when you created a new project - simple **drag and drop a team** to the specific **role** that you want to assign to it.&#x20;
+4. Click on the <mark style="color:$primary;">**`Update`**</mark> button to save the new information about the project.
 
 ### Delete project
 
 To delete a project:
 
-* Go to the [projects setting page](https://app.brainboard.co/settings/projects).
-*   Click on the `Delete project` button on the line of the project. You need to hover the line to see the options:
+1. Go to the [projects setting page](https://app.brainboard.co/settings/projects).
+2. Click on the <mark style="color:$primary;">**`ellipsis icon`**</mark> next to the project name, and then select the <mark style="color:$primary;">**`Delete project`**</mark> option from the dropdown menu.&#x20;
+3. You'll be asked to confirm the deletion. To do so, type the word "<mark style="color:$primary;">**DELETE**</mark>" in the input field, and click the <mark style="color:$primary;">**`Yes, delete project button`**</mark>. &#x20;
 
-    ![Create a project](../../.gitbook/assets/delete-project.png)
-* You'll be asked to confirm the deletion, if you confirm the project will be permanently deleted. The last project cannot be deleted, as your account needs at least one project.
+{% hint style="warning" %}
+Once you confirm the deletion action, the project will be permanently deleted.
+{% endhint %}
 
-### Project roles
+{% hint style="info" %}
+If there is only one project in your account, it cannot be deleted since your account needs at least one project.
+{% endhint %}
 
-Granting access to a team or members, gives them access to the environments and architectures hosted inside the project.
+<figure><img src="../../.gitbook/assets/delete-project.png" alt=""><figcaption></figcaption></figure>
 
-Different roles can be granted to teams for the project, and you can create custom roles with custom permissions, but Brainboard comes with 4 default roles out of the box:
-
-#### 1. Admin
-
-The members of a team having the admin role can perform any action on the project, its environments, architectures, versions, and deployments.
-
-#### 2. Designer
-
-The members of a team having the designer role can perform any action as the admin team except modifying the project information or deleting it.
-
-#### 3. Operator
-
-The members of a team having the operator role can manage the deployments only, they cannot change the design of the infrastructure.
-
-#### 4. Guest
-
-The members of a guest team can only view the project, its architectures, and deployments. They cannot change anything.
-
-### Check permissions
-
-To check the permissions a specific team has on a project:
-
-1. Go to [Roles page](https://app.brainboard.co/settings/roles)
-2. Click on project view
-3. Click on the role name.
-
-<figure><img src="../../.gitbook/assets/CleanShot 2024-10-25 at 16.41.23.png" alt=""><figcaption></figcaption></figure>
-
-This will display the permissions' table:
-
-<figure><img src="../../.gitbook/assets/CleanShot 2024-10-25 at 16.42.05.png" alt=""><figcaption></figcaption></figure>

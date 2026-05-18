@@ -19,7 +19,7 @@ Instead of manually configuring resources, you can simply describe what you want
 
 Powered by advanced AI models (Anthropic Claude Sonnet 4.6 and Opus 4.6), <mark style="color:$primary;">**Brainy**</mark> acts as an intelligent co-pilot for infrastructure design, helping you move faster while maintaining full control and visibility.
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 It can take a while for <mark style="color:$primary;">**Brainy**</mark> to analyze the existing architecture, think, and generate results for the requested design configuration. However, you can view continuous progress in both the chat area and the design canvas.&#x20;
@@ -48,7 +48,7 @@ It can take a while for <mark style="color:$primary;">**Brainy**</mark> to analy
 * Variables, locals, and outputs.
 * Structured and clean Terraform code generation.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. Module Integration
 
@@ -62,7 +62,7 @@ You can use modules directly from your organization’s module catalog.
 Currently, <mark style="color:$primary;">**Brainy**</mark> can access only the modules that are already imported into Brainboard.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 4. Built-in validation
 
@@ -75,7 +75,7 @@ Currently, <mark style="color:$primary;">**Brainy**</mark> can access only the m
   * Resources misconfiguration
   * Hierarchy problems
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 5. Pipeline Visibility
 
@@ -85,7 +85,7 @@ Currently, <mark style="color:$primary;">**Brainy**</mark> can access only the m
 * Access job logs.
 * Understand what changes are being proposed.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 6. Documentation Generation
 
@@ -94,7 +94,7 @@ When requested, <mark style="color:$primary;">**Brainy**</mark> can:
 * Generate architecture README files.
 * Update documentation as your system evolves.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 7. Context Reference using <mark style="color:$primary;">@</mark>&#x20;
 
@@ -137,7 +137,7 @@ Whenever you make changes to your architecture design using <mark style="color:$
 * Any changes made before the last 24 hours are discarded, except the last 10 changes that are older than 24 hours. In short, only the last 10 changes older than 24 hours are reversible.&#x20;
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 You can also redo/undo changes using a prompt in the chat. However, the 24-hour rule for undo remains the same.&#x20;
 

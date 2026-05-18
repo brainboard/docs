@@ -47,7 +47,7 @@ Once you have finalised the new architecture details, you can click the <mark st
 
 
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 You will be navigated to the Brainboard canvas, where you can review your design and make further changes.&#x20;
 

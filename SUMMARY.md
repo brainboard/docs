@@ -53,6 +53,7 @@
 
 * [Data structure](data/data-structure/README.md)
   * [Project](data/data-structure/projects.md)
+  * [Roles and Permissions](data/data-structure/roles-and-permissions.md)
   * [Environment](data/data-structure/environments.md)
   * [Cloud architecture](data/data-structure/cloud-architecture/README.md)
     * [Terraform files](data/data-structure/cloud-architecture/terraform-files.md)
