@@ -113,6 +113,12 @@ To assign a role to a team: &#x20;
 3. You can assign a role to a team as you did when you created a new project - simple **drag and drop a team** to the specific **role** that you want to assign to it.&#x20;
 4. Click on the <mark style="color:$primary;">**`Update`**</mark> button to save the new information about the project.
 
+{% hint style="warning" %}
+Only the roles that are predefined for **Projects** on the [Roles page](https://app.brainboard.co/settings/roles) will be available for assignment.
+
+For details, read the [Project Roles and Permissions](project-roles-and-permissions.md) article.&#x20;
+{% endhint %}
+
 ### Delete project
 
 To delete a project:
