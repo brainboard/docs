@@ -1,8 +1,49 @@
 ---
 icon: clock-rotate-left
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Changelog
+
+### 2026.05.8 - May 27, 2026
+
+#### 🎉 Features and Improvements
+
+*   New UI - Topbar & Left panel
+
+    * The architecture workspace now uses a cleaner floating top navigation that makes key actions like settings, export, sync, notifications, and help faster to access.<br>
+
+    <figure><img src="../.gitbook/assets/RrGVXwOvdSK73LoS.png" alt=""><figcaption></figcaption></figure>
+
+#### ✅ Bug Fixes
+
+* Module
+  * Fixed module identity card retrieval for Git sources pinned to commit hashes, improving reliability for teams using immutable module versions.
+* Code edition/Bidirectional
+  * Fixed reference parsing so dotted expressions and bracketed indexing now work correctly in the resource configurator.
+* CI/CD - Pipelines
+  * Fixed pipeline cancellation so jobs waiting for manual approval can now be stopped correctly, including dependent downstream jobs.
+* Import from git
+  * Fixed repository subfolder detection.
+
+
 
 ### 2026.05.5 - May 15, 2026
 
