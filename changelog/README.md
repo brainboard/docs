@@ -22,6 +22,20 @@ layout:
 
 # Changelog
 
+### 2026.05.9 - May 28, 2026
+
+#### 🎉 Features and Improvements
+
+* Cloud providers - AWS v6 available
+  * We opened the AWS Provider v6 migration experience with clearer in-app guidance for custom providers and multi-account setups, making upgrades safer and easier to complete.
+
+#### ✅ Bug Fixes
+
+* Architecture Version
+  * The _New Version_ button in Version History now works correctly, so teams can create architecture versions without interruption.
+
+***
+
 ### 2026.05.8 - May 27, 2026
 
 #### 🎉 Features and Improvements
