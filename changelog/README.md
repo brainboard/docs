@@ -22,6 +22,24 @@ layout:
 
 # Changelog
 
+### 2026.06.2 - Jun 02, 2026
+
+#### 🎉 Features and Improvements
+
+* Git integrations - GitHub
+  * Introduced a new GitHub App installation flow that makes connecting and managing GitHub integration more reliable and easier to complete.
+
+#### ✅ Bug Fixes
+
+* Pipelines
+  * Fixed the pipeline side panel layout so content no longer overflows on settings and workflow pages, improving day-to-day CI/CD usability.
+* Architecture Templates
+  * Fixed the template page sticky header behavior so template details stay properly aligned while scrolling.
+* Project creation
+  * Fixed missing role information in the project creation flow so teams can review permissions clearly before creating a project.
+
+***
+
 ### 2026.05.9 - May 28, 2026
 
 #### 🎉 Features and Improvements
