@@ -30,7 +30,7 @@ To use the self-hosted runner, you first have to generate a runner token from Br
 
 To generate the runner token:
 
-1. Go to the [private self-hosted runner](https://app.brainboard.co/settings/runner-tokens) settings page.
+1. Go to the [private self-hosted runner](https://app.brainboard.co/settings/integrations/private-selfhosted-runner?) settings page.
 
 On this page, you can create a new runner token or revoke an existing one.
 
