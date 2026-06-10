@@ -10,67 +10,51 @@ Register [here](https://app.brainboard.co/register) to create your account. You 
 
 ### 2. Create a new architecture
 
-* Click on the `New architecture` button in the top left part.
-* Select `From scratch` option.
+* Click on the <mark style="color:$primary;">**`New architecture`**</mark> button in the top left part.
+* Select <mark style="color:$primary;">**`From scratch`**</mark> option.
 
-<figure><img src="../.gitbook/assets/fast-track-new-architecture (1).png" alt=""><figcaption><p>New architecture</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/New-architecture.png" alt=""><figcaption></figcaption></figure>
 
 ### 3. Add cloud resources
 
-Drag and drop cloud resources from the _Leftbar_ to the design area to build your architecture. Customize the cloud configuration of the resources
+Drag and drop cloud resources from the _**left bar**_ to the design area to build your architecture. Customize the cloud configuration of the resources
 
 #### Azure
 
-<figure><img src="../.gitbook/assets/fast-track-azure-resource.png" alt=""><figcaption><p>Azure resource configuration menu</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/add-cloud-resources.png" alt=""><figcaption></figcaption></figure>
 
 #### AWS
 
-<figure><img src="../.gitbook/assets/fast-track-aws-resource.png" alt=""><figcaption><p>AWS resource configuration menu</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/AWS.png" alt=""><figcaption></figcaption></figure>
 
 ### 4. Inspect the auto-generated Terraform code
 
-See the auto-generated Terraform code on the right pane.
+See the auto-generated **Terraform** code in the right pane.
 
 Code for Azure & AWS resources:
 
-<div>
-
-<figure><img src="../.gitbook/assets/fast-track-aws-resource-code.png" alt=""><figcaption><p>AWS resource with Terraform</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/fast-track-azure-resource-code.png" alt=""><figcaption><p>Azure resource with Terraform</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/Azure-r.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/AWS-code.png" alt=""><figcaption></figcaption></figure></div>
 
 Please refer to the support providers page to have the complete list of all supported cloud providers.
 
 ### 5. Add your cloud credentials
 
-If you want to deploy your architecture, add your preferred cloud provider credentials [here](https://app.brainboard.co/settings/cloud-providers).
+If you want to deploy your architecture, add your preferred cloud provider credentials [here](https://app.brainboard.co/settings/integrations/cloud-providers).
 
 <figure><img src="../.gitbook/assets/fast-track-cloud-providers.png" alt=""><figcaption><p>Cloud credentials</p></figcaption></figure>
 
-Examples for **AWS** and **Azure** credentials.
+Example for **Azure** credentials.
 
-<div>
-
-<figure><img src="../.gitbook/assets/fast-track-cloud-providers-aws.png" alt=""><figcaption><p>AWS list of credentials</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/fast-track-cloud-providers-azure.png" alt=""><figcaption><p>Azure list of credentials</p></figcaption></figure>
-
-</div>
+<figure><img src="../.gitbook/assets/Azure-config.png" alt=""><figcaption></figcaption></figure>
 
 ### 6. Trigger a plan
 
-After adding your cloud credentials, you can trigger the Terraform / OpenTofu plan directly from the design area and get the output in real time.
+After adding your cloud credentials, you can trigger the **Terraform / OpenTofu** plan directly from the design area and get the output in real time.
 
-<figure><img src="../.gitbook/assets/fast-track-plan-bg.png" alt=""><figcaption><p>Terraform plan action</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Trigger-plan.png" alt=""><figcaption></figcaption></figure>
 
 #### Execution output
 
-You see the output of the plan in the design area, in the tab next to the Terraform code:
+The output of the plan execution becomes available in the <mark style="color:$primary;">**`Deployment`**</mark> tab in the right panel.&#x20;
 
-<figure><img src="../.gitbook/assets/fast-track-plan-output-bg.png" alt=""><figcaption><p>Terraform / OpenTofu plan output</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/execution-output-new (1).png" alt=""><figcaption></figcaption></figure>
