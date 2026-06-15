@@ -22,11 +22,31 @@ layout:
 
 # Changelog
 
+### 2026.06.3 - Jun 15, 2026
+
+#### 🎉 Features and Improvements
+
+* Remote backend - Azure auth
+  * Azure Blob backend configuration now supports Microsoft Entra ID authentication, giving teams a more secure keyless option for remote state access.
+
+#### ✅ Bug Fixes
+
+* Design area - Drag\&Drop from Leftbar
+  * Container borders now stay visible while dragging from the leftbar, making placement clearer during diagram editing.
+* Architecture Templates
+  * Template thumbnails now render at the right size so teams can browse and select templates more easily.
+* One action
+  * One Action outputs now refresh correctly after launch so deployment results are visible right away.
+* Code edition/Bidirectional
+  * Code editing and large configuration updates (including Application Gateway scenarios) are now smoother and more reliable.
+
+***
+
 ### 2026.06.2 - Jun 02, 2026
 
 #### 🎉 Features and Improvements
 
-* Git integrations - GitHub
+* Git integrations - GitHub&#x20;
   * Introduced a new GitHub App installation flow that makes connecting and managing GitHub integration more reliable and easier to complete.
 
 #### ✅ Bug Fixes
