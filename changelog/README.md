@@ -22,6 +22,21 @@ layout:
 
 # Changelog
 
+### 2026.06.4 - Jun 16, 2026
+
+#### 🎉 Features and Improvements
+
+No new user-facing features were introduced in this release.
+
+#### ✅ Bug Fixes
+
+* Custom providers.tf
+  * Fixed an issue where custom provider configuration input was not visible, so teams can reliably view and edit provider setup.
+* Import from cloud provider
+  * Improved import recovery so failed cloud imports no longer leave import capacity stuck, helping teams retry and continue imports without disruption.
+
+***
+
 ### 2026.06.3 - Jun 15, 2026
 
 #### 🎉 Features and Improvements
