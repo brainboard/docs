@@ -6,142 +6,200 @@ The <mark style="color:$primary;">**remote backend**</mark> is a storage that ho
 
 <mark style="color:$primary;">**Brainboard**</mark> uses **Terraform** as the provisioning engine, and so the concept of the <mark style="color:$primary;">**remote backend**</mark> comes from the configuration of **Terraform** that allows you to specify which storage system you want to use and how to access it.
 
-### Global vs Architecture setting
+{% hint style="info" %}
+The remote backend configuration can be set up at two levels:&#x20;
 
-There are two places where you can configure the remote backend, and both of them are complementary, which gives you greater flexibility and security options to separate where the **Terraform** states are stored based on your policies.
+1. Global&#x20;
+2. Architecture level
+{% endhint %}
 
-#### 1. Global
+## Global&#x20;
 
-The [global setting](https://app.brainboard.co/settings/organization) allows you to specify the default remote backend for any project, environment or architecture created in Brainboard.
+There are two paths under your [account settings](https://app.brainboard.co/settings/account) in <mark style="color:$primary;">**Brainboard**</mark> that you can follow to configure the remote backend at the global level.
+
+1. Through the [Organization](https://app.brainboard.co/settings/organization) page.
+2. Through the [Integrations](https://app.brainboard.co/settings/integrations) page.&#x20;
+
+### Organization page
+
+Navigate to the **Infrastructure as Code Backend** section on this page. Here, you can select or add the desired remote backend by using the **Backend configuration** field.&#x20;
+
+{% hint style="info" %}
+<mark style="color:$primary;">**Brainboard**</mark> is the **default** backend when you don't specify one.
+{% endhint %}
+
+{% hint style="success" %}
+<mark style="color:$primary;">**Brainboard**</mark> stores the **Terraform** state in its cloud storage, which helps you stay protected as we isolate by default the state of every architecture.
+{% endhint %}
+
+If you want to add a new configuration, simply click the <mark style="color:$primary;">**`Add new configuration`**</mark> option that appears in the dropdown menu of the **Backend configuration** field. It will navigate you to the <mark style="color:$primary;">**New backend configuration**</mark> page, which is exactly the same as the one that opens when you add a new **Terraform configuration** through the[ Integrations page](https://app.brainboard.co/settings/integrations). &#x20;
+
+<figure><img src="../../../.gitbook/assets/brainboard-remote-backend-add-new (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 If you use your own **S3** or **blob storag**e remote backend, it means that by default, all the states will be stored in your own infrastructure.
 {% endhint %}
 
-#### 2. Architecture
+### Integrations page
 
-You can specify a different remote backend at the architecture level, giving you more control over where you want to store the state files for any given architecture.
+1. On the [Integrations page](https://app.brainboard.co/settings/integrations), click on the <mark style="color:$primary;">**Terraform backend**</mark> section.&#x20;
+2. Then, click <mark style="color:$primary;">**`Add configuration`**</mark> on the [Terraform backend](https://app.brainboard.co/settings/integrations/terraform-backend) page.&#x20;
+3. On the[ New backend configuration page](https://app.brainboard.co/settings/integrations/terraform-backend/create), you will have the option to select from the available supported backend options:
+   1. Azure blob storage
+   2. AWS S3 bucket
+   3. Google Cloud Storage
+   4. Terraform cloud
+   5. HTTP
 
-To specify a remote backend for the architecture:
-
-1. Go to the `deploy` tab for your architecture.
-2.  Then click on the settings page:&#x20;
-
-    <figure><img src="../../../.gitbook/assets/architecture-remote-backend.png" alt=""><figcaption></figcaption></figure>
-3. Then follow the same steps as mentioned before for [AWS S3](remote-backend.md#2-aws-s3-bucket), [Azure blob storage](remote-backend.md#4-azure-blob-storage) or [Brainboard backend](remote-backend.md#1-brainboard).
-
-### Supported backends
-
-Here is the list of the supported remote backends in Brainboard.
+<figure><img src="../../../.gitbook/assets/add-through-integrations-page.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 If you use a different backend from the supported ones, please reach out to our support team.
 {% endhint %}
 
-#### 1. Brainboard
+## Architecture level
 
-The default backend when you don't specify one is Brainboard.
+You can specify a different remote backend at the architecture level, giving you more control over where you want to store the state files for any given architecture.
 
-Brainboard stores the Terraform state in its cloud storage, which helps you stay protected as we isolate by default the state of every architecture.
+To specify a remote backend for the architecture:
 
-To configure Brainboard backend:
+1. Open your architecture canvas.&#x20;
+2. Click the **settings icon** in the top navigation bar.&#x20;
+3. On the Architecture settings page, you can configure the backend using the <mark style="color:$primary;">**Infrastructure as Code Backend**</mark> section. Follow the same steps as mentioned before for [AWS S3](remote-backend.md#2-aws-s3-bucket), [Azure blob storage](remote-backend.md#4-azure-blob-storage) or [Brainboard backend](remote-backend.md#1-brainboard).
 
-1. Go to the [remote backend settings page.](https://app.brainboard.co/settings/organization)
-2.  Click on the 3 dots in the top-right corner of the configuration:&#x20;
+<figure><img src="../../../.gitbook/assets/add-integration (1).png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../../../.gitbook/assets/remote-backend.png" alt=""><figcaption></figcaption></figure>
-3. You can then select Brainboard backend and save.
-
-#### 2. AWS S3 bucket
-
-You have the possibility to specify **AWS S3** bucket in Brainboard, which means the Terraform state of all your architectures will be stored in the bucket you specify.
-
-You have the possibility to override the remote backend of a specific architecture in its settings page.
-
-When you specify the S3 bucket, Brainboard stored the Terraform state of every architecture in a separate file that has the UUID of the architecture as a name.
-
-If you want to find the UUID of your architecture, refer to [this page](../../../cloud-architectures/).
-
-To configure S3 bucket as a remote backend:
-
-1. Go to the [remote backend settings page](https://app.brainboard.co/settings/data).
-2.  Click on the 3 dots in the top-right corner of the configuration:&#x20;
-
-    <figure><img src="../../../.gitbook/assets/remote-backend-edit.png" alt=""><figcaption></figcaption></figure>
-3. Select `AWS S3` option.
-4.  Add the `Region` and the `Bucket name`&#x20;
-
-    <figure><img src="../../../.gitbook/assets/aws-remote-backend.png" alt=""><figcaption></figcaption></figure>
-5. Click on `Apply` to save your configuration.
+## Supported backends
 
 {% hint style="info" %}
-New S3 bucket. When you specify the bucket name, if the bucket doesn't exist, Brainboard will create a new one with the name you enter. To do so, it uses the default AWS credentials, so make sure these credentials have the rights to create a new bucket.
+Either you specify a **remote backend** (other than <mark style="color:$primary;">**Brianboard**</mark>) at the **global** or **architecture level**, the same [New backend configuration](https://app.brainboard.co/settings/integrations/terraform-backend/create?) page is used.&#x20;
+
+**Path:** <mark style="color:$primary;">Settings</mark> > <mark style="color:$primary;">Integrations</mark> > <mark style="color:$primary;">Terraform backend</mark> > <mark style="color:$primary;">Add new configuration</mark>
 {% endhint %}
 
-#### 4. Azure blob storage
+{% hint style="warning" icon="lightbulb-gear" %}
+You can override the remote backend of a **specific architecture** in its settings page, as explained under[#architecture-level](remote-backend.md#architecture-level "mention").
+{% endhint %}
 
-You have the possibility to specify Azure block storage in Brainboard, which means that the Terraform state of all your architectures will be stored in the blob storage you specify.
+{% hint style="success" %}
+Once the configuration is done, click on <mark style="color:$primary;">**`Save and close`**</mark> button given at the bottom right corner of the **New backend configuration** page to save the changes.&#x20;
+{% endhint %}
 
-You have the possibility to override the remote backend of a specific architecture in its settings page.
+### 1. Brainboard
 
-When you specify the Azure block storage, Brainboard stored the Terraform state of every architecture in a separate file that has the UUID of the architecture as a name.
+Brainboard is the default backend, which can be set up as a global backend using the [#organization-page](remote-backend.md#organization-page "mention")or at the [#architecture-level](remote-backend.md#architecture-level "mention").&#x20;
 
-If you want to find the UUID of your architecture, refer to [this page](../../../cloud-architectures/).
+### 2. Azure blob storage
 
-To configure Azure block storage as a remote backend:
+Configuring the **Azure blob storage** as the backend in <mark style="color:$primary;">**Brainboard**</mark> means that the **Terraform** state of all your architectures will be stored in the specified **blob storage**.
 
-1. Go to the [remote backend settings page](https://app.brainboard.co/settings/data).
-2.  Click on the 3 dots in the top-right corner of the configuration:&#x20;
-
-    <figure><img src="../../../.gitbook/assets/remote-backend-edit.png" alt=""><figcaption></figcaption></figure>
-3. Select `Azure Blob Storage` option.
-4. Add the following information:
-   * Storage account name
-   * Storage account's access key: you can create a new access key following this [Azure documentation](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal)
-   *   Storage container name&#x20;
-
-       <figure><img src="../../../.gitbook/assets/azure-remote-backend.png" alt=""><figcaption></figcaption></figure>
-5. Click on `Apply` to save your configuration.
+When you specify the **Azure blob storage**, <mark style="color:$primary;">**Brainboard**</mark> stores the **Terraform** state of every architecture in a separate file that has the **UUID** of the architecture as a name.
 
 {% hint style="info" %}
-When you specify the storage container name, if the container doesn't exist, Brainboard will create a new one with the name you enter. To do so, it uses the default AzureRM credentials, so make sure these credentials have the rights to create a new storage container in the selected storage account.
+To find the **UUID** of your architecture, refer to [this page](../../../cloud-architectures/).
 {% endhint %}
 
-#### 5. Terraform cloud backend
+On the [**New backend configuration** page](https://app.brainboard.co/settings/integrations/terraform-backend/create), navigate to the **Azure Blob Storage** tab and enter the following information:&#x20;
 
-You can also have the possibility to specify Terraform cloud as a remote backend in Brainboard to host your Terraform states of all your architectures.
+* **Name** of the configuration
+* **Resource group**
+* **Storage account name**
+* **Storage account key:** You can create a new access key following this [Azure documentation](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal)
+* **Container name**&#x20;
 
-You have the possibility to override the remote backend of a specific architecture in its settings page.
+{% hint style="warning" %}
+When you specify the storage **container name**, if the container doesn't exist, <mark style="color:$primary;">**Brainboard**</mark> will create a new one with the name you enter. To do so, it uses the default **AzureRM** credentials, so make sure these credentials have the rights to create a new storage container in the selected storage account.
+{% endhint %}
 
-To configure TFC as a remote backend:
+* **Use Microsoft Entra ID:** Enabling this will use the architecture cloud provider connection to access the storage account. Conflicts with the storage account key.
+* **Create more**
 
-1. Go to the [remote backend settings page](https://app.brainboard.co/settings/data).
-2.  Click on the 3 dots in the top-right corner of the configuration:&#x20;
+<figure><img src="../../../.gitbook/assets/Azure-blob-storage.png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../../../.gitbook/assets/remote-backend-edit.png" alt=""><figcaption></figcaption></figure>
-3. Select `Terraform cloud` option.
-4. Add the following information:
-   * Terraform cloud hostname
-   * Organization name
-   * Workspace name
-   *   The token to authenticate&#x20;
+### 2. AWS S3 bucket
 
-       <figure><img src="../../../.gitbook/assets/tfc-remote-backend.png" alt=""><figcaption></figcaption></figure>
-5. Click on `Apply` to save your configuration.
+Specifying the **AWS S3** bucket as a backend in <mark style="color:$primary;">**Brainboard**</mark> means the **Terraform** state of all your architectures will be stored in the bucket you specify.
 
-### Access
+When you specify the **S3** bucket, <mark style="color:$primary;">**Brainboard**</mark> stores the **Terraform** state of every architecture in a separate file that has the **UUID** of the architecture as a name.
 
-To access the remote backend, Brainboard uses the default cloud provider credentials that you provide in the [credentials page](../../cloud-providers/), so make sure that these credentials have the right to access the storage.
+{% hint style="info" %}
+To find the **UUID** of your architecture, refer to [this page](../../../cloud-architectures/).
+{% endhint %}
+
+On the [**New backend configuration** page](https://app.brainboard.co/settings/integrations/terraform-backend/create), navigate to the **AWS S3 Bucket** tab and enter the following information:&#x20;
+
+* **Credential**
+* **Name** of the configuration
+* **Bucket name**
+
+{% hint style="warning" %}
+When you specify the **bucket name**, if the bucket doesn't exist, <mark style="color:$primary;">**Brainboard**</mark> will create a new one with the name you enter. To do so, it uses the default **AWS credentials**, so make sure these credentials have the rights to create a new bucket.
+{% endhint %}
+
+* **Region**
+* **Dynamodb table**
+
+<figure><img src="../../../.gitbook/assets/AWS-S3-integration.png" alt=""><figcaption></figcaption></figure>
+
+### 3. Google Cloud Storage
+
+<mark style="color:$primary;">**Brainboard**</mark> enables you to use **Google Cloud Storage** as a remote backend to host your **Terraform** states of all your architectures.
+
+On the [**New backend configuration** page](https://app.brainboard.co/settings/integrations/terraform-backend/create), navigate to the **Google Cloud Storage** tab and enter the following information:&#x20;
+
+* **Credential**
+* **Name** of the configuration
+* **Bucket name**
+* **Project**
+
+<figure><img src="../../../.gitbook/assets/google-cloud-storage.png" alt=""><figcaption></figcaption></figure>
+
+### 4. Terraform Cloud backend
+
+<mark style="color:$primary;">**Brainboard**</mark> enables you to use **Terraform Cloud** as a remote backend to host your **Terraform** states of all your architectures.
+
+On the [**New backend configuration** page](https://app.brainboard.co/settings/integrations/terraform-backend/create), navigate to the **Terraform Cloud** tab and enter the following information:&#x20;
+
+* **Name** of the configuration
+* **Hostname**
+* **Organization** name
+* **Workspace** name
+* The **token** to authenticate&#x20;
+
+<figure><img src="../../../.gitbook/assets/terraform-cloud.png" alt=""><figcaption></figcaption></figure>
+
+### 5. HTTP&#x20;
+
+<mark style="color:$primary;">**Brainboard**</mark> enables you to use **HTTP** as a remote backend to host your **Terraform** states of all your architectures.
+
+On the [**New backend configuration** page](https://app.brainboard.co/settings/integrations/terraform-backend/create), navigate to the **Terraform Cloud** tab and enter the following information:&#x20;
+
+* **Name** of the configuration
+* **Address**
+* **Lock address**
+* **Unlock address**
+* **Update method**
+* **Lock method**
+* **Unlock method**
+* **Username**
+* **Password**
+* **Skip certificate verification** on/off toggle
+
+<figure><img src="../../../.gitbook/assets/http.png" alt=""><figcaption></figcaption></figure>
+
+## Access
+
+To access the remote backend, <mark style="color:$primary;">**Brainboard**</mark> uses the default cloud provider credentials that you provide in the [credentials page](../../cloud-providers/), so make sure that these credentials have the right to access the storage.
 
 Refer to the [data management](../../../security/data.md) page if you want to understand what information is manipulated and/or stored by Brainboard.
 
-### State migration
+## State migration
 
-To migrate your Terraform state into Brainboard, you have 2 options:
+To migrate your **Terraform** state into <mark style="color:$primary;">**Brainboard**</mark>, you have two options:
 
-1. Use Brainboard backend: in this case you need to upload your state files when you import your Terraform files, Brainboard will automatically detect the state file and put it in our storage.
-2. Use your remote backend (AWS S3 or Azure blob storage):
-   * Configure the remote backend in Brainboard. Follow the steps for [AWS S3](remote-backend.md#2-aws-s3-bucket) or [Azure blob storage](remote-backend.md#4-azure-blob-storage)
-   * In the remote backend storage that you configured, create a folder that has as a name the architecture UUID.
+1. **Use&#x20;**<mark style="color:$primary;">**Brainboard**</mark>**&#x20;backend:** In this case, you need to upload your state files when you import your **Terraform** files. <mark style="color:$primary;">**Brainboard**</mark> will automatically detect the state file and put it in our storage.
+2. **Use your remote backend (AWS S3 or Azure blob storage):**
+   * Configure the remote backend in <mark style="color:$primary;">**Brainboard.**</mark> Follow the steps for [AWS S3](remote-backend.md#id-2.-aws-s3-bucket) or [Azure Blob Storage](remote-backend.md#id-2.-azure-blob-storage).
+   * In the remote backend storage that you configured, create a folder that has a name as that of the architecture **UUID**.
    * Put your state in the folder you just created.
-   * Test in Brainboard by launching a _Terraform Plan_ from the design area of your architecture.
+   * Test in <mark style="color:$primary;">**Brainboard**</mark> by launching a _**Terraform Plan**_ from the design area of your architecture.
