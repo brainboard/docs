@@ -22,7 +22,7 @@ There are two paths under your [account settings](https://app.brainboard.co/sett
 
 ### Organization page
 
-Navigate to the **Infrastructure as Code Backend** section on this page. Here, you can select or add the desired remote backend by using the **Backend configuration** field.&#x20;
+Navigate to the <mark style="color:$primary;">**Infrastructure as Code Backend**</mark> section on this page. Here, you can select or add the desired remote backend by using the **Backend configuration** field.&#x20;
 
 {% hint style="info" %}
 <mark style="color:$primary;">**Brainboard**</mark> is the **default** backend when you don't specify one.
