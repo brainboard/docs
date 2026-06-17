@@ -2,23 +2,25 @@
 
 ### Definition
 
-The remote backend is a storage that hosts the Terraform state of your cloud infrastructure after it is provisioned.
+The <mark style="color:$primary;">**remote backend**</mark> is a storage that hosts the **Terraform** state of your cloud infrastructure after it is provisioned.
 
-Brainboard uses Terraform as the provisioning engine, and so the concept of the remote backend comes from the configuration of Terraform that allows you to specify which storage system you want to use and how to access it.
+<mark style="color:$primary;">**Brainboard**</mark> uses **Terraform** as the provisioning engine, and so the concept of the <mark style="color:$primary;">**remote backend**</mark> comes from the configuration of **Terraform** that allows you to specify which storage system you want to use and how to access it.
 
 ### Global vs Architecture setting
 
-There are 2 places where you can configure the remote backend, and both of them are complementary, which gives you greater flexibility and security options to separate where the Terraform states are stored based on your policies.
+There are two places where you can configure the remote backend, and both of them are complementary, which gives you greater flexibility and security options to separate where the **Terraform** states are stored based on your policies.
 
 #### 1. Global
 
-The [global setting](https://app.brainboard.co/settings/data) allows you to specify the default remote backend for any project, environment or architecture created in Brainboard.
+The [global setting](https://app.brainboard.co/settings/organization) allows you to specify the default remote backend for any project, environment or architecture created in Brainboard.
 
-If you use your own S3 or blob storage remote backend, it means that by default all the states will be stored in your own infrastructure.
+{% hint style="info" %}
+If you use your own **S3** or **blob storag**e remote backend, it means that by default, all the states will be stored in your own infrastructure.
+{% endhint %}
 
 #### 2. Architecture
 
-You have the possibility to specify a different remote backend at the architecture level, which gives more control on where you want to store the state files for any given architecture.
+You can specify a different remote backend at the architecture level, giving you more control over where you want to store the state files for any given architecture.
 
 To specify a remote backend for the architecture:
 
@@ -30,9 +32,9 @@ To specify a remote backend for the architecture:
 
 ### Supported backends
 
-Here are the list of the supported remote backend in Brainboard.
+Here is the list of the supported remote backends in Brainboard.
 
-{% hint style="info" %}
+{% hint style="warning" %}
 If you use a different backend from the supported ones, please reach out to our support team.
 {% endhint %}
 
@@ -44,7 +46,7 @@ Brainboard stores the Terraform state in its cloud storage, which helps you stay
 
 To configure Brainboard backend:
 
-1. Go to the [remote backend settings page](https://app.brainboard.co/settings/data).
+1. Go to the [remote backend settings page.](https://app.brainboard.co/settings/organization)
 2.  Click on the 3 dots in the top-right corner of the configuration:&#x20;
 
     <figure><img src="../../../.gitbook/assets/remote-backend.png" alt=""><figcaption></figcaption></figure>
@@ -52,7 +54,7 @@ To configure Brainboard backend:
 
 #### 2. AWS S3 bucket
 
-You have the possibility to specify AWS S3 bucket in Brainboard, which means the Terraform state of all your architectures will be stored in the bucket you specify.
+You have the possibility to specify **AWS S3** bucket in Brainboard, which means the Terraform state of all your architectures will be stored in the bucket you specify.
 
 You have the possibility to override the remote backend of a specific architecture in its settings page.
 
@@ -73,7 +75,7 @@ To configure S3 bucket as a remote backend:
 5. Click on `Apply` to save your configuration.
 
 {% hint style="info" %}
-New S3 bucket When you specify the bucket name, if the bucket doesn't exist, Brainboard will create a new one with the name you enter. To do so, it uses the default AWS credentials, so make sure these credentials have the rights to create a new bucket.
+New S3 bucket. When you specify the bucket name, if the bucket doesn't exist, Brainboard will create a new one with the name you enter. To do so, it uses the default AWS credentials, so make sure these credentials have the rights to create a new bucket.
 {% endhint %}
 
 #### 4. Azure blob storage
