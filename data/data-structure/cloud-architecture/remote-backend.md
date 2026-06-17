@@ -22,7 +22,7 @@ There are two paths under your [account settings](https://app.brainboard.co/sett
 
 ### Organization page
 
-Navigate to the **Infrastructure as Code Backend** section on this page. Here, you can select or add the desired remote backend by using the **Backend configuration** field.&#x20;
+Navigate to the **Infrastructure as Code Backend** section on this [page](https://app.brainboard.co/settings/organization). Here, you can select or add the desired remote backend by using the **Backend configuration** field.&#x20;
 
 {% hint style="info" %}
 <mark style="color:$primary;">**Brainboard**</mark> is the **default** backend when you don't specify one.
@@ -65,7 +65,7 @@ To specify a remote backend for the architecture:
 
 1. Open your architecture canvas.&#x20;
 2. Click the **settings icon** in the top navigation bar.&#x20;
-3. On the Architecture settings page, you can configure the backend using the <mark style="color:$primary;">**Infrastructure as Code Backend**</mark> section. Follow the same steps as mentioned before for [AWS S3](remote-backend.md#2-aws-s3-bucket), [Azure blob storage](remote-backend.md#4-azure-blob-storage) or [Brainboard backend](remote-backend.md#1-brainboard).
+3. On the Architecture settings page, you can configure the backend using the <mark style="color:$primary;">**Infrastructure as Code Backend**</mark> section. Follow the same steps as mentioned before for [AWS S3](remote-backend.md#id-2.-aws-s3-bucket), [Azure blob storage](remote-backend.md#id-2.-azure-blob-storage) or [Brainboard backend](remote-backend.md#id-1.-brainboard).
 
 <figure><img src="../../../.gitbook/assets/add-integration (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -95,10 +95,6 @@ Configuring the **Azure blob storage** as the backend in <mark style="color:$pri
 
 When you specify the **Azure blob storage**, <mark style="color:$primary;">**Brainboard**</mark> stores the **Terraform** state of every architecture in a separate file that has the **UUID** of the architecture as a name.
 
-{% hint style="info" %}
-To find the **UUID** of your architecture, refer to [this page](../../../cloud-architectures/).
-{% endhint %}
-
 On the [**New backend configuration** page](https://app.brainboard.co/settings/integrations/terraform-backend/create), navigate to the **Azure Blob Storage** tab and enter the following information:&#x20;
 
 * **Name** of the configuration
@@ -121,10 +117,6 @@ When you specify the storage **container name**, if the container doesn't exist,
 Specifying the **AWS S3** bucket as a backend in <mark style="color:$primary;">**Brainboard**</mark> means the **Terraform** state of all your architectures will be stored in the bucket you specify.
 
 When you specify the **S3** bucket, <mark style="color:$primary;">**Brainboard**</mark> stores the **Terraform** state of every architecture in a separate file that has the **UUID** of the architecture as a name.
-
-{% hint style="info" %}
-To find the **UUID** of your architecture, refer to [this page](../../../cloud-architectures/).
-{% endhint %}
 
 On the [**New backend configuration** page](https://app.brainboard.co/settings/integrations/terraform-backend/create), navigate to the **AWS S3 Bucket** tab and enter the following information:&#x20;
 
@@ -189,7 +181,7 @@ On the [**New backend configuration** page](https://app.brainboard.co/settings/i
 
 ## Access
 
-To access the remote backend, <mark style="color:$primary;">**Brainboard**</mark> uses the default cloud provider credentials that you provide in the [credentials page](../../cloud-providers/), so make sure that these credentials have the right to access the storage.
+To access the remote backend, <mark style="color:$primary;">**Brainboard**</mark> uses the default cloud provider credentials that you provide in the [credentials page](https://app.brainboard.co/settings/integrations/cloud-providers), so make sure that these credentials have the right to access the storage.
 
 Refer to the [data management](../../../security/data.md) page if you want to understand what information is manipulated and/or stored by Brainboard.
 
