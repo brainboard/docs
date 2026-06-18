@@ -2,17 +2,17 @@
 
 ### Overview
 
-When you design your cloud infrastructures in Brainboard, the <mark style="color:$primary;">Terraform</mark> code is auto-generated for you based on the configuration of the resources.&#x20;
+When you design your cloud infrastructures in <mark style="color:$primary;">**Brainboard**</mark>, the <mark style="color:$primary;">Terraform</mark> code is auto-generated for you based on the configuration of the resources.&#x20;
 
 {% hint style="info" %}
-Brainboard allows you to use **variables, locals** and **output** exactly as you would do it in Terraform.
+<mark style="color:$primary;">**Brainboard**</mark> allows you to use **variables, locals** and **output** exactly as you would do it in **Terraform.**
 {% endhint %}
 
 {% hint style="success" %}
 You can implement your naming conventions, set specific values for the configuration based on some criteria and define what information you want to display once the infrastructure is deployed.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (17) (1) (1).png" alt="" width="434"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/variables-outputs.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
