@@ -22,6 +22,36 @@ layout:
 
 # Changelog
 
+### 2026.06.5 - Jun 18, 2026
+
+#### 🎉 Features and Improvements
+
+#### ✨ Variables, Locals & Outputs — now in the right panel
+
+Variables, Locals and Outputs have moved out of the full-screen modal and into the **right configuration panel**, right next to where you edit your resources. Manage them without leaving your architecture — your diagram stays visible while you work.
+
+**What you'll notice:**
+
+* **Smoother creation flow** — simpler actions, quick access to import, clearer back navigation.
+* **One-click copy** on names and values, with cleaner previews for multiline content.
+* **Roomier editor** — better loading placeholders, larger default input space, improved textarea readability.
+* **Safer edits** — forms warn before closing when required fields are missing, so you don't lose work in progress.
+* Value creation now validates the **full form** before submitting.
+* **Filters and search stay usable** even when results are empty.
+* Copyable value rows no longer over-stretch — card layouts stay clean.
+* Variable reference tooltips now show **cleaner, more accurate labels**.
+
+#### ✅ Bug Fixes
+
+* CI/CD
+  * Pipeline and job statuses now use clearer, more consistent visual badges so teams can scan progress faster.
+* Leftbar
+  * Left sidebar informational cards were visually refined for better spacing and readability.
+* Global UX
+  * Long combobox options now truncate correctly instead of causing horizontal overflow in dropdowns.
+
+***
+
 ### 2026.06.4 - Jun 16, 2026
 
 #### 🎉 Features and Improvements
