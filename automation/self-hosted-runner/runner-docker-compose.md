@@ -10,9 +10,9 @@ After installing Docker, you need the following files in a directory:
 ```yaml
 services:
   runner:
-    image: ghcr.io/brainboard/runner:next
+    image: ghcr.io/brainboard/runner:latest
     # You can also pin the version using any Brainboard version from our changelog (https://docs.brainboard.co/changelog)
-    # image: ghcr.io/brainboard/runner:2026.07.1
+    # image: ghcr.io/brainboard/runner:2026.06.7
     restart: unless-stopped
     command: /brainboard-runner
     volumes:
@@ -98,13 +98,13 @@ executor:
 
 <details>
 
-<summary>Runner migration (&#x3C; 2026.07.1)</summary>
+<summary>Runner migration (&#x3C; 2026.06.7)</summary>
 
 1. In `docker-compose.yml`, update both the image tag and command:
 
 ```diff
 -    image: ghcr.io/brainboard/runner:2026.02.3
-+    image: ghcr.io/brainboard/runner:latest # or 2026.07.1
++    image: ghcr.io/brainboard/runner:latest # or 2026.06.7
      restart: unless-stopped
 -    command: /brainboard-runner run
 +    command: /brainboard-runner

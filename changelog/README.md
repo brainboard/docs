@@ -22,6 +22,27 @@ layout:
 
 # Changelog
 
+### 2026.06.7 - Jun 22, 2026
+
+#### 🎉 Features and Improvements
+
+* Self hosted runners
+  * Self-hosted runners were significantly improved with more reliable execution, better error guidance, and expanded built-in automation capabilities for pipeline actions.\
+    Please see upgrade notes: [https://docs.brainboard.co/automation/self-hosted-runner/runner-docker-compose#runner-migration-less-than-2026.06.](https://docs.brainboard.co/automation/self-hosted-runner/runner-docker-compose#runner-migration-less-than-2026.07.1)7
+
+#### ✅ Bug Fixes
+
+* Design area / diagram
+  * The right pane now better preserves your working tab state, helping you keep context while navigating between resources and architectures.
+* Variables/Locals/Output
+  * Architecture outputs are now visible as expected for organization-level users based on their permissions.
+  * Architecture creation and import flows now fail fast on local/output creation issues to avoid partial or inconsistent setups.
+* CICD - Job's output
+  * The job output view now correctly shows the end of execution logs, so you can reliably see the latest pipeline output.
+  * Job action controls now stay in a stable position during runs, so stopping or expanding output is more predictable.
+
+***
+
 ### 2026.06.5 - Jun 18, 2026
 
 #### 🎉 Features and Improvements
