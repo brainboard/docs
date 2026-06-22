@@ -39,16 +39,6 @@ helm install runner oci://ghcr.io/brainboard/helm/brainboard-runner --set config
 
 You can view all available configuration options using the commands above.
 
-#### Register runner with your organization
-
-Once your runner is started, you will need to register it with your organization. To do so, open a terminal inside the runner container ([see below](runner-kubernetes.md#usage)) and run the following command:
-
-```bash
-/brainboard-runner register
-```
-
-This operation only has to be done once, when the runner is started for the first time.
-
 ### Usage
 
 To open a terminal inside the runner container, use the following command:
