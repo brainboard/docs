@@ -28,7 +28,7 @@ layout:
 
 * Self hosted runners
   * Self-hosted runners were significantly improved with more reliable execution, better error guidance, and expanded built-in automation capabilities for pipeline actions.\
-    Please see upgrade notes: [https://docs.brainboard.co/automation/self-hosted-runner/runner-docker-compose#runner-migration-less-than-2026.06.](https://docs.brainboard.co/automation/self-hosted-runner/runner-docker-compose#runner-migration-less-than-2026.07.1)7
+    Please see upgrade notes: [here](https://docs.brainboard.co/automation/self-hosted-runner/runner-docker-compose#runner-migration-less-than-2026.06.7)
 
 #### ✅ Bug Fixes
 
