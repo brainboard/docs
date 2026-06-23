@@ -22,7 +22,7 @@ layout:
 
 # Changelog
 
-### 2026.06.8 - Jun 23, 2026
+### 2026.06.9 - Jun 23, 2026
 
 #### 🎉 Features and Improvements
 
@@ -46,6 +46,8 @@ layout:
   * Fixed an issue where the Team details panel could trigger an invalid request when no team was selected.
 * Pipelines
   * Empty argument values are now treated as missing values instead of blank strings, preventing unintended runtime behavior.
+* Import from cloud provider
+  * We fixed an access-validation issue during cloud import so authorized users can complete imports more reliably across team and project contexts.
 
 ***
 
