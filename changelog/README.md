@@ -22,6 +22,33 @@ layout:
 
 # Changelog
 
+### 2026.06.8 - Jun 23, 2026
+
+#### 🎉 Features and Improvements
+
+* Design area - Right pane
+  * You can now resize the right panel from any tab, making editing workflows smoother and faster.
+* Import from cloud provider
+  * Azure imports now start with a smart default resource selection, so teams can import faster with less manual filtering.
+* Variables/Locals/Output
+  * Filter and sort preferences in value panels now persist per architecture, helping users keep a consistent working context.
+
+#### ✅ Bug Fixes
+
+* Configurator
+  * Fixed list field behavior in the resource configurator so adding or removing items no longer causes input inconsistencies.
+  * Fixed sticky section headers in the configurator builder so section titles stay visible while scrolling as expected.
+* Variables/Locals/Output
+  * Sensitive values are now consistently masked in variable and output cards to better protect confidential data.
+  * Validation and precondition rules now correctly require a condition when enabled, preventing incomplete configurations.
+  * Fixed the close confirmation flow in value creation dialogs to avoid accidental exits during editing.
+* Settings - Teams
+  * Fixed an issue where the Team details panel could trigger an invalid request when no team was selected.
+* Pipelines
+  * Empty argument values are now treated as missing values instead of blank strings, preventing unintended runtime behavior.
+
+***
+
 ### 2026.06.7 - Jun 22, 2026
 
 #### 🎉 Features and Improvements
