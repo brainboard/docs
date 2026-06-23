@@ -12,7 +12,7 @@ services:
   runner:
     image: ghcr.io/brainboard/runner:latest
     # You can also pin the version using any Brainboard version from our changelog (https://docs.brainboard.co/changelog)
-    # image: ghcr.io/brainboard/runner:2026.06.7
+    # image: ghcr.io/brainboard/runner:2026.06.9
     restart: unless-stopped
     command: /brainboard-runner
     volumes:
@@ -104,7 +104,7 @@ executor:
 
 ```diff
 -    image: ghcr.io/brainboard/runner:2026.02.3
-+    image: ghcr.io/brainboard/runner:latest # or 2026.06.7
++    image: ghcr.io/brainboard/runner:latest # or 2026.06.9
      restart: unless-stopped
 -    command: /brainboard-runner run
 +    command: /brainboard-runner
