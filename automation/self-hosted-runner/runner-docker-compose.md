@@ -14,7 +14,8 @@ services:
     # You can also pin the version using any Brainboard version from our changelog (https://docs.brainboard.co/changelog)
     # image: ghcr.io/brainboard/runner:2026.06.9
     restart: unless-stopped
-    command: /brainboard-runner
+    command: [ "/brainboard-runner" ]
+    stop_grace_period: 240s
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock"
       - "./runner-config.yaml:/etc/brainboard-runner/config.yaml:ro"
