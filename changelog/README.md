@@ -22,6 +22,19 @@ layout:
 
 # Changelog
 
+### 2026.07.2 - Jul 08, 2026
+
+#### 🎉 Features and Improvements
+
+_No major user-facing feature additions in this release._
+
+#### ✅ Bug Fixes
+
+* Self hosted runners
+  * Runner version checks now safely handle invalid version formats, preventing crashes in runner-related settings views.
+* Variables/Locals/Output
+  * Variable validation and output precondition fields are now easier to manage in collapsible sections, with safer form behavior to avoid accidental invalid exits.
+
 ### 2026.06.9 - Jun 23, 2026
 
 #### 🎉 Features and Improvements
@@ -141,7 +154,7 @@ No new user-facing features were introduced in this release.
 
 #### 🎉 Features and Improvements
 
-* Git integrations - GitHub&#x20;
+* Git integrations - GitHub
   * Introduced a new GitHub App installation flow that makes connecting and managing GitHub integration more reliable and easier to complete.
 
 #### ✅ Bug Fixes
@@ -189,8 +202,6 @@ No new user-facing features were introduced in this release.
   * Fixed pipeline cancellation so jobs waiting for manual approval can now be stopped correctly, including dependent downstream jobs.
 * Import from git
   * Fixed repository subfolder detection.
-
-
 
 ### 2026.05.5 - May 15, 2026
 
@@ -266,11 +277,14 @@ _This patch release is focused on reliability and usability fixes._
 
 #### 🎉 Features and Improvements
 
-* Design area / diagram
-  * Icon customization is now more unified and easier to use across module setup and resource configuration, with faster browsing in large icon catalogs.
-  *
+*   Design area / diagram
 
-      <figure><img src="../.gitbook/assets/0GBw0hLjKZ1XZahP.png" alt=""><figcaption><p>Icon picker for Node/Container</p></figcaption></figure>
+    * Icon customization is now more unified and easier to use across module setup and resource configuration, with faster browsing in large icon catalogs.
+    *
+
+    ```
+    <figure><img src="../.gitbook/assets/0GBw0hLjKZ1XZahP.png" alt=""><figcaption><p>Icon picker for Node/Container</p></figcaption></figure>
+    ```
 * Identity Card
   * Terraform module identity cards load faster from Git sources by reducing how much repository history is fetched (`depth=1`).
 
@@ -338,7 +352,7 @@ _No user-facing feature improvements were introduced in this patch release._
 #### 🎉 Features and Improvements
 
 * API - Architecture Templates
-  *   You can now clone templates with multiple workflows using the new `workflow_templates`&#x20;
+  *   You can now clone templates with multiple workflows using the new `workflow_templates`
 
       parameter (array of workflow template IDs), while `workflow_template` (single ID) is still supported but now deprecated.
 
@@ -577,7 +591,7 @@ _This feature is currently accessible via a_ [_waiting list_](https://brainboard
 
 #### Notes
 
-* The “Create with AI” option has been removed from the new architecture flow. Its successor will soon be released under alpha feature flag. Contact support team if you want to be in the Alpha waiting list.&#x20;
+* The “Create with AI” option has been removed from the new architecture flow. Its successor will soon be released under alpha feature flag. Contact support team if you want to be in the Alpha waiting list.
 
 ***
 
@@ -888,4 +902,3 @@ _This feature is currently accessible via a_ [_waiting list_](https://brainboard
   * Removed unnecessary re‑renders in the configurator that could cause flickering or slowdowns when editing complex resources.
 * Onboarding
   * Fixed a flickering issue in the onboarding form
-
