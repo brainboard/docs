@@ -19,7 +19,6 @@ By default, if you don't rename or change the generated files, you have the foll
 5. **variables.tf**: contains the definition of variables and their blocks.
 6. **locals.tf**: contains the definition of **Terraform** <mark style="color:$primary;">**`locals`**</mark>.
 7. **backend.tf**: contains the configuration of the remote backend.
-8. **undefined.tf**:&#x20;
 
 ### Create a new Terraform file
 
