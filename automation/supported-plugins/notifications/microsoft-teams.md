@@ -16,7 +16,7 @@ This plugin allows you to send a notification to your MS Teams channel.
    * The task remains blocked until all approvers added in the list approve it.
    *   When enabled, it allows you to add approvers to the list<br>
 
-       <figure><img src="../../../.gitbook/assets/CleanShot 2025-07-10 at 13.25.53@2x (1).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../.gitbook/assets/CleanShot 2025-07-10 at 13.25.53@2x.png" alt=""><figcaption></figcaption></figure>
    * The approver has to be Brainboard user
 
 #### Setup instructions
@@ -32,8 +32,6 @@ If you want to configure Microsoft Teams to receive notifications from Brainboar
 3.  Give it a name and click Next:<br>
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-02-13 at 14.56.50@2x.png" alt=""><figcaption></figcaption></figure>
-
-
 4.  Select the channel where you want the notification to be posted:<br>
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-02-13 at 14.57.07@2x.png" alt=""><figcaption></figcaption></figure>
@@ -46,6 +44,5 @@ If you have an old configuration, follow the steps of this video:
 {% embed url="https://www.youtube.com/watch?v=LOvWCNyXxLE" %}
 
 {% hint style="warning" %}
-&#x20;That configuration is deprecated by Azure and will be removed by the end of 2025.
+That configuration is deprecated by Azure and will be removed by the end of 2025.
 {% endhint %}
-

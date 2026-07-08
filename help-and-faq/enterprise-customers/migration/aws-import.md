@@ -96,7 +96,7 @@ Once your account is correctly configured to list cloud resources, you can impor
 
 <figure><img src="../../../.gitbook/assets/CleanShot 2025-05-23 at 19.12.23@2x.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/CleanShot 2025-05-23 at 19.12.34@2x (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-05-23 at 19.12.34@2x.png" alt=""><figcaption></figcaption></figure>
 
 7. Select the region(s) of your infrastructure
 
@@ -106,12 +106,12 @@ Once your account is correctly configured to list cloud resources, you can impor
 
 <figure><img src="../../../.gitbook/assets/CleanShot 2025-05-23 at 19.17.09@2x.png" alt=""><figcaption></figcaption></figure>
 
-9. Give a name to your architecture and click on `Start import`&#x20;
+9. Give a name to your architecture and click on `Start import`
 
 <figure><img src="../../../.gitbook/assets/CleanShot 2025-05-23 at 19.17.48@2x.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Importing resources from your cloud account can take a long time, depending on the number of resources Brainboard will find in your account. You can either keep the import window open or wait for an email notification once the import is complete.&#x20;
+Importing resources from your cloud account can take a long time, depending on the number of resources Brainboard will find in your account. You can either keep the import window open or wait for an email notification once the import is complete.
 
 You will also be notified in the app when the import is done.
 {% endhint %}

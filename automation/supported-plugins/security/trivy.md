@@ -40,7 +40,7 @@ This plugin allows you to scan the Terraform code with `trivy` and provide outpu
    * The task remains blocked until all approvers added in the list approve it.
    *   When enabled, it allows you to add approvers to the list<br>
 
-       <figure><img src="../../../.gitbook/assets/CleanShot 2025-07-10 at 13.25.53@2x (1).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../.gitbook/assets/CleanShot 2025-07-10 at 13.25.53@2x.png" alt=""><figcaption></figcaption></figure>
    * The approver has to be Brainboard user
 10. Config: can be used to pass any valid Trivy configuration page (see [documentation](https://trivy.dev/latest/docs/references/configuration/config-file/))
 11. Skip files: specify the files or glob patterns to skip

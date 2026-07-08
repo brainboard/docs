@@ -20,9 +20,9 @@ This plugin allows you to check your Terraform code against security policies th
    * The task remains blocked until all approvers added in the list approve it.
    *   When enabled, it allows you to add approvers to the list<br>
 
-       <figure><img src="../../../.gitbook/assets/CleanShot 2025-07-10 at 13.25.53@2x (1).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../.gitbook/assets/CleanShot 2025-07-10 at 13.25.53@2x.png" alt=""><figcaption></figcaption></figure>
    * The approver has to be Brainboard user
-6. Decision: The decision you want the check to be evaluated against. In the format `package_name/decision`&#x20;
+6. Decision: The decision you want the check to be evaluated against. In the format `package_name/decision`
    1. In this example, we want to fail the pipeline if the resources don't contain the tags in the list
    2. The decision is `brainboard/deny`
 

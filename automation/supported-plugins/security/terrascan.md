@@ -25,7 +25,7 @@ It provides 500+ out-of-the-box policies so that you can scan IaC against common
    * The task remains blocked until all approvers added in the list approve it.
    *   When enabled, it allows you to add approvers to the list<br>
 
-       <figure><img src="../../../.gitbook/assets/CleanShot 2025-07-10 at 13.25.53@2x (1).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../.gitbook/assets/CleanShot 2025-07-10 at 13.25.53@2x.png" alt=""><figcaption></figcaption></figure>
    * The approver has to be Brainboard user
 8. Show passed: display passed rules, along with violations.
 

@@ -22,11 +22,11 @@ This plugin allows you to scan the Terraform code with `tfsec` and provide outpu
    * The task remains blocked until all approvers added in the list approve it.
    *   When enabled, it allows you to add approvers to the list<br>
 
-       <figure><img src="../../../.gitbook/assets/CleanShot 2025-07-10 at 13.25.53@2x (1).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../.gitbook/assets/CleanShot 2025-07-10 at 13.25.53@2x.png" alt=""><figcaption></figcaption></figure>
    * The approver has to be Brainboard user<br>
 9. Minimum severity: you can specify the minimum severity of result that should be reported. By default, every severity is reported. You must use one of `CRITICAL`, `HIGH`, `MEDIUM`, `LOW`.
 10. Disabled checks: comma separated list of checks to exclude during the execution.
-    1. This list has to be in this format: `rule1,rule2,rule3...`&#x20;
+    1. This list has to be in this format: `rule1,rule2,rule3...`
     2. No space is added after the comma in the list
 
 **Sample output**

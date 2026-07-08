@@ -10,7 +10,7 @@ icon: binary-circle-check
 
 ### DR components
 
-Modern applications and infrastructures require a different DR approach, and part of the planing for a DR strategy in the cloud, is to understand what will be saved and how. This will determine how it will be restored in case of a disaster. There are  2 different components:
+Modern applications and infrastructures require a different DR approach, and part of the planing for a DR strategy in the cloud, is to understand what will be saved and how. This will determine how it will be restored in case of a disaster. There are 2 different components:
 
 1.  **Data:** These are the information / data inside the resources. For example, the records inside the database or files inside the storage.
 
@@ -68,7 +68,7 @@ Here are the complete steps to build a robust and reliable DR strategy in Brainb
         <figure><img src="../.gitbook/assets/CleanShot 2024-12-02 at 13.51.52.png" alt=""><figcaption></figcaption></figure>
     3.  Use the variable in the architecture, the generated code should reflect your changes.
 
-        <figure><img src="../.gitbook/assets/CleanShot 2024-12-02 at 13.52.27 (1).png" alt=""><figcaption></figcaption></figure>
+        <figure><img src="../.gitbook/assets/CleanShot 2024-12-02 at 13.52.27.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 When you create a variable, use "value" field, not the "default value" because the default value will be shared with all environments.
@@ -121,7 +121,7 @@ Please refer to page [synced-architectures.md](data-structure/cloud-architecture
       3.  Activate the notification to receive an email when the execution fails.
 
           <figure><img src="../.gitbook/assets/CleanShot 2024-12-02 at 14.33.11.png" alt=""><figcaption></figcaption></figure>
-      4.  Add Terraform task and chose between, `plan`  or `apply`. If you select \`apply\`, see the section below.
+      4.  Add Terraform task and chose between, `plan` or `apply`. If you select \`apply\`, see the section below.
 
           <figure><img src="../.gitbook/assets/CleanShot 2024-12-02 at 14.34.37.png" alt=""><figcaption></figcaption></figure>
 5.  **Full Deployability Test (FDT):** Brainboard allow you to automatically run a full deployability test, which means you can create a schedule to automatically deploy the DR environment completely and destroy it right after. This ensures that the DR environment is always in a deployable state.
@@ -140,4 +140,3 @@ Please refer to page [synced-architectures.md](data-structure/cloud-architecture
 {% hint style="info" %}
 If you are planning to configure a Full Deployability Test, first, do an apply and check it that it is working properly before activating the schedule and automation.
 {% endhint %}
-
