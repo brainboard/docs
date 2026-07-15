@@ -32,7 +32,7 @@ To preview the **HTML** version of your file, switch to the <mark style="color:$
 * The **README** file will be pushed to git when doing a pull request.
 * The **README** file will be cloned along with the design of your architecture.
 
-### Best practice
+### Best practices
 
 A good **README** file typically includes the following information:
 
