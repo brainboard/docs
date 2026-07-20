@@ -20,6 +20,6 @@ To customize the provider block, you need to go to the providers list in the _Le
 
 * Check the button showing that you want to customize Terraform and provider configuration block
 
-![providers\_block](../../.gitbook/assets/providers\_block.png)
+After you make the changes that you need, click <mark style="color:$primary;">**Apply**</mark> to save the changes.
 
-After you make the changes that you need, click on _apply_ to save the changes.
+<figure><img src="../../.gitbook/assets/change-config.png" alt=""><figcaption></figcaption></figure>
