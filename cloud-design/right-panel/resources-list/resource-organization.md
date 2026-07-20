@@ -2,11 +2,11 @@
 
 ## File Assignment
 
-Resources are assigned to <mark style="color:$primary;">Terraform</mark> files based on:
+Resources are assigned to <mark style="color:$primary;">**Terraform**</mark> files based on:
 
-* **Default Assignment:** New resources go to `main.tf` by default.
-* **Automatic Separation:** Variables go to `variables.tf`, outputs to `outputs.tf`, etc.
-* **Manual Assignment:** You can assign resources to different files. To do so:&#x20;
+* **Default Assignment:** New resources go to <mark style="color:$primary;">**`main.tf`**</mark> by default.
+* **Automatic Separation:** Variables go to <mark style="color:$primary;">**`variables.tf`**</mark>, outputs to <mark style="color:$primary;">**`outputs.tf`**</mark>, etc.
+* **Manual Assignment:** You can assign resources to different files. To do so:
   * Right-click the resource in the diagram.
   * Select **"Move to file"**.
   * Choose an existing file or create a new one.
