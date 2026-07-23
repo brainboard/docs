@@ -22,6 +22,36 @@ layout:
 
 # Changelog
 
+
+
+### 2026.07.4 - Jul 23, 2026
+
+#### 🎉 Features and Improvements
+
+* Architecture Templates
+  * The Templates panel now includes cloud provider filters, tag filters, search, and sorting so teams can find and reuse the right architecture faster.
+* RBAC/Permissions
+  * Environment access now aligns with environment-level roles, giving organizations clearer and more predictable permission control for collaboration.
+
+#### ✅ Bug Fixes
+
+* Architecture Templates
+  * Creating a new architecture from a template now closes the template modal automatically, keeping the workflow smooth and distraction-free.
+* Node / Containers
+  * Inheritance now skips provider-agnostic container resources (`brainboard_group`), preventing incorrect inherited cloud settings in nested design scenarios.
+
+### 2026.07.3 - Jul 08, 2026
+
+#### 🎉 Features and Improvements
+
+* Variables/Locals/Output
+  * Validation error messages for variables and outputs are now easier to write and review with an auto-growing editor and improved formatting support for multiline expressions.
+
+#### ✅ Bug Fixes
+
+* Configurator
+  * Double-clicking a resource card now reliably opens the correct resource configuration, making architecture editing faster and more predictable.
+
 ### 2026.07.2 - Jul 08, 2026
 
 #### 🎉 Features and Improvements
