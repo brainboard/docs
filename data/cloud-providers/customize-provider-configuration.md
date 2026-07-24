@@ -7,7 +7,7 @@ There are many scenarios when customizing a cloud provider block is needed:
 * **Third-party services:** If you are using services provided by third-party providers, you can use their provider in Terraform to manage those resources.
 
 {% hint style="info" %}
-For example, you might be using a service like Cloudflare for DNS, and you can use the Cloudflare provider in Terraform to manage those resources
+For example, you might be using a service like **Cloudflare** for **DNS**, and you can use the **Cloudflare** provider in **Terraform** to manage those resources
 {% endhint %}
 
 * **Managing different environments** : If you want to manage different environments (e.g. development, staging, production) with different providers, you can use multiple providers in Terraform to manage those resources together.
@@ -16,10 +16,10 @@ For example, you might be using a service like Cloudflare for DNS, and you can u
 * **Modifying provider configuration**: If you have to modify the provider configuration, such as adding a region, or updating endpoint URLs, you will have to modify the providers block.
 * **Access control**: If you have to restrict access to certain provider resources, you may have to modify the providers block to add authentication or authorization configuration.
 
-To customize the provider block, you need to go to the providers list in the _Leftbar_.
+To customize the provider block, you need to go to the providers list in the _**Leftbar**_.&#x20;
 
-* Check the button showing that you want to customize Terraform and provider configuration block
-
-After you make the changes that you need, click <mark style="color:$primary;">**Apply**</mark> to save the changes.
+1. In the dropdown menu, click the <mark style="color:$primary;">**`Custom configuration`**</mark> button to customize the desired **Terraform** and provider configuration block.
+2. Turn on the toggle <mark style="color:$primary;">**`I want to customize my Terraform & provider configuration block`**</mark>.&#x20;
+3. After you make the changes that you need, click <mark style="color:$primary;">**Apply**</mark> to save the changes.
 
 <figure><img src="../../.gitbook/assets/change-config.png" alt=""><figcaption></figcaption></figure>
