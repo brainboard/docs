@@ -6,25 +6,23 @@ To create integration between Brainboard and GitHub:
 
 1. Go to the [Git integration](https://app.brainboard.co/settings/integrations/git) settings page.
 2. Click on `Integrations`
-3. Click on  `Connect with GitHub`
+3. Click on `Connect with GitHub`
 
 <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 16.11.13@2x (1).png" alt=""><figcaption></figcaption></figure>
 
-You'll be redirected to the GitHub website, where you can choose the organization for which you want to configure access:&#x20;
+You'll be redirected to the GitHub website, where you can choose the organization for which you want to configure access:
 
 <figure><img src="../../../.gitbook/assets/github-first-page.png" alt=""><figcaption></figcaption></figure>
 
-After selecting the organization, you are prompted to specify the repositories:&#x20;
+After selecting the organization, you are prompted to specify the repositories:
 
 **N.B:** Brainboard requires `read-write` access to be able to do pull requests.
 
 <figure><img src="../../../.gitbook/assets/github-project-access.png" alt=""><figcaption></figcaption></figure>
 
-After selecting the repositories, you'll be automatically redirected to Brainboard Git app settings page. Now the button should have changed to `View GitHub integration`. &#x20;
+After selecting the repositories, you'll be automatically redirected to Brainboard Git app settings page. Now the button should have changed to `View GitHub integration`.
 
-{% hint style="info" %}
-Brainboard Enterprise SSO users: If your organization uses Brainboard Enterprise SSO for authentication, the redirection to Brainboard app will fail after selecting the repositories. In this case, please contact our support to update your GitHub `installation_id`.
-{% endhint %}
+
 
 Once the connection is configured successfully, it will be you should it with a green indication
 
@@ -46,13 +44,37 @@ Once the connection is configured successfully, it will be you should it with a 
 
     ![Github\_connection\_success](../../../.gitbook/assets/github-connect-success.png)
 
+### Using your own GitHub app
+
+{% hint style="info" %}
+Required if you want to integrate with GHE / GHES
+{% endhint %}
+
+Register a new app (see [https://docs.github.com/en/apps/creating-github-apps/registering-a-github-app/registering-a-github-app](https://docs.github.com/en/apps/creating-github-apps/registering-a-github-app/registering-a-github-app)) with the following information:
+
+* Name: `Brainboard`
+* Homepage URL: `https://www.brainboard.co`
+* Callback URLs:&#x20;
+  * `https://app.brainboard.co/settings/integrations/git/callback/github/organization`
+  * `https://app.brainboard.co/settings/integrations/git/callback/github/user`
+* Setup URL: `https://app.brainboard.co/settings/integrations/git`
+* Webhook URL: `https://api.us1.brainboard.co/webhooks/github`
+* Permissions:
+  * Content: Read and write
+  * Pull requests: Read and write
+* Subscribe to events: none
+
+Once created, generate a **client secret** and a **private key** then configure it in Brainboard.
+
+<figure><img src="../../../.gitbook/assets/klwbONs2lEIhX5pf.png" alt=""><figcaption></figcaption></figure>
+
 ### Edit GitHub integration
 
 To edit the GitHub integration:
 
 1. Go to the [Git integration](https://app.brainboard.co/settings/integrations/git) settings page.
 2. Click on `Integrations`
-3. Click on  `Access GitHub`
+3. Click on `Access GitHub`
 4. You'll be redirected to the GitHub website, where you can edit the integration with Brainboard.
 
 ### Delete GitHub integration
@@ -60,11 +82,11 @@ To edit the GitHub integration:
 To delete integration with GitHub:
 
 1. Go to the [Git integration](https://app.brainboard.co/settings/integrations/git) settings page.
-2. Click on `Integrations`&#x20;
+2. Click on `Integrations`
 3.  You need to delete your personal connection first by clicking on it in the section `Personal connectio` then click on `Delete configuration`
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 17.40.54@2x.png" alt=""><figcaption></figcaption></figure>
-4. Go back to the page of Git connections and click on  `Access GitHub`
+4. Go back to the page of Git connections and click on `Access GitHub`
 5.  You'll be redirected to the GitHub website, where you can delete the integration with Brainboard.<br>
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 16.44.39@2x.png" alt=""><figcaption></figcaption></figure>
