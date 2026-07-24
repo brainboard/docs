@@ -10,7 +10,7 @@ There are many scenarios when customizing a cloud provider block is needed:
 For example, you might be using a service like **Cloudflare** for **DNS**, and you can use the **Cloudflare** provider in **Terraform** to manage those resources
 {% endhint %}
 
-* **Managing different environments** : If you want to manage different environments (e.g. development, staging, production) with different providers, you can use multiple providers in Terraform to manage those resources together.
+* **Managing different environments**: If you want to manage different environments (e.g. development, staging, production) with different providers, you can use multiple providers in Terraform to manage those resources together.
 * **Adding new resources from an unsupported provider**: If you are adding new resources to your infrastructure, you may need to add a new provider if the resources are provided by a different provider than the existing resources.
 * **Updating provider version:** If the provider version you are using is not supported by the provider, you will need to update the provider version in the providers block to a supported version.
 * **Modifying provider configuration**: If you have to modify the provider configuration, such as adding a region, or updating endpoint URLs, you will have to modify the providers block.
@@ -22,4 +22,4 @@ To customize the provider block, you need to go to the providers list in the _**
 2. Turn on the toggle <mark style="color:$primary;">**`I want to customize my Terraform & provider configuration block`**</mark>.&#x20;
 3. After you make the changes that you need, click <mark style="color:$primary;">**Apply**</mark> to save the changes.
 
-<figure><img src="../../.gitbook/assets/change-config.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/change-config (1).png" alt=""><figcaption></figcaption></figure>
