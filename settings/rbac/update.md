@@ -1,10 +1,12 @@
 # Project RBAC
 
-In this section you can craete and customize roles that have permission on your projects, environments and architectures. Like who is allowed to run the pipeline, update the architectures or modify variables and their scope.
+In this section, you can _<mark style="color:$primary;">create</mark>_ and _<mark style="color:$primary;">customize</mark>_ roles that have permission on your **projects, environments** and **architectures**. For example, who is allowed to _<mark style="color:green;">run the pipeline, update the architectures or modify variables and their scope</mark>_.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-04-11 at 15.38.41@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/role-proj.png" alt=""><figcaption></figcaption></figure>
 
 ### Architecture Section
+
+
 
 * **Job actions**
   * **Get**: View job details and status
