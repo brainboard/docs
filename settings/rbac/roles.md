@@ -1,18 +1,20 @@
 # Organization RBAC
 
-In this section you can create and customize roles that have permissions on organization objects like who is allowed to add new members, change security settings, or add new teams.
+In this section, you can _<mark style="color:$primary;">create</mark>_ and _<mark style="color:$primary;">customize</mark>_ roles that have permissions on <mark style="color:$primary;">**organization**</mark> objects. For example, _<mark style="color:$primary;">who</mark>_ is allowed to _<mark style="color:green;">add new members, change security settings, or add new teams</mark>_.
 
-For example, here is what the member role looks like at the organization level:
+{% hint style="success" icon="gear-complex" %}
+The categories of permissions that you can manage:
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-07-22 at 17.17.48@2x (1).png" alt=""><figcaption></figcaption></figure>
+1. Leftbar
+2. Architecture
+3. Organization
+4. Team
+5. Terraform
+6. User
+7. Project
+8. Credentials
+{% endhint %}
 
-Here are the categories of permissions that you can manage:
+For instance, the snapshot shared below gives a general idea of what a <mark style="color:$primary;">**member role**</mark> looks like at the <mark style="color:$primary;">**organization**</mark> level _(not all the allowed actions are captured in this image)_.&#x20;
 
-1. Credentials
-2. Organization
-3. Project
-4. User
-5. Leftbar
-6. Team
-7. Terraform
-8. Architecture
+<figure><img src="../../.gitbook/assets/member-role.png" alt=""><figcaption></figcaption></figure>

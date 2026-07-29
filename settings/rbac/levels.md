@@ -1,10 +1,15 @@
 # Level of access
 
-As the owner or admin of the organization, you have the possibility to configure 2 different levels of access:
+As the <mark style="color:$primary;">**owner**</mark> or <mark style="color:$primary;">**admin**</mark> of the organization, you can configure <mark style="color:$primary;">**two**</mark> different levels of access:
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-04-11 at 15.27.22@2x (1).png" alt=""><figcaption></figcaption></figure>
+{% hint style="info" icon="1" %}
+**Organization**: Permissions that control which organization objects can be managed by whom.\
+Please refer to [roles.md](roles.md "mention") for more details.
+{% endhint %}
 
-1. Organization: Permissions that control which organization objects can be managed by who.\
-   Please refere to [roles.md](roles.md "mention") for more details.
-2. Project: Permissions that control the actions users can and cannot do on within the project, environment or architecture.\
-   Please refer to [update.md](update.md "mention") for more details.
+{% hint style="info" icon="2" %}
+**Project:** Permissions that control the actions users can and cannot do within the project, environment or architecture.\
+Please refer to [update.md](update.md "mention") for more details.
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/roles (1).png" alt=""><figcaption></figcaption></figure>
