@@ -6,7 +6,7 @@ icon: list
 
 The **Resources** list provides a comprehensive overview of all cloud resources in your architecture, displayed as interactive cards. This interface enables quick navigation, parameter inspection, and resource management directly from the right panel.
 
-<figure><img src="../../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/resources.png" alt=""><figcaption></figcaption></figure>
 
 ## Key User Goals
 
@@ -18,7 +18,7 @@ The **Resources List** is designed to help you:
 4. **Understand relationships:** See how resources connect and reference each other.
 
 {% hint style="info" %}
-Each resource is displayed as a card. Learn more about [resource cards](resource-cards.md).&#x20;
+Each resource is displayed as a card. Learn more about [resource cards](resource-cards.md).
 {% endhint %}
 
 ***
@@ -82,8 +82,8 @@ The **Resources** list displays different messages when:
 
 ## Related articles
 
-* [Resource cards](resource-cards.md): Information on card components, parameters display, and card actions.&#x20;
-* [Resource Organization](resource-organization.md): Default, auto, and manual file assignment.&#x20;
+* [Resource cards](resource-cards.md): Information on card components, parameters display, and card actions.
+* [Resource Organization](resource-organization.md): Default, auto, and manual file assignment.
 * [Best Practices and Shortcuts](best-practices-and-sortcuts.md): Best practices for using the **Resources** list and keyboard shortcuts.
 * [Resource Configuration](../../resource-configuration.md): Detailed resource configuration interface.
 * [Right Panel](../../right-panel.md): Overview of all right panel tabs.

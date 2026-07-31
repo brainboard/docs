@@ -4,17 +4,17 @@ icon: sliders
 
 # Resource Configuration
 
-The **Resource Configuration** panel is the primary interface for configuring individual cloud resources. It provides a comprehensive form-based editor, code view, and state inspection for deep resource configuration. This panel replaces and extends the functionality of the previous ID Card interface.
+The **Resource Configuration** panel is the primary interface for configuring individual cloud resources. It provides a comprehensive form-based editor, code view, and state inspection for deep resource configuration.&#x20;
 
-<figure><img src="../.gitbook/assets/resource-configurator-form-tab.png" alt=""><figcaption><p>Resource Configuration form view</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/resource-config-1.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 
-The Resource Configuration panel opens when you double-click a resource card in the [Resources List](right-panel/resources-list/) or double-click a resource in the diagram. It provides three views for working with resources:
+The **Resource Configuration** panel opens when you double-click a resource card in the [Resources List](right-panel/resources-list/) or double-click a resource in the diagram. It provides three views for working with resources:
 
-1. **Form** - Structured configuration form with sections and fields (primary editing interface)
-2. **State** - Read-only view of Terraform state attributes
-3. **Code** - Direct HCL code editor for the resource
+1. **Form** - Structured configuration form with sections and fields (primary editing interface).
+2. **State** - Read-only view of **Terraform** state attributes.
+3. **Code** - Direct HCL code editor for the resource.
 
 {% embed url="https://cdn.brainboard.co/product_videos/guides/configurators/step-4-resource-configurator.webm" %}
 Opening and using the Resource Configuration panel
@@ -22,19 +22,19 @@ Opening and using the Resource Configuration panel
 
 ## Opening the Resource Configuration Panel
 
-To open the Resource Configuration panel:
+To open the **Resource Configuration** panel:
 
-1. **From Resources List**: Navigate to the **Resources** tab in the [Right Panel](right-panel.md) and **double-click** any resource card
-2. **From Diagram**: **Double-click** any resource node in the design area
-3. **From Node Options**: Click a resource and select "Cloud configuration" from the node's options bar
+1. **From Resources List**: Navigate to the **Resources** tab in the [Right Panel](right-panel.md) and **double-click** any resource card.
+2. **From Diagram**: **Double-click** any resource node in the design area.
+3. **From Node Options**: Click a resource and select **"Cloud configuration"** from the node's options bar.
 
 {% hint style="info" %}
-You can also open the Resource Configuration panel by selecting a resource in the diagram and pressing `Enter` or selecting "Configure" from the context menu.
+You can also open the **Resource Configuration** panel by selecting a resource in the diagram and pressing <mark style="color:$primary;">**`Enter`**</mark> or selecting <mark style="color:$primary;">**"Edit Config"**</mark> from the **context menu**.
 {% endhint %}
 
 ## Form View
 
-The Form view provides a structured interface for configuring resource parameters, organized into collapsible sections. This is the **primary and recommended way** to configure your cloud resources.
+The **Form** view provides a structured interface for configuring resource parameters, organized into collapsible sections. This is the **primary and recommended way** to configure your cloud resources.
 
 {% embed url="https://cdn.brainboard.co/product_videos/guides/configurators/step-1-dynamic-view.webm" %}
 Dynamic form view with collapsible sections
@@ -46,12 +46,11 @@ Dynamic form view with collapsible sections
 
 The header displays:
 
-* **Back button** - Returns to the Resources List
-* **Resource icon and name** - Visual identifier for the current resource
-  * You can change the resource title, reset, or delete it if needed
-  * You can customize the icon
-* **Tab selector** - Switch between Form, State, and Code views
-* **Close button** - Closes the Resource Configuration panel
+* **Back button** - Returns to the Resources List.
+* **Resource icon and name** - Visual identifier for the current resource.
+  * You can change the resource title, reset, or delete it if needed.
+  * You can customize the icon.
+* **Tab selector** - Switch between <mark style="color:$primary;">**Form, State**</mark>, and <mark style="color:$primary;">**Code**</mark> views.
 
 #### Configuration Sections
 
@@ -66,7 +65,7 @@ The form is organized into sections:
    * **Provider alias** - If using multiple provider configurations
    * **Region/location settings** - For providers like AWS where location is not part of the Terraform resource
 3. **Required Parameters** - Core mandatory attributes:
-   * These parameters come from what Terraform considers as required
+   * These parameters come from what **Terraform** considers required
    * Missing required fields are highlighted in red
 4. **Advanced Configuration** - Optional sections and nested configurations:
    * Contains all fields that are not mandatory
@@ -99,18 +98,18 @@ Each section can be:
 
 #### Sections Builder
 
-The Sections Builder allows you to customize which configuration blocks appear in your form:
+The **Sections Builder** allows you to customize which configuration blocks appear in your form.&#x20;
+
+To use the **Sections Builder**:
+
+1. Click the **builder icon** (grid icon) in the configurator header.
+2. Browse available sections and blocks for your resource type.
+3. Check/uncheck sections to add or remove them from the form.
+4. The form updates immediately with your selections.
 
 {% embed url="https://cdn.brainboard.co/product_videos/guides/configurators/step-5-resource-builder.webm" %}
 Using the Sections Builder to add/remove configuration blocks
 {% endembed %}
-
-To use the Sections Builder:
-
-1. Click the **builder icon** (grid icon) in the configurator header
-2. Browse available sections and blocks for your resource type
-3. Check/uncheck sections to add or remove them from the form
-4. The form updates immediately with your selections
 
 ### Field Types
 
@@ -168,7 +167,7 @@ Using the Block Builder to configure nested blocks
 {% endembed %}
 
 {% hint style="info" %}
-Brainboard shows the option to create another block only when multiple blocks are supported in Terraform.
+<mark style="color:$primary;">**Brainboard**</mark> shows the option to create another block only when multiple blocks are supported in Terraform.
 {% endhint %}
 
 ### Field Documentation
