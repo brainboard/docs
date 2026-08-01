@@ -8,13 +8,13 @@ icon: diagram-sankey
 
 Pipelines are the history of the execution of your workflow.
 
-These pipelines contain both your triggered workflows and any action performed in `one action` tab.
+These pipelines contain both your triggered workflows and any action performed in <mark style="color:$primary;">**`one action`**</mark> tab.
 
 ![Pipeline overview](../.gitbook/assets/pipelines-view.png)
 
 ### Pipeline information
 
-![Pipeline info](../.gitbook/assets/pipeline-info-running.png)
+<figure><img src="../.gitbook/assets/pipeline.png" alt=""><figcaption></figcaption></figure>
 
 #### Status
 
@@ -31,16 +31,16 @@ There are 7 statuses of any given pipeline:
 6. **Terminated**: the pipeline has been stopped by a user.
 7. **Manual**: the pipeline requires approval. It means that at least one task of the pipeline is pending approval.
 
-![Pipeline status](../.gitbook/assets/pipeline-status.png)
+<figure><img src="../.gitbook/assets/pipeline-status (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Unique identifier
 
 Every pipeline has a unique identifier. It is used to store and retrieve its output.
 
-The `id` displayed in this column is the last 12 characters of the UUID of the pipeline.
+The <mark style="color:$primary;">**`i`**</mark>`d` displayed in this column is the last **12** characters of the **UUID** of the pipeline.
 
 {% hint style="info" %}
-The complete UUID is visible in the URL of the browser. You use usually need it when you open a support ticket.
+The complete **UUID** is visible in the URL of the browser. You usually need it when you open a support ticket.
 {% endhint %}
 
 #### Visual stages and tasks
@@ -57,7 +57,7 @@ Hover this avatar to see the complete name of the person.
 
 #### Date
 
-Time of when the pipeline has been triggered.
+Time when the pipeline was triggered.
 
 #### Stop button
 
@@ -71,7 +71,7 @@ Refer to the [CI/CD page](ci-cd-designer.md) for more details.
 
 ### Stop pipeline
 
-To stop the pipeline, click on the button `Stop pipeline` located at the right of the pipeline. This button is only active when the pipeline is running.
+To stop the pipeline, click on the <mark style="color:red;">**`Stop pipeline`**</mark> icon located in the top right corner of the pipeline output window. This clickable icon is only active when the pipeline is running.
 
 ### Output
 
