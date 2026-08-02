@@ -1,36 +1,33 @@
 # Tfsec
 
-This plugin allows you to scan the Terraform code with `tfsec` and provide output.
+This plugin allows you to scan the **Terraform** code with <mark style="color:$primary;">**`tfsec`**</mark> and provide output.
 
-`tfsec` is a static analysis security scanner for your Terraform code.
+<mark style="color:$primary;">**`tfsec`**</mark> is a static analysis security scanner for your **Terraform** code.
 
 * [Home page](https://aquasecurity.github.io/tfsec)
 * [Source code on GitHub](https://github.com/aquasecurity/tfsec)
 
-![TFSEC plugin](<../../../.gitbook/assets/CleanShot 2025-07-10 at 13.16.04@2x.png>)
-
 **Configuration options**
 
-1. Name: This is Brainboard field to describe what this task is about.
-2. Version: always points to the latest version to give you the latest security checks released.
-3. Extra environment variables: variables that you can define here that will be used as environment variables in the execution shell.
-4. Disable grouping: disable grouping of similar results.
-5. Ignore failure: this will put the task in a non-blocking failure, which means, the execution of the following stage will be triggered even if the task fails.
-6. Include ignored: include ignored checks in the result output.
-7. Include passed: include passed checks in the result output.
-8. Require approval: means that this task will not be executed until approved by people added in the approvers' list.
+1. **Name:** This is a <mark style="color:$primary;">**Brainboard**</mark> field to describe what this task is about.
+2. **Disable grouping:** Disable grouping of similar results.
+3. **Ignore failure**: This will put the task in a non-blocking failure, which means the execution of the following stage will be triggered even if the task fails.
+4. **Include ignored:** Include ignored checks in the result output.
+5. **Include passed:** Include passed checks in the result output.
+6. **Require approval:** It implies that this task will not be executed until approved by people added in the approvers' list.
    * The task remains blocked until all approvers added in the list approve it.
-   *   When enabled, it allows you to add approvers to the list<br>
+   * When enabled, it allows you to add approvers to the list
+   * The approver has to be a <mark style="color:$primary;">**Brainboard**</mark> user.<br>
+7. **Minimum severity:** You can specify the minimum severity of result that should be reported. By default, every severity is reported. You must use one of <mark style="color:$primary;">**`CRITICAL`**</mark><mark style="color:$primary;">**,**</mark><mark style="color:$primary;">**&#x20;**</mark><mark style="color:$primary;">**`HIGH`**</mark><mark style="color:$primary;">**,**</mark><mark style="color:$primary;">**&#x20;**</mark><mark style="color:$primary;">**`MEDIUM`**</mark><mark style="color:$primary;">**,**</mark><mark style="color:$primary;">**&#x20;**</mark><mark style="color:$primary;">**`LOW`**</mark>.
+8. **Disabled checks:** comma-separated list of checks to exclude during the execution.
+   1. This list has to be in this format: <mark style="color:$primary;">**`rule1,rule2,rule3...`**</mark>
+   2. No space should be added after the comma in the list.
 
-       <figure><img src="../../../.gitbook/assets/CleanShot 2025-07-10 at 13.25.53@2x.png" alt=""><figcaption></figcaption></figure>
-   * The approver has to be Brainboard user<br>
-9. Minimum severity: you can specify the minimum severity of result that should be reported. By default, every severity is reported. You must use one of `CRITICAL`, `HIGH`, `MEDIUM`, `LOW`.
-10. Disabled checks: comma separated list of checks to exclude during the execution.
-    1. This list has to be in this format: `rule1,rule2,rule3...`
-    2. No space is added after the comma in the list
+<figure><img src="../../../.gitbook/assets/tfsec.png" alt=""><figcaption></figcaption></figure>
 
 **Sample output**
 
+The output includes clickable links that open the relevant documentation pages listed in the <mark style="color:$primary;">**'More Information'**</mark> section.
+
 <figure><img src="../../../.gitbook/assets/CleanShot 2025-07-10 at 13.24.02@2x.png" alt=""><figcaption></figcaption></figure>
 
-The output includes clickable links that open the relevant documentation pages listed in the 'More Information' section.
