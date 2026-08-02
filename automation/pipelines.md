@@ -37,7 +37,7 @@ There are 7 statuses of any given pipeline:
 
 Every pipeline has a unique identifier. It is used to store and retrieve its output.
 
-The <mark style="color:$primary;">**`i`**</mark>`d` displayed in this column is the last **12** characters of the **UUID** of the pipeline.
+The <mark style="color:$primary;">**`id`**</mark> displayed in this column is the last **12** characters of the **UUID** of the pipeline.
 
 {% hint style="info" %}
 The complete **UUID** is visible in the URL of the browser. You usually need it when you open a support ticket.
