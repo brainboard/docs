@@ -27,9 +27,12 @@ This happens when the deployed infrastructure in one environment for e.g. <mark 
 * When the dev environment is different from staging or QA or production.
 * When the disaster recovery configuration is different from production.
 
+<figure><img src="../../.gitbook/assets/env-drift.png" alt=""><figcaption></figcaption></figure>
+
 #### **2. Between the code and the infrastructure**
 
 This happens when the provisioned cloud infrastructure (all resources and their configurations) is different from the configuration that you have in the source of the truth (**Terraform** code).
 
 The **root cause** of the drift could be legitimate, e.g. when there is a security incident and as an emergency response, an engineer can choose to quickly do the action on the console of the cloud provider (like blocking a user) because it may take time to be done through **IaC** (especially if the infrastructure is big because **Terraform** may take hour(s) to refresh the state).
 
+<figure><img src="../../.gitbook/assets/code-infra-new.png" alt=""><figcaption></figcaption></figure>
