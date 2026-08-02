@@ -25,7 +25,7 @@ This plugin allows you to scan the **Terraform** code with <mark style="color:$p
    1. This list has to be in this format: <mark style="color:$primary;">**`rule1,rule2,rule3...`**</mark>
    2. No space should be added after the comma in the list.
 
-<figure><img src="../../../.gitbook/assets/tfsec.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/broken/files/fo22n4q0FdL5qup7PxNG" alt=""><figcaption></figcaption></figure>
 
 **Sample output**
 
