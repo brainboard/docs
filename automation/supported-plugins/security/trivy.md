@@ -9,7 +9,7 @@ This plugin allows you to scan the Terraform code with <mark style="color:$prima
 * [Home page](https://trivy.dev/latest/docs/coverage/iac/terraform/)
 * [Source code on GitHub](https://github.com/aquasecurity/trivy)
 
-<figure><img src="../../../.gitbook/assets/trivy.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/trivy (1).png" alt=""><figcaption></figcaption></figure>
 
 **Configuration options**
 
