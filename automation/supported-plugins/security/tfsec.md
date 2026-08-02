@@ -2,7 +2,9 @@
 
 This plugin allows you to scan the **Terraform** code with <mark style="color:$primary;">**`tfsec`**</mark> and provide output.
 
+{% hint style="info" %}
 <mark style="color:$primary;">**`tfsec`**</mark> is a static analysis security scanner for your **Terraform** code.
+{% endhint %}
 
 * [Home page](https://aquasecurity.github.io/tfsec)
 * [Source code on GitHub](https://github.com/aquasecurity/tfsec)
