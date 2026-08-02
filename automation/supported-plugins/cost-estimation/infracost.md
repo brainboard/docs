@@ -5,28 +5,23 @@ This plugin allows you to have a cost estimation for your infrastructure from yo
 * [Home page](https://www.infracost.io/).
 * [Source code on Github](https://github.com/infracost/infracost).
 
-![Infracost plugin](../../../.gitbook/assets/infracost-plugin.png)
+<figure><img src="../../../.gitbook/assets/infracost.png" alt=""><figcaption></figcaption></figure>
 
 **Configuration options**
 
-1. API key: you can generate it from your Infracost account.
-2. Command: 2 commands supported
-   * Breakdown: this command shows a breakdown of costs.
-   * Diff: this command shows a diff of monthly costs between the deployed infrastructure and planned changes.
-3. Version: always points to the latest version.
-4. Ignore failure: if enabled, the execution of the following stage will be triggered even if the task fails.
-5. Disable cache.
-6. Project name.
-7. Require approval: means that this task will not be executed until approved by people added in the approvers' list.
+1. **API key:** You can generate it from your Infracost account.
+2. **Command:** 2 commands supported.
+   * **Breakdown:** This command shows a cost breakdown.
+   * **Diff:** This command shows a diff of monthly costs between the deployed infrastructure and planned changes.
+3. **Disable cache**.
+4. **Ignore failure:** If enabled, the execution of the following stage will be triggered even if the task fails.
+5. **Require approval:** It means that this task will not be executed until approved by people added in the approvers' list.
    * The task remains blocked until all approvers added in the list approve it.
-   *   When enabled, it allows you to add approvers to the list<br>
-
-       <figure><img src="../../../.gitbook/assets/CleanShot 2025-07-10 at 13.25.53@2x.png" alt=""><figcaption></figcaption></figure>
-   * The approver has to be Brainboard user
-8. Show skipped: list unsupported and free resources.
+   * When enabled, it allows you to add approvers to the list.
+   * The approver has to be a <mark style="color:$primary;">**Brainboard**</mark> user.
+6. **Show skipped:** List unsupported and free resources.
+7. **Project name**
 
 **Sample output**
 
 ![Infracost output](../../../.gitbook/assets/infracost-output.png)
-
-###
