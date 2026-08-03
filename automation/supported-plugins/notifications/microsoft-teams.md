@@ -54,5 +54,5 @@ If you have an old configuration, follow the steps in this video:
 {% embed url="https://www.youtube.com/watch?v=LOvWCNyXxLE" %}
 
 {% hint style="warning" %}
-That configuration is deprecated by **Azure** and will be removed by the end of 2025.
+This configuration is deprecated by **Azure** and will be removed by the end of 2025.
 {% endhint %}
