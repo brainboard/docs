@@ -6,54 +6,46 @@ icon: sliders-up
 
 ## Settings
 
-Settings in Brainboard provides a flexible and hierarchical configuration system allowing you to manage settings at different levels of your organization.&#x20;
-
-
+**Settings** in <mark style="color:$primary;">**Brainboard**</mark> provide a flexible and hierarchical configuration system allowing you to manage settings at different levels of your organization.
 
 ### Overview
 
-Settings in Brainboard are organized in a hierarchical structure that follows this inheritance pattern:
+Settings in <mark style="color:$primary;">**Brainboard**</mark> are organized in a hierarchical structure that follows this inheritance pattern.
 
+{% hint style="info" icon="sitemap" %}
 **Organization → Project → Environment → Architecture**
+{% endhint %}
 
+{% hint style="success" %}
 This hierarchical approach ensures that configurations that are shared across the hierarchy can be managed efficiently while allowing for specific overrides at any level when needed.
+{% endhint %}
 
 ### Accessing Settings
 
 #### Organization Settings
 
-You can access Organization settings pages from the home page through the left navigation menu:
+To access the **Organization's settings,** go to the <mark style="color:$primary;">**`Settings`**</mark> option in the **left bar** and then click <mark style="color:$primary;">**`Organization`**</mark>**.** &#x20;
 
-1. Go to the Home page (click on Brainboard logo in the top-left corner)
-2. Click on the Settings icon in the left sidebar
-3. Select Organization
+<figure><img src="../.gitbook/assets/org-settings.png" alt=""><figcaption></figcaption></figure>
 
 #### Project Settings
 
-You can access Project settings pages from the home page through the left navigation menu:
+To access the **Project's settings,** go to the <mark style="color:$primary;">**`Settings`**</mark> option in the **left bar** and then click <mark style="color:$primary;">**`Projects`**</mark>**.** Then, click the **ellipsis** (three dots) against the project name and click <mark style="color:$primary;">**`Change Settings`**</mark> in the dropdown menu. It will navigate you to the project's settings page.&#x20;
 
-1. Go to the Home page (click on Brainboard logo in the top-left corner)
-2. Click on the Settings icon in the left sidebar
-3. Click on Projects
-4. Open the project menu using the 3-dots button, and click on "Change settings"
-
-<figure><img src="../.gitbook/assets/kayYgWIBhuPw4xhU.png" alt=""><figcaption><p>Access Project settings page</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Project-settings.png" alt=""><figcaption></figcaption></figure>
 
 #### Environment Settings
 
-You can access the Environment settings pages from the Project settings pages:
+Once you are on the <mark style="color:$primary;">**Project settings**</mark> page, you can also view the associated environments at the top. Click on the desired environment to go to its settings page.&#x20;
 
-1. Access the Project settings following the instructions above
-2. Click on an environment chip button from the environments list to access its specific settings
-
-<figure><img src="../.gitbook/assets/9vW5CC03EnDbKyFD.png" alt=""><figcaption><p>Access Environment settings page</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/env-settins.png" alt=""><figcaption></figcaption></figure>
 
 #### Architecture Settings
 
-1. Open your architecture
-2. Switch to the settings tab (using the tab selector in the middle of the topbar)
+1. Open your architecture.
+2. Switch to the **settings** **tab** using the **settings icon** in the options bar at the top.&#x20;
 
-<figure><img src="../.gitbook/assets/Uzbevowr12PkjjQr.png" alt=""><figcaption><p>Access Architecture settings page</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/arch-settings.png" alt=""><figcaption></figcaption></figure>
 
 ### Hierarchical Settings Management
 
@@ -77,20 +69,18 @@ Settings follow a clear inheritance structure:
 
 <figure><img src="../.gitbook/assets/Frame 1587.png" alt=""><figcaption><p>Setting defined at organization level being overridden at a project level , then overridden again at an environment level and finally at the architecture level</p></figcaption></figure>
 
-
-
 #### Visual Indicators
 
 When viewing settings at any level, you'll see visual indicators showing:
 
-* When a setting is locked at higher level (with the source of the lock)<img src="../.gitbook/assets/MNBibjceepNHm2Wy.png" alt="" data-size="original">
+1. When a setting is locked at a higher level (with the source of the lock).
 
+<figure><img src="../.gitbook/assets/proje-level-lock.png" alt="" width="272"><figcaption></figcaption></figure>
 
+2. When a setting is overridden at your level (the reset button shows that the value is set at this level).
 
-* When a setting is overridden at your level (the reset button shows that the value is set at this level)\
-  <img src="../.gitbook/assets/5K12h7jcqJBJapJq.png" alt="" data-size="original">
+<p align="center"><img src="../.gitbook/assets/arch-level-lock.png" alt=""></p>
 
+3. When a setting is locked at your level, preventing any lower levels from updating.<br>
 
-
-* When a setting is locked at your level preventing any lower levels update\
-  <img src="../.gitbook/assets/El4jJlfq2AfQbZQG.png" alt="" data-size="original">
+<figure><img src="../.gitbook/assets/prevent-lower-lock.png" alt="" width="298"><figcaption></figcaption></figure>
