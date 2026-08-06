@@ -22,7 +22,45 @@ layout:
 
 # Changelog
 
+### 2026.08.4 - Aug 06, 2026
 
+#### 🎉 Features and Improvements
+
+_No user-facing feature improvements were included in this release._
+
+#### ✅ Bug Fixes
+
+* Screenshot
+  * Improved screenshot reliability so failed captures no longer overwrite existing architecture previews with empty images, helping teams keep visual documentation accurate.
+
+### 2026.08.2 - Aug 04, 2026
+
+#### 🎉 Features and Improvements
+
+* Leftbar
+  * Upgraded the cloud provider version picker with grouped versions and search to help users switch versions faster and with better clarity.
+
+#### ✅ Bug Fixes
+
+_No user-facing bug fixes were included in this release._
+
+#### 🤖 AI
+
+_This feature is currently accessible via a_ [_waiting list_](https://brainboardco.notion.site/brainy-alpha-feedback-program)
+
+* AI Infrastructure
+  * Added richer AI configuration controls, including markdown-based instruction editing and scoped inheritance, so organizations can guide AI behavior more clearly across projects and architectures.
+
+### 2026.08.1 - Aug 03, 2026
+
+#### 🎉 Features and Improvements
+
+* Cloud providers
+  * Added support for VSphere, Nutanix, and Infoblox providers so more teams can design and manage infrastructure in Brainboard across hybrid and specialized environments.
+
+#### ✅ Bug Fixes
+
+_No user-facing bug fixes were included in this release._
 
 ### 2026.07.4 - Jul 23, 2026
 
