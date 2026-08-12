@@ -4,18 +4,18 @@ icon: shield-check
 
 # SOC 2 Type II
 
-Brainboard is SOC 2 Type II certified.
+<mark style="color:$primary;">**Brainboard**</mark> is <mark style="color:blue;">**SOC 2 Type II**</mark> certified.
 
 ![SOC-2-Type-2](../.gitbook/assets/SOC-2-Type-2.png)
 
 You can request access to all information related to our security certifications, compliance and posture in this [portal](https://security.brainboard.co/).
 
-Your contact at Brainboard will approve your request if you are in a procurement process, otherwise one of our team will reach out to you before the approval.
+Your contact at <mark style="color:$primary;">**Brainboard**</mark> will approve your request if you are in a procurement process; otherwise, one of our team members will reach out to you before approval.
 
 {% hint style="warning" %}
-We only accept requests from professional email addresses
+We only accept requests from **professional email addresses.**
 {% endhint %}
 
 {% hint style="info" %}
-Should you have any questions related to security, please reach out to `security (@) brainboard.co`
+Should you have any questions related to security, please reach out to <mark style="color:$primary;">**`security@brainboard.co`**</mark>
 {% endhint %}
