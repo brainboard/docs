@@ -4,17 +4,15 @@ icon: cloud-check
 
 # Cloud providers
 
-### Description
+This [Cloud Providers settings page](https://app.brainboard.co/settings/integrations/cloud-providers) allows you to configure access to your cloud providers to be able to provision your cloud infrastructure, import it to <mark style="color:$primary;">**Brainboard**</mark> or simply monitor it for any drift happening outside your source of truth.
 
-This settings page allows you to configure access to your cloud providers to be able to provision your cloud infrastructure, import it to Brainboard or simply monitor it for any drift happening outside your source of truth.
+<figure><img src="../../../.gitbook/assets/cloud-prov.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 18.24.26@2x.png" alt=""><figcaption></figcaption></figure>
-
-Brainboard offers you a native integrations with your cloud providers, respecting your security standards and best practices for Infrastructure-as-Code.
+<mark style="color:$primary;">**Brainboard**</mark> offers you native integrations with your cloud providers, respecting your security standards and best practices for **Infrastructure-as-Code.**
 
 ### Supported Cloud providers
 
-Brainboard supports the following cloud providers:
+<mark style="color:$primary;">**Brainboard**</mark> supports the following cloud providers:
 
 1. [aws.md](aws.md "mention")
 2. [azure.md](azure.md "mention")
@@ -30,5 +28,5 @@ Brainboard supports the following cloud providers:
 9. Aviatrix
 
 {% hint style="info" %}
-If you don't see your cloud provider(s) in the list above, please let us know by sending us an email to support@brainboard.co.
+If you don't see your cloud provider(s) in the list above, please let us know by sending us an email at <mark style="color:$primary;">**`support@brainboard.co`**</mark>.
 {% endhint %}
