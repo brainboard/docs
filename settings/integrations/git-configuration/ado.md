@@ -35,33 +35,34 @@ To add <mark style="color:blue;">**Azure DevOps**</mark> personal git tokens in 
 
 <figure><img src="../../../.gitbook/assets/azure-dev (1).png" alt=""><figcaption></figcaption></figure>
 
-1. Add your credentials in the displayed window:
-   * Name of the token. This is only for Brainboard, it will not be used when you do a pull request.
-   * The URL of your Azure DevOps organization.
-     *   To get this URL, the simplest way is to click on `Azure DevOps` on the top-left button then copy the URL of the browser
+4. Add your credentials in the displayed window.
 
-         <figure><img src="../../../.gitbook/assets/azure-do-orga-url.png" alt=""><figcaption></figcaption></figure>
-   * Token: the token (secret) generated from your Azure DO account.
-2. Then click on `Save and close` button.
-3. Brainboard will verify if the credentials are valid:
-   1.  If they are valid, Brainboard displays a success message and you can see the integration now in the Git connection page<br>
+* **Name** of the token. This is only for Brainboard, it will not be used when you do a pull request.
+* The **URL** of your **Azure DevOps organization**.
+  *   To get this URL, the simplest way is to click on <mark style="color:$primary;">**`Azure DevOps`**</mark> on the top-left button, then copy the URL from the browser
+
+      <figure><img src="../../../.gitbook/assets/azure-do-orga-url.png" alt=""><figcaption></figcaption></figure>
+* **Token:** The token (secret) generated from your **Azure DevOps** account.
+
+5. Then click the <mark style="color:$primary;">**`Save and close`**</mark> button.
+6. <mark style="color:$primary;">**Brainboard**</mark> will verify if the credentials are valid:
+   1.  **Valid credentials:** In this case, <mark style="color:$primary;">**Brainboard**</mark> displays a success message, and you can see the integration now in the **Git** connection page.<br>
 
        <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 17.07.55@2x.png" alt=""><figcaption></figcaption></figure>
-   2.  If they are not, you'll receive an error about what is wrong. For example:<br>
+   2. **Invalid credentials:** In this case, you'll receive an error about what is wrong. For example, the one shared below.&#x20;
 
-       <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 17.00.18@2x.png" alt=""><figcaption></figcaption></figure>
-
-       <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 17.03.42@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bitbucket-error.png" alt=""><figcaption></figcaption></figure>
 
 ### How to use
 
-Please refer to the page [pull-requests.md](pull-requests.md "mention") to understand how you can use your git connections whether you want to do a pull request and import your code from Git.
+Please refer to the page [pull-requests.md](pull-requests.md "mention") to understand how you can use your **Git** connections, whether you want to do a pull request and import your code from Git.
 
 ### Edit or delete connection
 
-1. Go to the [Git integration](https://app.brainboard.co/settings/integrations/git) settings page.
-2. Click on `Integrations`
-3. In the section `Personal connections` Click on the `Azure DevOps` integration that you want to edit or delete
-4. Select the action you want to perform from the view
+1. Go to the [Git connections](https://app.brainboard.co/settings/integrations/git) page.
+2. Click on the connection that you want to delete.&#x20;
+3. Click on the <mark style="color:red;">**`Delete Configuration`**</mark> button given at the bottom right corner of the page.
+4. Click on the <mark style="color:red;">**`Delete`**</mark> button again to confirm your action.&#x20;
 
-<figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 17.05.05@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/delete-connec.png" alt=""><figcaption></figcaption></figure>
+
