@@ -2,7 +2,7 @@
 
 ### Add Git connection
 
-To add <mark style="color:blue;">**Azure DevOps**</mark> personal git tokens in <mark style="color:purple;">**Brainboard,**</mark> you first need to generate an <mark style="color:blue;">**Azure DevOps**</mark> personal access token.
+To add <mark style="color:blue;">**Azure DevOps**</mark> personal git tokens in <mark style="color:$primary;">**Brainboard**</mark><mark style="color:purple;">**,**</mark> you first need to generate an <mark style="color:blue;">**Azure DevOps**</mark> personal access token.
 
 <details>
 
@@ -21,13 +21,13 @@ To add <mark style="color:blue;">**Azure DevOps**</mark> personal git tokens in 
    *   In the <mark style="color:blue;">**`code`**</mark> section, select <mark style="color:blue;">**`Full`**</mark><mark style="color:blue;">**&#x20;**</mark><mark style="color:blue;">**.**</mark>
 
        <figure><img src="../../../.gitbook/assets/azure-devops-pat-menu.png" alt=""><figcaption></figcaption></figure>
-5.  Once the token is generated, you can copy it to add to <mark style="color:purple;">**Brainboard.**</mark>
+5.  Once the token is generated, you can copy it to add to <mark style="color:$primary;">**Brainboard**</mark><mark style="color:purple;">**.**</mark>
 
     <figure><img src="../../../.gitbook/assets/azure-do-token-generated.png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
-#### Steps to add the generated token in <mark style="color:purple;">**Brainboard**</mark>
+#### Steps to add the generated token in <mark style="color:$primary;">**Brainboard**</mark>
 
 1. Go to the [Git connections](https://app.brainboard.co/settings/integrations/git) page. Or, navigate to the path: <mark style="color:$primary;">**Settings > Integrations ? Git Connections.**</mark>&#x20;
 2. Click on <mark style="color:$primary;">**`Add connection`**</mark>**&#x20;**<mark style="color:purple;">**.**</mark>
