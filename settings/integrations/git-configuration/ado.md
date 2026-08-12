@@ -29,21 +29,21 @@ To add <mark style="color:blue;">**Azure DevOps**</mark> personal git tokens in 
 
 #### Steps to add the generated token in <mark style="color:purple;">**Brainboard**</mark>
 
-1. Go to the [Git integration](https://app.brainboard.co/settings/integrations/git) settings page.
-2. Click on <mark style="color:purple;">**`Integrations`**</mark><mark style="color:purple;">**&#x20;**</mark><mark style="color:purple;">**.**</mark>
-3. In the section <mark style="color:purple;">**`Personal connections`**</mark> Click on <mark style="color:purple;">**`Add connection`**</mark>
-4.  Select `Azure DevOps` tab<br>
+1. Go to the [Git connections](https://app.brainboard.co/settings/integrations/git) page. Or, navigate to the path: <mark style="color:$primary;">**Settings > Integrations ? Git Connections.**</mark>&#x20;
+2. Click on <mark style="color:$primary;">**`Add connection`**</mark>**&#x20;**<mark style="color:purple;">**.**</mark>
+3. Switch to the <mark style="color:$primary;">**`Azure DevOps`**</mark> tab.
 
-    <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 16.56.12@2x.png" alt=""><figcaption></figcaption></figure>
-5. Add your credentials in the displayed window:
+<figure><img src="../../../.gitbook/assets/azure-dev (1).png" alt=""><figcaption></figcaption></figure>
+
+1. Add your credentials in the displayed window:
    * Name of the token. This is only for Brainboard, it will not be used when you do a pull request.
    * The URL of your Azure DevOps organization.
      *   To get this URL, the simplest way is to click on `Azure DevOps` on the top-left button then copy the URL of the browser
 
          <figure><img src="../../../.gitbook/assets/azure-do-orga-url.png" alt=""><figcaption></figcaption></figure>
    * Token: the token (secret) generated from your Azure DO account.
-6. Then click on `Save and close` button.
-7. Brainboard will verify if the credentials are valid:
+2. Then click on `Save and close` button.
+3. Brainboard will verify if the credentials are valid:
    1.  If they are valid, Brainboard displays a success message and you can see the integration now in the Git connection page<br>
 
        <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 17.07.55@2x.png" alt=""><figcaption></figcaption></figure>
