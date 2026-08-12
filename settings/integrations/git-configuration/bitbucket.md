@@ -27,21 +27,21 @@ To add a <mark style="color:blue;">**Bitbucket**</mark> personal app password in
 #### Steps to add the generated token in Brainboard
 
 1. Go to the [Git connections](https://app.brainboard.co/settings/integrations/git) page.
-2. Click on <mark style="color:purple;">**`Add connection`**</mark> .
-3. Switch to the <mark style="color:purple;">**`Bitbucket`**</mark> tab.
+2. Click on <mark style="color:$primary;">**`Add connection`**</mark> .
+3. Switch to the <mark style="color:$primary;">**`Bitbucket`**</mark> tab.
 
 <figure><img src="../../../.gitbook/assets/bitbucket (1).png" alt=""><figcaption></figcaption></figure>
 
 4. Add your credentials in the displayed window:
 
-* **Name of the token.** This is only for <mark style="color:purple;">**Brainboard**</mark>; it will not be used when you do a pull request.
-* The **API URL** of your <mark style="color:blue;">**Bitbucket**</mark> server. By default, <mark style="color:purple;">**Brainboard**</mark> uses <mark style="color:purple;">**`https://api.bitbucket.org/2.0`**</mark> , but you can set your own URL.
+* **Name of the token.** This is only for <mark style="color:$primary;">**Brainboard**</mark>; it will not be used when you do a pull request.
+* The **API URL** of your <mark style="color:blue;">**Bitbucket**</mark> server. By default, <mark style="color:$primary;">**Brainboard**</mark> uses <mark style="color:purple;">**`https://api.bitbucket.org/2.0`**</mark> , but you can set your own URL.
 * **Email:** This is your **Atlassian/Bitbucket** email.
 * **API token:** The API Token generated.
 
-5. Then click on the <mark style="color:purple;">**`Save and close`**</mark> button.
-6. <mark style="color:purple;">**Brainboard**</mark> will verify if the credentials are valid.
-   1.  **Valid credentials:** In this case, <mark style="color:purple;">**Brainboard**</mark> displays a success message, and you can see the integration now in the **Git connections** page.<br>
+5. Then click on the <mark style="color:purple;">**`S`**</mark><mark style="color:$primary;">**`ave and close`**</mark> button.
+6. <mark style="color:$primary;">**Brainboard**</mark> will verify if the credentials are valid.
+   1.  **Valid credentials:** In this case, <mark style="color:$primary;">**Brainboard**</mark> displays a success message, and you can see the integration now in the **Git connections** page.<br>
 
        <figure><img src="../../../.gitbook/assets/CleanShot 2025-04-11 at 17.07.55@2x.png" alt=""><figcaption></figcaption></figure>
    2. **Invalid credentials:** In this case, you'll receive an error about what is wrong. For example, the one shared below.&#x20;
