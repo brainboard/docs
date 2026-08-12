@@ -2,7 +2,7 @@
 
 ### Add Git connection
 
-To add a <mark style="color:blue;">**Bitbucket**</mark> personal app password in <mark style="color:purple;">**Brainboard**</mark>, you first need to generate it in your <mark style="color:blue;">**Bitbucket**</mark> account.
+To add a <mark style="color:blue;">**Bitbucket**</mark> personal app password in <mark style="color:$primary;">**Brainboard**</mark>, you first need to generate it in your <mark style="color:blue;">**Bitbucket**</mark> account.
 
 <details>
 
