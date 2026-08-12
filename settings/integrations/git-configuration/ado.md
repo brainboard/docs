@@ -60,9 +60,10 @@ Please refer to the page [pull-requests.md](pull-requests.md "mention") to under
 ### Edit or delete connection
 
 1. Go to the [Git connections](https://app.brainboard.co/settings/integrations/git) page.
-2. Click on the connection that you want to delete.&#x20;
-3. Click on the <mark style="color:red;">**`Delete Configuration`**</mark> button given at the bottom right corner of the page.
-4. Click on the <mark style="color:red;">**`Delete`**</mark> button again to confirm your action.&#x20;
+2. Click on the connection that you want to edit or delete.&#x20;
+3. If you want to edit, simply make your changes and click the <mark style="color:$primary;">**`Save and close`**</mark> button.&#x20;
+4. To delete, click on the <mark style="color:red;">**`Delete Configuration`**</mark> button given at the bottom right corner of the page.
+5. Click on the <mark style="color:red;">**`Delete`**</mark> button again to confirm your action.&#x20;
 
 <figure><img src="../../../.gitbook/assets/delete-connec.png" alt=""><figcaption></figcaption></figure>
 
