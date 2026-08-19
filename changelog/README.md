@@ -22,6 +22,35 @@ layout:
 
 # Changelog
 
+### 2026.08.6 - Aug 19, 2026
+
+#### 🎉 Features and Improvements
+
+* Design area / diagram
+  * Diagram updates are now processed more efficiently in large architectures, reducing delays when saving or applying small changes.
+
+#### ✅ Bug Fixes
+
+* Settings - Project
+  * Fixed project creation summaries so teams assigned by role now display as readable chips without overflowing the page layout.
+* Configurator
+  * Resolved an issue where duplicating repeatable configuration blocks could incorrectly trigger conflict errors in valid scenarios.
+  * Fixed nested “Add field” behavior so new fields are added to the correct block instance when multiple similar blocks exist.
+* Code edition/Bidirectional
+  * Fixed a Terraform generation issue that could add invalid escaping and corrupt generated code after editing complex string values.
+  * Fixed a parsing issue in code editing that could truncate interpolated strings containing function calls and save broken values.
+
+### 2026.08.5 - Aug 11, 2026
+
+#### 🎉 Features and Improvements
+
+_No major user-facing feature updates in this release._
+
+#### ✅ Bug Fixes
+
+* Architecture
+  * Fixed a restore issue where choosing to keep both higher-level changes could fail, so architecture recovery now completes more reliably in conflict scenarios.
+
 ### 2026.08.4 - Aug 06, 2026
 
 #### 🎉 Features and Improvements
