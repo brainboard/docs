@@ -22,6 +22,22 @@ layout:
 
 # Changelog
 
+### 2026.08.7 - Aug 25, 2026
+
+#### 🎉 Features and Improvements
+
+* CI/CD - Pipelines
+  * Improved pipeline browsing with faster server-side pagination, flexible page sizes, smoother loading, reliable filters, and support for direct links to older pipeline runs.
+
+#### ✅ Bug Fixes
+
+* Import from Files
+  * Terraform import errors now display specific file, line, and reason details to help users resolve issues faster.
+* Import from Cloud Provider
+  * Fixed Azure imports failing when cloud attributes contained spaces or other characters unsupported in Terraform variable names.
+* Workflow
+  * Resolved an issue that could prevent users from deleting a task immediately after opening a workflow.
+
 ### 2026.08.6 - Aug 19, 2026
 
 #### 🎉 Features and Improvements
