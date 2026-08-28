@@ -22,6 +22,20 @@ layout:
 
 # Changelog
 
+### 2026.08.8 - Aug 28, 2026
+
+#### ✅ Bug Fixes
+
+* Infrastructure as Code
+  * Imported architectures no longer display a broken `undefined.tf` file for region and compartment containers.
+
+#### 🤖 AI
+
+_This feature is currently accessible via a_ [_waiting list_](https://brainboardco.notion.site/brainy-alpha-feedback-program)
+
+* Compactions and tools improvements
+  * Brainy now retrieves focused architecture details and cleaner job logs by default, reducing context usage and improving reliability on large infrastructures.
+
 ### 2026.08.7 - Aug 25, 2026
 
 #### 🎉 Features and Improvements
