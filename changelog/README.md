@@ -22,6 +22,17 @@ layout:
 
 # Changelog
 
+### 2026.09.2 - Sep 01, 2026
+
+#### ✅ Bug Fixes
+
+* Import from Cloud Provider
+  * Cloud resource imports are now processed in batches, significantly reducing initialization time and accelerating large-scale imports.
+* Architecture
+  * Newly created architectures now appear reliably without delays caused by stale project data.
+* RBAC/Permissions
+  * Cloud imports now honor the correct permissions for users who belong to multiple teams within the same project, preventing erroneous permission-denied failures.
+
 ### 2026.08.8 - Aug 28, 2026
 
 #### ✅ Bug Fixes
