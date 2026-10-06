@@ -18,9 +18,25 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Changelog
+
+### 2026.10.1 - Oct 06, 2026
+
+#### 🎉 Features and Improvements
+
+* Import from cloud provider
+  * Multi-region cloud imports now process resources by region, reducing provider overhead and improving import reliability.
+
+#### ✅ Bug Fixes
+
+* Import from cloud provider
+  * Azure imports now support AzureRM v5 and show readable names for associated resources, restoring imports that previously failed for all Azure customers.
+* Settings — Cloud provider credentials
+  * Azure credential scope selection now lists every project, including organizations with more than 50 projects.
 
 ### 2026.09.2 - Sep 01, 2026
 
