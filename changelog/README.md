@@ -24,6 +24,15 @@ layout:
 
 # Changelog
 
+### 2026.10.7 - Oct 26, 2026
+
+#### ✅ Bug Fixes
+
+* Settings — Team
+  * Team updates no longer fail when the same organization member appears under different labels in the member picker.
+* Git Credentials
+  * GitHub Enterprise connections now complete authentication correctly when the configured URL uses an API host or path, with clearer setup guidance to prevent misconfiguration.
+
 ### 2026.10.1 - Oct 06, 2026
 
 #### 🎉 Features and Improvements
