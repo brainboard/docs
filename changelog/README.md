@@ -24,6 +24,13 @@ layout:
 
 # Changelog
 
+### 2026.11.1 - Nov 12, 2026
+
+#### ✅ Bug Fixes
+
+* Pipelines
+  * Pipeline job selection now remains stable during live refreshes, allowing users to monitor their chosen job’s output without being redirected to another job.
+
 ### 2026.10.7 - Oct 26, 2026
 
 #### ✅ Bug Fixes
